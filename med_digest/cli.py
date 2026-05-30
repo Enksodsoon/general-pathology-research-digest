@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import sys
 from pathlib import Path
 from .models import Paper
 from .pipeline import run_pipeline
@@ -30,19 +31,11 @@ def fetch_live(topics_path: str | Path, per_query: int = 10, include_preprints: 
     for group_id, query in groups.items():
         if not query:
             continue
-        try:
-            papers.extend(fetch_pubmed(query, days=days, retmax=per_query, api_key=ncbi_key))
-        except Exception as exc:
-            print(f"WARN: PubMed fetch failed for {group_id}: {exc}")
-        try:
-            papers.extend(fetch_europepmc(query, page_size=per_query))
-        except Exception as exc:
-            print(f"WARN: Europe PMC fetch failed for {group_id}: {exc}")
+        papers.extend(fetch_pubmed(query, days=days, retmax=per_query, api_key=ncbi_key))
+        papers.extend(fetch_europepmc(query, days=days, page_size=per_query))
     if include_preprints:
-        try:
-            papers.extend(fetch_medrxiv(days=days, server="medrxiv"))
-        except Exception as exc:
-            print(f"WARN: medRxiv fetch failed: {exc}")
+        papers.extend(fetch_medrxiv(days=days, server="medrxiv"))
+        papers.extend(fetch_medrxiv(days=days, server="biorxiv"))
     return papers
 
 
@@ -99,7 +92,11 @@ def main() -> int:
     if args.fixture:
         papers = load_fixture(args.fixture)
     elif args.live:
-        papers = fetch_live(args.topics, per_query=args.per_query, include_preprints=not args.no_preprints)
+        try:
+            papers = fetch_live(args.topics, per_query=args.per_query, include_preprints=not args.no_preprints)
+        except Exception as exc:
+            print(f"ERROR: live fetch failed: {exc}", file=sys.stderr)
+            raise SystemExit(1) from exc
         if not papers:
             raise SystemExit("Live fetch returned zero papers. Check API access or query settings.")
     else:

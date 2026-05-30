@@ -30,27 +30,34 @@ def http_json(url: str, timeout: int = 30, sleep_seconds: float = 0.34) -> Dict:
     return json.loads(http_text(url, timeout=timeout, sleep_seconds=sleep_seconds))
 
 
-def fetch_pubmed(query: str, days: int = 7, retmax: int = 25, api_key: str | None = None) -> List[Paper]:
+def fetch_pubmed(
+    query: str,
+    days: int = 7,
+    retmax: int = 25,
+    api_key: str | None = None,
+    today: date | None = None,
+) -> List[Paper]:
     """Fetch PubMed records using ESearch then EFetch XML.
 
     ESearch is used to identify recent PMIDs by query/date window. EFetch XML is
     used instead of ESummary so the abstract and publication types are available.
     """
-    end = date.today()
+    end = today or date.today()
     start = end - timedelta(days=days)
     term = f"({query}) AND ({start.isoformat()}:{end.isoformat()}[edat])"
     base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
     params = {"db": "pubmed", "term": term, "retmode": "json", "retmax": str(retmax), "sort": "pub+date"}
     if api_key:
         params["api_key"] = api_key
-    search_data = http_json(f"{base}?{urllib.parse.urlencode(params)}")
+    sleep_seconds = 0.11 if api_key else 0.34
+    search_data = http_json(f"{base}?{urllib.parse.urlencode(params)}", sleep_seconds=sleep_seconds)
     ids = search_data.get("esearchresult", {}).get("idlist", [])
     if not ids:
         return []
-    return fetch_pubmed_by_ids(ids, api_key=api_key)
+    return fetch_pubmed_by_ids(ids, api_key=api_key, sleep_seconds=sleep_seconds)
 
 
-def fetch_pubmed_by_ids(pmids: Iterable[str], api_key: str | None = None) -> List[Paper]:
+def fetch_pubmed_by_ids(pmids: Iterable[str], api_key: str | None = None, sleep_seconds: float = 0.34) -> List[Paper]:
     ids = [str(p) for p in pmids if str(p).strip()]
     if not ids:
         return []
@@ -58,7 +65,7 @@ def fetch_pubmed_by_ids(pmids: Iterable[str], api_key: str | None = None) -> Lis
     params = {"db": "pubmed", "id": ",".join(ids), "retmode": "xml"}
     if api_key:
         params["api_key"] = api_key
-    xml_text = http_text(f"{base}?{urllib.parse.urlencode(params)}")
+    xml_text = http_text(f"{base}?{urllib.parse.urlencode(params)}", sleep_seconds=sleep_seconds)
     return parse_pubmed_xml(xml_text)
 
 
@@ -108,16 +115,19 @@ def parse_pubmed_xml(xml_text: str) -> List[Paper]:
     return papers
 
 
-def fetch_europepmc(query: str, page_size: int = 25) -> List[Paper]:
+def fetch_europepmc(query: str, days: int = 7, page_size: int = 25, today: date | None = None) -> List[Paper]:
+    end = today or date.today()
+    start = end - timedelta(days=days)
     base = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-    params = urllib.parse.urlencode({"query": query, "format": "json", "pageSize": page_size, "sort": "FIRST_PDATE_D desc"})
+    dated_query = f"({query}) AND FIRST_PDATE:[{start.isoformat()} TO {end.isoformat()}]"
+    params = urllib.parse.urlencode({"query": dated_query, "format": "json", "pageSize": page_size, "sort": "FIRST_PDATE_D desc"})
     data = http_json(f"{base}?{params}")
     records = data.get("resultList", {}).get("result", [])
     return [normalize_europepmc_record(r) for r in records]
 
 
-def fetch_medrxiv(days: int = 7, server: str = "medrxiv") -> List[Paper]:
-    end = date.today()
+def fetch_medrxiv(days: int = 7, server: str = "medrxiv", today: date | None = None) -> List[Paper]:
+    end = today or date.today()
     start = end - timedelta(days=days)
     url = f"https://api.biorxiv.org/details/{server}/{start.isoformat()}/{end.isoformat()}/0/json"
     data = http_json(url)
