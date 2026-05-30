@@ -4,18 +4,7 @@ Date: 2026-05-30
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Diagnostic accuracy of point-of-care ultrasound in neonatal intensive care units: a systematic review.
-**Source:** PubMed  
-**Journal:** Journal of ultrasound  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 14 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42213360/  
-**Takeaway:** PURPOSE: To evaluate the diagnostic accuracy, safety, and organisational aspects of point-of-care ultrasound (POCUS) in neonates admitted to neonatal intensive care units (NICUs), focusing on pulmonary, cardiac, neurological, and abdominal conditions. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. DICER1 alterations in thyroid lesions: a systematic review and meta-analysis with clinicopathologic implications.
+### 1. DICER1 alterations in thyroid lesions: a systematic review and meta-analysis with clinicopathologic implications.
 **Source:** Europe PMC  
 **Journal:** Virchows Arch  
 **Study type:** Systematic review / meta-analysis  
@@ -26,18 +15,7 @@ Date: 2026-05-30
 **Limitations:** No abstract available in fetched metadata.
 **Confidence:** Moderate
 
-### 3. The Efficacy of Urethral Bulking Agents for Incontinence Following Continent Urinary Reconstruction: A Narrative Review.
-**Source:** PubMed  
-**Journal:** Neurourology and urodynamics  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 11 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42212597/  
-**Takeaway:** BACKGROUND: Urinary incontinence following continent urinary reconstruction, including bladder neck reconstruction and Mitrofanoff channels, remains a complex and challenging clinical issue. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 4. Artificial Intelligence in Oncology: Clinical Applications, Challenges, and Opportunities.
+### 2. Artificial Intelligence in Oncology: Clinical Applications, Challenges, and Opportunities.
 **Source:** PubMed  
 **Journal:** American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting  
 **Study type:** Guideline / recommendation  
@@ -48,7 +26,7 @@ Date: 2026-05-30
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Risk stratification in pediatric dysembryoplastic neuroepithelial tumors: impact of molecular alterations, age, and extent of surgery.
+### 3. Risk stratification in pediatric dysembryoplastic neuroepithelial tumors: impact of molecular alterations, age, and extent of surgery.
 **Source:** PubMed  
 **Journal:** Journal of neurosurgery. Pediatrics  
 **Study type:** Journal Article  
@@ -59,7 +37,7 @@ Date: 2026-05-30
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 6. Accessible Clinical Tool for Prognosis and Chemotherapy Prediction in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Breast Cancer in Diverse and Low-Resource Settings.
+### 4. Accessible Clinical Tool for Prognosis and Chemotherapy Prediction in Hormone Receptor-Positive/Human Epidermal Growth Factor Receptor 2-Negative Breast Cancer in Diverse and Low-Resource Settings.
 **Source:** PubMed  
 **Journal:** JCO global oncology  
 **Study type:** Cohort study  
@@ -175,7 +153,18 @@ Date: 2026-05-30
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. Real-world outcomes of FLOT versus Chemoradiotherapy for Esophageal, Type I and II Junctional Tumors: A Bi-Center International Study.
+### 3. Diagnostic accuracy of point-of-care ultrasound in neonatal intensive care units: a systematic review.
+**Source:** PubMed  
+**Journal:** Journal of ultrasound  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 22 = relevance 14 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42213360/  
+**Takeaway:** PURPOSE: To evaluate the diagnostic accuracy, safety, and organisational aspects of point-of-care ultrasound (POCUS) in neonates admitted to neonatal intensive care units (NICUs), focusing on pulmonary, cardiac, neurological, and abdominal conditions. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Real-world outcomes of FLOT versus Chemoradiotherapy for Esophageal, Type I and II Junctional Tumors: A Bi-Center International Study.
 **Source:** PubMed  
 **Journal:** Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus  
 **Study type:** Cohort study  
@@ -186,7 +175,7 @@ Date: 2026-05-30
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 4. Causal Effects of Gut Microbial Genera on Abnormal Spermatozoa Revealed Through Integrated Mendelian Randomization and Mediation Analysis.
+### 5. Causal Effects of Gut Microbial Genera on Abnormal Spermatozoa Revealed Through Integrated Mendelian Randomization and Mediation Analysis.
 **Source:** PubMed  
 **Journal:** American journal of reproductive immunology (New York, N.Y. : 1989)  
 **Study type:** Systematic review / meta-analysis  
@@ -197,7 +186,7 @@ Date: 2026-05-30
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Pragmatic Clinical Trial Assessing Response to Neoadjuvant Docetaxel and Trastuzumab in Nigerian Women With Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer (ARETTA).
+### 6. Pragmatic Clinical Trial Assessing Response to Neoadjuvant Docetaxel and Trastuzumab in Nigerian Women With Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer (ARETTA).
 **Source:** PubMed  
 **Journal:** JCO global oncology  
 **Study type:** Journal Article, Clinical Trial, Phase II  
@@ -208,7 +197,18 @@ Date: 2026-05-30
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 6. Clinical Manifestations, Tumor Associations, and Long-Term Outcomes of Anti-KLHL11 Encephalitis.
+### 7. The Efficacy of Urethral Bulking Agents for Incontinence Following Continent Urinary Reconstruction: A Narrative Review.
+**Source:** PubMed  
+**Journal:** Neurourology and urodynamics  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 11 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42212597/  
+**Takeaway:** BACKGROUND: Urinary incontinence following continent urinary reconstruction, including bladder neck reconstruction and Mitrofanoff channels, remains a complex and challenging clinical issue. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 8. Clinical Manifestations, Tumor Associations, and Long-Term Outcomes of Anti-KLHL11 Encephalitis.
 **Source:** PubMed  
 **Journal:** Neurology(R) neuroimmunology & neuroinflammation  
 **Study type:** Journal Article  
@@ -219,32 +219,10 @@ Date: 2026-05-30
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 7. Durable Survival Outcomes After Liver Transplantation for Colorectal Liver Metastases: A Systematic Review and Single-arm Meta-analysis of Prospective Clinical Trials.
-**Source:** PubMed  
-**Journal:** Journal of gastrointestinal cancer  
-**Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 16 = relevance 6 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42213206/  
-**Takeaway:** BACKGROUND: Liver transplantation (LT) has emerged as a potential treatment option for selected patients with colorectal liver metastases (CRLM), but existing meta-analyses are limited by heterogeneous populations and mixed treatment modalities. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 8. Machine learning models based on magnetic resonance imaging for predicting Lymphovascular Invasion in Invasive Breast Cancer.
-**Source:** PubMed  
-**Journal:** PloS one  
-**Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, general_medical_gp_updates  
-**Score:** 16 = relevance 14 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42213726/  
-**Takeaway:** OBJECTIVES: Treatment strategies for invasive breast cancer require accurate lymphovascular invasion (LVI) predictions. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
 
 ## Pipeline QA
 - Total scored candidates: 138
-- Peer-reviewed pathology digest items: 6
+- Peer-reviewed pathology digest items: 4
 - GP-useful digest items: 2
 - Preprint watch items: 13
-- Watchlist items: 45
+- Watchlist items: 47
