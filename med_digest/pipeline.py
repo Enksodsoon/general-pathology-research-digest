@@ -34,11 +34,16 @@ def append_paper_log(papers: Iterable[Paper], data_dir: str | Path, today: str) 
         "date_seen", "title", "journal", "year", "doi", "pmid", "pmcid", "source", "publication_type",
         "is_preprint", "matched_profiles", "relevance_score", "evidence_score", "total_score", "decision", "url", "summary"
     ]
-    exists = path.exists()
-    with path.open("a", newline="", encoding="utf-8") as f:
+    existing_rows = []
+    if path.exists():
+        with path.open(newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            existing_rows = [row for row in reader if row.get("date_seen") != today]
+
+    with path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
-        if not exists:
-            writer.writeheader()
+        writer.writeheader()
+        writer.writerows(existing_rows)
         for p in papers:
             writer.writerow({
                 "date_seen": today,

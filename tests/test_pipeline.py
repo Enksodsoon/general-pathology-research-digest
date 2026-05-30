@@ -80,3 +80,14 @@ def test_full_pipeline_writes_outputs(tmp_path):
     assert (tmp_path / "digests" / "2026-05-30.md").exists()
     assert (tmp_path / "data" / "papers.csv").exists()
     assert len(duplicates) == 1
+
+    run_pipeline(
+        papers,
+        ROOT / "config" / "topics.json",
+        ROOT / "config" / "settings.json",
+        tmp_path / "digests",
+        tmp_path / "data",
+        today="2026-05-30"
+    )
+    csv_lines = (tmp_path / "data" / "papers.csv").read_text(encoding="utf-8").splitlines()
+    assert len(csv_lines) == len(scored) + 1
