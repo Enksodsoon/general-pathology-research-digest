@@ -1,5 +1,6 @@
 from pathlib import Path
 from med_digest.cli import build_query_groups, load_fixture
+from med_digest.models import Paper
 from med_digest.pipeline import run_pipeline
 from med_digest.scoring import dedupe_papers, load_config, score_and_rank
 
@@ -60,6 +61,35 @@ def test_query_groups_use_general_pathology_not_old_focus():
     assert "non-small cell lung cancer" not in joined
     assert "glomerulonephritis" not in joined
     assert "histopathology" in joined or "surgical pathology" in joined
+    assert "guidelines_reviews" in groups
+    assert " AND " in groups["guidelines_reviews"]
+
+
+def test_short_molecular_terms_do_not_create_false_pathology_digest():
+    config = load_config(ROOT / "config" / "topics.json")
+    papers = [
+        Paper(
+            title="Digital health interventions in older adults: systematic review",
+            abstract="This established review studies physical activity and sedentary behavior.",
+            publication_type="Systematic Review",
+            source="PubMed",
+            pmid="1",
+        ),
+        Paper(
+            title="External validation of artificial intelligence for mitotic count assessment on whole slide imaging",
+            abstract="A multicenter validation study evaluated deep learning image analysis in surgical pathology whole slide imaging.",
+            publication_type="Validation Study",
+            source="PubMed",
+            pmid="2",
+        ),
+    ]
+    scored = score_and_rank(papers, config)
+    noisy = next(p for p in scored if p.pmid == "1")
+    pathology = next(p for p in scored if p.pmid == "2")
+    assert "molecular_ihc_biomarkers" not in noisy.matched_profiles
+    assert noisy.decision != "digest"
+    assert pathology.decision == "digest"
+    assert pathology.total_score > noisy.total_score
 
 
 def test_full_pipeline_writes_outputs(tmp_path):

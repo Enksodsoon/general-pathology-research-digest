@@ -4,6 +4,7 @@ import json
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from typing import Dict, Iterable, List
@@ -15,15 +16,24 @@ class FetchError(RuntimeError):
     pass
 
 
-def http_text(url: str, timeout: int = 30, sleep_seconds: float = 0.34) -> str:
+def http_text(url: str, timeout: int = 30, sleep_seconds: float = 0.34, retries: int = 2) -> str:
     # Sleep by default to respect NCBI's 3 requests/sec unauthenticated guidance.
-    time.sleep(sleep_seconds)
     req = urllib.request.Request(url, headers={"User-Agent": "medical-research-digest/0.1"})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read().decode("utf-8")
-    except Exception as exc:  # pragma: no cover - real network only
-        raise FetchError(f"Failed to fetch {url}: {exc}") from exc
+    last_exc: Exception | None = None
+    for attempt in range(retries + 1):
+        time.sleep(sleep_seconds * (attempt + 1))
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8")
+        except urllib.error.HTTPError as exc:  # pragma: no cover - real network only
+            last_exc = exc
+            if exc.code < 500 or attempt >= retries:
+                break
+        except Exception as exc:  # pragma: no cover - real network only
+            last_exc = exc
+            if attempt >= retries:
+                break
+    raise FetchError(f"Failed to fetch {url}: {last_exc}") from last_exc
 
 
 def http_json(url: str, timeout: int = 30, sleep_seconds: float = 0.34) -> Dict:

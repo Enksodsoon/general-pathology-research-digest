@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       TZ: Asia/Bangkok
     steps:
       - uses: actions/checkout@v4

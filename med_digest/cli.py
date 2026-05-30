@@ -56,22 +56,41 @@ def build_query_groups(config: dict) -> dict[str, str]:
                 deduped.append(term)
         return deduped[:18]
 
+    pathology_anchor = build_profile_query(
+        [
+            "pathology",
+            "histopathology",
+            "surgical pathology",
+            "diagnostic pathology",
+            "cytopathology",
+            "immunohistochemistry",
+            "molecular pathology",
+            "digital pathology",
+            "laboratory medicine",
+            "structured reporting",
+        ],
+        max_terms=10,
+    )
+
     return {
         "general_pathology": build_profile_query(
             terms("general_pathology_research", "surgical_pathology_updates"), max_terms=18
         ),
-        "molecular_digital_pathology": build_profile_query(
-            terms("molecular_ihc_biomarkers", "digital_computational_pathology"), max_terms=18
+        "molecular_digital_pathology": (
+            f"({pathology_anchor}) AND "
+            f"({build_profile_query(terms('molecular_ihc_biomarkers', 'digital_computational_pathology'), max_terms=18)})"
         ),
         "cyto_lab_quality": build_profile_query(
             terms("cytopathology_small_biopsy", "laboratory_medicine_transfusion", "pathology_quality_education_workflow"),
             max_terms=18,
         ),
-        "treatment_and_gp": build_profile_query(
-            terms("novel_treatment_pathology_linked", "general_medical_gp_updates"), max_terms=18
+        "treatment_and_gp": (
+            f"({pathology_anchor}) AND "
+            f"({build_profile_query(terms('novel_treatment_pathology_linked', 'general_medical_gp_updates'), max_terms=18)})"
         ),
-        "guidelines_reviews": build_profile_query(
-            terms("guidelines_reviews_high_level_evidence"), max_terms=10
+        "guidelines_reviews": (
+            f"({pathology_anchor}) AND "
+            f"({build_profile_query(terms('guidelines_reviews_high_level_evidence'), max_terms=10)})"
         ),
     }
 
