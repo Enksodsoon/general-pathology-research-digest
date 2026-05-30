@@ -26,7 +26,11 @@ def build_message(markdown: str, digest_url: str = "") -> str:
         f"Daily Pathology Digest - {date_value}",
         "",
     ]
-    lines.extend(_section_lines("Top pathology", sections.get("Top pathology", []), limit=3))
+    lines.extend(_paper_section_lines("Top pathology", sections.get("Top pathology", []), limit=3))
+    lines.append("")
+    lines.extend(_paper_section_lines("GP-useful highlight", sections.get("GP-useful", []), limit=1))
+    lines.append("")
+    lines.extend(_paper_section_lines("Preprint highlight", sections.get("Preprints", []), limit=1))
     lines.append("")
     gp_count = qa.get("GP-useful digest items", str(len(sections.get("GP-useful", []))))
     preprint_count = qa.get("Preprint watch items", str(len(sections.get("Preprints", []))))
@@ -74,12 +78,14 @@ def main() -> int:
     return 0
 
 
-def _extract_sections(markdown: str) -> dict[str, list[str]]:
-    sections: dict[str, list[str]] = {}
+def _extract_sections(markdown: str) -> dict[str, list[dict[str, str]]]:
+    sections: dict[str, list[dict[str, str]]] = {}
     current = ""
+    current_paper: dict[str, str] | None = None
     for raw_line in markdown.splitlines():
         line = raw_line.strip()
         if line.startswith("## "):
+            current_paper = None
             current = SECTION_HEADINGS.get(line.removeprefix("## ").strip(), "")
             if current:
                 sections.setdefault(current, [])
@@ -87,7 +93,11 @@ def _extract_sections(markdown: str) -> dict[str, list[str]]:
         if current and line.startswith("### "):
             title = line.removeprefix("### ").strip()
             parts = title.split(". ", 1)
-            sections[current].append(parts[1] if len(parts) == 2 and parts[0].isdigit() else title)
+            current_paper = {"title": parts[1] if len(parts) == 2 and parts[0].isdigit() else title}
+            sections[current].append(current_paper)
+            continue
+        if current and current_paper is not None:
+            _capture_field(current_paper, line)
     return sections
 
 
@@ -107,13 +117,35 @@ def _extract_qa(markdown: str) -> dict[str, str]:
     return qa
 
 
-def _section_lines(label: str, titles: list[str], limit: int) -> list[str]:
+def _paper_section_lines(label: str, papers: list[dict[str, str]], limit: int) -> list[str]:
     lines = [f"{label}:"]
-    if not titles:
+    if not papers:
         return lines + ["No items met the threshold today."]
-    for idx, title in enumerate(titles[:limit], 1):
+    for idx, paper in enumerate(papers[:limit], 1):
+        title = paper.get("title", "Untitled")
+        journal = paper.get("Journal", "")
+        source = paper.get("Source", "")
+        score = paper.get("Score", "")
+        takeaway = _shorten(paper.get("Takeaway", ""), 420)
+        link = paper.get("Link", "")
         lines.append(f"{idx}. {title}")
+        meta = " | ".join(part for part in [journal, source, f"Score {score}" if score else ""] if part)
+        if meta:
+            lines.append(meta)
+        if takeaway:
+            lines.append(f"Takeaway: {takeaway}")
+        if link:
+            lines.append(f"Link: {link}")
+        lines.append("")
     return lines
+
+
+def _capture_field(paper: dict[str, str], line: str) -> None:
+    if not line.startswith("**") or ":**" not in line:
+        return
+    label_part, value = line.split(":**", 1)
+    label = label_part.removeprefix("**").strip()
+    paper[label] = value.strip()
 
 
 def _first_value(markdown: str, prefix: str) -> str:
@@ -127,6 +159,13 @@ def _truncate(text: str, limit: int) -> str:
     if len(text) <= limit:
         return text
     return text[: limit - 20].rstrip() + "\n...continued in digest"
+
+
+def _shorten(text: str, limit: int) -> str:
+    text = " ".join((text or "").split())
+    if len(text) <= limit:
+        return text
+    return text[: limit - 3].rstrip() + "..."
 
 
 if __name__ == "__main__":
