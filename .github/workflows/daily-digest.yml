@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-digest-main
+  cancel-in-progress: false
+
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -35,6 +39,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add digests/*.md data/papers.csv
-          git diff --cached --quiet || git commit -m "Update daily pathology digest"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add digests/*.md data/papers.csv
+            if git diff --cached --quiet; then
+              echo "No digest output changes to commit."
+              exit 0
+            fi
+            git commit -m "Update daily pathology digest"
+            git push && exit 0
+            echo "Push failed; retrying after refreshing origin/main."
+            sleep 2
+          done
+          echo "Failed to push digest outputs after retries." >&2
+          exit 1
