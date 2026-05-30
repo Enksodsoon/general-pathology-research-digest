@@ -3,6 +3,7 @@ from med_digest.cli import build_query_groups, load_fixture
 from med_digest.models import Paper
 from med_digest.pipeline import run_pipeline
 from med_digest.scoring import dedupe_papers, load_config, score_and_rank
+from med_digest.telegram_notify import build_message
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -147,3 +148,13 @@ def test_full_pipeline_writes_outputs(tmp_path):
     )
     csv_lines = (tmp_path / "data" / "papers.csv").read_text(encoding="utf-8").splitlines()
     assert len(csv_lines) == len(scored) + 1
+
+
+def test_telegram_message_summarizes_digest_at_a_glance():
+    markdown = (ROOT / "digests" / "latest.md").read_text(encoding="utf-8")
+    message = build_message(markdown, digest_url="https://example.test/latest")
+    assert "Daily Pathology Digest" in message
+    assert "Top pathology:" in message
+    assert "At a glance:" in message
+    assert "Full digest: https://example.test/latest" in message
+    assert len(message) < 3900

@@ -27,6 +27,18 @@ python3 -m med_digest.cli --fixture fixtures/sample_papers.json --date 2026-05-3
 python3 -m med_digest.cli --live
 ```
 
+## Telegram daily summary
+
+The GitHub Actions workflow can send a short Telegram news-style message after
+each digest run. Add these repository secrets to enable it:
+
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+
+The notification includes the top pathology papers, GP/preprint/watchlist
+counts, and a link to `digests/latest.md`. If the secrets are missing, the
+workflow skips Telegram and still generates the digest normally.
+
 ## Safety principle
 
 This is research surveillance and education only. The summary should never imply practice-changing evidence unless the underlying paper is a strong guideline, large RCT, or high-quality systematic review and the full text has been checked.
