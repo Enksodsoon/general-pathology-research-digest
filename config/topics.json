@@ -1,0 +1,245 @@
+{
+  "window_days": 7,
+  "max_candidates": 100,
+  "max_digest_items": 10,
+  "min_digest_score": 5,
+  "plan_focus": "general_pathology_news_and_new_research",
+  "profiles": [
+    {
+      "id": "general_pathology_research",
+      "label": "General pathology research",
+      "priority": "very_high",
+      "weight": 5,
+      "terms": [
+        "pathology",
+        "histopathology",
+        "surgical pathology",
+        "diagnostic pathology",
+        "anatomic pathology",
+        "clinicopathologic",
+        "pathologic diagnosis",
+        "tumor classification",
+        "grading",
+        "staging",
+        "morphology",
+        "histologic subtype",
+        "diagnostic criteria",
+        "WHO classification"
+      ]
+    },
+    {
+      "id": "surgical_pathology_updates",
+      "label": "Surgical pathology updates",
+      "priority": "very_high",
+      "weight": 5,
+      "terms": [
+        "breast pathology",
+        "gynecologic pathology",
+        "gastrointestinal pathology",
+        "genitourinary pathology",
+        "dermatopathology",
+        "thoracic pathology",
+        "soft tissue pathology",
+        "bone pathology",
+        "head and neck pathology",
+        "endocrine pathology",
+        "hematopathology",
+        "neuropathology"
+      ]
+    },
+    {
+      "id": "molecular_ihc_biomarkers",
+      "label": "Molecular pathology / IHC / biomarkers",
+      "priority": "very_high",
+      "weight": 5,
+      "terms": [
+        "molecular pathology",
+        "immunohistochemistry",
+        "IHC",
+        "biomarker",
+        "predictive biomarker",
+        "prognostic biomarker",
+        "companion diagnostic",
+        "next-generation sequencing",
+        "NGS",
+        "FISH",
+        "ISH",
+        "PCR",
+        "mutation",
+        "fusion",
+        "copy number",
+        "tumor mutational burden",
+        "MSI",
+        "mismatch repair",
+        "PD-L1",
+        "HER2"
+      ]
+    },
+    {
+      "id": "digital_computational_pathology",
+      "label": "Digital / computational pathology",
+      "priority": "high",
+      "weight": 4,
+      "terms": [
+        "digital pathology",
+        "computational pathology",
+        "whole slide imaging",
+        "image analysis",
+        "artificial intelligence",
+        "deep learning",
+        "machine learning",
+        "foundation model",
+        "computer-aided diagnosis",
+        "pathology AI",
+        "digital biomarker"
+      ]
+    },
+    {
+      "id": "cytopathology_small_biopsy",
+      "label": "Cytopathology / small biopsy",
+      "priority": "high",
+      "weight": 4,
+      "terms": [
+        "cytopathology",
+        "cytology",
+        "fine needle aspiration",
+        "FNA",
+        "small biopsy",
+        "cell block",
+        "liquid-based cytology",
+        "Bethesda system",
+        "Paris system",
+        "Milan system",
+        "rapid on-site evaluation",
+        "ROSE"
+      ]
+    },
+    {
+      "id": "laboratory_medicine_transfusion",
+      "label": "Laboratory medicine / transfusion",
+      "priority": "medium_high",
+      "weight": 3,
+      "terms": [
+        "laboratory medicine",
+        "clinical pathology",
+        "hematology laboratory",
+        "clinical chemistry",
+        "microbiology laboratory",
+        "transfusion medicine",
+        "blood bank",
+        "quality control",
+        "reference interval",
+        "diagnostic test accuracy",
+        "point-of-care testing"
+      ]
+    },
+    {
+      "id": "pathology_quality_education_workflow",
+      "label": "Pathology quality / workflow / education",
+      "priority": "medium_high",
+      "weight": 3,
+      "terms": [
+        "interobserver agreement",
+        "diagnostic reproducibility",
+        "quality assurance",
+        "quality improvement",
+        "turnaround time",
+        "synoptic report",
+        "structured reporting",
+        "pathology education",
+        "resident education",
+        "competency-based",
+        "diagnostic error"
+      ]
+    },
+    {
+      "id": "novel_treatment_pathology_linked",
+      "label": "Novel treatment linked to pathology",
+      "priority": "high",
+      "weight": 4,
+      "terms": [
+        "targeted therapy",
+        "immunotherapy",
+        "antibody-drug conjugate",
+        "companion diagnostic",
+        "predictive biomarker",
+        "new indication",
+        "tumor agnostic",
+        "molecularly selected",
+        "pathologic response",
+        "neoadjuvant therapy",
+        "therapy resistance"
+      ]
+    },
+    {
+      "id": "general_medical_gp_updates",
+      "label": "General medical / GP-useful updates",
+      "priority": "medium",
+      "weight": 2,
+      "terms": [
+        "primary care",
+        "general practice",
+        "family medicine",
+        "outpatient",
+        "urgent care",
+        "clinical practice",
+        "point-of-care",
+        "triage",
+        "antibiotic stewardship",
+        "vaccine",
+        "screening",
+        "prevention",
+        "reduced hospitalization",
+        "fewer adverse events",
+        "quality of life",
+        "cost-effective"
+      ]
+    },
+    {
+      "id": "guidelines_reviews_high_level_evidence",
+      "label": "Guidelines / reviews / high-level evidence",
+      "priority": "high",
+      "weight": 4,
+      "terms": [
+        "clinical practice guideline",
+        "guideline",
+        "systematic review",
+        "meta-analysis",
+        "consensus statement",
+        "recommendation",
+        "classification update",
+        "reporting guideline"
+      ]
+    },
+    {
+      "id": "legacy_project_watch_low_priority",
+      "label": "Legacy project watchlist only",
+      "priority": "low",
+      "weight": 1,
+      "terms": [
+        "non-small cell lung cancer",
+        "NSCLC",
+        "microRNA",
+        "miRNA",
+        "FFPE",
+        "renal biopsy",
+        "glomerulonephritis",
+        "kidney biopsy",
+        "lupus nephritis"
+      ]
+    }
+  ],
+  "negative_terms": [
+    "zebrafish",
+    "murine",
+    "mouse",
+    "mice",
+    "rat model",
+    "cell line",
+    "in vitro",
+    "editorial",
+    "letter to the editor",
+    "conference abstract",
+    "protocol only"
+  ]
+}
