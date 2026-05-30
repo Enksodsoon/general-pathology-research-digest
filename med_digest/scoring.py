@@ -56,7 +56,6 @@ CORE_PATHOLOGY_PROFILES = {
 GP_PROFILE = "general_medical_gp_updates"
 LEGACY_PROFILE = "legacy_project_watch_low_priority"
 PATHOLOGY_ANCHOR_TERMS = {
-    "pathology",
     "pathologist",
     "histopathology",
     "histologic",
@@ -65,6 +64,8 @@ PATHOLOGY_ANCHOR_TERMS = {
     "anatomic pathology",
     "clinicopathologic",
     "pathologic diagnosis",
+    "pathologic complete response",
+    "pathologic response",
     "tumor classification",
     "WHO classification",
     "immunohistochemistry",

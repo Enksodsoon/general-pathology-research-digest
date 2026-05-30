@@ -92,6 +92,32 @@ def test_short_molecular_terms_do_not_create_false_pathology_digest():
     assert pathology.total_score > noisy.total_score
 
 
+def test_generic_diagnostic_reviews_need_pathology_anchor_for_top_digest():
+    config = load_config(ROOT / "config" / "topics.json")
+    papers = [
+        Paper(
+            title="Diagnostic accuracy of point-of-care ultrasound in neonatal intensive care units: a systematic review",
+            abstract="This systematic review focuses on pulmonary, cardiac, neurological, and abdominal conditions in neonatal care.",
+            publication_type="Systematic Review",
+            source="PubMed",
+            pmid="3",
+        ),
+        Paper(
+            title="DICER1 alterations in thyroid lesions: a systematic review and meta-analysis with clinicopathologic implications",
+            abstract="This review summarizes molecular alterations and clinicopathologic implications in thyroid lesions.",
+            publication_type="Systematic Review",
+            source="PubMed",
+            pmid="4",
+        ),
+    ]
+    scored = score_and_rank(papers, config)
+    generic = next(p for p in scored if p.pmid == "3")
+    pathology = next(p for p in scored if p.pmid == "4")
+    assert "general_pathology_research" not in generic.matched_profiles
+    assert generic.decision == "digest"  # allowed as GP-useful, but not as top pathology.
+    assert pathology.decision == "digest"
+
+
 def test_full_pipeline_writes_outputs(tmp_path):
     papers = load_fixture(ROOT / "fixtures" / "sample_papers.json")
     markdown, scored, duplicates = run_pipeline(
