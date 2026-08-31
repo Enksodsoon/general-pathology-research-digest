@@ -1,0 +1,78 @@
+name: Daily Free Medical Events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 7 * * *"
+      timezone: "Asia/Bangkok"
+  push:
+    branches:
+      - main
+    paths:
+      - "event_scout/**"
+      - "tests/test_event_scout*.py"
+      - "config/event_queries.json"
+      - ".github/workflows/daily-medical-events.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-free-medical-events-main
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      TZ: Asia/Bangkok
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Sweep the web for free medical events
+        id: scan
+        run: python -m event_scout.cli --live --date "$(date +%F)"
+
+      - name: Send one Telegram alert per new event
+        id: notify
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m event_scout.telegram_notify --events data/new_events.json
+
+      - name: Commit event outputs and successful delivery receipts
+        if: ${{ always() && steps.scan.outcome == 'success' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add events/*.md data/events.csv data/new_events.json data/event_scout_state.json data/event_scout_diagnostics.json
+            if git diff --cached --quiet; then
+              echo "No event output changes to commit."
+              exit 0
+            fi
+            git commit -m "Update daily free medical events"
+            git push && exit 0
+            echo "Push failed; retrying after refreshing origin/main."
+            sleep 2
+          done
+          echo "Failed to push medical-event outputs after retries." >&2
+          exit 1
+
+      - name: Propagate Telegram delivery failure after saving receipts
+        if: ${{ steps.notify.outcome == 'failure' }}
+        run: exit 1
