@@ -1,3 +1,40 @@
-# Free Medical Events — correction in progress
+# Free Medical Events — 2026-08-31
 
-The six Medtec Japan entries from the first live run were removed after audit because the sitewide 2027 exhibition date was incorrectly attached to webinar pages. A corrected verified sweep is being run before this report is republished.
+Strict inclusion: confirmed free attendance, future date, and either online or onsite/hybrid in Thailand.
+Languages monitored: English, Thai, and Japanese. Certificate status is reported only when the source states it.
+
+## New alerts
+
+### 1. 日・米・欧の医療機器サイバーセキュリティ対策「丸わかり講座」 ～日米欧の法規制から、関連するセキュリティ要求のCRAや３省２ガイドラインなど、わかりやすく解説～
+
+- Date: 21 Apr 2027, 08:00–15:00 ICT
+- Format: Online
+- Language: JA
+- Certificate: Not stated
+- Exact registration/event link: https://us06web.zoom.us/webinar/register/6717618996897/WN_t9Fw1FSdRjSIDbyJRsKNmg
+- Found via: landing:medtec-japan-free-webinars
+
+
+## All currently eligible events
+
+### 1. 日・米・欧の医療機器サイバーセキュリティ対策「丸わかり講座」 ～日米欧の法規制から、関連するセキュリティ要求のCRAや３省２ガイドラインなど、わかりやすく解説～
+
+- Date: 21 Apr 2027, 08:00–15:00 ICT
+- Format: Online
+- Language: JA
+- Certificate: Not stated
+- Exact registration/event link: https://us06web.zoom.us/webinar/register/6717618996897/WN_t9Fw1FSdRjSIDbyJRsKNmg
+- Found via: landing:medtec-japan-free-webinars
+
+
+## Scan QA
+
+- Search hits discovered: 849
+- Candidate pages fetched: 120
+- Eligible unique events: 1
+- New individual alerts: 1
+- Rejected/failed candidates: 119
+- Source checks OK: 33
+- Source/page errors: 5
+
+Dates and availability can change. Open the exact event link before registering.
