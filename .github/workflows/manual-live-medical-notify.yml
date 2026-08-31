@@ -1,0 +1,57 @@
+name: Manual Live Medical Event Notify
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/manual-live-medical-notify.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: manual-live-medical-event-notify
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Asia/Bangkok
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Send individually verified real-event notifications
+        id: notify
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m event_scout.telegram_notify --events data/manual_live_notify_2026-08-31.json --delay 0.8
+
+      - name: Commit successful delivery receipts
+        if: ${{ always() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/event_scout_state.json
+          if git diff --cached --quiet; then
+            echo "No new delivery receipts to commit."
+            exit 0
+          fi
+          git commit -m "Record verified medical event notifications"
+          git push
+
+      - name: Propagate delivery failure after saving receipts
+        if: ${{ steps.notify.outcome == 'failure' }}
+        run: exit 1
