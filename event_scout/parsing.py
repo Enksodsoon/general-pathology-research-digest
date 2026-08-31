@@ -106,7 +106,9 @@ def parse_event_page(hit: SearchHit, html: str, now: datetime) -> MedicalEvent:
     )
     combined_text = _clean_text(" ".join([hit.title, hit.snippet, evidence_text]))
     lower = evidence_text.casefold()
-    event_specific = bool(jsonld_event) or _is_event_specific_page(
+    # Generic listing/archive pages remain listings even when a sitewide
+    # exhibition Event object is embedded in their shared page template.
+    event_specific = _is_event_specific_page(
         h1_text=h1_text,
         document_title=document_title,
         canonical=canonical,
@@ -192,7 +194,7 @@ def parse_event_page(hit: SearchHit, html: str, now: datetime) -> MedicalEvent:
     )
 
 
-def _event_context(page_text: str, heading: str, before: int = 450, after: int = 6500) -> str:
+def _event_context(page_text: str, heading: str, before: int = 300, after: int = 6500) -> str:
     """Return a bounded visible-text window around the event heading.
 
     Choosing the last heading occurrence avoids image-alt duplicates that often
