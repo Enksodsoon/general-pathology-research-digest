@@ -1,0 +1,129 @@
+{
+  "settings": {
+    "lookahead_days": 455,
+    "max_candidate_pages": 120,
+    "max_notifications": 20
+  },
+  "queries": [
+    {
+      "id": "en-free-medical-certificate",
+      "language": "en",
+      "query": "free medical webinar certificate {year} OR {next_year}",
+      "sources": ["bing", "google_news", "gdelt"]
+    },
+    {
+      "id": "en-clinical-cme-cpd",
+      "language": "en",
+      "query": "free clinical healthcare seminar online CME CPD certificate {year}",
+      "sources": ["bing", "google_news", "gdelt"]
+    },
+    {
+      "id": "en-pathology-digital-health",
+      "language": "en",
+      "query": "free pathology digital health medical AI webinar online {year}",
+      "sources": ["bing", "google_news", "gdelt"]
+    },
+    {
+      "id": "en-global-health-workshops",
+      "language": "en",
+      "query": "free global health workshop webinar certificate online {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "en-medall-events",
+      "language": "en",
+      "query": "site:app.medall.org/event-listings free online attendance certificate {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "en-who-tghn-events",
+      "language": "en",
+      "query": "(site:who.int/news-room/events OR site:globalhealthtrainingcentre.tghn.org) webinar register {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "th-medical-certificate",
+      "language": "th",
+      "query": "สัมมนา แพทย์ ฟรี ออนไลน์ เกียรติบัตร {thai_year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "th-health-professional-training",
+      "language": "th",
+      "query": "อบรม บุคลากรทางการแพทย์ ไม่มีค่าใช้จ่าย ออนไลน์ {thai_year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "th-onsite-thailand",
+      "language": "th",
+      "query": "ประชุมวิชาการ แพทย์ เข้าร่วมฟรี กรุงเทพ ประเทศไทย {thai_year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "th-cme-free",
+      "language": "th",
+      "query": "อบรม CME ฟรี แพทย์ ลงทะเบียน {thai_year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "th-official-medical-schools",
+      "language": "th",
+      "query": "(site:kcmh.chulalongkornhospital.go.th OR site:medicine.mahidol.ac.th OR site:med.cmu.ac.th OR site:moph.go.th) (สัมมนา OR อบรม OR ประชุม) ฟรี {thai_year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "ja-medical-certificate",
+      "language": "ja",
+      "query": "医療 オンラインセミナー 無料 受講証明書 {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "ja-clinical-cme",
+      "language": "ja",
+      "query": "医師 臨床 ウェビナー 無料 CME {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "ja-medical-dx",
+      "language": "ja",
+      "query": "医療DX 医療AI セミナー 無料 オンライン {year}",
+      "sources": ["bing", "google_news"]
+    },
+    {
+      "id": "ja-event-platforms",
+      "language": "ja",
+      "query": "(site:medtecjapan.com OR site:peatix.com OR site:connpass.com) 医療 無料 ウェビナー {year}",
+      "sources": ["bing", "google_news"]
+    }
+  ],
+  "landing_pages": [
+    {
+      "id": "who-events",
+      "language": "en",
+      "url": "https://www.who.int/news-room/events",
+      "max_links": 70
+    },
+    {
+      "id": "tghn-webinars",
+      "language": "en",
+      "url": "https://globalhealthtrainingcentre.tghn.org/webinars/",
+      "max_links": 60,
+      "include_all_same_host_links": true,
+      "inherited_text": "Free global health virtual and in-person learning events. Certificates of attendance can be achieved."
+    },
+    {
+      "id": "medtec-japan-free-webinars",
+      "language": "ja",
+      "url": "https://medtecjapan.com/medtecwebinar/free/",
+      "max_links": 30,
+      "inherited_text": "医療機器 無料聴講ウェビナー オンライン"
+    },
+    {
+      "id": "chula-hospital-news",
+      "language": "th",
+      "url": "https://kcmh.chulalongkornhospital.go.th/",
+      "max_links": 50,
+      "include_all_same_host_links": true
+    }
+  ]
+}
