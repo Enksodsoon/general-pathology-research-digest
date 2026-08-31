@@ -40,6 +40,14 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
+      - name: Send pending Medical Event Radar correction
+        id: correction
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m event_scout.correction_notify --file data/event_scout_correction.json
+
       - name: Sweep the web for free medical events
         id: scan
         run: python -m event_scout.cli --live --date "$(date +%F)"
@@ -60,7 +68,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add events/*.md data/events.csv data/new_events.json data/event_scout_state.json data/event_scout_diagnostics.json
+            git add events/*.md data/events.csv data/new_events.json data/event_scout_state.json data/event_scout_diagnostics.json data/event_scout_correction.json
             if git diff --cached --quiet; then
               echo "No event output changes to commit."
               exit 0
@@ -74,5 +82,5 @@ jobs:
           exit 1
 
       - name: Propagate Telegram delivery failure after saving receipts
-        if: ${{ steps.notify.outcome == 'failure' }}
+        if: ${{ steps.correction.outcome == 'failure' || steps.notify.outcome == 'failure' }}
         run: exit 1
