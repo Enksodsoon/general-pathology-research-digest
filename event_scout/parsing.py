@@ -82,6 +82,10 @@ def parse_event_page(hit: SearchHit, html: str, now: datetime) -> MedicalEvent:
     document_title = _clean_text(" ".join(parser.title_parts))
 
     jsonld_event = _choose_jsonld_event(parser.scripts, now)
+    if jsonld_event and h1_text and not _jsonld_matches_heading(jsonld_event, h1_text):
+        # Shared site templates sometimes embed the parent trade show's Event
+        # object on every webinar page. Ignore it when it describes another event.
+        jsonld_event = {}
     canonical = _clean_url(urljoin(hit.url, parser.canonical)) if parser.canonical else _clean_url(hit.url)
 
     title = _first_nonempty(
@@ -225,6 +229,24 @@ def _is_event_specific_page(*, h1_text: str, document_title: str, canonical: str
         if not descriptive or all(len(value) < 18 for value in descriptive):
             return False
     return True
+
+
+def _jsonld_matches_heading(event: dict[str, object], heading: str) -> bool:
+    name = _string_value(event.get("name"))
+    if not name or not heading:
+        return True
+    normalized_name = _normalize_page_label(name)
+    normalized_heading = _normalize_page_label(heading)
+    if not normalized_name or not normalized_heading:
+        return True
+    if normalized_name in normalized_heading or normalized_heading in normalized_name:
+        return True
+    name_tokens = set(normalized_name.split())
+    heading_tokens = set(normalized_heading.split())
+    if not name_tokens or not heading_tokens:
+        return False
+    overlap = len(name_tokens & heading_tokens) / max(1, min(len(name_tokens), len(heading_tokens)))
+    return overlap >= 0.7
 
 
 def _normalize_page_label(value: str) -> str:
