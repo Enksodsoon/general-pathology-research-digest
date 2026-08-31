@@ -61,14 +61,17 @@ jobs:
         run: python -m event_scout.telegram_notify --events data/new_events.json
 
       - name: Commit event outputs and successful delivery receipts
-        if: ${{ always() && steps.scan.outcome == 'success' }}
+        if: ${{ always() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add events/*.md data/events.csv data/new_events.json data/event_scout_state.json data/event_scout_diagnostics.json data/event_scout_correction.json
+            git add data/event_scout_state.json data/event_scout_correction.json
+            if [ "${{ steps.scan.outcome }}" = "success" ]; then
+              git add events/*.md data/events.csv data/new_events.json data/event_scout_diagnostics.json
+            fi
             if git diff --cached --quiet; then
               echo "No event output changes to commit."
               exit 0
