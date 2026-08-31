@@ -6,13 +6,13 @@ from urllib.parse import urljoin, urlsplit
 
 from .constants import CLOSED_TERMS, EVENT_TERMS, MEDICAL_TERMS
 from .dateparse import _parse_iso_datetime, _parse_text_datetime
+from .free_status import extract_free_status as _extract_free_status
 from .htmlparse import _PageParser, extract_page_links, parse_rss
 from .link_selection import registration_url as _registration_url
 from .models import MedicalEvent, SearchHit
 from .schema import (
     _choose_jsonld_event,
     _extract_certificate_status,
-    _extract_free_status,
     _extract_location,
     _extract_mode,
     _extract_organizer,
