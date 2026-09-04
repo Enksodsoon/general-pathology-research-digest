@@ -7,7 +7,7 @@
     "url": "https://www.bing.com/search?q=free+medical+webinar+certificate+2026+OR+2027&format=rss&setlang=en"
   },
   {
-    "count": 39,
+    "count": 54,
     "query_id": "en-free-medical-certificate",
     "source": "google_news",
     "status": "ok",
@@ -28,7 +28,7 @@
     "url": "https://www.bing.com/search?q=free+clinical+healthcare+seminar+online+CME+CPD+certificate+2026&format=rss&setlang=en"
   },
   {
-    "count": 3,
+    "count": 2,
     "query_id": "en-clinical-cme-cpd",
     "source": "google_news",
     "status": "ok",
@@ -36,10 +36,10 @@
   },
   {
     "count": 0,
+    "error": "HTTPError: HTTP Error 429: Too Many Requests",
     "query_id": "en-clinical-cme-cpd",
     "source": "gdelt",
-    "status": "ok",
-    "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=free+clinical+healthcare+seminar+online+CME+CPD+certificate+2026&mode=artlist&format=json&maxrecords=75&sort=datedesc&timespan=14d"
+    "status": "error"
   },
   {
     "count": 7,
@@ -49,7 +49,7 @@
     "url": "https://www.bing.com/search?q=free+pathology+digital+health+medical+AI+webinar+online+2026&format=rss&setlang=en"
   },
   {
-    "count": 7,
+    "count": 4,
     "query_id": "en-pathology-digital-health",
     "source": "google_news",
     "status": "ok",
@@ -57,7 +57,7 @@
   },
   {
     "count": 0,
-    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "error": "HTTPError: HTTP Error 429: Too Many Requests",
     "query_id": "en-pathology-digital-health",
     "source": "gdelt",
     "status": "error"
@@ -70,7 +70,7 @@
     "url": "https://www.bing.com/search?q=free+global+health+workshop+webinar+certificate+online+2026&format=rss&setlang=en"
   },
   {
-    "count": 9,
+    "count": 14,
     "query_id": "en-global-health-workshops",
     "source": "google_news",
     "status": "ok",
@@ -91,7 +91,7 @@
     "url": "https://news.google.com/rss/search?q=site%3Aapp.medall.org%2Fevent-listings+free+online+attendance+certificate+2026&hl=en-US&gl=US&ceid=US%3Aen"
   },
   {
-    "count": 10,
+    "count": 11,
     "query_id": "en-who-tghn-events",
     "source": "bing",
     "status": "ok",
@@ -119,7 +119,7 @@
     "url": "https://news.google.com/rss/search?q=%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A1%E0%B8%99%E0%B8%B2+%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C+%E0%B8%9F%E0%B8%A3%E0%B8%B5+%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C+%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3+2569&hl=th&gl=TH&ceid=TH%3Ath"
   },
   {
-    "count": 1,
+    "count": 7,
     "query_id": "th-health-professional-training",
     "source": "bing",
     "status": "ok",
@@ -140,14 +140,14 @@
     "url": "https://www.bing.com/search?q=%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C+%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%A3%E0%B8%B5+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E+%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2+2569&format=rss&setlang=th"
   },
   {
-    "count": 50,
+    "count": 53,
     "query_id": "th-onsite-thailand",
     "source": "google_news",
     "status": "ok",
     "url": "https://news.google.com/rss/search?q=%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C+%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%A3%E0%B8%B5+%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E+%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2+2569&hl=th&gl=TH&ceid=TH%3Ath"
   },
   {
-    "count": 10,
+    "count": 7,
     "query_id": "th-cme-free",
     "source": "bing",
     "status": "ok",
@@ -182,7 +182,7 @@
     "url": "https://www.bing.com/search?q=%E5%8C%BB%E7%99%82+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+%E7%84%A1%E6%96%99+%E5%8F%97%E8%AC%9B%E8%A8%BC%E6%98%8E%E6%9B%B8+2026&format=rss&setlang=ja"
   },
   {
-    "count": 11,
+    "count": 12,
     "query_id": "ja-medical-certificate",
     "source": "google_news",
     "status": "ok",
@@ -210,21 +210,21 @@
     "url": "https://www.bing.com/search?q=%E5%8C%BB%E7%99%82DX+%E5%8C%BB%E7%99%82AI+%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+%E7%84%A1%E6%96%99+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3+2026&format=rss&setlang=ja"
   },
   {
-    "count": 76,
+    "count": 77,
     "query_id": "ja-medical-dx",
     "source": "google_news",
     "status": "ok",
     "url": "https://news.google.com/rss/search?q=%E5%8C%BB%E7%99%82DX+%E5%8C%BB%E7%99%82AI+%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+%E7%84%A1%E6%96%99+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3+2026&hl=ja&gl=JP&ceid=JP%3Aja"
   },
   {
-    "count": 10,
+    "count": 8,
     "query_id": "ja-event-platforms",
     "source": "bing",
     "status": "ok",
     "url": "https://www.bing.com/search?q=%28site%3Amedtecjapan.com+OR+site%3Apeatix.com+OR+site%3Aconnpass.com%29+%E5%8C%BB%E7%99%82+%E7%84%A1%E6%96%99+%E3%82%A6%E3%82%A7%E3%83%93%E3%83%8A%E3%83%BC+2026&format=rss&setlang=ja"
   },
   {
-    "count": 64,
+    "count": 65,
     "query_id": "ja-event-platforms",
     "source": "google_news",
     "status": "ok",
@@ -257,6 +257,13 @@
     "query_id": "chula-hospital-news",
     "source": "landing:chula-hospital-news",
     "status": "error"
+  },
+  {
+    "error": "ValueError: Response exceeds 3000000 bytes",
+    "query_id": "th-health-professional-training",
+    "source": "page_fetch",
+    "status": "error",
+    "url": "https://www.skilllane.com/"
   },
   {
     "error": "ValueError: hour must be in 0..23",
