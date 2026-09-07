@@ -28,10 +28,11 @@ def deliver(key,text,state,path,sender,*,kind,event=None):
     bucket=state.setdefault(bucket_name,{})
     fp=fingerprint(event) if event else hashlib.sha256(text.encode()).hexdigest()[:24]
     old=bucket.get(key,{})
-    if old.get('fingerprint')==fp and type(old.get('message_id')) is int:return False
+    same_target=(not event or canonical_url(old.get('event',{}).get('registration_target',''))==canonical_url(event.get('registration_target','')))
+    if old.get('fingerprint')==fp and type(old.get('message_id')) is int and same_target:return False
     response=sender(text)
     message=response.get('result',{}) if isinstance(response,dict) else {}
-    if not response.get('ok') or type(message.get('message_id')) is not int or message['message_id']<=0:
+    if not isinstance(response,dict) or not response.get('ok') or type(message.get('message_id')) is not int or message['message_id']<=0:
         raise RuntimeError('Telegram did not acknowledge message; no successful receipt recorded')
     record={'fingerprint':fp,'message_id':message['message_id'],'telegram_date':message.get('date'),'acknowledged_at':datetime.now(timezone.utc).isoformat(),'kind':kind}
     if event:record['event']=event

@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, urljoin, urlencode
 from bs4 import BeautifulSoup
 from .verified_extract import extract, clean_url, norm, CLOSED
+from .verified_reliability import assess_health, is_transient, merge_backlog
 
 LIMIT=2500000
 HOST_LOCKS=defaultdict(threading.Lock)
@@ -33,11 +34,11 @@ class SafeRedirect(urllib.request.HTTPRedirectHandler):
         check_dns(newurl)
         return super().redirect_request(req,fp,code,msg,headers,newurl)
 
-def fetch(url):
+def _fetch_once(url):
     check_dns(url)
     with HOST_LOCKS[urlsplit(url).hostname]:
         req=urllib.request.Request(url,headers={'User-Agent':'MedicalEventRadar/2.0 (+https://github.com/Enksodsoon/general-pathology-research-digest)','Accept':'text/html,application/json,application/rss+xml,application/xml','Accept-Language':'en,th;q=0.9,ja;q=0.9'})
-        with urllib.request.build_opener(SafeRedirect).open(req,timeout=12) as response:
+        with urllib.request.build_opener(SafeRedirect).open(req,timeout=20) as response:
             data=response.read(LIMIT+1)
             if len(data)>LIMIT: raise ValueError('page-too-large')
             typ=response.headers.get_content_type()
@@ -45,6 +46,16 @@ def fetch(url):
             text=data.decode(response.headers.get_content_charset() or 'utf-8',errors='replace')
             if re.search(r'just a moment\.\.\.|verify you are human|unusual traffic',text[:15000],re.I): raise ValueError('access-challenge')
             return text,response.geturl()
+
+
+def fetch(url):
+    for attempt in range(2):
+        try:return _fetch_once(url)
+        except Exception as exc:
+            if attempt or not is_transient(exc):raise
+            time.sleep(1.0)
+    raise RuntimeError('Fetch retry exhausted')
+
 
 def balanced(rows,limit,rotation=0):
     """Round-robin domains, then rotate deep queues; no single host fills the budget."""
@@ -54,7 +65,7 @@ def balanced(rows,limit,rotation=0):
         seen.add(r['url']); groups[urlsplit(r['url']).hostname].append(r)
     queues=[]
     for host in sorted(groups):
-        group=sorted(groups[host],key=lambda r: -(5 if r.get('adapter') else 4 if re.search(r'/event/|/event-listings/',r['url']) else 2 if re.search(r'free|無料|ฟรี',r.get('label',''),re.I) else 0)); first=group[:3];rest=group[3:]
+        group=sorted(groups[host],key=lambda r: -(9 if r.get('pending') else 5 if r.get('adapter') else 4 if re.search(r'/event/|/event-listings/',r['url']) else 2 if re.search(r'free|無料|ฟรี',r.get('label',''),re.I) else 0)); first=group[:3];rest=group[3:]
         if rest:
             shift=rotation%len(rest);rest=rest[shift:]+rest[:shift]
         queues.append(deque(first+rest))
@@ -70,12 +81,7 @@ def resolve_news(url):
     return resolve(url,fetch,safe_url)
 
 
-def resolve_news(url):
-    from .verified_news import resolve
-    return resolve(url,fetch,safe_url)
-
-
-def discover(source,now):
+def _discover_once(source,now):
     event_hint=r'webinar|seminar|conference|sympos|workshop|lecture|training|meeting|อบรม|ประชุม|สัมมนา|บรรยาย|セミナー|ウェビナー|研修|講演|学会'
     medical_hint=r'medic|clinical|health|physician|patient|patholog|oncolog|cancer|radiolog|imaging|surg|nurs|CME|CPD|แพทย์|เวช|สุขภาพ|พยาบาล|สาธารณสุข|医療|医学|臨床|がん|看護|医師|病院'
     started=time.monotonic(); url=source['url'].replace('{date}',now.date().isoformat()).replace('{year}',str(now.year)); rows=[]; dropped=0; status='ok'; decode_errors=0; raw_count=0
@@ -92,7 +98,10 @@ def discover(source,now):
         if source.get('kind')=='search':
             rss=ElementTree.fromstring(html)
             if rss.find('channel') is None:raise ValueError('search-did-not-return-rss')
-            for item in rss.findall('.//item'):
+            items=rss.findall('.//item')
+            if items and source.get('rotate_results',False):
+                shift=(now.toordinal()*3)%len(items); items=items[shift:]+items[:shift]
+            for item in items:
                 raw_count+=1
                 href=item.findtext('link') or '';label=item.findtext('title') or ''
                 evidence=label+' '+BeautifulSoup(item.findtext('description') or '', 'html.parser').get_text(' ',strip=True)
@@ -103,7 +112,7 @@ def discover(source,now):
                     try:href=resolve_news(href)
                     except Exception:decode_errors+=1;continue
                 rows.append((href,label))
-            if (raw_count and not rows) or decode_errors:status='degraded'
+            if decode_errors or (source.get('engine')!='google_news' and raw_count and not rows):status='degraded'
         elif source.get('kind')=='tribe':
             payload=json.loads(html)
             for event in payload.get('events',[]):
@@ -124,19 +133,41 @@ def discover(source,now):
             normalized=urlsplit(clean_url(href))._replace(fragment='').geturl()
             if normalized in seen:continue
             seen.add(normalized)
-            row=dict(source,url=normalized,label=label,discovered_by=source['id'])
+            row=dict(source,url=normalized,label=label,discovered_by=source['id'],origin_host=urlsplit(final).hostname)
             if normalized!=clean_url(final):row.pop('adapter',None)
             if source.get('kind')=='search':row['timezone']='';row['medical']=False
             output.append(row)
-        return output[:source.get('max_links',45)],{'id':source['id'],'language':source['language'],'url':url,'status':status,'candidates':len(output),'irrelevant_results_dropped':dropped,'decode_errors':decode_errors,'seconds':round(time.monotonic()-started,2)}
+        return output[:source.get('max_links',45)],{'id':source['id'],'language':source['language'],'url':url,'status':status,'candidates':len(output),'kind':source.get('kind','landing'),'search_outcome':('matches' if output else 'no-relevant-results') if source.get('kind')=='search' else 'not-applicable','raw_results':raw_count,'irrelevant_results_dropped':dropped,'decode_errors':decode_errors,'seconds':round(time.monotonic()-started,2)}
     except Exception as exc:
         return [],{'id':source['id'],'language':source['language'],'url':url,'status':'error','error':type(exc).__name__+': '+str(exc)[:140]}
+
+
+
+def discover(source,now):
+    rows,diag=_discover_once(source,now)
+    if diag['status']=='error' and source.get('fallbacks'):
+        attempts=[dict(diag)]
+        for fallback in source['fallbacks']:
+            alternative=dict(source);alternative.pop('fallbacks',None);alternative.update(fallback)
+            extra,result=_discover_once(alternative,now);attempts.append(result)
+            if result['status']=='ok':
+                # Different organizational pages are additional coverage, not an
+                # equivalent replacement for an inaccessible original publisher.
+                result.update(id=source['id'],status='degraded',fallback_used=True,primary_url=source['url'],fallback_note='Partial official alternative; original publisher remains unverified',attempts=attempts)
+                return extra,result
+        diag['attempts']=attempts
+    return rows,diag
 
 
 def verify(candidate,now,sources):
     url=candidate['url']
     try:
         html,final=fetch(url); info=dict(candidate)
+        origin=info.get('origin_host')
+        if origin and origin!=urlsplit(final).hostname:
+            info.update(timezone='',medical=False)
+        declared=(BeautifulSoup(html,'html.parser').html or {}).get('lang','').split('-')[0].lower()
+        if declared and declared not in ('en','th','ja'):info['language']=''
         for s in sources:
             if s.get('kind')!='search' and urlsplit(s['url']).hostname==urlsplit(final).hostname:
                 info.update(timezone=s.get('timezone',''),medical=s.get('medical',False),language=s['language']);break
@@ -144,6 +175,7 @@ def verify(candidate,now,sources):
         verified=[]
         for event in events:
             target=event['registration_url']
+            event['registration_target']=target
             if target!=event['source_url']:
                 try:
                     registration,resolved=fetch(target)
@@ -168,6 +200,12 @@ def save_json(path,value):
 
 def scan(config,now):
     sources=config['sources']; diagnostic=[];candidates=[]
+    for row in config.get('_backlog',{}).values():
+        e=row.get('event',{});url=e.get('source_url','')
+        if not safe_url(url):continue
+        info=next((dict(s) for s in sources if s.get('kind')!='search' and urlsplit(s['url']).hostname==urlsplit(url).hostname),{})
+        info.update(url=url,discovered_by=info.get('id','pending-reverification'),language=info.get('language',e.get('language','')),pending=True)
+        candidates.append(info)
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for rows,diag in pool.map(lambda s:discover(s,now),sources):candidates.extend(rows);diagnostic.append(diag)
     chosen=balanced(candidates,config.get('max_pages',180),now.toordinal()*7)
@@ -175,23 +213,26 @@ def scan(config,now):
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for rows,diag in pool.map(lambda c:verify(c,now,sources),chosen):events.extend(rows);pages.append(diag)
     byid={e['id']:e for e in events};events=sorted(byid.values(),key=lambda e:(datetime.fromisoformat(e['start_at']),e['title']))
-    ok=sum(d['status']=='ok' for d in diagnostic)
-    language_ok={lang:sum(d['status']=='ok' and d['language']==lang for d in diagnostic) for lang in ('en','th','ja')}
-    errors=sum(d['status']=='error' for d in pages)
-    health='failed' if ok==0 else ('degraded' if ok<len(sources) or errors or not all(language_ok.values()) or not events else 'ok')
-    return {'version':2,'created_at':now.isoformat(),'health':health,'sources_ok':ok,'sources_total':len(sources),'language_sources_ok':language_ok,'links_discovered':len({r['url'] for r in candidates}),'pages_checked':len(chosen),'page_errors':errors,'events':events,'sources':diagnostic,'pages':pages,'coverage_note':'Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Zero matches does not establish absence of events.'}
+    health=assess_health(diagnostic,pages,events)
+    return {'version':3,'created_at':now.isoformat(),**health,'links_discovered':len({r['url'] for r in candidates}),'pages_checked':len(chosen),'events':events,'sources':diagnostic,'pages':pages,'coverage_note':'Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.'}
+
 
 def report(result):
     lines=['# Free Medical Events — '+result['created_at'][:10],'',f"Scan health: **{result['health'].upper()}** · Sources {result['sources_ok']}/{result['sources_total']} · Pages checked {result['pages_checked']}",'',result['coverage_note'],'']
     for e in result['events']:
         d=datetime.fromisoformat(e['start_at']).astimezone(__import__('zoneinfo').ZoneInfo('Asia/Bangkok'))
         lines.extend([f"## {e['title']}",f"{d:%d %b %Y %H:%M} ICT · {e['mode']} · {e['language'].upper()} · Free attendance",f"Certificate: {e['certificate']} | Credit: {e['credits']}",e['registration_url'],e['registration_status'],''])
-    lines.extend(['## Source health','']+[f"- {d['id']}: {d['status']}"+(f" — {d['error']}" if 'error' in d else '') for d in result['sources']])
+    lines.extend(['## Source health','']+[f"- {d['id']}: {d['status']}"+(f" — {d['error']}" if 'error' in d else (' — '+d['fallback_note'] if d.get('fallback_used') else '')) for d in result['sources']])
     return '\n'.join(lines)+'\n'
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--output',default='data/verified_radar');p.add_argument('--config',default='config/verified_sources.json');args=p.parse_args()
-    config=json.loads(Path(args.config).read_text());now=datetime.now(timezone.utc);result=scan(config,now)
+    config=json.loads(Path(args.config).read_text());now=datetime.now(timezone.utc)
+    queue_path=Path(args.output)/'backlog.json'
+    backlog=json.loads(queue_path.read_text()) if queue_path.exists() else {}
+    config['_backlog']=merge_backlog(backlog,[],now)
+    result=scan(config,now)
+    save_json(queue_path,merge_backlog(backlog,result['events'],now))
     out=Path(args.output);save_json(out/'latest.json',result);(out/'latest.md').write_text(report(result),encoding='utf-8')
     print(json.dumps({k:v for k,v in result.items() if k not in ('events','sources','pages')},ensure_ascii=False))
     print('Verified events:',len(result['events']))

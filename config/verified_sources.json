@@ -1,5 +1,5 @@
 {
-  "max_pages": 180,
+  "max_pages": 220,
   "sources": [
     {
       "id": "WHO",
@@ -77,7 +77,16 @@
       "url": "https://kcmh.chulalongkornhospital.go.th/",
       "language": "th",
       "timezone": "Asia/Bangkok",
-      "medical": true
+      "medical": true,
+      "fallbacks": [
+        {
+          "url": "https://www.md.chula.ac.th/pr-news/",
+          "timezone": "Asia/Bangkok",
+          "language": "th",
+          "medical": true,
+          "max_links": 35
+        }
+      ]
     },
     {
       "id": "Siriraj-Conference",
@@ -105,7 +114,16 @@
       "url": "https://www.moph.go.th/",
       "language": "th",
       "timezone": "Asia/Bangkok",
-      "medical": true
+      "medical": true,
+      "fallbacks": [
+        {
+          "url": "https://www.dmsc.moph.go.th/th/home",
+          "timezone": "Asia/Bangkok",
+          "language": "th",
+          "medical": true,
+          "max_links": 35
+        }
+      ]
     },
     {
       "id": "CIM-Discovery",
@@ -159,8 +177,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-en-2",
@@ -170,8 +189,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-en-3",
@@ -181,8 +201,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-en-4",
@@ -192,8 +213,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-en-5",
@@ -203,8 +225,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-en-6",
@@ -214,8 +237,9 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-1",
@@ -225,8 +249,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-2",
@@ -236,8 +261,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-3",
@@ -247,8 +273,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-4",
@@ -258,8 +285,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-5",
@@ -269,8 +297,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-th-6",
@@ -280,8 +309,9 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-1",
@@ -291,8 +321,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-2",
@@ -302,8 +333,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-3",
@@ -313,8 +345,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-4",
@@ -324,8 +357,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-5",
@@ -335,8 +369,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "web-ja-6",
@@ -346,8 +381,9 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2,
-      "engine": "google_news"
+      "max_links": 3,
+      "engine": "google_news",
+      "rotate_results": true
     },
     {
       "id": "UNC-Event-API",
@@ -381,7 +417,8 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
     },
     {
       "id": "news-en-2",
@@ -392,7 +429,8 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
     },
     {
       "id": "news-th-1",
@@ -403,7 +441,8 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
     },
     {
       "id": "news-th-2",
@@ -414,7 +453,8 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
     },
     {
       "id": "news-ja-1",
@@ -425,7 +465,8 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
     },
     {
       "id": "news-ja-2",
@@ -436,7 +477,32 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 2
+      "max_links": 3,
+      "rotate_results": true
+    },
+    {
+      "id": "Chula-Publisher-Discovery",
+      "kind": "search",
+      "engine": "google_news",
+      "url": "https://news.google.com/rss/search",
+      "query": "site:kcmh.chulalongkornhospital.go.th (อบรม OR ประชุม OR สัมมนา)",
+      "language": "th",
+      "timezone": "",
+      "medical": false,
+      "max_links": 3,
+      "rotate_results": true
+    },
+    {
+      "id": "MOPH-Publisher-Discovery",
+      "kind": "search",
+      "engine": "google_news",
+      "url": "https://news.google.com/rss/search",
+      "query": "site:moph.go.th (อบรม OR สัมมนา) (ฟรี OR ไม่มีค่าใช้จ่าย)",
+      "language": "th",
+      "timezone": "",
+      "medical": false,
+      "max_links": 3,
+      "rotate_results": true
     }
   ]
 }
