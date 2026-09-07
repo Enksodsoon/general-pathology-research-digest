@@ -31,5 +31,5 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add event_scout/verified*.py config/verified_sources.json repair_evidence
+          git add event_scout/verified*.py config/verified_sources.json repair_evidence README.md docs/MEDICAL_EVENT_RADAR.md
           git diff --cached --quiet || (git commit -m 'Record final regression-tested radar and live evidence' && git push)
