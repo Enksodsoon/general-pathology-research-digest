@@ -1,60 +1,49 @@
-# General Pathology Research Digest Prototype
+# General Pathology Research Digest
 
-Daily pathology and medical research surveillance prototype for Codex automation.
+Two independent educational automations: a daily pathology research digest and a multilingual free medical-event radar.
 
-## What it does now
+## Pathology research digest
 
-- Loads normalized paper records from a JSON fixture for tests and calibration.
-- Fetches live records from PubMed, Europe PMC, medRxiv, and bioRxiv.
-- Deduplicates by overlapping PMID, DOI, PMCID, and normalized title.
-- Scores papers by general pathology relevance, molecular/IHC/biomarker relevance, digital pathology relevance, surgical pathology relevance, cytopathology, laboratory medicine, pathology QA/workflow/education, GP practicality, pathology-linked novel treatments, and evidence level.
-- Keeps NSCLC/miRNA/FFPE and renal biopsy/glomerular disease as low-priority watchlist topics only.
-- Separates preprints from peer-reviewed papers.
-- Writes Markdown digest files and a machine-readable CSV log.
-- Includes unit tests and a GitHub Actions schedule with manual dispatch.
+The paper pipeline fetches PubMed, Europe PMC, medRxiv and bioRxiv records, deduplicates PMID/DOI/PMCID and titles, ranks relevance, and writes Markdown and CSV outputs. Its focus includes general pathology, molecular/IHC biomarkers, digital pathology, surgical pathology, cytopathology, laboratory medicine, quality assurance, education and clinically useful general medicine. Preprints are separated from peer-reviewed work. Older project-specific NSCLC/miRNA and renal-biopsy topics are low-priority watchlists, not the dominant scope.
 
-## Daily free medical event radar
+The research-paper implementation and its scheduled workflow are unchanged by the event-radar reliability repair.
 
-The repaired event workflow is independent of the research-paper digest. It searches English, Thai and Japanese sources for future medical meetings, webinars, seminars and training with explicitly free attendance. Online events can be hosted worldwide; in-person events must be in Thailand. Certificates and CME/CPD are reported separately without assuming Thai recognition.
+## Free medical event radar
 
-The normal schedule is **07:43 Asia/Bangkok**, with a **10:17 recovery attempt** if that day's scan and notification delivery did not finish. GitHub may delay execution. Every completed notification run sends a short status message, even with no new events; each new or corrected event has a separate message and exact event/registration link. Source failures or unusable search results are marked **DEGRADED**, not hidden behind a successful job status.
+Finds future live medical meetings, webinars, seminars, workshops and training with explicitly free attendance. Online events may be worldwide; onsite events must be in Thailand. English, Thai and Japanese sources are searched. Certificates and CME/CPD are reported separately with conditions rather than assumed available or recognized in Thailand.
 
-The source inventory includes 24 institutional/society/platform pages or feeds and 24 search queries using Google News RSS. Up to 180 candidate pages are checked with host balancing and rotating deeper coverage. Blocked, image-only, login-only and ambiguous listings remain limitations; the scan does not claim exhaustive internet coverage.
+**Daily primary:** 07:43 Bangkok. **Recovery opportunities:** 10:17, 13:17 and 16:17, and after the research digest's scheduled run completes. Recovery is bounded to three actual attempts per day with a two-hour cooldown. A degraded or incomplete day remains eligible; a fully healthy acknowledged day without pending items is skipped. GitHub scheduling is best-effort, not an exact delivery-time guarantee, and the recovery paths are not independent of GitHub.
 
-Current outputs:
+Every completed delivery run sends a compact health message. New or changed events each receive their own short Telegram alert and exact event/registration link. Unsent events persist in a backlog and must be reverified before later delivery. Actual Telegram message IDs are recorded; missing credentials, failed delivery and corrupted state are explicit errors.
 
-- [`events/latest.md`](events/latest.md): latest verified event report.
-- `events/YYYY-MM-DD.md`: dated event reports.
-- `data/verified_radar/latest.json`: event evidence, inspected URLs and source health.
-- `data/verified_radar/receipts.json`: Telegram acknowledgement IDs and recovery state.
-- [`docs/MEDICAL_EVENT_RADAR.md`](docs/MEDICAL_EVENT_RADAR.md): operating contract, safeguards and troubleshooting.
+The configuration includes 50 source/query checks and a 220-page candidate budget with host balancing, rotating search results and backlog priority. Valid searches with no relevant results are distinguished from source failures. Inaccessible Chula Hospital and MOPH pages have additional official alternatives and publisher-scoped discovery, but their original access gaps remain labelled as partial coverage.
 
-The old `data/events.csv`, `new_events.json`, original event modules and manually curated payloads are historical; they no longer drive scheduled notifications. The previous delivery ledger is retained for migration/deduplication. Manual notification now runs the same live workflow rather than replaying an old fixed list.
+Current reports and evidence:
 
-## What Codex should add next
+- [`events/latest.md`](events/latest.md) — latest event report.
+- `events/YYYY-MM-DD.md` — dated reports.
+- `data/verified_radar/latest.json` — source attempts, verification results and inspected-page outcomes.
+- `data/verified_radar/receipts.json` — acknowledged messages and recovery state.
+- `data/verified_radar/backlog.json` — unsent events awaiting re-verification.
+- `data/verified_radar/delivery.json` — delivery totals and failures.
+- [`docs/MEDICAL_EVENT_RADAR.md`](docs/MEDICAL_EVENT_RADAR.md) — full operating contract and limitations.
 
-1. Calibrate research-paper scoring after 3-5 days of manual digest review.
-2. Add source-response caching if live API volume grows.
-3. Review event source-health reports after organizer website changes; do not weaken verification merely to produce more alerts.
+The original event CLI/CSV and hand-curated notification payloads are historical and do not drive scheduled production. The legacy delivery ledger is preserved for migration and deduplication. Manual event notification invokes the same fresh-search workflow as the daily run.
 
 ## Run locally
 
-```bash
-python3 -m pip install -r requirements.txt
-python3 -m pytest -q
-python3 -m med_digest.cli --fixture fixtures/sample_papers.json --date 2026-05-30
-python3 -m med_digest.cli --live
-python3 -m event_scout.verified_scan
+```sh
+python -m pip install -r requirements.txt
+python -m pytest -q
+python -m med_digest.cli --live
+python -m event_scout.verified_scan
+python -m event_scout.verified_notify --guard --stage recovery
 ```
 
-## Telegram notifications
+Repository secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` enable Telegram delivery. No attendee registration, purchase, or personal-data submission is automated. A Telegram acknowledgement proves API acceptance, not that a phone displayed a push notification or someone read the message.
 
-Repository secrets `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` enable delivery. The research workflow sends its existing daily paper summary. The event workflow sends new/corrected events plus a health message and requires Telegram to return a successful response containing a message ID before recording delivery.
+## Evidence and maintenance
 
-Missing credentials or failed delivery are explicit errors in the repaired event workflow. API acknowledgement does not prove that a phone displayed a push notification or that a message was read. No attendee registration or personal-data submission is automated.
+The event pipeline requires event-specific dates, known timezones, explicit free attendance and a suitable location/format. Shared banners and neighboring posts are not evidence for the selected event. Blocked, image-only, login-only or ambiguous listings can remain unverified. Empty search results do not establish that no suitable events exist.
 
-## Safety principle
-
-Research surveillance and event discovery are for education and planning. The paper digest should never imply practice-changing evidence unless the underlying paper is a strong guideline, large RCT, or high-quality systematic review and the full text has been checked. Event dates, availability, fees, and certificate rules can change; the organizer's registration page remains the final source of truth.
-
-Bing RSS is no longer scheduled: repeated live checks returned unrelated results. The optional adapter remains for tests; active discovery uses the configured Google News queries and institutional feeds.
+Review source diagnostics after organizer website changes. Do not weaken verification or conceal warnings merely to increase alert counts or display a green status. Research summaries remain cautious and educational; they should not imply practice-changing evidence without appropriate full-text appraisal. Organizer registration pages remain the final authority on event availability and certificate conditions.

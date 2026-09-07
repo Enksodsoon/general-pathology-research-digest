@@ -2,41 +2,35 @@ name: Radar Reliability Check
 on:
   push:
     branches: [codex/radar-reliability-final-20260907]
-    paths: ['event_scout/verified*.py','tests/test_verified*.py','scripts/radar_*.py','config/verified_sources.json','.github/workflows/*medical*.yml','.github/workflows/radar-reliability-check.yml']
+    paths: ['event_scout/verified*.py','tests/test_verified*.py','config/verified_sources.json','.github/workflows/*medical*.yml','.github/workflows/radar-reliability-check.yml']
+  pull_request:
+    paths: ['event_scout/verified*.py','tests/test_verified*.py','config/verified_sources.json','.github/workflows/*medical*.yml','.github/workflows/radar-reliability-check.yml']
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: radar-reliability-check
-  cancel-in-progress: false
+  contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
-      - name: Apply isolated final correction
-        run: python -m scripts.radar_finalize_reliability
-      - name: Regression results
-        id: tests
-        continue-on-error: true
+      - name: Regression suite without delivery access
+        run: python -m pytest -q
+      - run: python -m compileall -q event_scout
+      - name: Validate inventory and recovery guard
         run: |
-          mkdir -p repair_evidence/reliability
-          python -m pytest -q --tb=short > repair_evidence/reliability/tests.txt 2>&1
-      - name: Live verification without delivery credentials
-        if: steps.tests.outcome == 'success'
-        run: python -m event_scout.verified_scan --output repair_evidence/reliability/live
-      - name: Save inspection evidence and tested code
-        if: always()
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add repair_evidence/reliability event_scout/verified_scan.py event_scout/verified_reliability.py
-          git diff --cached --quiet || (git commit -m 'Record final recovery regression and live source evidence' && git push)
-      - name: Preserve test failure
-        if: steps.tests.outcome == 'failure'
-        run: exit 1
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from event_scout.verified_reliability import should_run
+          from datetime import datetime, timezone
+          sources=json.loads(Path('config/verified_sources.json').read_text())['sources']
+          assert len({s['id'] for s in sources})==len(sources)
+          assert {s['language'] for s in sources}=={'en','th','ja'}
+          assert should_run({},datetime.now(timezone.utc),'recovery')
+          print('Validated',len(sources),'unique checks and the initial recovery path')
+          PY
