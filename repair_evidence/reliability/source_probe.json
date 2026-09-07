@@ -1,0 +1,99 @@
+[
+  {
+    "url": "https://kcmh.chulalongkornhospital.go.th/feed/",
+    "status": "error",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://kcmh.chulalongkornhospital.go.th/wp-json/wp/v2/poster?per_page=20",
+    "status": "error",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://kcmh.chulalongkornhospital.go.th/poster/",
+    "status": "error",
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "url": "https://www.md.chula.ac.th/",
+    "final_url": "https://www.md.chula.ac.th/",
+    "status": "ok",
+    "bytes": 121160,
+    "title": "Faculty of Medicine at Chulalongkorn University  ",
+    "sample": "Faculty of Medicine at Chulalongkorn University เกี่ยวกับเรา หลักสูตร ฝ่ายวิจัย หอสมุดคณะแพทยศาสตร์ โรงพยาบาลโรงเรียนแพทย์คุณธรรม / Code of Conduct ไลฟ์สไตล์ บริการ ดาวน์โหลด แพทย์ผู้ทำสัญญาฯ วารสาร ฬ.จุฬา MDCU MedUMore หลักสูตรแพทยศาสตรบัณฑิต (หลักสูตรนานาชาติ) หลักสูตรแพทยศาสตร์ จุฬาฯ (หลักสูตร 2 ปริญญา) School of Global Health Digihealth การประช",
+    "links": [
+      {
+        "url": "https://www.md.chula.ac.th/services/scientific-conference-center/",
+        "text": "การประชุมวิชาการ"
+      },
+      {
+        "url": "https://www.md.chula.ac.th/wp-content/uploads/2024/03/MDCU-Craft-RGB.jpg",
+        "text": "Poster"
+      }
+    ],
+    "seconds": 3.49
+  },
+  {
+    "url": "https://pr.moph.go.th/",
+    "status": "error",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://ddc.moph.go.th/",
+    "final_url": "https://ddc.moph.go.th/",
+    "status": "ok",
+    "bytes": 1591,
+    "title": "กรมควบคุมโรค",
+    "sample": "กรมควบคุมโรค อ่านพระราชประวัติ เข้าสู่เว็บไซต์",
+    "links": [],
+    "seconds": 1.41
+  },
+  {
+    "url": "https://ddc.moph.go.th/training.php",
+    "status": "error",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.dmsc.moph.go.th/",
+    "final_url": "https://www.dmsc.moph.go.th/th/home",
+    "status": "ok",
+    "bytes": 335091,
+    "title": "หน้าแรก - กรมวิทยาศาสตร์การแพทย์ กระทรวงสาธารณสุข",
+    "sample": "หน้าแรก - กรมวิทยาศาสตร์การแพทย์ กระทรวงสาธารณสุข บริการ Services ดูทั้งหมด บริการประชาชน งานวิจัย การแพทย์ การเปิดเผยข้อมูล ระบบออนไลน์ งานวิจัยและนวัตกรรม Research & Innovation ดูทั้งหมด องค์ความรู้ Knowledge 1,262 รายการ ต้นแบบนวัตกรรม Innovation prototype 6 รายการ สิ่งประดิษฐ์ Invention 14 รายการ expand_circle_right นวัตกรรม Innovation 236 รายก",
+    "links": [
+      {
+        "url": "/th/pageredirect/GUAgoJqwqS9cMUug@nKq4otWewEb3QWewEb3Q@MmO0AJx4rQZWewEb3Q@M2y0LJybrSDWewEb3Q@",
+        "text": "กรมวิทย์ฯ ยกระดับมาตรฐานโรงแรม 3 จังหวัดอันดามัน มอบประกาศนียบัตร 109 แห่ง ขับเคลื่อน “โรงแรมสะอาด ป"
+      },
+      {
+        "url": "/th/pageredirect/GUAgoJqwqS9cMUug@nKq4otWewEb3QWewEb3Q@MmE0ATx4rQZWewEb3Q@M2y0LJybrSDWewEb3Q@",
+        "text": "กรมวิทย์ฯ เชื่อมพลังเครือข่าย ยกระดับนวัตกรรมรังสีเครื่องมือแพทย์ไทยสู่มาตรฐานสากล กรมวิทยาศาสตร์การ"
+      }
+    ],
+    "seconds": 5.98
+  },
+  {
+    "url": "https://www.cdc.gov/coca/hcp/trainings/index.html",
+    "final_url": "https://www.cdc.gov/coca/hcp/trainings/index.html",
+    "status": "ok",
+    "bytes": 37353,
+    "title": "COCA Calls | COCA | CDC",
+    "sample": "COCA Calls | COCA | CDC Skip directly to site content Skip directly to search An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to th",
+    "links": [
+      {
+        "url": "#",
+        "text": ""
+      },
+      {
+        "url": "/coca/hcp/trainings/index.html",
+        "text": "COCA Calls"
+      }
+    ],
+    "seconds": 0.69
+  },
+  {
+    "url": "https://icimagingsociety.org.uk/events-archive/",
+    "status": "error",
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+]
