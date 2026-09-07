@@ -54,7 +54,7 @@ def balanced(rows,limit,rotation=0):
         seen.add(r['url']); groups[urlsplit(r['url']).hostname].append(r)
     queues=[]
     for host in sorted(groups):
-        group=groups[host]; first=group[:3];rest=group[3:]
+        group=sorted(groups[host],key=lambda r: -(5 if r.get('adapter') else 4 if re.search(r'/event/|/event-listings/',r['url']) else 2 if re.search(r'free|無料|ฟรี',r.get('label',''),re.I) else 0)); first=group[:3];rest=group[3:]
         if rest:
             shift=rotation%len(rest);rest=rest[shift:]+rest[:shift]
         queues.append(deque(first+rest))
@@ -64,6 +64,11 @@ def balanced(rows,limit,rotation=0):
             if q and len(out)<limit:out.append(q.popleft())
         queues=[q for q in queues if q]
     return out
+
+def resolve_news(url):
+    from .verified_news import resolve
+    return resolve(url,fetch,safe_url)
+
 
 def resolve_news(url):
     from .verified_news import resolve
@@ -116,7 +121,7 @@ def discover(source,now):
         for href,label in rows:
             if not safe_url(href):continue
             if re.search(r'facebook\.com|instagram\.com|twitter\.com|youtube\.com|linkedin\.com|/privacy|/terms|/login|/tag/|/category/|\.pdf(?:$|\?)',href,re.I):continue
-            normalized=clean_url(href)
+            normalized=urlsplit(clean_url(href))._replace(fragment='').geturl()
             if normalized in seen:continue
             seen.add(normalized)
             row=dict(source,url=normalized,label=label,discovered_by=source['id'])
@@ -165,7 +170,7 @@ def scan(config,now):
     events=[];pages=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
         for rows,diag in pool.map(lambda c:verify(c,now,sources),chosen):events.extend(rows);pages.append(diag)
-    byid={e['id']:e for e in events};events=sorted(byid.values(),key=lambda e:(e['start_at'],e['title']))
+    byid={e['id']:e for e in events};events=sorted(byid.values(),key=lambda e:(datetime.fromisoformat(e['start_at']),e['title']))
     ok=sum(d['status']=='ok' for d in diagnostic)
     language_ok={lang:sum(d['status']=='ok' and d['language']==lang for d in diagnostic) for lang in ('en','th','ja')}
     errors=sum(d['status']=='error' for d in pages)

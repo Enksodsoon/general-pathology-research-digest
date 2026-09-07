@@ -19,7 +19,7 @@ The repaired event workflow is independent of the research-paper digest. It sear
 
 The normal schedule is **07:43 Asia/Bangkok**, with a **10:17 recovery attempt** if that day's scan and notification delivery did not finish. GitHub may delay execution. Every completed notification run sends a short status message, even with no new events; each new or corrected event has a separate message and exact event/registration link. Source failures or unusable search results are marked **DEGRADED**, not hidden behind a successful job status.
 
-The source inventory includes 24 institutional/society/platform pages or feeds and 24 search queries using Bing RSS and Google News RSS. Up to 180 candidate pages are checked with host balancing and rotating deeper coverage. Blocked, image-only, login-only and ambiguous listings remain limitations; the scan does not claim exhaustive internet coverage.
+The source inventory includes 24 institutional/society/platform pages or feeds and 24 search queries using Google News RSS. Up to 180 candidate pages are checked with host balancing and rotating deeper coverage. Blocked, image-only, login-only and ambiguous listings remain limitations; the scan does not claim exhaustive internet coverage.
 
 Current outputs:
 
@@ -56,3 +56,5 @@ Missing credentials or failed delivery are explicit errors in the repaired event
 ## Safety principle
 
 Research surveillance and event discovery are for education and planning. The paper digest should never imply practice-changing evidence unless the underlying paper is a strong guideline, large RCT, or high-quality systematic review and the full text has been checked. Event dates, availability, fees, and certificate rules can change; the organizer's registration page remains the final source of truth.
+
+Bing RSS is no longer scheduled: repeated live checks returned unrelated results. The optional adapter remains for tests; active discovery uses the configured Google News queries and institutional feeds.

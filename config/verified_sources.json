@@ -155,181 +155,199 @@
       "id": "web-en-1",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free medical webinar {year}",
+      "query": "free medical webinar",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-en-2",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free clinical seminar online certificate {year}",
+      "query": "free clinical seminar online certificate",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-en-3",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free CME webinar {year}",
+      "query": "free CME webinar",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-en-4",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free pathology webinar {year}",
+      "query": "free pathology webinar",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-en-5",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free public health workshop online {year}",
+      "query": "free public health workshop online",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-en-6",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "free healthcare AI webinar {year}",
+      "query": "free healthcare AI webinar",
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-1",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "อบรม แพทย์ ฟรี {thai_year}",
+      "query": "อบรม แพทย์ ฟรี",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-2",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "ประชุมวิชาการ ฟรี ออนไลน์ {thai_year}",
+      "query": "ประชุมวิชาการ ฟรี ออนไลน์",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-3",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "สัมมนา สุขภาพ เกียรติบัตร ฟรี {thai_year}",
+      "query": "สัมมนา สุขภาพ เกียรติบัตร ฟรี",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-4",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "CME ฟรี {thai_year}",
+      "query": "CME ฟรี",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-5",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "site:ac.th แพทย์ อบรม ไม่มีค่าใช้จ่าย {thai_year}",
+      "query": "site:ac.th แพทย์ อบรม ไม่มีค่าใช้จ่าย",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-th-6",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "site:go.th สัมมนา ออนไลน์ ฟรี {thai_year}",
+      "query": "site:go.th สัมมนา ออนไลน์ ฟรี",
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-1",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "医療 無料 ウェビナー {year}",
+      "query": "医療 無料 ウェビナー",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-2",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "医学 無料 オンライン セミナー {year}",
+      "query": "医学 無料 オンライン セミナー",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-3",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "医師 無料 研修 証明書 {year}",
+      "query": "医師 無料 研修 証明書",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-4",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "臨床 無料 セミナー {year}",
+      "query": "臨床 無料 セミナー",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-5",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "公衆衛生 無料 オンライン {year}",
+      "query": "公衆衛生 無料 オンライン",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "web-ja-6",
       "kind": "search",
       "url": "https://www.bing.com/search",
-      "query": "医療AI 無料 セミナー {year}",
+      "query": "医療AI 無料 セミナー",
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 10
+      "max_links": 2,
+      "engine": "google_news"
     },
     {
       "id": "UNC-Event-API",
@@ -363,7 +381,7 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     },
     {
       "id": "news-en-2",
@@ -374,7 +392,7 @@
       "language": "en",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     },
     {
       "id": "news-th-1",
@@ -385,7 +403,7 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     },
     {
       "id": "news-th-2",
@@ -396,7 +414,7 @@
       "language": "th",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     },
     {
       "id": "news-ja-1",
@@ -407,7 +425,7 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     },
     {
       "id": "news-ja-2",
@@ -418,7 +436,7 @@
       "language": "ja",
       "timezone": "",
       "medical": false,
-      "max_links": 4
+      "max_links": 2
     }
   ]
 }

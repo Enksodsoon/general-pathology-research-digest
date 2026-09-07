@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
-GENERIC = {'events','upcoming events','webinars','free webinars','seminars','event listings','past webinars','ウェビナー','無料聴講ウェビナー','過去のウェビナー','オンデマンドウェビナー','イベント一覧'}
+GENERIC = {'conferences events','conferences and events','event calendar','events and educational opportunities','seminar calendar','events','upcoming events','webinars','free webinars','seminars','event listings','past webinars','ウェビナー','無料聴講ウェビナー','過去のウェビナー','オンデマンドウェビナー','イベント一覧'}
 MONTHS = {v:i for i,names in enumerate(('January Jan','February Feb','March Mar','April Apr','May','June Jun','July Jul','August Aug','September Sep Sept','October Oct','November Nov','December Dec'),1) for v in names.lower().split()}
 THAI = {v:i for i,names in enumerate(('มกราคม ม.ค.','กุมภาพันธ์ ก.พ.','มีนาคม มี.ค.','เมษายน เม.ย.','พฤษภาคม พ.ค.','มิถุนายน มิ.ย.','กรกฎาคม ก.ค.','สิงหาคม ส.ค.','กันยายน ก.ย.','ตุลาคม ต.ค.','พฤศจิกายน พ.ย.','ธันวาคม ธ.ค.'),1) for v in names.split()}
 ZONES={'UTC':'UTC','GMT':'UTC','ICT':'Asia/Bangkok','JST':'Asia/Tokyo','BST':'Europe/London','CEST':'Europe/Berlin','CET':'Europe/Berlin','ET':'America/New_York','EDT':'America/New_York','EST':'America/New_York','PT':'America/Los_Angeles','PDT':'America/Los_Angeles','PST':'America/Los_Angeles'}
@@ -82,8 +82,11 @@ def extract(html,url,source,now):
     for script in soup.select('script[type="application/ld+json"]'):
         try: schemas.extend(schema_events(json.loads(script.get_text())))
         except (ValueError,TypeError): pass
+    for header in soup.select('header'):
+        if header.find_parent(['main','article']) is not None and header.find('h1') is not None:
+            header.unwrap()
     for tag in soup.select('head,script,style,nav,header,footer,aside,noscript,template,.tribe-related-events,.related-posts,[class*="cookie"],[id*="cookie"]'): tag.decompose()
-    root=soup.select_one('.tribe-events-single') or soup.select_one('main') or soup.select_one('article') or soup.select_one('[role="main"]') or soup
+    root=soup.select_one('.tribe-events-single') or soup.select_one('main') or soup.select_one('[role="main"]') or soup.select_one('#main') or soup.select_one('article') or soup
     headings=[h for h in root.select('h1') if h.get_text(' ',strip=True)]
     heading=headings[-1] if headings else None
     title=heading.get_text(' ',strip=True) if heading else ''
@@ -126,7 +129,7 @@ def extract(html,url,source,now):
     restricted=re.search(r'free for members|members (?:attend )?free|members.only (?:event|webinar)|เฉพาะสมาชิก|会員限定|会員のみ',lower)
     paid=re.search(r'(?:registration|admission|attendance|course|ticket) fee.{0,25}?(?:usd|thb|jpy|[$฿¥£€])\s*[1-9]|ค่าลงทะเบียน.{0,25}?[1-9][\d,]*\s*บาท|(?:参加費|受講料).{0,15}?[1-9][\d,]*円',lower)
     if restricted or paid or any(p>0 for p in prices): return [],['paid-or-restricted-attendance']
-    free=bool(re.search(r'free (?:registration|admission|attendance|online (?:medical )?webinar|webinar|seminar|to attend)(?!\s+(?:brochure|preview|materials|recording))|(?:registration|attendance) (?:is )?free|free of charge|no (?:registration )?(?:cost|fee)|price:\s*free|cost:\s*free|เข้าร่วมฟรี|สมัครฟรี|ลงทะเบียนฟรี|ไม่มีค่าใช้จ่าย|ไม่เสียค่า(?:ใช้จ่าย|ลงทะเบียน)|参加費無料|受講料無料|会費無料|(?m:^\s*(?:free|無料)\s*$)',lower))
+    free=bool(re.search(r'free (?:registration|admission|attendance|online (?:medical )?webinar|webinar|seminar|to attend)(?!\s+(?:brochure|preview|materials|recording))|(?:registration|attendance) (?:is )?free|free of charge|no (?:registration )?(?:cost|fee)|price:\s*free|cost:\s*free|เข้าร่วมฟรี|สมัครฟรี|ลงทะเบียนฟรี|ไม่มีค่าใช้จ่าย|ไม่เสียค่า(?:ใช้จ่าย|ลงทะเบียน)|参加費無料|受講料無料|会費無料|参加は無料|(?m:^\s*(?:free|無料)\s*$)',lower))
     if not (free or 0 in prices or event.get('isAccessibleForFree') is True): return [],['free-attendance-unverified']
     relevant=source.get('medical') or re.search(r'medic|clinical|health|pathology|oncolog|cancer|nurs|physician|patient|แพทย์|สุขภาพ|เวช|医療|医学|臨床|看護|がん',lower)
     if not relevant: return [],['medical-relevance-unverified']
@@ -149,6 +152,8 @@ def extract(html,url,source,now):
     if re.search(r'(?:cme|credit|certificate).{0,65}members? only|certificate.{0,35}(?:fee|paid)|有料.{0,15}(?:証明書|修了証)',lower):
         credits='Restricted/conditional; not confirmed free'
         if cert!='Not stated':cert='Conditional; fee/membership rules apply'
+    if re.search(r'no (?:cme|cpd) credits|(?:cme|cpd) credits? (?:is |are )?not (?:available|offered|provided)',lower): credits='Not offered'
+    elif re.search(r'(?:application|applied|pending).{0,60}(?:cme|cpd)|(?:cme|cpd).{0,60}(?:pending|applied)',lower): credits='Application pending; not confirmed accredited'
     lang=source.get('language','')
     if re.search(r'[ก-๙]',title):lang='th'
     elif re.search(r'[ぁ-ヿ一-龥]',title):lang='ja'
@@ -167,7 +172,7 @@ def ncc_series(soup,url,source,now):
         if getattr(node,'name',None)=='h2':break
         nodes.append(node)
     markup=''.join(map(str,nodes));part=BeautifulSoup(markup,'html.parser')
-    prefix=unicodedata.normalize('NFKC',part.get_text(' ',strip=True))
+    prefix=unicodedata.normalize('NFKC',heading.get_text(' ',strip=True)+' '+part.get_text(' ',strip=True))
     clock=re.search(r'(\d{1,2}:\d{2})\s*[~〜～–-]\s*(\d{1,2}:\d{2})',prefix)
     if not clock or not re.search('会費無料|参加費無料',prefix):return [],['ncc-series-policy-unverified']
     events=[];reasons=[]

@@ -8,7 +8,7 @@ Every completed notification run sends one compact status message, including on 
 
 ## Discovery and verification
 
-The source configuration includes 24 institutional/society/event-platform pages or feeds and 24 multilingual search queries across Bing RSS and Google News RSS. The latter uses a rolling 30-day publication window and resolves public article redirects to publisher URLs. No paid search API key, proxy bypass or CAPTCHA bypass is used. Query-result relevance is checked before spending the page-inspection budget. An irrelevant or unresolvable feed is reported as degraded, not silently successful.
+The source configuration includes 24 institutional/society/event-platform pages or feeds and 24 multilingual search queries using Google News RSS. The latter uses a rolling 30-day publication window and resolves public article redirects to publisher URLs. No paid search API key, proxy bypass or CAPTCHA bypass is used. Query-result relevance is checked before spending the page-inspection budget. An irrelevant or unresolvable feed is reported as degraded, not silently successful.
 
 A bounded 180-candidate scan balances hosts, prioritizes event-specific URLs and rotates deeper queues. This is deliberately not a claim to crawl the whole internet. Event dates must be linked to the actual event heading or matching structured metadata, with a known timezone. Shared exhibition headers, generic indexes and archive pages are not valid evidence for a webinar date. A specific NCC adapter uses the organizer's explicitly shared series clock and each individually dated session/link.
 
@@ -43,3 +43,5 @@ python -m event_scout.verified_notify
 ```
 
 Review source errors and fixtures after organizer layout changes. Do not loosen free-attendance/date/link checks merely to increase alert counts. Pages that prohibit automated access are not bypassed. Image-only, login-only or inaccessible listings remain coverage limitations. The independent pathology paper digest is unchanged; BeautifulSoup is added to shared requirements so the expanded regression suite works in both workflows.
+
+Bing RSS is no longer scheduled: repeated live checks returned unrelated results. The optional adapter remains for tests; active discovery uses the configured Google News queries and institutional feeds.
