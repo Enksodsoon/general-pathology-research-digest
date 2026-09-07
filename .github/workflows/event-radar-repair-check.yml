@@ -1,33 +1,34 @@
-name: Event Radar Repair Check
+name: Event Radar Regression Check
 on:
+  pull_request:
+    paths: ['event_scout/verified*.py','tests/test_verified*.py','config/verified_sources.json','requirements.txt','.github/workflows/*medical*.yml','.github/workflows/event-radar-repair-check.yml']
   push:
     branches: [codex/repair-event-radar-20260907]
-    paths: ['scripts/*verified*.py', '.github/workflows/event-radar-repair-check.yml', 'event_scout/verified*.py', 'tests/test_verified*.py', 'config/verified_sources.json']
+    paths: ['event_scout/verified*.py','tests/test_verified*.py','config/verified_sources.json','requirements.txt','.github/workflows/event-radar-repair-check.yml']
   workflow_dispatch:
 permissions:
-  contents: write
-concurrency:
-  group: event-radar-repair-check
-  cancel-in-progress: false
+  contents: read
 jobs:
-  check:
+  regression:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
-      - name: Apply isolated boundary migration
-        run: python -m scripts.final_verified_boundaries
       - run: python -m pytest -q
-      - name: Dry live scan without delivery credentials
-        run: python -m event_scout.verified_scan --output repair_evidence/live
-      - name: Save tested production code and inspection evidence
-        if: success()
+      - run: python -m compileall -q event_scout
+      - name: Validate source inventory
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add event_scout/verified*.py repair_evidence
-          git diff --cached --quiet || (git commit -m 'Record tested event boundaries and live evidence' && git push)
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          config=json.loads(Path('config/verified_sources.json').read_text())
+          sources=config['sources']
+          assert len({s['id'] for s in sources})==len(sources)
+          assert {s['language'] for s in sources}=={'en','th','ja'}
+          assert all(s.get('engine')=='google_news' for s in sources if s.get('kind')=='search')
+          print(len(sources), 'unique source/query checks validated')
+          PY
