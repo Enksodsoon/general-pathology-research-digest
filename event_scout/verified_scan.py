@@ -141,6 +141,7 @@ def verify(candidate,now,sources):
             if s.get('kind')!='search' and urlsplit(s['url']).hostname==urlsplit(final).hostname:
                 info.update(timezone=s.get('timezone',''),medical=s.get('medical',False),language=s['language']);break
         events,reasons=extract(html,final,info,now)
+        verified=[]
         for event in events:
             target=event['registration_url']
             if target!=event['source_url']:
@@ -148,12 +149,15 @@ def verify(candidate,now,sources):
                     registration,resolved=fetch(target)
                     visible=BeautifulSoup(registration,'html.parser').get_text(' ',strip=True)
                     if re.search(CLOSED,visible,re.I) or '/closedform' in resolved:
-                        return [],{'url':url,'status':'rejected','reasons':['registration-target-closed']}
+                        reasons.append('registration-target-closed')
+                        continue
                     event['registration_status']='Registration link checked; availability may require login/JavaScript'
                 except Exception:
                     event['registration_url']=event['source_url']
                     event['registration_status']='Use source event page; direct registration could not be checked'
             event['discovered_by']=candidate['discovered_by']
+            verified.append(event)
+        events=verified
         return events,{'url':url,'status':'accepted' if events else 'rejected','reasons':reasons,'language':info['language']}
     except Exception as exc:
         return [],{'url':url,'status':'error','error':type(exc).__name__+': '+str(exc)[:140],'language':candidate.get('language')}

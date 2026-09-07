@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-09-07
 
-Scan health: **DEGRADED** · Sources 42/48 · Pages checked 180
+Scan health: **DEGRADED** · Sources 41/48 · Pages checked 180
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Zero matches does not establish absence of events.
 
@@ -12,9 +12,15 @@ Registration link checked; availability may require login/JavaScript
 
 ## Palliative and Patient Centered Pediatric Cancer Care – Live Webinar
 09 Sep 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: Not stated
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
 https://unclineberger.org/unclcn/event/palliative-and-patient-centered-pediatric-cancer-care-live-webinar/
 Organizer provides registration; not submitted
+
+## がん患者の浮腫のケア―病院から在宅へつなぐ実践の工夫―
+16 Sep 2026 15:30 ICT · Online · JA · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://us02web.zoom.us/webinar/register/WN_xb-WAg5AQVGJnSMo3dcogQ
+Registration link checked; availability may require login/JavaScript
 
 ## Artificial intelligence and robotic innovations in non-oncological interventional radiology
 24 Sep 2026 22:00 ICT · Online · EN · Free attendance
@@ -28,15 +34,15 @@ Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Femergency-26%2Femergemcy26-registration
 Registration link checked; availability may require login/JavaScript
 
-## การประชุมวิชาการ Management of Obesity Across the Lifespan โดย ชมรมโรคอ้วนแห่งประเทศไทย
-18 Oct 2026 08:00 ICT · Online · TH · Free attendance
+## がん疼痛への対応―日常診療での基本と工夫―
+21 Oct 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
-https://cimjournal.com/conference/topf2/
+https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
 ## Coping with a Cancer Diagnosis – Live Webinar
 12 Nov 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: Not stated
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
 https://learn.unclcn.org/11112026
 Registration link checked; availability may require login/JavaScript
 
@@ -46,10 +52,22 @@ Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fcvi-26%2Fcvi-registration
 Registration link checked; availability may require login/JavaScript
 
+## 身寄りのない方への支援―制度の面から支援を支える―
+18 Nov 2026 15:30 ICT · Online · JA · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
+Registration link checked; availability may require login/JavaScript
+
 ## The Role of Quality of Life in Cancer Care – Live Webinar
 10 Dec 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: Not stated
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
 https://learn.unclcn.org/12092026
+Registration link checked; availability may require login/JavaScript
+
+## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
+16 Dec 2026 15:30 ICT · Online · JA · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://us02web.zoom.us/webinar/register/WN_MXzVnPhpSsKfksNKzD7xmg
 Registration link checked; availability may require login/JavaScript
 
 ## Portovenous interventions
@@ -58,12 +76,18 @@ Certificate: Not stated | Credit: Not stated
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fportv26%2Fportv26-registration
 Registration link checked; availability may require login/JavaScript
 
+## がん患者家族のケア―多様な家族のニーズを理解し支える―
+20 Jan 2027 15:30 ICT · Online · JA · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
+Registration link checked; availability may require login/JavaScript
+
 ## Source health
 
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok

@@ -92,8 +92,14 @@ def extract(html,url,source,now):
     title=heading.get_text(' ',strip=True) if heading else ''
     if not title: return [],['missing-event-heading']
     if norm(title) in GENERIC: return [],['generic-index']
-    # Main/article DOM boundary removes all sitewide dates, including repeated banners.
-    text=unicodedata.normalize('NFKC',root.get_text('\n',strip=True))[:35000]
+    # Fee, format and registration evidence must belong to this article, not a neighboring post.
+    article=heading.find_parent('article') if heading else None
+    if article is not None: root=article
+    body=root.select_one('.entry-content') or root.select_one('.post-entry')
+    if body is not None: root=body
+    for extra in root.select('.post-pagination,.post-navigation,.related-posts,.tribe-related-events'):
+        extra.decompose()
+    text=unicodedata.normalize('NFKC',title+'\n'+root.get_text('\n',strip=True))[:35000]
     lower=text.casefold(); topic=norm(title)
     candidates=[e for e in schemas if norm(e.get('name','')) and (norm(e['name']) in topic or topic in norm(e['name']))]
     if len(candidates)>1: return [],['multiple-event-schemas']
@@ -115,9 +121,9 @@ def extract(html,url,source,now):
     if start>now+timedelta(days=365): return [],['outside-lookahead']
     if re.search(CLOSED,lower): return [],['registration-closed']
     if any(x in str(event.get('eventStatus','')).lower() for x in ('cancelled','postponed')): return [],['cancelled-or-postponed']
-    online=bool(re.search(r'online|virtual|webinar|zoom|teams|ออนไลน์|オンライン|ウェビナー|ライブ配信',lower)) or 'Online' in str(event.get('eventAttendanceMode',''))
+    online=bool(re.search(r'online|virtual|webinar|zoom|teams|ออนไลน์|オンライン|ウェビナー|ライブ配信',re.sub(r'(?i)register online|online registration|registration online|ลงทะเบียนออนไลน์|ลงทะเบียนผ่านระบบออนไลน์|オンライン申込', '', lower))) or 'Online' in str(event.get('eventAttendanceMode',''))
     if re.search(r'in.person only|on.site only|onsite only',lower):online=False
-    thailand=bool(re.search(r'thailand|ประเทศไทย|กรุงเทพ|เชียงใหม่|ขอนแก่น|สงขลา',lower))
+    thailand=bool(re.search(r'thailand|bangkok|ประเทศไทย|กรุงเทพ|เชียงใหม่|ขอนแก่น|สงขลา',lower))
     if not online and not thailand: return [],['not-online-or-thailand']
     offers=event.get('offers',[]); offers=offers if isinstance(offers,list) else [offers]
     prices=[]
@@ -148,7 +154,7 @@ def extract(html,url,source,now):
     if re.search(r'certificate of (?:attendance|participation|completion)|attendance certificate|download.{0,30}certificate|เกียรติบัตร|ประกาศนียบัตร|受講証明書|修了証',lower):
         cert='Available; attendance/evaluation conditions may apply'
     if re.search(r'no (?:attendance )?certificate|certificate.{0,8}not (?:available|provided)|ไม่มีเกียรติบัตร|発行しません',lower):cert='Not offered'
-    if re.search(r'cme.{0,10}credit|\d(?:\.\d+)?\s*(?:european )?cme|ecmec|cpd.{0,10}(?:point|credit)|คะแนน\s*cme|認定単位',lower):credits='CME/CPD offered; eligibility must be checked'
+    if re.search(r'ce\s+credits[\s:]*cme|cme.{0,10}credit|\d(?:\.\d+)?\s*(?:european )?cme|ecmec|cpd.{0,10}(?:point|credit)|คะแนน\s*cme|認定単位',lower):credits='CME/CPD offered; eligibility must be checked'
     if re.search(r'(?:cme|credit|certificate).{0,65}members? only|certificate.{0,35}(?:fee|paid)|有料.{0,15}(?:証明書|修了証)',lower):
         credits='Restricted/conditional; not confirmed free'
         if cert!='Not stated':cert='Conditional; fee/membership rules apply'
@@ -184,7 +190,7 @@ def ncc_series(soup,url,source,now):
             if getattr(sibling,'name',None) in ('h2','h3','h4'):break
             bits.append(str(sibling))
         block=BeautifulSoup(''.join(bits),'html.parser')
-        topic=re.search(r'『([^』]+)』',block.get_text(' ',strip=True))
+        topic=re.search(r'『([^』]+)』',h.get_text(' ',strip=True)+' '+block.get_text(' ',strip=True))
         link=block.select_one('a[href*="/webinar/register/"]')
         if not topic or not link:continue
         topic=topic.group(1)
