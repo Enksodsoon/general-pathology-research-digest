@@ -1,0 +1,22 @@
+name: Fresh Visual Preview Check
+on:
+  push:
+    branches: [preview/telegram-medical-20260907]
+    paths:
+      - 'preview/test_fresh_visual.py'
+      - 'preview/fresh_visual_preview.py'
+      - '.github/workflows/fresh-preview-check.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'Pillow>=10,<13'
+      - name: Run fresh visual tests
+        working-directory: preview
+        run: python -m unittest test_fresh_visual.py -v
