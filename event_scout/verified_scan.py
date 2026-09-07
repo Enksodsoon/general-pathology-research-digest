@@ -149,7 +149,7 @@ def discover(source,now):
         attempts=[dict(diag)]
         for fallback in source['fallbacks']:
             alternative=dict(source);alternative.pop('fallbacks',None);alternative.update(fallback)
-            extra,result=_discover_once(alternative,now);attempts.append(result)
+            extra,result=_discover_once(alternative,now);attempts.append(dict(result))
             if result['status']=='ok':
                 # Different organizational pages are additional coverage, not an
                 # equivalent replacement for an inaccessible original publisher.

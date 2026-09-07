@@ -49,6 +49,7 @@ def assess_health(sources,pages,events):
 def should_run(state,now,stage='recovery'):
     if stage=='manual':return True
     today=now.astimezone(BKK).date().isoformat()
+    if state.get('daily_attempts',{}).get(today,0)>=3:return False
     last=state.get('last_run',{})
     if last.get('date')!=today:return True
     heart=state.get('heartbeats',{}).get('status-'+str(last.get('run_id','')), {})
