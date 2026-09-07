@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-import fresh_visual_preview as fv
+import fresh_visual_preview_v2 as fv
 
 
 DIGEST = """# Daily General Pathology Research Digest
