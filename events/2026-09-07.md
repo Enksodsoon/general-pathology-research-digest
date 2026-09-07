@@ -1,8 +1,8 @@
 # Free Medical Events — 2026-09-07
 
-Scan health: **DEGRADED** · Sources 42/48 · Pages checked 180
+Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
-Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Zero matches does not establish absence of events.
+Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
 ## 日・米・欧の医療機器サイバーセキュリティ対策「丸わかり講座」　～日米欧の法規制から、関連するセキュリティ要求のCRAや３省２ガイドラインなど、わかりやすく解説～
 09 Sep 2026 14:00 ICT · Online · JA · Free attendance
@@ -87,18 +87,18 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
 - PAHO: ok
 - NIH-VideoCast: ok
 - CDC-COCA: ok
-- Chula-Hospital: error — URLError: <urlopen error timed out>
+- Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
 - Siriraj-Conference: ok
 - Ramathibodi: ok
 - Thai-CME: ok
-- Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
+- Thai-MOPH: degraded — Partial official alternative; original publisher remains unverified
 - CIM-Discovery: ok
 - Medtec-Japan: ok
 - NCC-Supportive-Care: ok
@@ -108,18 +108,18 @@ Registration link checked; availability may require login/JavaScript
 - web-en-1: ok
 - web-en-2: ok
 - web-en-3: ok
-- web-en-4: degraded
+- web-en-4: ok
 - web-en-5: ok
 - web-en-6: ok
 - web-th-1: ok
 - web-th-2: ok
 - web-th-3: ok
-- web-th-4: degraded
+- web-th-4: ok
 - web-th-5: ok
 - web-th-6: ok
 - web-ja-1: ok
 - web-ja-2: ok
-- web-ja-3: degraded
+- web-ja-3: ok
 - web-ja-4: ok
 - web-ja-5: ok
 - web-ja-6: ok
@@ -129,6 +129,8 @@ Registration link checked; availability may require login/JavaScript
 - news-en-1: ok
 - news-en-2: ok
 - news-th-1: ok
-- news-th-2: degraded
+- news-th-2: ok
 - news-ja-1: ok
 - news-ja-2: ok
+- Chula-Publisher-Discovery: ok
+- MOPH-Publisher-Discovery: ok
