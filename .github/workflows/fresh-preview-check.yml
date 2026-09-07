@@ -5,6 +5,7 @@ on:
     paths:
       - 'preview/test_fresh_visual.py'
       - 'preview/fresh_visual_preview.py'
+      - 'preview/fresh_visual_preview_v2.py'
       - '.github/workflows/fresh-preview-check.yml'
 permissions:
   contents: read
