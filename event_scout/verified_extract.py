@@ -14,7 +14,7 @@ CLOSED=r'registration (?:is |has )?closed|registrations closed|sold out|event (?
 REG=r'register|registration|book now|sign up|ลงทะเบียน|สมัคร|申し込|申込|参加登録'
 
 def norm(s):
-    return re.sub(r'[^\w]+',' ',unicodedata.normalize('NFKC',str(s)).casefold()).strip()
+    return re.sub(r'[^\w]+',' ',unicodedata.normalize('NFKC',html_lib.unescape(str(s))).casefold()).strip()
 
 def clean_url(url):
     p=urlsplit(url)
@@ -126,7 +126,7 @@ def extract(html,url,source,now):
     restricted=re.search(r'free for members|members (?:attend )?free|members.only (?:event|webinar)|เฉพาะสมาชิก|会員限定|会員のみ',lower)
     paid=re.search(r'(?:registration|admission|attendance|course|ticket) fee.{0,25}?(?:usd|thb|jpy|[$฿¥£€])\s*[1-9]|ค่าลงทะเบียน.{0,25}?[1-9][\d,]*\s*บาท|(?:参加費|受講料).{0,15}?[1-9][\d,]*円',lower)
     if restricted or paid or any(p>0 for p in prices): return [],['paid-or-restricted-attendance']
-    free=bool(re.search(r'free (?:registration|admission|attendance|online (?:medical )?webinar|webinar|seminar|to attend)(?!\s+(?:brochure|preview|materials|recording))|(?:registration|attendance) (?:is )?free|free of charge|no (?:registration )?(?:cost|fee)|price:\s*free|cost:\s*free|เข้าร่วมฟรี|สมัครฟรี|สล็อตออนไลน์|ไม่มีค่าใช้จ่าย|ไม่เสียค่า(?:ใช้จ่าย|ลงทะเบียน)|参加費無料|受講料無料|会費無料|(?m:^\s*(?:free|無料)\s*$)',lower))
+    free=bool(re.search(r'free (?:registration|admission|attendance|online (?:medical )?webinar|webinar|seminar|to attend)(?!\s+(?:brochure|preview|materials|recording))|(?:registration|attendance) (?:is )?free|free of charge|no (?:registration )?(?:cost|fee)|price:\s*free|cost:\s*free|เข้าร่วมฟรี|สมัครฟรี|ลงทะเบียนฟรี|ไม่มีค่าใช้จ่าย|ไม่เสียค่า(?:ใช้จ่าย|ลงทะเบียน)|参加費無料|受講料無料|会費無料|(?m:^\s*(?:free|無料)\s*$)',lower))
     if not (free or 0 in prices or event.get('isAccessibleForFree') is True): return [],['free-attendance-unverified']
     relevant=source.get('medical') or re.search(r'medic|clinical|health|pathology|oncolog|cancer|nurs|physician|patient|แพทย์|สุขภาพ|เวช|医療|医学|臨床|看護|がん',lower)
     if not relevant: return [],['medical-relevance-unverified']
