@@ -1,0 +1,1789 @@
+{
+  "version": 2,
+  "created_at": "2026-09-07T03:54:29.823754+00:00",
+  "health": "degraded",
+  "sources_ok": 32,
+  "sources_total": 39,
+  "language_sources_ok": {
+    "en": 13,
+    "th": 9,
+    "ja": 10
+  },
+  "links_discovered": 345,
+  "pages_checked": 180,
+  "page_errors": 19,
+  "events": [
+    {
+      "id": "3931b207156972ea1dd5034a",
+      "title": "日・米・欧の医療機器サイバーセキュリティ対策「丸わかり講座」　～日米欧の法規制から、関連するセキュリティ要求のCRAや３省２ガイドラインなど、わかりやすく解説～",
+      "source_url": "https://medtecjapan.com/medtecwebinar/5992/",
+      "registration_url": "https://us06web.zoom.us/webinar/register/6717618996897/WN_t9Fw1FSdRjSIDbyJRsKNmg",
+      "start_at": "2026-09-09T16:00:00+09:00",
+      "end_at": "2026-09-09T17:00:00+09:00",
+      "mode": "Online",
+      "language": "ja",
+      "certificate": "Not stated",
+      "credits": "Not stated",
+      "fee": "Free attendance",
+      "date_evidence": "2026年9月9日(水)\n16:00 - 17:00\n",
+      "verified_at": "2026-09-07T03:54:29.823754+00:00",
+      "registration_status": "Registration link checked; availability may require login/JavaScript",
+      "discovered_by": "Medtec-Japan"
+    },
+    {
+      "id": "b4039c612eb905497752b266",
+      "title": "Artificial intelligence and robotic innovations in non-oncological interventional radiology",
+      "source_url": "https://www.cirse.org/online/cirse-webinars/artificial-intelligence-and-robotic-innovations-in-non-oncological-interventional-radiology/",
+      "registration_url": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fainon-onco26%2Fnon-onco26-registration",
+      "start_at": "2026-09-24T17:00:00+02:00",
+      "end_at": "2026-09-24T18:30:00+02:00",
+      "mode": "Online",
+      "language": "en",
+      "certificate": "Not stated",
+      "credits": "CME/CPD offered; eligibility must be checked",
+      "fee": "Free attendance",
+      "date_evidence": "September 24, 2026, 17:00 – 18:30 ",
+      "verified_at": "2026-09-07T03:54:29.823754+00:00",
+      "registration_status": "Registration link checked; availability may require login/JavaScript",
+      "discovered_by": "CIRSE"
+    },
+    {
+      "id": "19c8f11ff99599590f43d5ec",
+      "title": "How to build a safe and sustainable 24/7 emergency IR service",
+      "source_url": "https://www.cirse.org/online/cirse-webinars/how-to-build-a-safe-and-sustainable-24-7-emergency-ir-service/",
+      "registration_url": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Femergency-26%2Femergemcy26-registration",
+      "start_at": "2026-10-08T17:00:00+02:00",
+      "end_at": "2026-10-08T18:00:00+02:00",
+      "mode": "Online",
+      "language": "en",
+      "certificate": "Not stated",
+      "credits": "CME/CPD offered; eligibility must be checked",
+      "fee": "Free attendance",
+      "date_evidence": "October 8, 2026, 17:00 – 18:00 ",
+      "verified_at": "2026-09-07T03:54:29.823754+00:00",
+      "registration_status": "Registration link checked; availability may require login/JavaScript",
+      "discovered_by": "CIRSE"
+    },
+    {
+      "id": "597671e6b2778e3597699d7a",
+      "title": "Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment",
+      "source_url": "https://www.cirse.org/online/cirse-webinars/managing-cvi-with-ir/",
+      "registration_url": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fcvi-26%2Fcvi-registration",
+      "start_at": "2026-11-12T17:00:00+01:00",
+      "end_at": "2026-11-12T18:30:00+01:00",
+      "mode": "Online",
+      "language": "en",
+      "certificate": "Not stated",
+      "credits": "CME/CPD offered; eligibility must be checked",
+      "fee": "Free attendance",
+      "date_evidence": "November 12, 2026, 17:00-18:30 ",
+      "verified_at": "2026-09-07T03:54:29.823754+00:00",
+      "registration_status": "Registration link checked; availability may require login/JavaScript",
+      "discovered_by": "CIRSE"
+    }
+  ],
+  "sources": [
+    {
+      "id": "WHO",
+      "language": "en",
+      "url": "https://www.who.int/news-room/events",
+      "status": "ok",
+      "candidates": 18,
+      "seconds": 0.52
+    },
+    {
+      "id": "CIRSE",
+      "language": "en",
+      "url": "https://www.cirse.org/online/cirse-webinars/",
+      "status": "ok",
+      "candidates": 75,
+      "seconds": 1.65
+    },
+    {
+      "id": "UNC-Lineberger",
+      "language": "en",
+      "url": "https://unclineberger.org/unclcn/events/",
+      "status": "ok",
+      "candidates": 42,
+      "seconds": 0.2
+    },
+    {
+      "id": "ICIS",
+      "language": "en",
+      "url": "https://icimagingsociety.org.uk/events-archive/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "ICUS",
+      "language": "en",
+      "url": "https://icus-society.org/education/icus-educational-events/",
+      "status": "ok",
+      "candidates": 16,
+      "seconds": 1.13
+    },
+    {
+      "id": "IARS",
+      "language": "en",
+      "url": "https://iars.org/iars-webinar-series/",
+      "status": "ok",
+      "candidates": 66,
+      "seconds": 1.52
+    },
+    {
+      "id": "Global-Health-Network",
+      "language": "en",
+      "url": "https://globalhealthtrainingcentre.tghn.org/webinars/",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 1.6
+    },
+    {
+      "id": "PAHO",
+      "language": "en",
+      "url": "https://www.paho.org/en/events",
+      "status": "ok",
+      "candidates": 49,
+      "seconds": 0.31
+    },
+    {
+      "id": "NIH-VideoCast",
+      "language": "en",
+      "url": "https://videocast.nih.gov/FutureEvents",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "CDC-COCA",
+      "language": "en",
+      "url": "https://www.cdc.gov/coca/hcp/coca-calls/index.html",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Chula-Hospital",
+      "language": "th",
+      "url": "https://kcmh.chulalongkornhospital.go.th/",
+      "status": "error",
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "id": "Siriraj-Conference",
+      "language": "th",
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/",
+      "status": "ok",
+      "candidates": 16,
+      "seconds": 1.73
+    },
+    {
+      "id": "Ramathibodi",
+      "language": "th",
+      "url": "https://www.rama.mahidol.ac.th/",
+      "status": "ok",
+      "candidates": 20,
+      "seconds": 1.56
+    },
+    {
+      "id": "Thai-CME",
+      "language": "th",
+      "url": "https://www.ccme.or.th/",
+      "status": "error",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ccme.or.th'."
+    },
+    {
+      "id": "Thai-MOPH",
+      "language": "th",
+      "url": "https://www.moph.go.th/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "CIM-Discovery",
+      "language": "th",
+      "url": "https://cimjournal.com/home-conference/",
+      "status": "ok",
+      "candidates": 82,
+      "seconds": 4.61
+    },
+    {
+      "id": "Medtec-Japan",
+      "language": "ja",
+      "url": "https://medtecjapan.com/medtecwebinar/free/",
+      "status": "ok",
+      "candidates": 18,
+      "seconds": 0.35
+    },
+    {
+      "id": "NCC-Supportive-Care",
+      "language": "ja",
+      "url": "https://www.ncc.go.jp/jp/ncch/division/support/physician_referral_service/web_seminar/index.html",
+      "status": "ok",
+      "candidates": 137,
+      "seconds": 1.55
+    },
+    {
+      "id": "AMED",
+      "language": "ja",
+      "url": "https://www.amed.go.jp/news/event.html",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Japan-Medical-Association",
+      "language": "ja",
+      "url": "https://www.med.or.jp/doctor/seminar/",
+      "status": "ok",
+      "candidates": 33,
+      "seconds": 0.79
+    },
+    {
+      "id": "JIHS",
+      "language": "ja",
+      "url": "https://kyokuhp.jihs.go.jp/events/index.html",
+      "status": "ok",
+      "candidates": 179,
+      "seconds": 1.24
+    },
+    {
+      "id": "web-en-1",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+medical+webinar+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.33
+    },
+    {
+      "id": "web-en-2",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+clinical+seminar+online+certificate+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.17
+    },
+    {
+      "id": "web-en-3",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+CME+webinar+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.19
+    },
+    {
+      "id": "web-en-4",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+pathology+webinar+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.28
+    },
+    {
+      "id": "web-en-5",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+public+health+workshop+online+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.42
+    },
+    {
+      "id": "web-en-6",
+      "language": "en",
+      "url": "https://www.bing.com/search?q=free+healthcare+AI+webinar+2026&format=rss&setlang=en",
+      "status": "ok",
+      "candidates": 7,
+      "seconds": 0.39
+    },
+    {
+      "id": "web-th-1",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1+%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C+%E0%B8%9F%E0%B8%A3%E0%B8%B5+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 8,
+      "seconds": 0.57
+    },
+    {
+      "id": "web-th-2",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3+%E0%B8%9F%E0%B8%A3%E0%B8%B5+%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 6,
+      "seconds": 0.58
+    },
+    {
+      "id": "web-th-3",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A1%E0%B8%99%E0%B8%B2+%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E+%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3+%E0%B8%9F%E0%B8%A3%E0%B8%B5+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.67
+    },
+    {
+      "id": "web-th-4",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=CME+%E0%B8%9F%E0%B8%A3%E0%B8%B5+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.77
+    },
+    {
+      "id": "web-th-5",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=site%3Aac.th+%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C+%E0%B8%AD%E0%B8%9A%E0%B8%A3%E0%B8%A1+%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.71
+    },
+    {
+      "id": "web-th-6",
+      "language": "th",
+      "url": "https://www.bing.com/search?q=site%3Ago.th+%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A1%E0%B8%99%E0%B8%B2+%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C+%E0%B8%9F%E0%B8%A3%E0%B8%B5+2569&format=rss&setlang=th",
+      "status": "ok",
+      "candidates": 0,
+      "seconds": 0.71
+    },
+    {
+      "id": "web-ja-1",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E5%8C%BB%E7%99%82+%E7%84%A1%E6%96%99+%E3%82%A6%E3%82%A7%E3%83%93%E3%83%8A%E3%83%BC+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.69
+    },
+    {
+      "id": "web-ja-2",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E5%8C%BB%E5%AD%A6+%E7%84%A1%E6%96%99+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3+%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.67
+    },
+    {
+      "id": "web-ja-3",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E5%8C%BB%E5%B8%AB+%E7%84%A1%E6%96%99+%E7%A0%94%E4%BF%AE+%E8%A8%BC%E6%98%8E%E6%9B%B8+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 4,
+      "seconds": 0.69
+    },
+    {
+      "id": "web-ja-4",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E8%87%A8%E5%BA%8A+%E7%84%A1%E6%96%99+%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 9,
+      "seconds": 0.72
+    },
+    {
+      "id": "web-ja-5",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E5%85%AC%E8%A1%86%E8%A1%9B%E7%94%9F+%E7%84%A1%E6%96%99+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 9,
+      "seconds": 0.75
+    },
+    {
+      "id": "web-ja-6",
+      "language": "ja",
+      "url": "https://www.bing.com/search?q=%E5%8C%BB%E7%99%82AI+%E7%84%A1%E6%96%99+%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC+2026&format=rss&setlang=ja",
+      "status": "ok",
+      "candidates": 10,
+      "seconds": 0.79
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://about.google/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://account.samsung.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://ai.google/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://api.account.samsung.com/v1/oidc/certs",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://arma.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://blog.google/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://blog.uphold.com/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://cimjournal.com/conference/obe5/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://clinicajaimeicatarroja.com/blog/condromalacia",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://customerservice.account.samsung.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://developer.account.samsung.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://developer.uphold.com/get-started/overview",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://drnorbertobaez.com/condromalacia-patelar-causas-tratamientos/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CME_Group",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://et2026.cirse.org/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CME/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://foam.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://frame3dd.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://freegames.org/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://freemat.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://globalhealthtrainingcentre.tghn.org/webinars/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://gretl.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://hex2bin.sourceforge.net/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://hub.tghn.org/event-tghn/",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://iars.org/iars-webinar-series/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://icus-society.org/education/icus-educational-events/",
+      "status": "rejected",
+      "reasons": [
+        "registration-action-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://images.google.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://jayjay.fandom.com/wiki/The_Counting_Game",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/press_room/mediaseminar/index.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://learning.google/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://library.cirse.org/webinars/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt1386697/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.wcostream.tv/jay-jay-the-jet-plane-episode-40-the-counting-game",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://madrid.fisio-clinics.com/que-es-la-condromalacia-patelofemoral-causas-sintomas-y-tratamiento-de-fisioterapia",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://maps.google.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/seminar-exhibition/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://meesoftware.com/mproshared/mps111/chatbotnr98w.html",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://ogs.google.com/widget/empty",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/",
+      "status": "error",
+      "error": "ValueError: page-too-large",
+      "language": "ja"
+    },
+    {
+      "url": "https://poki.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://portal.enterprise.uphold.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://sites.google.com/view/rama-teleconference-center/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://sourceforge.net/projects/circuit/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://status.uphold.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://support.uphold.com/hc/en-us",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://therokuchannel.roku.com/details/8e9dcb444bf750238ef0bb831a7d5dea/jay-jay-the-jet-plane-s2006-the-counting-game",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://traumatologoreynosa.com/condromalacia-patelar/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://tv.apple.com/us/episode/the-counting-game/umc.cmc.5ognb7j6s9ny2vlaxpf05yhck",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/event/palliative-and-patient-centered-pediatric-cancer-care-live-webinar/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://uphold.com/en-us",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://us02web.zoom.us/webinar/register/WN_xb-WAg5AQVGJnSMo3dcogQ",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.cirse.org/trainees/etf-webinars/",
+      "status": "rejected",
+      "reasons": [
+        "free-attendance-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.cme.net/markets-and-stations",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.cmegroup.com/",
+      "status": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "language": "th"
+    },
+    {
+      "url": "https://www.cmemeeting.org/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.crazygames.com/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.cun.es/enfermedades-tratamientos/enfermedades/sindrome-patelofemoral",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.dailymotion.com/video/x8gucbg",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.ecipconference.org/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "http://www.emro.who.int/index.html",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.etconference.org/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.fisioterapia-online.com/condromalacia-rotuliana-que-es-causas-sintomas-diagnostico-tratamiento",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.friv.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.google.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ighp.ncgm.go.jp/index.html",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.imdb.com/list/ls507343771/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.mayoclinic.org/es/diseases-conditions/patellofemoral-pain-syndrome/symptoms-causes/syc-20350792",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www.mceconferences.com/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.med.or.jp/doctor/seminar/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.mycme.com/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.ncc.go.jp/jp/information/event/index.html",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ncgm.go.jp/access/index.html",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.netce.com/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www.noticiasmedicas.es/salud/condromalacia-patelofemoral/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.onlinegames.io/t/free/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.orthoinfo.org/es/diseases--conditions/el-sindrome-de-dolor-patelofemoral-patellofemoral-pain-syndrome/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.paho.org/en/events/regional-webinar-findings-2026-mid-term-survey-united-nations-decade-healthy-aging-2021-2030",
+      "status": "rejected",
+      "reasons": [
+        "free-attendance-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.pogo.com/free-online-games",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/events/04sep2026-1442",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.reddit.com/r/reddit/wiki/index/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Blocked",
+      "language": "ja"
+    },
+    {
+      "url": "https://www.tutraumatologo.com/condromalacia-patelar/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.unc.edu/events/",
+      "status": "rejected",
+      "reasons": [
+        "free-attendance-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.wcostream.tv/jay-jay-the-jet-plane-episode-40-the-counting-game",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.who.int/news-room/events/detail/2026/05/26/default-calendar/webinar-series-who-academy-course-on-national-cancer-control-planning",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.zhihu.com/education/learning",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/#features08-3",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://zoom.us/webinar/register/WN_z2_cmAiGTr-6qowuDd-4UA",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://about.google/products/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://cimjournal.com/conference/topf2/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://globalhealthtrainingcentre.tghn.org/webinars/certificates-attendance/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://gretl.sourceforge.net/win32/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://hub.tghn.org/event-tghn/#past-events",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://iars.org/cme-webinars/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://icus-society.org/education/icus-archived-webinars/",
+      "status": "rejected",
+      "reasons": [
+        "past-event"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/activity/internal/report/2026/20260616021152.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt6334354/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/medtecwebinar/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/store/apps/collection/tophome?hl=en-US",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://poki.com/en/popular",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://sourceforge.net/software/engineering/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://support.uphold.com/hc/en-us/articles/34137176008987-Why-is-my-Uphold-app-not-working",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/events/",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://uphold.com/en-eu",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.cirse.org/online/cirse-webinars/webinars-faculty/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.cmegroup.com/company/cme.html",
+      "status": "error",
+      "error": "TimeoutError: The read operation timed out",
+      "language": "th"
+    },
+    {
+      "url": "https://www.imdb.com/list/ls528368164/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.mceconferences.com/medical-conferences/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.med.or.jp/doctor/seminar/#SKIPPED",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ncc.go.jp/jp/ncch/division/support/physician_referral_service/web_seminar/index.html#web",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-policy-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.paho.org/en/events/webinar-series-health-professionals-syphilis-through-clinical-lens",
+      "status": "rejected",
+      "reasons": [
+        "free-attendance-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/13aug2026-1138",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.reddit.com/r/all+/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Blocked",
+      "language": "ja"
+    },
+    {
+      "url": "https://www.who.int/news-room/events/detail/2026/09/09/default-calendar/global-webinar--world-patient-safety-day-2026---safe-care-for-noncommunicable-diseases",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.zhihu.com/topic/19559627/intro",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/content/179",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://cimjournal.com/conference/topf1/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://iars.org/non-cme-webinars/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://icus-society.org/education/bubble-conferences/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/activity/internal/event/2026/20260424132751.html",
+      "status": "rejected",
+      "reasons": [
+        "past-event"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt6334354/fullcredits/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/medtecwebinar/free/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/googleplaygames?hl=es",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/events/#unc-search",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.cirse.org/online/cirse-webinars/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.imdb.com/es/title/tt6334354/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.med.or.jp/index.html",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ncc.go.jp/jp/ncch/division/support/physician_referral_service/web_seminar/index.html#ncch_pct_seminar",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-policy-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.paho.org/en/events/webinar-understanding-and-addressing-early-adolescence-through-evidence",
+      "status": "rejected",
+      "reasons": [
+        "free-attendance-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/30dec2025-1221",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.reddit.com/r/all/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Blocked",
+      "language": "ja"
+    },
+    {
+      "url": "https://www.who.int/news-room/events",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.zhihu.com/question/301614875",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://cimjournal.com/all-conferpr/bsh-mega/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://iars.org/non-cme-webinars/#Past_Non_CME_Webinars",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://icus-society.org/event/how-we-grew-a-ceus-program-that-improves-care-outcomes-workflow-and-job-satisfaction/",
+      "status": "rejected",
+      "reasons": [
+        "not-online-or-thailand"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/org/priority/index.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt1386697/characters/nm7232332",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/medtecwebinar/ondemand/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/store/games?hl=vi",
+      "status": "error",
+      "error": "ValueError: page-too-large",
+      "language": "ja"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/events/photo/",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://us02web.zoom.us/webinar/register/WN_MXzVnPhpSsKfksNKzD7xmg",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.cirse.org/online/cirse-webinars/artificial-intelligence-and-robotic-innovations-in-non-oncological-interventional-radiology/",
+      "status": "accepted",
+      "reasons": [],
+      "language": "en"
+    },
+    {
+      "url": "https://www.med.or.jp/doctor/other/000227-2.html#koe",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ncc.go.jp/jp/ncch/d001/sindansyo/index.html",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.paho.org/en/events",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.reddit.com/r/QuillBot/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Blocked",
+      "language": "ja"
+    },
+    {
+      "url": "https://www.who.int/news-room/events/detail/2026/09/04/default-calendar/the-9th-world-one-health-congress",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.zhihu.com/question/34683930",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/#header02-h",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://cimjournal.com/conference/act-2/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://iars.org/cme-webinars/#Past_CME_Webinars",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://icus-society.org/event/advanced-applications-in-abdominal-ceus/",
+      "status": "rejected",
+      "reasons": [
+        "not-online-or-thailand"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/org/history/index.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.imdb.com/name/nm0740264/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/medtecwebinar/5992/",
+      "status": "accepted",
+      "reasons": [],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/store/games?hl=hu",
+      "status": "error",
+      "error": "ValueError: page-too-large",
+      "language": "ja"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/events/week/",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.cirse.org/online/cirse-webinars/how-to-build-a-safe-and-sustainable-24-7-emergency-ir-service/",
+      "status": "accepted",
+      "reasons": [],
+      "language": "en"
+    },
+    {
+      "url": "https://www.med.or.jp/jma/about/nyuukai.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.ncc.go.jp/jp/ncch/clicic/index.html",
+      "status": "rejected",
+      "reasons": [
+        "ncc-series-layout-changed"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://www.paho.org/es/eventos",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/events",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://www.reddit.com/r/freelanceWriters/comments/yq36mu/is_quillbot_safe_to_use/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Blocked",
+      "language": "ja"
+    },
+    {
+      "url": "https://www.who.int/news-room/events/detail/2026/09/01/default-calendar/world-sexual-and-reproductive-health-month-2026",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.zhihu.com/question/22785060",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "th"
+    },
+    {
+      "url": "https://www2.si.mahidol.ac.th/sirirajconference/#content01-4",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://cimjournal.com/conference/%e0%b8%b7nephro/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "th"
+    },
+    {
+      "url": "https://icus-society.org/event/ceus-in-small-organs-and-superficial-tissues/",
+      "status": "rejected",
+      "reasons": [
+        "not-online-or-thailand"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://kyokuhp.jihs.go.jp/org/access/index.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://m.imdb.com/title/tt0027057/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://medtecjapan.com/medtecwebinar/past/",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://play.google.com/store/apps/collection/tophome?hl=es",
+      "status": "rejected",
+      "reasons": [
+        "missing-event-heading"
+      ],
+      "language": "ja"
+    },
+    {
+      "url": "https://unclineberger.org/unclcn/events/map/",
+      "status": "rejected",
+      "reasons": [
+        "generic-index"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://www.cirse.org/online/cirse-webinars/managing-cvi-with-ir/",
+      "status": "accepted",
+      "reasons": [],
+      "language": "en"
+    },
+    {
+      "url": "https://www.med.or.jp/people/new.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    }
+  ],
+  "coverage_note": "Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Zero matches does not establish absence of events."
+}
