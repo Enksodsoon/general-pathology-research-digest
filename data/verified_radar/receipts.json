@@ -344,20 +344,27 @@
       "telegram_date": 1788842906,
       "acknowledged_at": "2026-09-08T04:48:26.544158+00:00",
       "kind": "heartbeat"
+    },
+    "status-34202336667": {
+      "fingerprint": "072ab26837871d33a0071ffa",
+      "message_id": 141,
+      "telegram_date": 1788854676,
+      "acknowledged_at": "2026-09-08T08:04:37.090477+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-09-08",
     "health": "degraded",
-    "new_alerts": 3,
+    "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-08T04:48:26.545593+00:00",
-    "run_id": "34188134223",
-    "trigger": "workflow_run"
+    "completed_at": "2026-09-08T08:04:37.092148+00:00",
+    "run_id": "34202336667",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
-    "2026-09-08": 1
+    "2026-09-08": 2
   }
 }
