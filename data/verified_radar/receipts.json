@@ -239,6 +239,81 @@
         "registration_status": "Registration link checked; availability may require login/JavaScript",
         "discovered_by": "NCC-Supportive-Care"
       }
+    },
+    "15d9e3f0b8ce7a8a8c8a3fc1": {
+      "fingerprint": "f4d7f7a0b555715f723f1c33",
+      "message_id": 137,
+      "telegram_date": 1788842901,
+      "acknowledged_at": "2026-09-08T04:48:21.482100+00:00",
+      "kind": "event",
+      "event": {
+        "id": "15d9e3f0b8ce7a8a8c8a3fc1",
+        "title": "SPCC Launches Live Webinar – Supportive Care Enhances Patient Survival",
+        "source_url": "https://oncodaily.com/societies/spcc-581039",
+        "registration_url": "https://www.oncocorner.net/index.php?p=events&id=A-531",
+        "start_at": "2026-10-06T18:00:00+02:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "6 October 2026, at 18:00 ",
+        "verified_at": "2026-09-08T04:45:49.887758+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://www.oncocorner.net/index.php?p=events&id=A-531",
+        "discovered_by": "web-en-1"
+      }
+    },
+    "c0a40e9ebd62b9458aedea6e": {
+      "fingerprint": "7f7a9e1e7cde57e36a0d8976",
+      "message_id": 138,
+      "telegram_date": 1788842902,
+      "acknowledged_at": "2026-09-08T04:48:23.134218+00:00",
+      "kind": "event",
+      "event": {
+        "id": "c0a40e9ebd62b9458aedea6e",
+        "title": "2026年10月13日(火曜日)開催 大学院保健医療学研究科 看護学専攻説明会",
+        "source_url": "https://web.sapmed.ac.jp/jp/news/event/u90kfe000000198t.html",
+        "registration_url": "https://forms.cloud.microsoft/r/2uq4pGWeJN",
+        "start_at": "2026-10-13T18:00:00+09:00",
+        "end_at": "2026-10-13T19:20:00+09:00",
+        "mode": "Online",
+        "language": "ja",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "2026年10月13日(火)18:00~19:20\n",
+        "verified_at": "2026-09-08T04:45:49.887758+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://forms.cloud.microsoft/r/2uq4pGWeJN",
+        "discovered_by": "Sapporo-Medical"
+      }
+    },
+    "cdd12cf95788c05462715601": {
+      "fingerprint": "41bd9fa499d879b2ea5f7047",
+      "message_id": 139,
+      "telegram_date": 1788842904,
+      "acknowledged_at": "2026-09-08T04:48:24.779294+00:00",
+      "kind": "event",
+      "event": {
+        "id": "cdd12cf95788c05462715601",
+        "title": "Cancer Survivorship – Live Webinar",
+        "source_url": "https://unclineberger.org/unclcn/event/10142026/",
+        "registration_url": "https://unclineberger.org/unclcn/event/10142026/",
+        "start_at": "2026-10-14T12:00:00-04:00",
+        "end_at": "2026-10-14T13:00:00-04:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Available; attendance/evaluation conditions may apply",
+        "credits": "CME/CPD offered; eligibility must be checked",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-09-08T04:45:49.887758+00:00",
+        "registration_status": "Organizer provides registration; not submitted",
+        "registration_target": "https://unclineberger.org/unclcn/event/10142026/",
+        "discovered_by": "UNC-Event-API"
+      }
     }
   },
   "heartbeats": {
@@ -262,19 +337,27 @@
       "telegram_date": 1788784151,
       "acknowledged_at": "2026-09-07T12:29:11.854366+00:00",
       "kind": "heartbeat"
+    },
+    "status-34188134223": {
+      "fingerprint": "5d465e970dfe4811544e8125",
+      "message_id": 140,
+      "telegram_date": 1788842906,
+      "acknowledged_at": "2026-09-08T04:48:26.544158+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-07",
+    "date": "2026-09-08",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 3,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-07T12:29:11.855974+00:00",
-    "run_id": "34121896515",
-    "trigger": "schedule"
+    "completed_at": "2026-09-08T04:48:26.545593+00:00",
+    "run_id": "34188134223",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
-    "2026-09-07": 3
+    "2026-09-07": 3,
+    "2026-09-08": 1
   }
 }
