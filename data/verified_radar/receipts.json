@@ -358,20 +358,28 @@
       "telegram_date": 1788874712,
       "acknowledged_at": "2026-09-08T13:38:32.261760+00:00",
       "kind": "heartbeat"
+    },
+    "status-34312442403": {
+      "fingerprint": "a2b2d78a2aa622d14e0725cc",
+      "message_id": 144,
+      "telegram_date": 1788929514,
+      "acknowledged_at": "2026-09-09T04:51:54.220312+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-08",
+    "date": "2026-09-09",
     "health": "degraded",
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-08T13:38:32.263353+00:00",
-    "run_id": "34232940588",
-    "trigger": "schedule"
+    "completed_at": "2026-09-09T04:51:54.222256+00:00",
+    "run_id": "34312442403",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
-    "2026-09-08": 3
+    "2026-09-08": 3,
+    "2026-09-09": 1
   }
 }
