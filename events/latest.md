@@ -22,12 +22,6 @@ Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fainon-onco26%2Fnon-onco26-registration
 Registration link checked; availability may require login/JavaScript
 
-## SPCC Launches Live Webinar – Supportive Care Enhances Patient Survival
-06 Oct 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://www.oncocorner.net/index.php?p=events&id=A-531
-Registration link checked; availability may require login/JavaScript
-
 ## How to build a safe and sustainable 24/7 emergency IR service
 08 Oct 2026 22:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
