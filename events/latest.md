@@ -4,12 +4,6 @@ Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
-## 日・米・欧の医療機器サイバーセキュリティ対策「丸わかり講座」　～日米欧の法規制から、関連するセキュリティ要求のCRAや３省２ガイドラインなど、わかりやすく解説～
-09 Sep 2026 14:00 ICT · Online · JA · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us06web.zoom.us/webinar/register/6717618996897/WN_t9Fw1FSdRjSIDbyJRsKNmg
-Registration link checked; availability may require login/JavaScript
-
 ## Palliative and Patient Centered Pediatric Cancer Care – Live Webinar
 09 Sep 2026 23:00 ICT · Online · EN · Free attendance
 Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
@@ -26,6 +20,12 @@ Registration link checked; availability may require login/JavaScript
 24 Sep 2026 22:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fainon-onco26%2Fnon-onco26-registration
+Registration link checked; availability may require login/JavaScript
+
+## SPCC Launches Live Webinar – Supportive Care Enhances Patient Survival
+06 Oct 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://www.oncocorner.net/index.php?p=events&id=A-531
 Registration link checked; availability may require login/JavaScript
 
 ## How to build a safe and sustainable 24/7 emergency IR service
