@@ -92,7 +92,7 @@ Registration link checked; availability may require login/JavaScript
 - Siriraj-Conference: ok
 - Ramathibodi: ok
 - Thai-CME: ok
-- Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
+- Thai-MOPH: degraded — Partial official alternative; original publisher remains unverified
 - CIM-Discovery: ok
 - Medtec-Japan: ok
 - NCC-Supportive-Care: ok
