@@ -400,22 +400,30 @@
       "telegram_date": 1789047444,
       "acknowledged_at": "2026-09-10T13:37:24.164988+00:00",
       "kind": "heartbeat"
+    },
+    "status-34563515030": {
+      "fingerprint": "db3af40babe012ed86527b5b",
+      "message_id": 151,
+      "telegram_date": 1789102213,
+      "acknowledged_at": "2026-09-11T04:50:13.685788+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-10",
+    "date": "2026-09-11",
     "health": "degraded",
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-10T13:37:24.166515+00:00",
-    "run_id": "34483512680",
-    "trigger": "schedule"
+    "completed_at": "2026-09-11T04:50:13.687529+00:00",
+    "run_id": "34563515030",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
     "2026-09-08": 3,
     "2026-09-09": 3,
-    "2026-09-10": 3
+    "2026-09-10": 3,
+    "2026-09-11": 1
   }
 }

@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-09-10
+# Free Medical Events — 2026-09-11
 
 Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
@@ -28,6 +28,12 @@ Certificate: Not stated | Credit: Not stated
 https://forms.cloud.microsoft/r/2uq4pGWeJN
 Registration link checked; availability may require login/JavaScript
 
+## Cancer Survivorship – Live Webinar
+14 Oct 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://unclineberger.org/unclcn/event/10142026/
+Organizer provides registration; not submitted
+
 ## がん疼痛への対応―日常診療での基本と工夫―
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
@@ -50,12 +56,6 @@ Registration link checked; availability may require login/JavaScript
 18 Nov 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
-Registration link checked; availability may require login/JavaScript
-
-## The Role of Quality of Life in Cancer Care – Live Webinar
-10 Dec 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/12092026
 Registration link checked; availability may require login/JavaScript
 
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
