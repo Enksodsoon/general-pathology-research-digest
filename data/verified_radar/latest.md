@@ -1,6 +1,6 @@
-# Free Medical Events — 2026-09-14
+# Free Medical Events — 2026-09-15
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -14,6 +14,12 @@ Registration link checked; availability may require login/JavaScript
 24 Sep 2026 22:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fainon-onco26%2Fnon-onco26-registration
+Registration link checked; availability may require login/JavaScript
+
+## SPCC Launches Live Webinar – Supportive Care Enhances Patient Survival
+06 Oct 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://www.oncocorner.net/index.php?p=events&id=A-531
 Registration link checked; availability may require login/JavaScript
 
 ## How to build a safe and sustainable 24/7 emergency IR service
@@ -40,6 +46,12 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
+## Coping with a Cancer Diagnosis – Live Webinar
+12 Nov 2026 00:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://learn.unclcn.org/11112026
+Registration link checked; availability may require login/JavaScript
+
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
 12 Nov 2026 23:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
@@ -50,6 +62,12 @@ Registration link checked; availability may require login/JavaScript
 18 Nov 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
+Registration link checked; availability may require login/JavaScript
+
+## The Role of Quality of Life in Cancer Care – Live Webinar
+10 Dec 2026 00:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://learn.unclcn.org/12092026
 Registration link checked; availability may require login/JavaScript
 
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
@@ -75,7 +93,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
