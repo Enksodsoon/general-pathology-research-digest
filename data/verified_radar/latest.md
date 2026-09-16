@@ -1,19 +1,19 @@
 # Free Medical Events — 2026-09-16
 
-Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## がん患者の浮腫のケア―病院から在宅へつなぐ実践の工夫―
-16 Sep 2026 15:30 ICT · Online · JA · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us02web.zoom.us/webinar/register/WN_xb-WAg5AQVGJnSMo3dcogQ
-Registration link checked; availability may require login/JavaScript
 
 ## Artificial intelligence and robotic innovations in non-oncological interventional radiology
 24 Sep 2026 22:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
 https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fainon-onco26%2Fnon-onco26-registration
+Registration link checked; availability may require login/JavaScript
+
+## SPCC Launches Live Webinar – Supportive Care Enhances Patient Survival
+06 Oct 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://www.oncocorner.net/index.php?p=events&id=A-531
 Registration link checked; availability may require login/JavaScript
 
 ## How to build a safe and sustainable 24/7 emergency IR service
@@ -87,7 +87,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
