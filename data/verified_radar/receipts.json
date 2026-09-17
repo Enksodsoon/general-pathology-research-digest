@@ -193,11 +193,11 @@
       }
     },
     "1d72e8703d9e5757be0211d8": {
-      "fingerprint": "8873d57279535a1c239b2a4c",
-      "message_id": 116,
-      "telegram_date": 1788755505,
-      "acknowledged_at": "2026-09-07T04:31:45.237848+00:00",
-      "kind": "event",
+      "fingerprint": "7673313bee010d06c9b9b6a8",
+      "message_id": 178,
+      "telegram_date": 1789654741,
+      "acknowledged_at": "2026-09-17T14:19:01.260293+00:00",
+      "kind": "update",
       "event": {
         "id": "1d72e8703d9e5757be0211d8",
         "title": "Portovenous interventions",
@@ -208,11 +208,12 @@
         "mode": "Online",
         "language": "en",
         "certificate": "Not stated",
-        "credits": "Not stated",
+        "credits": "CME/CPD offered; eligibility must be checked",
         "fee": "Free attendance",
         "date_evidence": "December 17, 2026, 17:00 – 18:30 ",
-        "verified_at": "2026-09-07T04:29:49.916522+00:00",
+        "verified_at": "2026-09-17T14:16:37.059659+00:00",
         "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fportv26%2Fportv26-registration",
         "discovered_by": "CIRSE"
       }
     },
@@ -312,6 +313,56 @@
         "verified_at": "2026-09-08T04:45:49.887758+00:00",
         "registration_status": "Organizer provides registration; not submitted",
         "registration_target": "https://unclineberger.org/unclcn/event/10142026/",
+        "discovered_by": "UNC-Event-API"
+      }
+    },
+    "d1f87cdb10127aab2fa14ca0": {
+      "fingerprint": "936e1398303156d10a3f9cfb",
+      "message_id": 176,
+      "telegram_date": 1789654737,
+      "acknowledged_at": "2026-09-17T14:18:58.038643+00:00",
+      "kind": "event",
+      "event": {
+        "id": "d1f87cdb10127aab2fa14ca0",
+        "title": "CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 12/09/2026",
+        "source_url": "https://unclineberger.org/unclcn/event/ccsp-12092026/",
+        "registration_url": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
+        "start_at": "2026-12-09T08:00:00-05:00",
+        "end_at": "2026-12-09T09:00:00-05:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-09-17T14:16:37.059659+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
+        "discovered_by": "UNC-Event-API"
+      }
+    },
+    "1960d78eaf5f3eee3e3d1722": {
+      "fingerprint": "1566277a702810a201f53377",
+      "message_id": 177,
+      "telegram_date": 1789654739,
+      "acknowledged_at": "2026-09-17T14:18:59.645513+00:00",
+      "kind": "event",
+      "event": {
+        "id": "1960d78eaf5f3eee3e3d1722",
+        "title": "CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 12/16/2026",
+        "source_url": "https://unclineberger.org/unclcn/event/ccsp-12162026/",
+        "registration_url": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
+        "start_at": "2026-12-16T08:00:00-05:00",
+        "end_at": "2026-12-16T09:00:00-05:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-09-17T14:16:37.059659+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
         "discovered_by": "UNC-Event-API"
       }
     }
@@ -540,16 +591,23 @@
       "telegram_date": 1789634737,
       "acknowledged_at": "2026-09-17T08:45:37.786869+00:00",
       "kind": "heartbeat"
+    },
+    "status-35232467011": {
+      "fingerprint": "21e2f3c3c41604e5f584dc95",
+      "message_id": 179,
+      "telegram_date": 1789654742,
+      "acknowledged_at": "2026-09-17T14:19:02.851520+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-09-17",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 3,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-17T08:45:37.788849+00:00",
-    "run_id": "35200591558",
+    "completed_at": "2026-09-17T14:19:02.853817+00:00",
+    "run_id": "35232467011",
     "trigger": "schedule"
   },
   "daily_attempts": {
@@ -563,6 +621,6 @@
     "2026-09-14": 3,
     "2026-09-15": 3,
     "2026-09-16": 3,
-    "2026-09-17": 2
+    "2026-09-17": 3
   }
 }
