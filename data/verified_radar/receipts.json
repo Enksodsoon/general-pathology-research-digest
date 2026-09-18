@@ -598,17 +598,24 @@
       "telegram_date": 1789654742,
       "acknowledged_at": "2026-09-17T14:19:02.851520+00:00",
       "kind": "heartbeat"
+    },
+    "status-35308506687": {
+      "fingerprint": "4cf76b17996736cdd4fcb6df",
+      "message_id": 181,
+      "telegram_date": 1789707192,
+      "acknowledged_at": "2026-09-18T04:53:12.976672+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-17",
+    "date": "2026-09-18",
     "health": "degraded",
-    "new_alerts": 3,
+    "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-17T14:19:02.853817+00:00",
-    "run_id": "35232467011",
-    "trigger": "schedule"
+    "completed_at": "2026-09-18T04:53:12.978636+00:00",
+    "run_id": "35308506687",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -621,6 +628,7 @@
     "2026-09-14": 3,
     "2026-09-15": 3,
     "2026-09-16": 3,
-    "2026-09-17": 3
+    "2026-09-17": 3,
+    "2026-09-18": 1
   }
 }
