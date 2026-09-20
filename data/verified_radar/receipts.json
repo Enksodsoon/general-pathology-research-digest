@@ -654,6 +654,13 @@
       "telegram_date": 1789893293,
       "acknowledged_at": "2026-09-20T08:34:53.815652+00:00",
       "kind": "heartbeat"
+    },
+    "status-35513887962": {
+      "fingerprint": "0b9c69afb502a37a59d506f9",
+      "message_id": 191,
+      "telegram_date": 1789911403,
+      "acknowledged_at": "2026-09-20T13:36:43.685846+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
@@ -662,8 +669,8 @@
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-20T08:34:53.817168+00:00",
-    "run_id": "35499825726",
+    "completed_at": "2026-09-20T13:36:43.688268+00:00",
+    "run_id": "35513887962",
     "trigger": "schedule"
   },
   "daily_attempts": {
@@ -680,6 +687,6 @@
     "2026-09-17": 3,
     "2026-09-18": 3,
     "2026-09-19": 3,
-    "2026-09-20": 2
+    "2026-09-20": 3
   }
 }
