@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-09-21
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -121,7 +121,7 @@ Registration link checked; availability may require login/JavaScript
 - Asahikawa-Medical: ok
 - Sapporo-Medical: ok
 - news-en-1: ok
-- news-en-2: ok
+- news-en-2: degraded
 - news-th-1: ok
 - news-th-2: ok
 - news-ja-1: ok
