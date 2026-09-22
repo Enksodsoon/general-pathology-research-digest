@@ -4,6 +4,12 @@ Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
+## Pathways from Collections to Society: The COVID-19 Pandemic Digital Memorial
+24 Sep 2026 18:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://bit.ly/bireme-2026-webinar-07
+Registration link checked; availability may require login/JavaScript
+
 ## Artificial intelligence and robotic innovations in non-oncological interventional radiology
 24 Sep 2026 22:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
@@ -86,7 +92,7 @@ Registration link checked; availability may require login/JavaScript
 - Siriraj-Conference: ok
 - Ramathibodi: ok
 - Thai-CME: ok
-- Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
+- Thai-MOPH: degraded — Partial official alternative; original publisher remains unverified
 - CIM-Discovery: ok
 - Medtec-Japan: ok
 - NCC-Supportive-Care: ok

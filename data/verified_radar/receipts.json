@@ -390,6 +390,31 @@
         "registration_target": "https://learn.unclcn.org/10072026",
         "discovered_by": "UNC-Event-API"
       }
+    },
+    "ca480928f270c25772924d32": {
+      "fingerprint": "25aa31a18293aecb535d61cc",
+      "message_id": 199,
+      "telegram_date": 1790085835,
+      "acknowledged_at": "2026-09-22T14:03:55.528371+00:00",
+      "kind": "event",
+      "event": {
+        "id": "ca480928f270c25772924d32",
+        "title": "Pathways from Collections to Society: The COVID-19 Pandemic Digital Memorial",
+        "source_url": "https://www.paho.org/en/events/pathways-collections-society-covid-19-pandemic-digital-memorial",
+        "registration_url": "https://bit.ly/bireme-2026-webinar-07",
+        "start_at": "2026-09-24T11:00:00+00:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "September 24, 2026, at 11:00 ",
+        "verified_at": "2026-09-22T14:01:20.470502+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://bit.ly/bireme-2026-webinar-07",
+        "discovered_by": "PAHO"
+      }
     }
   },
   "heartbeats": {
@@ -721,16 +746,23 @@
       "telegram_date": 1790065919,
       "acknowledged_at": "2026-09-22T08:31:59.500194+00:00",
       "kind": "heartbeat"
+    },
+    "status-35737385748": {
+      "fingerprint": "7296205b52e179788f215382",
+      "message_id": 200,
+      "telegram_date": 1790085836,
+      "acknowledged_at": "2026-09-22T14:03:57.173024+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-09-22",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-22T08:31:59.502514+00:00",
-    "run_id": "35705061537",
+    "completed_at": "2026-09-22T14:03:57.175395+00:00",
+    "run_id": "35737385748",
     "trigger": "schedule"
   },
   "daily_attempts": {
@@ -749,6 +781,6 @@
     "2026-09-19": 3,
     "2026-09-20": 3,
     "2026-09-21": 3,
-    "2026-09-22": 2
+    "2026-09-22": 3
   }
 }
