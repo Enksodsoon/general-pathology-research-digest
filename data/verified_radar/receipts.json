@@ -365,6 +365,31 @@
         "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
         "discovered_by": "UNC-Event-API"
       }
+    },
+    "452e2b743d48ba34a6943b35": {
+      "fingerprint": "4e390cce4cf2294cd091924f",
+      "message_id": 196,
+      "telegram_date": 1790053690,
+      "acknowledged_at": "2026-09-22T05:08:10.814517+00:00",
+      "kind": "event",
+      "event": {
+        "id": "452e2b743d48ba34a6943b35",
+        "title": "Tailoring Care of the Evolving Needs of Cancer Survivors",
+        "source_url": "https://unclineberger.org/unclcn/event/10072026/",
+        "registration_url": "https://learn.unclcn.org/10072026",
+        "start_at": "2026-10-07T12:00:00-04:00",
+        "end_at": "2026-10-07T13:00:00-04:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Available; attendance/evaluation conditions may apply",
+        "credits": "CME/CPD offered; eligibility must be checked",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-09-22T05:05:34.746100+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://learn.unclcn.org/10072026",
+        "discovered_by": "UNC-Event-API"
+      }
     }
   },
   "heartbeats": {
@@ -682,17 +707,24 @@
       "telegram_date": 1790006117,
       "acknowledged_at": "2026-09-21T15:55:18.085872+00:00",
       "kind": "heartbeat"
+    },
+    "status-35689341535": {
+      "fingerprint": "3c21aa5eb4fd563fce0e6020",
+      "message_id": 197,
+      "telegram_date": 1790053692,
+      "acknowledged_at": "2026-09-22T05:08:12.417727+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-21T15:55:18.088128+00:00",
-    "run_id": "35621898602",
-    "trigger": "schedule"
+    "completed_at": "2026-09-22T05:08:12.419926+00:00",
+    "run_id": "35689341535",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -709,6 +741,7 @@
     "2026-09-18": 3,
     "2026-09-19": 3,
     "2026-09-20": 3,
-    "2026-09-21": 3
+    "2026-09-21": 3,
+    "2026-09-22": 1
   }
 }
