@@ -415,6 +415,31 @@
         "registration_target": "https://bit.ly/bireme-2026-webinar-07",
         "discovered_by": "PAHO"
       }
+    },
+    "f3308493a0e086959c54884a": {
+      "fingerprint": "c2a3aeae89fdb29603f37ba0",
+      "message_id": 210,
+      "telegram_date": 1790347074,
+      "acknowledged_at": "2026-09-25T14:37:54.474570+00:00",
+      "kind": "event",
+      "event": {
+        "id": "f3308493a0e086959c54884a",
+        "title": "Webinar – Is your AI software a medical device?",
+        "source_url": "https://www.medtechmagazine.se/announcement/view/986868/webinar_is_your_ai_software_a_medical_device",
+        "registration_url": "https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/",
+        "start_at": "2026-10-29T13:00:00+01:00",
+        "end_at": "2026-10-29T13:45:00+01:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "29 October 2026, 13:00–13:45 ",
+        "verified_at": "2026-09-25T14:35:30.690337+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/",
+        "discovered_by": "web-en-6"
+      }
     }
   },
   "heartbeats": {
@@ -809,16 +834,23 @@
       "telegram_date": 1790326130,
       "acknowledged_at": "2026-09-25T08:48:50.983948+00:00",
       "kind": "heartbeat"
+    },
+    "status-36148486650": {
+      "fingerprint": "0469bdd00489dc90a70ac3a5",
+      "message_id": 211,
+      "telegram_date": 1790347075,
+      "acknowledged_at": "2026-09-25T14:37:56.069480+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-09-25",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-25T08:48:50.985944+00:00",
-    "run_id": "36114737165",
+    "completed_at": "2026-09-25T14:37:56.082339+00:00",
+    "run_id": "36148486650",
     "trigger": "schedule"
   },
   "daily_attempts": {
@@ -840,6 +872,6 @@
     "2026-09-22": 3,
     "2026-09-23": 3,
     "2026-09-24": 3,
-    "2026-09-25": 2
+    "2026-09-25": 3
   }
 }
