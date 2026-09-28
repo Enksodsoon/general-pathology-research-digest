@@ -440,6 +440,31 @@
         "registration_target": "https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/",
         "discovered_by": "web-en-6"
       }
+    },
+    "48687ee1bb3f5c35c559e4d7": {
+      "fingerprint": "64d36512fece8768f0217929",
+      "message_id": 220,
+      "telegram_date": 1790588682,
+      "acknowledged_at": "2026-09-28T09:44:42.576362+00:00",
+      "kind": "event",
+      "event": {
+        "id": "48687ee1bb3f5c35c559e4d7",
+        "title": "[Registration Open] (Webinar) The 145th HGPI Seminar “Toward Better AMR Measures at Elderly Care Facilities—Considering Infectious Disease Control in a Super-Aged Society From a Policy Perspective” (October 27, 2026)",
+        "source_url": "https://hgpi.org/en/events/hs145.html",
+        "registration_url": "https://us06web.zoom.us/webinar/register/WN_zqsw9R82QlulfEdwsMky-g",
+        "start_at": "2026-10-27T18:30:00+09:00",
+        "end_at": "2026-10-27T19:45:00+09:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "October 27, 2026, 18:30-19:45 ",
+        "verified_at": "2026-09-28T09:42:00.752037+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://us06web.zoom.us/webinar/register/WN_zqsw9R82QlulfEdwsMky-g",
+        "discovered_by": "web-en-1"
+      }
     }
   },
   "heartbeats": {
@@ -890,17 +915,24 @@
       "telegram_date": 1790573659,
       "acknowledged_at": "2026-09-28T05:34:20.107528+00:00",
       "kind": "heartbeat"
+    },
+    "status-36405132135": {
+      "fingerprint": "b30ec8921d3b240a484d5632",
+      "message_id": 221,
+      "telegram_date": 1790588684,
+      "acknowledged_at": "2026-09-28T09:44:44.180048+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-09-28",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-28T05:34:20.109982+00:00",
-    "run_id": "36382281006",
-    "trigger": "workflow_run"
+    "completed_at": "2026-09-28T09:44:44.183290+00:00",
+    "run_id": "36405132135",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -924,6 +956,6 @@
     "2026-09-25": 3,
     "2026-09-26": 3,
     "2026-09-27": 3,
-    "2026-09-28": 1
+    "2026-09-28": 2
   }
 }
