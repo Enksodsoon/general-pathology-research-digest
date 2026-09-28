@@ -1,6 +1,6 @@
-# Free Medical Events — 2026-09-27
+# Free Medical Events — 2026-09-28
 
-Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -15,12 +15,6 @@ Registration link checked; availability may require login/JavaScript
 Certificate: Not stated | Credit: Not stated
 https://forms.cloud.microsoft/r/2uq4pGWeJN
 Registration link checked; availability may require login/JavaScript
-
-## Cancer Survivorship – Live Webinar
-14 Oct 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://unclineberger.org/unclcn/event/10142026/
-Organizer provides registration; not submitted
 
 ## がん疼痛への対応―日常診療での基本と工夫―
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
@@ -81,7 +75,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
