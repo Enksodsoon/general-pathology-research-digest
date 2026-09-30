@@ -28,10 +28,10 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
-## Coping with a Cancer Diagnosis – Live Webinar
-12 Nov 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/11112026
+## [Registration Open] (Webinar) The 145th HGPI Seminar “Toward Better AMR Measures at Elderly Care Facilities—Considering Infectious Disease Control in a Super-Aged Society From a Policy Perspective” (October 27, 2026)
+27 Oct 2026 16:30 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://us06web.zoom.us/webinar/register/WN_zqsw9R82QlulfEdwsMky-g
 Registration link checked; availability may require login/JavaScript
 
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
