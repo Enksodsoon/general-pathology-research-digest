@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-09-29
+# Free Medical Events — 2026-09-30
 
 Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
@@ -16,16 +16,22 @@ Certificate: Not stated | Credit: Not stated
 https://forms.cloud.microsoft/r/2uq4pGWeJN
 Registration link checked; availability may require login/JavaScript
 
+## Cancer Survivorship – Live Webinar
+14 Oct 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://unclineberger.org/unclcn/event/10142026/
+Organizer provides registration; not submitted
+
 ## がん疼痛への対応―日常診療での基本と工夫―
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
-## [Registration Open] (Webinar) The 145th HGPI Seminar “Toward Better AMR Measures at Elderly Care Facilities—Considering Infectious Disease Control in a Super-Aged Society From a Policy Perspective” (October 27, 2026)
-27 Oct 2026 16:30 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us06web.zoom.us/webinar/register/WN_zqsw9R82QlulfEdwsMky-g
+## Coping with a Cancer Diagnosis – Live Webinar
+12 Nov 2026 00:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://learn.unclcn.org/11112026
 Registration link checked; availability may require login/JavaScript
 
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
@@ -44,12 +50,6 @@ Registration link checked; availability may require login/JavaScript
 16 Dec 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_MXzVnPhpSsKfksNKzD7xmg
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 12/16/2026
-16 Dec 2026 20:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
 ## Portovenous interventions
