@@ -950,17 +950,24 @@
       "telegram_date": 1790761279,
       "acknowledged_at": "2026-09-30T09:41:19.274147+00:00",
       "kind": "heartbeat"
+    },
+    "status-36822891125": {
+      "fingerprint": "2368ff38758961534a53273d",
+      "message_id": 228,
+      "telegram_date": 1790834871,
+      "acknowledged_at": "2026-10-01T06:07:51.214846+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "health": "degraded",
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-09-30T09:41:19.276748+00:00",
-    "run_id": "36697386861",
-    "trigger": "schedule"
+    "completed_at": "2026-10-01T06:07:51.217611+00:00",
+    "run_id": "36822891125",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -986,6 +993,7 @@
     "2026-09-27": 3,
     "2026-09-28": 2,
     "2026-09-29": 2,
-    "2026-09-30": 2
+    "2026-09-30": 2,
+    "2026-10-01": 1
   }
 }
