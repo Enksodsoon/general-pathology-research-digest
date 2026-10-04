@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-10-04
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -26,12 +26,6 @@ Organizer provides registration; not submitted
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
-Registration link checked; availability may require login/JavaScript
-
-## [Registration Open] (Webinar) The 145th HGPI Seminar “Toward Better AMR Measures at Elderly Care Facilities—Considering Infectious Disease Control in a Super-Aged Society From a Policy Perspective” (October 27, 2026)
-27 Oct 2026 16:30 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us06web.zoom.us/webinar/register/WN_zqsw9R82QlulfEdwsMky-g
 Registration link checked; availability may require login/JavaScript
 
 ## Coping with a Cancer Diagnosis – Live Webinar
@@ -87,7 +81,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
