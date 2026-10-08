@@ -292,28 +292,28 @@
       }
     },
     "cdd12cf95788c05462715601": {
-      "fingerprint": "41bd9fa499d879b2ea5f7047",
-      "message_id": 139,
-      "telegram_date": 1788842904,
-      "acknowledged_at": "2026-09-08T04:48:24.779294+00:00",
-      "kind": "event",
+      "fingerprint": "36a48779408ea1d65552a0b8",
+      "message_id": 250,
+      "telegram_date": 1791440177,
+      "acknowledged_at": "2026-10-08T06:16:17.774269+00:00",
+      "kind": "update",
       "event": {
         "id": "cdd12cf95788c05462715601",
         "title": "Cancer Survivorship – Live Webinar",
         "source_url": "https://unclineberger.org/unclcn/event/10142026/",
-        "registration_url": "https://unclineberger.org/unclcn/event/10142026/",
+        "registration_url": "https://learn.unclcn.org/10142026",
         "start_at": "2026-10-14T12:00:00-04:00",
         "end_at": "2026-10-14T13:00:00-04:00",
         "mode": "Online",
         "language": "en",
         "certificate": "Available; attendance/evaluation conditions may apply",
-        "credits": "CME/CPD offered; eligibility must be checked",
+        "credits": "Not stated",
         "fee": "Free attendance",
         "date_evidence": "schema.org Event matched to title",
-        "verified_at": "2026-09-08T04:45:49.887758+00:00",
-        "registration_status": "Organizer provides registration; not submitted",
-        "registration_target": "https://unclineberger.org/unclcn/event/10142026/",
-        "discovered_by": "UNC-Event-API"
+        "verified_at": "2026-10-08T06:13:28.770954+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://learn.unclcn.org/10142026",
+        "discovered_by": "UNC-Lineberger"
       }
     },
     "d1f87cdb10127aab2fa14ca0": {
@@ -1055,17 +1055,24 @@
       "telegram_date": 1791368074,
       "acknowledged_at": "2026-10-07T10:14:34.744490+00:00",
       "kind": "heartbeat"
+    },
+    "status-37736422477": {
+      "fingerprint": "abcf2fb6ff97872f02908062",
+      "message_id": 251,
+      "telegram_date": 1791440179,
+      "acknowledged_at": "2026-10-08T06:16:19.473987+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-10-07",
+    "date": "2026-10-08",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-07T10:14:34.746531+00:00",
-    "run_id": "37605775897",
-    "trigger": "schedule"
+    "completed_at": "2026-10-08T06:16:19.475970+00:00",
+    "run_id": "37736422477",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1098,6 +1105,7 @@
     "2026-10-04": 2,
     "2026-10-05": 2,
     "2026-10-06": 2,
-    "2026-10-07": 2
+    "2026-10-07": 2,
+    "2026-10-08": 1
   }
 }
