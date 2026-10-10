@@ -590,6 +590,31 @@
         "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
         "discovered_by": "UNC-Event-API"
       }
+    },
+    "da680e173ccaf6734245af97": {
+      "fingerprint": "b3074d237fdc99fe10258672",
+      "message_id": 262,
+      "telegram_date": 1791612146,
+      "acknowledged_at": "2026-10-10T06:02:26.717217+00:00",
+      "kind": "event",
+      "event": {
+        "id": "da680e173ccaf6734245af97",
+        "title": "CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 05/19/2027",
+        "source_url": "https://unclineberger.org/unclcn/event/ccsp-05192027/",
+        "registration_url": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
+        "start_at": "2027-05-19T08:00:00-04:00",
+        "end_at": "2027-05-19T09:00:00-04:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-10-10T05:59:48.363013+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
+        "discovered_by": "UNC-Event-API"
+      }
     }
   },
   "heartbeats": {
@@ -1208,17 +1233,24 @@
       "telegram_date": 1791541907,
       "acknowledged_at": "2026-10-09T10:31:47.687826+00:00",
       "kind": "heartbeat"
+    },
+    "status-38029381404": {
+      "fingerprint": "23295dae04655cd3206bc781",
+      "message_id": 263,
+      "telegram_date": 1791612148,
+      "acknowledged_at": "2026-10-10T06:02:28.361378+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "health": "degraded",
     "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-09T10:31:47.690728+00:00",
-    "run_id": "37917857675",
-    "trigger": "schedule"
+    "completed_at": "2026-10-10T06:02:28.363333+00:00",
+    "run_id": "38029381404",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1253,6 +1285,7 @@
     "2026-10-06": 2,
     "2026-10-07": 2,
     "2026-10-08": 2,
-    "2026-10-09": 2
+    "2026-10-09": 2,
+    "2026-10-10": 1
   }
 }
