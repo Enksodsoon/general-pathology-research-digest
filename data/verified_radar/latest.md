@@ -28,12 +28,6 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
-## Webinar – Is your AI software a medical device?
-29 Oct 2026 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/
-Registration link checked; availability may require login/JavaScript
-
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
 12 Nov 2026 23:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
