@@ -615,6 +615,31 @@
         "registration_target": "https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1",
         "discovered_by": "UNC-Event-API"
       }
+    },
+    "f9f1c48e54c2eba554d6736d": {
+      "fingerprint": "548445acb30eec7c1c0aaf56",
+      "message_id": 266,
+      "telegram_date": 1791698304,
+      "acknowledged_at": "2026-10-11T05:58:24.208171+00:00",
+      "kind": "event",
+      "event": {
+        "id": "f9f1c48e54c2eba554d6736d",
+        "title": "Schwartz Rounds Conferences",
+        "source_url": "https://unclineberger.org/unclcn/event/10-20-26/",
+        "registration_url": "https://unclineberger.org/unclcn/event/10-20-26/",
+        "start_at": "2026-10-20T12:00:00-04:00",
+        "end_at": "2026-10-20T13:00:00-04:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "schema.org Event matched to title",
+        "verified_at": "2026-10-11T05:55:55.078458+00:00",
+        "registration_status": "Organizer provides registration; not submitted",
+        "registration_target": "https://unclineberger.org/unclcn/event/10-20-26/",
+        "discovered_by": "UNC-Lineberger"
+      }
     }
   },
   "heartbeats": {
@@ -1247,17 +1272,24 @@
       "telegram_date": 1791625751,
       "acknowledged_at": "2026-10-10T09:49:11.311218+00:00",
       "kind": "heartbeat"
+    },
+    "status-38116379160": {
+      "fingerprint": "6a37df40f4b78eb0c49f2f7e",
+      "message_id": 267,
+      "telegram_date": 1791698305,
+      "acknowledged_at": "2026-10-11T05:58:25.953924+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-10T09:49:11.313490+00:00",
-    "run_id": "38042572185",
-    "trigger": "schedule"
+    "completed_at": "2026-10-11T05:58:25.957018+00:00",
+    "run_id": "38116379160",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1293,6 +1325,7 @@
     "2026-10-07": 2,
     "2026-10-08": 2,
     "2026-10-09": 2,
-    "2026-10-10": 2
+    "2026-10-10": 2,
+    "2026-10-11": 1
   }
 }
