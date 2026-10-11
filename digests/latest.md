@@ -1,21 +1,10 @@
 # Daily General Pathology Research Digest
-Date: 2026-10-10
+Date: 2026-10-11
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Lung cytology in the diagnostic workflow: A real-world study of its clinical impact.
-**Source:** PubMed  
-**Journal:** Lung cancer (Amsterdam, Netherlands)  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, cytopathology_small_biopsy, novel_treatment_pathology_linked, general_medical_gp_updates  
-**Score:** 29 = relevance 27 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854279/  
-**Takeaway:** BACKGROUND: In the era of precision oncology, lung cancer diagnosis still relies on small and often limited tissue samples, which may be insufficient for definitive tumor classification and predictive biomarker assessment. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 2. Direction of discordance between PET/CT, EBUS-TBNA, and multidisciplinary tumor board nodal assignment in non-small cell lung cancer: A retrospective observational study.
+### 1. Direction of discordance between PET/CT, EBUS-TBNA, and multidisciplinary tumor board nodal assignment in non-small cell lung cancer: A retrospective observational study.
 **Source:** PubMed  
 **Journal:** Medicine  
 **Study type:** Guideline / recommendation  
@@ -26,126 +15,49 @@ Date: 2026-10-10
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 3. Reproducible and Interpretable H&E-based Histopathological Subtypes of Non-metastatic Lymph Nodes Refine Risk Stratification in Colorectal Cancer.
+### 2. Long-Term Outcomes of IDH2-Mutant Sinonasal Carcinomas Compared With IDH2-Wild Type Sinonasal Undifferentiated Carcinoma.
 **Source:** PubMed  
-**Journal:** Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc  
+**Journal:** Head & neck  
 **Study type:** Cohort study  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 19 = relevance 12 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855076/  
-**Takeaway:** Lymph node status is fundamental for staging, prognostic assessment, and treatment decision-making in colorectal cancer (CRC); however, current pathological evaluation largely focuses on metastatic involvement and overlooks the biological heterogeneity of non-metastatic lymph nodes (LNs). Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 18 = relevance 14 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42855994/  
+**Takeaway:** BACKGROUND: Sinonasal carcinomas are aggressive and often locally invasive at presentation, with no universally accepted treatment approach. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Deep-learning histopathradiomics enables high-throughput quantification of pollutant-induced tissue injury in marine mussels.
-**Source:** PubMed  
-**Journal:** Environmental pollution (Barking, Essex : 1987)  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, digital_computational_pathology  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854948/  
-**Takeaway:** Quantitative tissue-level biomarkers are important for assessing pollutant-induced biological effects, yet conventional histopathology remains largely manual, low-throughput, and observer-dependent. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Parathyroid Pathology Uncovered: Tiny Glands, Big Questions.
-**Source:** PubMed  
-**Journal:** Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855075/  
-**Takeaway:** Parathyroid neoplasms encountered in routine practice are most often diagnostically straightforward and can usually be classified on the basis of conventional histomorphology without the need for extensive biomarker work-up. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Pharmacological targeting of xCT/system Xc- to modulate temozolomide sensitivity in glioma and glioblastoma preclinical models: a focused systematic review.
-**Source:** PubMed  
-**Journal:** Cancer chemotherapy and pharmacology  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 14 = relevance 8 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42853450/  
-**Takeaway:** BACKGROUND: Resistance to temozolomide (TMZ) remains a major barrier in glioblastoma treatment. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. A Uniquely Formulated Hyperosmolar Irrigation Solution is Associated with Beneficial Effects for Recovery After Arthroscopic Knee and Shoulder Surgeries: A Preclinical Canine Model.
-**Source:** PubMed  
-**Journal:** The journal of knee surgery  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research  
-**Score:** 9 = relevance 7 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855160/  
-**Takeaway:** INTRODUCTION: Hyperosmolar solutions have emerged as a potential adjunct in knee and shoulder arthroscopic procedures, offering benefits such as reduced tissue edema, and enhanced operative efficiency. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Renal dysplasia in horses: 25 cases (1991-2021).
-**Source:** PubMed  
-**Journal:** Journal of veterinary internal medicine  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research  
-**Score:** 9 = relevance 7 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855433/  
-**Takeaway:** BACKGROUND: Renal dysplasia (RD) is a congenital malformation with variable clinical expression and limited characterization in horses. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Cold Snare Polypectomy Versus Cold Snare Polypectomy With Submucosal Injection for 3-9 mm Colorectal Polyps: A Randomized Controlled Trial.
+### 1. Feasibility of a Mindfulness-Based Intervention for Children With High Grade/High Risk Cancer and Their Caregivers: Lessons Learned From a Pilot Randomized Control Trial.
 **Source:** PubMed  
-**Journal:** Journal of gastroenterology and hepatology  
-**Study type:** Randomized clinical trial  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 9 = relevance 3 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855428/  
-**Takeaway:** BACKGROUND AND AIM: Incomplete resection after cold snare polypectomy (CSP) remains a concern. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Optimizing the Use of Anti-CD20 Agents in Multiple Sclerosis and Other Autoimmune Central Nervous System Disorders: A Narrative Review.
-**Source:** PubMed  
-**Journal:** Neurology and therapy  
+**Journal:** The American journal of hospice & palliative care  
 **Study type:** Guideline / recommendation  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 9 = relevance 3 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42853527/  
-**Takeaway:** Anti-CD20 monoclonal antibodies have become central therapies for multiple sclerosis (MS) and other autoimmune disorders of the central nervous system, including neuromyelitis optica spectrum disorder (NMOSD), myelin oligodendrocyte glycoprotein antibody-associated disease (MOGAD), and autoimmune encephalitis. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 3. A Prospective, Observational, Open-Label, Nonrandomized, Multicenter Study Measuring Functional Outcomes in a Novel Interspinous Stabilization Device in Patients With Low Back Pain: 12-Month Results for the REFINE Study.
-**Source:** PubMed  
-**Journal:** International journal of spine surgery  
-**Study type:** Randomized clinical trial  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 7 = relevance 3 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855423/  
-**Takeaway:** BACKGROUND: Lumbar spinal stenosis associated with degenerative disc disease is a common source of pain and reduced quality of life in older adults. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42856035/  
+**Takeaway:** BackgroundChildren and young adults diagnosed with a high-grade/relapsed-refractory cancer face a poor prognosis given limited curative options. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Hyperintense Vessel Sign on High-Resolution Vessel Wall MRI and Perfusion Decompensation in Intracranial Atherosclerotic Disease: Burden Versus Proximal Extent.
+### 2. Development of the ECMO nursing self-efficacy Perception scale: A validity and reliability study.
 **Source:** PubMed  
-**Journal:** Academic radiology  
-**Study type:** Cohort study  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 7 = relevance 3 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855382/  
-**Takeaway:** RATIONALE AND OBJECTIVES: To investigate the relationship between hyperintense vessel sign (HVS) on high-resolution magnetic resonance vessel wall imaging (HR-VWI) and cerebral perfusion decompensation in patients with intracranial atherosclerotic stenosis or occlusion. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 5. PNLDC1 deadenylase affects translational rate and cell proliferation in mESCs.
-**Source:** PubMed  
-**Journal:** RNA (New York, N.Y.)  
+**Journal:** Perfusion  
 **Study type:** Journal Article  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855306/  
-**Takeaway:** PNLDC1 is a member of the DEDD deadenylases, known for its specificity in poly(A) tail removal during mRNA turnover. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42856053/  
+**Takeaway:** Caring for patients receiving ECMO in the ICU is a complex process that requires advanced knowledge, technical skills, and confident clinical decision-making from nurses. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. High Prevalence and Clinical Burden of Bleeding Disorder of Unknown Cause in Adolescents With Heavy Menstrual Bleeding: Application of New Definition by the International Society on Thrombosis and Haemostasis.
+**Source:** PubMed  
+**Journal:** Haemophilia : the official journal of the World Federation of Hemophilia  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42855996/  
+**Takeaway:** BACKGROUND: Bleeding disorder of unknown cause (BDUC) is increasingly recognized in patients with clinically significant bleeding despite normal haemostatic testing. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
@@ -162,18 +74,7 @@ Date: 2026-10-10
 **Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
-### 2. Reinforcement Learning for Chronic Care Pathway Optimization: A Unified Framework across Three Clinical Goal Types
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
-**Score:** 15 = relevance 11 + evidence 4  
-**Link:** https://doi.org/10.64898/2026.07.03.26357209  
-**Takeaway:** Chronic care requires sequential treatment under competing biomarker, safety, and cost constraints, yet clinical goal structures differ across diseases. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 3. WITHDRAWN: Multi-Timepoint Risk Stratification in Rare Cancers: A Computational Framework Validated against Published Ewing Sarcoma Trial Data
+### 2. WITHDRAWN: Multi-Timepoint Risk Stratification in Rare Cancers: A Computational Framework Validated against Published Ewing Sarcoma Trial Data
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -184,7 +85,7 @@ Date: 2026-10-10
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 4. Evaluation of Elicit as an adjunct search, screening, and data extraction tool for systematic reviews
+### 3. Evaluation of Elicit as an adjunct search, screening, and data extraction tool for systematic reviews
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -195,7 +96,7 @@ Date: 2026-10-10
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 5. Extreme conservation and rare evolutionary deviations in mammalian NOTCH3 inform the interpretation of CADASIL pathogenicity
+### 4. Extreme conservation and rare evolutionary deviations in mammalian NOTCH3 inform the interpretation of CADASIL pathogenicity
 **Source:** biorxiv  
 **Journal:** biorxiv  
 **Study type:** Preprint  
@@ -206,9 +107,31 @@ Date: 2026-10-10
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
+### 5. Baseline severity of positive and negative symptoms predicts relapse in opposing directions among placebo-treated schizophrenia patients: analysis of five placebo-controlled, antipsychotic withdrawal, relapse-prevention trials
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 10 = relevance 4 + evidence 6  
+**Link:** https://doi.org/10.64898/2026.09.28.26363883  
+**Takeaway:** Background and HypothesisIdentifying which patients with schizophrenia will remain stable and which will relapse is relevant to both trial design and clinical practice. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
 
 ## Additional watchlist
-### 1. Patient overlap, cohort-relative scaling, and biological context in cross-cohort evaluation of a mitochondrial proteostasis-associated score in triple-negative breast cancer.
+### 1. Comparative Effectiveness of Skeletal Versus Fixed Anterior Traction in Growing Patients With Skeletal Class III Malocclusion: A Systematic Review and Meta-Analysis.
+**Source:** PubMed  
+**Journal:** Orthodontics & craniofacial research  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 20 = relevance 6 + evidence 14  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42856063/  
+**Takeaway:** To compare the skeletal, dentoalveolar, soft-tissue, and treatment-burden effects of skeletal anterior traction (SAT) versus fixed anterior traction (FAT) in growing patients with skeletal Class III malocclusion. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 2. Patient overlap, cohort-relative scaling, and biological context in cross-cohort evaluation of a mitochondrial proteostasis-associated score in triple-negative breast cancer.
 **Source:** PubMed  
 **Journal:** PloS one  
 **Study type:** Systematic review / meta-analysis  
@@ -219,7 +142,7 @@ Date: 2026-10-10
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Plasma p-tau217 as a biomarker for Alzheimer's disease: diagnostic and prognostic value in clinical and population-based studies.
+### 3. Plasma p-tau217 as a biomarker for Alzheimer's disease: diagnostic and prognostic value in clinical and population-based studies.
 **Source:** PubMed  
 **Journal:** Arquivos de neuro-psiquiatria  
 **Study type:** Guideline / recommendation  
@@ -230,7 +153,7 @@ Date: 2026-10-10
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. A capability-stratified framework for high-grade glioma care: A domain-level analysis across the Asia-Pacific Region.
+### 4. A capability-stratified framework for high-grade glioma care: A domain-level analysis across the Asia-Pacific Region.
 **Source:** PubMed  
 **Journal:** Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia  
 **Study type:** Guideline / recommendation  
@@ -241,7 +164,29 @@ Date: 2026-10-10
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Cigarette smoking and aortic calcification: meta-analysis and systematic review.
+### 5. EUS-guided and US-guided percutaneous splenic biopsy: a systematic review and meta-analysis of separately pooled diagnostic and safety outcomes.
+**Source:** PubMed  
+**Journal:** BMC gastroenterology  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 6 + evidence 11  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42855670/  
+**Takeaway:** BACKGROUND: Ultrasound (US)-guided percutaneous splenic biopsy has been widely used to evaluate focal or diffuse splenic lesions and has shown promising efficacy and safety. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Multi-class Identification and Quantification of Breast Implant-related Complications in Ultrasonography Using a Pathology-informed Lesion Graph: A Deep Learning Development and Validation Study.
+**Source:** PubMed  
+**Journal:** Aesthetic surgery journal  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
+**Score:** 17 = relevance 15 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42856060/  
+**Takeaway:** BACKGROUND: Breast ultrasonography (US) is cost-effective for detecting breast implant-related complications, but its reliability remains highly operator-dependent. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 7. Cigarette smoking and aortic calcification: meta-analysis and systematic review.
 **Source:** PubMed  
 **Journal:** Clinical radiology  
 **Study type:** Systematic review / meta-analysis  
@@ -252,54 +197,20 @@ Date: 2026-10-10
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Contemporary consensus and emerging directions in premature and delayed ejaculation: recommendations from the 5th International Consultation on Sexual Medicine.
-**Source:** PubMed  
-**Journal:** Sexual medicine reviews  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 16 = relevance 14 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855438/  
-**Takeaway:** INTRODUCTION: Disorders of ejaculation, including premature ejaculation (PE) and delayed ejaculation (DE), are common conditions with a substantial impact on men's quality of life and their relationships. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. First-line toripalimab in combination with platinum-doublet chemotherapy for advanced B3 thymoma and thymic carcinoma: an open-label prospective phase Ⅱ trial.
-**Source:** PubMed  
-**Journal:** ESMO open  
-**Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 15 = relevance 13 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854640/  
-**Takeaway:** BACKGROUND: Several studies have demonstrated the efficacy of programmed cell death protein 1/programmed death-ligand 1 (PD-L1) inhibitors in patients with thymic epithelial tumors (TETs). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. A nomogram for preoperative risk evaluation of Bethesda III thyroid nodules.
-**Source:** PubMed  
-**Journal:** Diabetes research and clinical practice  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854920/  
-**Takeaway:** BACKGROUND: Bethesda Category III thyroid nodules (AUS/FLUS) pose a diagnostic challenge due to their malignancy rate of 15-30%. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Beyond Mastalgia Subtype: Sensory Pain Burden, Attitudes, and Complementary Medicine Utilization in Women with Mastalgia.
-**Source:** PubMed  
-**Journal:** Complementary therapies in medicine  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, surgical_pathology_updates  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855014/  
-**Takeaway:** BACKGROUND: Women with mastalgia may use herbal preparations, dietary products and supplements, physical self-care approaches, or traditional procedures. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
+### 8. Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion
+**Source:** Europe PMC  
+**Journal:** Front Oncol  
+**Study type:** research-article; journal article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 15 = relevance 17 + evidence -2  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Low
 
 
 ## Pipeline QA
-- Total scored candidates: 134
-- Peer-reviewed pathology digest items: 8
-- GP-useful digest items: 5
-- Preprint watch items: 15
-- Watchlist items: 47
+- Total scored candidates: 135
+- Peer-reviewed pathology digest items: 2
+- GP-useful digest items: 3
+- Preprint watch items: 14
+- Watchlist items: 50
