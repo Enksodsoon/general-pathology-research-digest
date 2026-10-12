@@ -1,63 +1,85 @@
 # Daily General Pathology Research Digest
-Date: 2026-10-11
+Date: 2026-10-12
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Direction of discordance between PET/CT, EBUS-TBNA, and multidisciplinary tumor board nodal assignment in non-small cell lung cancer: A retrospective observational study.
+### 1. Association of Burning Mouth Symptoms with Sleep Quality, Stress and Xerostomia in Middle-Aged and Elderly Patients - a Systematic Review.
 **Source:** PubMed  
-**Journal:** Medicine  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, cytopathology_small_biopsy, guidelines_reviews_high_level_evidence, legacy_project_watch_low_priority  
-**Score:** 27 = relevance 20 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854031/  
-**Takeaway:** Mediastinal nodal classification in non-small cell lung cancer (NSCLC) at the N0/N1-N2/N3 treatment-defining boundary guides therapeutic strategy and is commonly finalized in multidisciplinary tumor board (MDT) meetings. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Maedica  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 14 = relevance 8 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859423/  
+**Takeaway:** Burning mouth syndrome (BMS) is a long term syndrome of oral pains that is prevalent among the middle aged and the aged people. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. Gardenia jasminoides Ellis 70% ethanolic fraction alleviates hyperuricemia by upregulating PPARγ and modulating its downstream urate transporters and anti-inflammatory pathways.
+**Source:** PubMed  
+**Journal:** Journal of ethnopharmacology  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42860231/  
+**Takeaway:** ETHNOPHARMACOLOGICAL RELEVANCE: Gardenia jasminoides Ellis (GJE) is a traditional Chinese medicine widely used for metabolic disorders. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. GVHD-Associated Angiomatosis: An Overlooked Vascular Sequela of Chronic Graft-Versus-Host Disease.
+**Source:** PubMed  
+**Journal:** Journal of cutaneous pathology  
+**Study type:** Case report  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42860331/  
+**Takeaway:** Graft-versus-host disease-associated angiomatosis (GVHD-AA) is a rare clinicopathologic variant of chronic GVHD characterized by benign vascular proliferations arising within areas of sclerodermatous skin change. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Accelerated Glofitamab as Urgent Bridging to CAR T-Cell Therapy in High-Risk Relapsed/Refractory Large B-Cell Lymphoma.
+**Source:** PubMed  
+**Journal:** Hematological oncology  
+**Study type:** Cohort study  
+**Matched profile:** cytopathology_small_biopsy  
+**Score:** 9 = relevance 5 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859877/  
+**Takeaway:** Conventional glofitamab step-up dosing reaches the 30-mg target dose approximately 3 weeks after obinutuzumab. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 2. Long-Term Outcomes of IDH2-Mutant Sinonasal Carcinomas Compared With IDH2-Wild Type Sinonasal Undifferentiated Carcinoma.
+### 5. Lambda-cyhalothrin disrupts ion homeostasis and triggers endoplasmic reticulum stress in first-instar Tachypleus tridentatus: An integrated physiological-transcriptomic analysis.
 **Source:** PubMed  
-**Journal:** Head & neck  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 18 = relevance 14 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855994/  
-**Takeaway:** BACKGROUND: Sinonasal carcinomas are aggressive and often locally invasive at presentation, with no universally accepted treatment approach. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Chemico-biological interactions  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research  
+**Score:** 8 = relevance 6 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42860164/  
+**Takeaway:** Residual contamination of the type II pyrethroid lambda-cyhalothrin (LCT) is documented in coastal environments, posing potential risks to benthic fauna such as Tachypleus tridentatus. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Feasibility of a Mindfulness-Based Intervention for Children With High Grade/High Risk Cancer and Their Caregivers: Lessons Learned From a Pilot Randomized Control Trial.
+### 1. Prevalence and independent influencing factors of moderate-to-severe cancer-related fatigue (CRF) and its association with Buzhong-Yiqi (BZYQ) use among patients with locally advanced cervical squamous cell carcinoma (LACSCC): a retrospective observational study using propensity-score weighting (PSW) logistic regression model.
 **Source:** PubMed  
-**Journal:** The American journal of hospice & palliative care  
-**Study type:** Guideline / recommendation  
+**Journal:** Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer  
+**Study type:** Journal Article, Observational Study  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 9 = relevance 3 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42856035/  
-**Takeaway:** BackgroundChildren and young adults diagnosed with a high-grade/relapsed-refractory cancer face a poor prognosis given limited curative options. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Score:** 6 = relevance 4 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859257/  
+**Takeaway:** PURPOSE: Cancer-related fatigue (CRF) is a debilitating syndrome in cervical cancer patients, resistant to conventional bedrest. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 2. Development of the ECMO nursing self-efficacy Perception scale: A validity and reliability study.
+### 2. Immunoglobulin products and neuronal antibody assays: implications in clinical interpretation.
 **Source:** PubMed  
-**Journal:** Perfusion  
+**Journal:** Pathology  
 **Study type:** Journal Article  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42856053/  
-**Takeaway:** Caring for patients receiving ECMO in the ICU is a complex process that requires advanced knowledge, technical skills, and confident clinical decision-making from nurses. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. High Prevalence and Clinical Burden of Bleeding Disorder of Unknown Cause in Adolescents With Heavy Menstrual Bleeding: Application of New Definition by the International Society on Thrombosis and Haemostasis.
-**Source:** PubMed  
-**Journal:** Haemophilia : the official journal of the World Federation of Hemophilia  
-**Study type:** Journal Article  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855996/  
-**Takeaway:** BACKGROUND: Bleeding disorder of unknown cause (BDUC) is increasingly recognized in patients with clinically significant bleeding despite normal haemostatic testing. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859103/  
+**Takeaway:** Immunoglobulin (Ig) products are prescribed for the treatment of a range of immune-mediated disorders, including autoimmune neurological disease. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
@@ -120,84 +142,40 @@ Date: 2026-10-11
 
 
 ## Additional watchlist
-### 1. Comparative Effectiveness of Skeletal Versus Fixed Anterior Traction in Growing Patients With Skeletal Class III Malocclusion: A Systematic Review and Meta-Analysis.
+### 1. Ordering Herpes simplex virus serology in asymptomatic, non-pregnant patients: a national survey of Australian General Practitioners' knowledge, attitudes and practices.
 **Source:** PubMed  
-**Journal:** Orthodontics & craniofacial research  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 6 + evidence 14  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42856063/  
-**Takeaway:** To compare the skeletal, dentoalveolar, soft-tissue, and treatment-burden effects of skeletal anterior traction (SAT) versus fixed anterior traction (FAT) in growing patients with skeletal Class III malocclusion. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 2. Patient overlap, cohort-relative scaling, and biological context in cross-cohort evaluation of a mitochondrial proteostasis-associated score in triple-negative breast cancer.
-**Source:** PubMed  
-**Journal:** PloS one  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 12 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42853826/  
-**Takeaway:** BACKGROUND: Public transcriptomic cohort evaluation can be distorted by patient reuse, dependence among study sources, and cohort-relative normalization. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. Plasma p-tau217 as a biomarker for Alzheimer's disease: diagnostic and prognostic value in clinical and population-based studies.
-**Source:** PubMed  
-**Journal:** Arquivos de neuro-psiquiatria  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, general_medical_gp_updates  
-**Score:** 19 = relevance 15 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855152/  
-**Takeaway:** BACKGROUND: Alzheimer's disease (AD) is the leading cause of dementia worldwide, and blood-based biomarkers are emerging as accessible diagnostic tools. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. A capability-stratified framework for high-grade glioma care: A domain-level analysis across the Asia-Pacific Region.
-**Source:** PubMed  
-**Journal:** Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia  
+**Journal:** Journal of primary health care  
 **Study type:** Guideline / recommendation  
 **Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
 **Score:** 18 = relevance 11 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854467/  
-**Takeaway:** BACKGROUND: International guidelines for high-grade glioma are based largely on evidence from well-resourced health systems and assume access to advanced imaging, molecular diagnostics, subspecialised neurosurgery, and coordinated adjuvant therapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42860248/  
+**Takeaway:** INTRODUCTION: Diagnostic serology for Herpes simplex virus is not recommended among asymptomatic, non-pregnant patients. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. EUS-guided and US-guided percutaneous splenic biopsy: a systematic review and meta-analysis of separately pooled diagnostic and safety outcomes.
+### 2. Necroptosis as a key player in cervical cancer progression and management: a systematic review and transcriptomic cross-study consensus analysis.
 **Source:** PubMed  
-**Journal:** BMC gastroenterology  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 6 + evidence 11  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42855670/  
-**Takeaway:** BACKGROUND: Ultrasound (US)-guided percutaneous splenic biopsy has been widely used to evaluate focal or diffuse splenic lesions and has shown promising efficacy and safety. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Apoptosis : an international journal on programmed cell death  
+**Study type:** Guideline / recommendation  
+**Matched profile:** novel_treatment_pathology_linked, guidelines_reviews_high_level_evidence  
+**Score:** 16 = relevance 10 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859938/  
+**Takeaway:** Immunotherapy has improved outcomes for a subset of patients with locally advanced cervical cancer. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 6. Multi-class Identification and Quantification of Breast Implant-related Complications in Ultrasonography Using a Pathology-informed Lesion Graph: A Deep Learning Development and Validation Study.
+### 3. Morpho-molecular assessment of nanomaterials in teleost fish wound healing: a systematic review.
 **Source:** PubMed  
-**Journal:** Aesthetic surgery journal  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
-**Score:** 17 = relevance 15 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42856060/  
-**Takeaway:** BACKGROUND: Breast ultrasonography (US) is cost-effective for detecting breast implant-related complications, but its reliability remains highly operator-dependent. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 7. Cigarette smoking and aortic calcification: meta-analysis and systematic review.
-**Source:** PubMed  
-**Journal:** Clinical radiology  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 16 = relevance 6 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42854378/  
-**Takeaway:** AIM: Cigarette smoking has been proposed to contribute to aortic stiffness and aortic calcification (AC), although evidence remains inconsistent across populations, anatomical segments, and imaging modalities. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** BMC veterinary research  
+**Study type:** Guideline / recommendation  
+**Matched profile:** molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
+**Score:** 15 = relevance 9 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859172/  
+**Takeaway:** BACKGROUND: Teleost fish skin is a vital barrier for regulating osmoregulation, immune defense, and respiration. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 8. Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion
+### 4. Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion
 **Source:** Europe PMC  
 **Journal:** Front Oncol  
 **Study type:** research-article; journal article  
@@ -207,10 +185,54 @@ Date: 2026-10-11
 **Limitations:** No abstract available in fetched metadata.
 **Confidence:** Low
 
+### 5. Prediction of prognosis and treatment effect of cervical cancer by immunogenic cell death-related genes.
+**Source:** PubMed  
+**Journal:** PeerJ  
+**Study type:** Journal Article  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859803/  
+**Takeaway:** BACKGROUND: Immunogenic cell death (ICD) is a potential mechanism that mediates adaptive immune responses during anticancer therapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Deceased donor interposition graft repair of superior mesenteric artery injury during cytoreductive nephrectomy for metastatic renal cell carcinoma.
+**Source:** PubMed  
+**Journal:** Journal of surgical case reports  
+**Study type:** Case report  
+**Matched profile:** general_pathology_research, novel_treatment_pathology_linked  
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859842/  
+**Takeaway:** Iatrogenic injury to the superior mesenteric artery (SMA) represents a rare but serious complication of nephrectomy, associated with significant morbidity and mortality. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 7. Robotic Versus Laparoscopic Hepatectomy: a Systematic Review of Perioperative and Short-Term Oncologic Outcomes.
+**Source:** PubMed  
+**Journal:** Maedica  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 13 = relevance 5 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859486/  
+**Takeaway:** BACKGROUND: Minimally invasive liver surgery (MILS) has progressively evolved from minor resections to technically demanding major hepatectomies. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 8. Complications associated with thoracic endovascular aortic repair: highlighting the role of peri- and post-operative cardiac monitoring.
+**Source:** PubMed  
+**Journal:** Expert review of cardiovascular therapy  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 12 = relevance 5 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42859403/  
+**Takeaway:** INTRODUCTION: Thoracic endovascular aortic repair (TEVAR) is first-line therapy for most descending thoracic aortic pathologies, yet it is performed in patients with a heavy burden of coronary disease, hypertension and limited cardiac reserve, and its cardiac complications remain underemphasized relative to neurological and device-related events. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
 
 ## Pipeline QA
-- Total scored candidates: 135
-- Peer-reviewed pathology digest items: 2
-- GP-useful digest items: 3
+- Total scored candidates: 137
+- Peer-reviewed pathology digest items: 5
+- GP-useful digest items: 2
 - Preprint watch items: 14
-- Watchlist items: 50
+- Watchlist items: 47
