@@ -1,14 +1,8 @@
 # Free Medical Events — 2026-10-13
 
-Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## 2026年10月13日(火曜日)開催 大学院保健医療学研究科 看護学専攻説明会
-13 Oct 2026 16:00 ICT · Online · JA · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://forms.cloud.microsoft/r/2uq4pGWeJN
-Registration link checked; availability may require login/JavaScript
 
 ## Cancer Survivorship – Live Webinar
 14 Oct 2026 23:00 ICT · Online · EN · Free attendance
@@ -75,7 +69,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
