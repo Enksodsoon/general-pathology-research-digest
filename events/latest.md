@@ -1,14 +1,8 @@
-# Free Medical Events — 2026-10-13
+# Free Medical Events — 2026-10-14
 
 Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Cancer Survivorship – Live Webinar
-14 Oct 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: Not stated
-https://learn.unclcn.org/10142026
-Registration link checked; availability may require login/JavaScript
 
 ## Schwartz Rounds Conferences
 20 Oct 2026 23:00 ICT · Online · EN · Free attendance
@@ -46,10 +40,22 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
 Registration link checked; availability may require login/JavaScript
 
+## The Role of Quality of Life in Cancer Care – Live Webinar
+10 Dec 2026 00:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://learn.unclcn.org/12092026
+Registration link checked; availability may require login/JavaScript
+
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
 16 Dec 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_MXzVnPhpSsKfksNKzD7xmg
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 12/16/2026
+16 Dec 2026 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
 ## Portovenous interventions
@@ -62,6 +68,18 @@ Registration link checked; availability may require login/JavaScript
 20 Jan 2027 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 01/27/2027
+27 Jan 2027 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 02/10/2027
+10 Feb 2027 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
 ## Source health
