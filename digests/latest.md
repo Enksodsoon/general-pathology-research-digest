@@ -1,269 +1,159 @@
 # Daily General Pathology Research Digest
-Date: 2026-10-13
+Date: 2026-10-14
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. [Calcitonin measurement in fine needle aspiration washout fluid : when biology arbitrates between two cytological diagnoses].
+### 1. Artificial Intelligence Across the Surgical Research Workflow: A Stage-Specific Framework for Benefits, Failure Modes, and Oversight.
 **Source:** PubMed  
-**Journal:** Revue medicale de Liege  
+**Journal:** The American surgeon  
 **Study type:** Guideline / recommendation  
-**Matched profile:** cytopathology_small_biopsy, guidelines_reviews_high_level_evidence  
-**Score:** 23 = relevance 11 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42861540/  
-**Takeaway:** Medullary thyroid carcinoma is a lesion whose preoperative diagnosis mainly relies on serum calcitonin measurement and cytology obtained by fine-needle aspiration. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, digital_computational_pathology  
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869423/  
+**Takeaway:** Artificial intelligence (AI) tools, particularly large language models (LLMs), have rapidly integrated into surgical and biomedical research, prompting fundamental questions about their appropriate role. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. [Tiaoqi electroacupuncture alleviates chronic pain-depression comorbidity via miRNA-124- mediated JAK2/STAT3 signaling pathway].
+### 2. Low complication rates are reported in cats presenting for neurological complaints and undergoing cerebrospinal fluid collection.
 **Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** English Abstract, Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, legacy_project_watch_low_priority  
-**Score:** 17 = relevance 15 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864290/  
-**Takeaway:** OBJECTIVE: To observe the effects of Tiaoqi (regulating qi) electroacupuncture (EA) on the micro ribonucleic acid-124 (miRNA-124) and Janus kinase 2/signal transducer and activator of transcription 3 (JAK2/STAT3) signaling pathway in the prefrontal cortex (PFC) of rats with chronic pain-depression comorbidity (CPDC). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Journal:** American journal of veterinary research  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, laboratory_medicine_transfusion  
+**Score:** 13 = relevance 10 + evidence 3  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869081/  
+**Takeaway:** OBJECTIVE: To assess complications, outcomes, and associated risk factors of cats undergoing CSF collection. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 3. Myo-inositol to prevent gestational diabetes: "What do conflicting trials tell clinicians?".
+### 3. [Quercetin attenuates atherosclerosis by promoting ABCA1/G1-mediated cholesterol efflux and suppressing neutrophil extracellular trap formation].
 **Source:** PubMed  
-**Journal:** American journal of obstetrics and gynecology  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 12 = relevance 6 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864184/  
-**Takeaway:** BACKGROUND: A recent meta-analysis reported that myo-inositol supplementation was associated with a reduced risk of gestational diabetes mellitus. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. [Effect of electroacupuncture at Jiaji (EX-B2) on disease progression in mice with amyotrophic lateral sclerosis based on NLRP3/Caspase-1/ASC signaling pathway].
-**Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
+**Journal:** Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica  
 **Study type:** English Abstract, Journal Article  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
 **Score:** 10 = relevance 10 + evidence 0  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864293/  
-**Takeaway:** OBJECTIVE: To explore the underlying mechanism of electroacupuncture (EA) at "Jiaji" (EX-B2) on the disease progression through modulating NOD-like receptor family pyrin domain containing 3 (NLRP3)/cysteine-aspartic acid protease 1 (Caspase-1)/apoptosis-associated speck-like protein containing a caspase recruitment domain (ASC) signaling pathway in mice with amyotrophic lateral sclerosis. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869811/  
+**Takeaway:** This study aimed to investigate the effect of quercetin on atherosclerosis(AS) in apolipoprotein E knockout(ApoE~(-/-))mice and the mechanism underlying the regulation of cholesterol efflux mediated by adenosine triphosphate-binding cassette transporter A1/G1(ABCA1/G1) pathway and neutrophil extracellular traps(NETs) formation. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preclinical evidence; clinical applicability is uncertain.
-**Confidence:** Moderate
-
-### 5. An unusual Case of p63/p40 Negative Myoepithelial cell-Rich Parotid Pleomorphic Adenoma.
-**Source:** PubMed  
-**Journal:** International journal of oral and maxillofacial surgery  
-**Study type:** Case report  
-**Matched profile:** general_pathology_research  
-**Score:** 9 = relevance 7 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864204/  
-**Takeaway:** Pleomorphic adenoma is the most common benign salivary gland neoplasm; however, myoepithelial-rich variants with unusual immunophenotypes are rare and pose diagnostic challenges. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Jingfang Baidu San Alleviates Feng-Han (Wind-Cold) Syndrome-Associated Lung Injury in Mice Through Macrophage Functional Regulation and Dectin-1-Associated Immune Remodeling.
-**Source:** PubMed  
-**Journal:** Journal of ethnopharmacology  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, general_medical_gp_updates  
-**Score:** 9 = relevance 11 + evidence -2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42863726/  
-**Takeaway:** ETHNOPHARMACOLOGICAL RELEVANCE: Jingfang Baidu San (JF) is a classic traditional Chinese medicine(TCM)formula that has been widely used in clinical practice for hundreds of years. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preclinical evidence; clinical applicability is uncertain.
-**Confidence:** Moderate
-
-### 7. Timeliness of Pathological Diagnosis for Suspicious Breast Lesions in Northern Tanzania.
-**Source:** PubMed  
-**Journal:** The oncologist  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research  
-**Score:** 8 = relevance 6 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42861768/  
-**Takeaway:** BACKGROUND: Most breast cancer cases in sub-Saharan Africa are diagnosed at advanced stages. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. [A CASE OF PENILE CANCER WITH PELVIC LYMPH NODE METASTASIS SUCCESSFULLY TREATED WITH SIMULTANEOUS INGUINAL AND PELVIC LYMPH NODE DISSECTION AFTER TIP-BASED NEOADJUVANT CHEMOTHERAPY].
-**Source:** PubMed  
-**Journal:** Nihon Hinyokika Gakkai zasshi. The japanese journal of urology  
-**Study type:** Case report  
-**Matched profile:** cytopathology_small_biopsy  
-**Score:** 7 = relevance 5 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864026/  
-**Takeaway:** We report a case of penile cancer with bilateral inguinal and pelvic lymph node metastases in which neoadjuvant chemotherapy (NAC), followed by simultaneous bilateral inguinal and pelvic lymph node dissections achieved curative resection. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. [CORRELATION BETWEEN RELATIVE DOSE INTENSITY AND TREATMENT OUTCOMES OF ENFORTUMAB VEDOTIN IN PATIENTS WITH LOCALLY ADVANCED/METASTATIC UROTHELIAL CARCINOMA].
+### 1. Association of Early Primary Care Follow-Up With Acute Care Use After ICU Discharge.
 **Source:** PubMed  
-**Journal:** Nihon Hinyokika Gakkai zasshi. The japanese journal of urology  
-**Study type:** English Abstract, Journal Article  
+**Journal:** Pediatrics  
+**Study type:** Cohort study  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864066/  
-**Takeaway:** (Objective) This retrospective study investigates the correlation between relative dose intensity (RDI) and the clinical efficacy of enfortumab vedotin (EV) in clinical practice. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 2. [From fascial tension abnormality to myofascial chain: modern anatomical and biomechanical interpretation of "taking painful points as acupoints" in acupuncture and moxibustion].
-**Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** Journal Article, English Abstract, Review  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864297/  
-**Takeaway:** "Taking painful points as acupoints" is an important principle of acupoint selection in acupuncture and moxibustion. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 7 = relevance 3 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869442/  
+**Takeaway:** OBJECTIVE: To determine if early primary care follow-up after pediatric intensive care unit (PICU) hospitalization is associated with reduced acute care use. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. [WANG Hua's clinical experience in treating mammary gland hyperplasia with the "double consolidation and one unblocking" acupuncture method].
+### 2. [TCM pathogenesis of adverse reactions to molecularly targeted anti-tumor drugs in light of collateral disease theory].
 **Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
+**Journal:** Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica  
 **Study type:** English Abstract, Journal Article  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864296/  
-**Takeaway:** This article introduces Professor WANG Hua's clinical experience in treating mammary gland hyperplasia with the "double consolidation and one unblocking" acupuncture method. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Evaluation and Outcomes of Obstetric and Surgical Healthcare-associated Brucella Exposures.
-**Source:** PubMed  
-**Journal:** American journal of infection control  
-**Study type:** Journal Article  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42863569/  
-**Takeaway:** BACKGROUND: Exposure to Brucella spp. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869817/  
+**Takeaway:** Toxic and adverse reactions associated with molecularly targeted anti-tumor drugs are highly prevalent and seriously affect the patients' quality of life. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Preprints — not peer reviewed
-### 1. Discovering Latent Scientific Concepts through Discrete Representation Learning
-**Source:** biorxiv  
-**Journal:** biorxiv  
+### 1. Generalizing Amyloid β Pathology from Postmortem Human Brains with Vision Foundation Models for Lesion Quantification
+**Source:** medrxiv  
+**Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, digital_computational_pathology  
-**Score:** 11 = relevance 12 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.03.756431  
-**Takeaway:** Scientific imaging is undergoing a fundamental transformation. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
+**Score:** 20 = relevance 21 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.10.05.26364184  
+**Takeaway:** BackgroundTraditional neuropathological assessment of Alzheimers disease (AD) relies on manual, semiquantitative scoring of amyloid-beta (A{beta}) pathology. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Metatranscriptomic Identification of Co- and Incidental Infections in Marine Turtles Reveals Complex Disease Aetiologies
+### 2. RFM: A Lightweight Retinal Foundation Model for Generalised Oculomics
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology, general_medical_gp_updates  
+**Score:** 19 = relevance 20 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.10.02.26362554  
+**Takeaway:** Foundation models for colour fundus photography (CFP) are candidate visual encoders for multimodal medical AI, but existing models are large and are assessed under fine-tuning rather than the frozen-encoder conditions such systems impose. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 3. Diagnostic Accuracy of GFAP and UCH-L1 for Acute Intracranial Trauma in a Predominantly Blast-Exposed Cohort of Combat Casualties
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates  
+**Score:** 11 = relevance 9 + evidence 2  
+**Link:** https://doi.org/10.64898/2026.10.06.26364753  
+**Takeaway:** ImportanceThere is an urgent need for objective blood tests to guide triage of suspected traumatic brain injury (TBI) in far-forward combat environments, where blast exposure is common and neuroimaging is frequently unavailable. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
+**Confidence:** Low
+
+### 4. Loss of the Y chromosome drives basal identity and metastatic potential via epigenetic reprogramming in pancreatic cancer
 **Source:** biorxiv  
 **Journal:** biorxiv  
 **Study type:** Preprint  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
 **Score:** 11 = relevance 12 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.02.753670  
-**Takeaway:** Traditional veterinary pathology investigations on wild animals generally conclude a primary cause of death based on a combination of observed clinical signs, gross and microscopic lesions, microbial culture and PCR. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://doi.org/10.64898/2026.10.06.756936  
+**Takeaway:** Loss of the Y chromosome (LOY) has been largely unexplored in pancreatic ductal adenocarcinoma (PDAC), and no mechanistic framework previously explained its role in tumor biology. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 3. A Modality-Invariant Measure of Neural Health
+### 5. Validation of a two-stage automated screening pipeline for medical systematic reviews: a stratified concordance study with three independent human reviewers, using PABAK and Gwet's AC1
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** molecular_ihc_biomarkers  
-**Score:** 8 = relevance 6 + evidence 2  
-**Link:** https://doi.org/10.64898/2026.10.02.26364203  
-**Takeaway:** Quantifying neural health with a single measure remains a major unmet challenge. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 4. Performance of five risk stratification tools for paediatric pneumonia against WHO scores using data from the PediCAP trial in sub-Saharan Africa
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** No configured profile matched  
-**Score:** 8 = relevance 0 + evidence 8  
-**Link:** https://doi.org/10.64898/2026.06.02.26353886  
-**Takeaway:** ObjectivesRisk stratification tools for childhood pneumonia may improve identification of children at highest risk of death in low-resource settings. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 5. Predicting Cervical Cancer Screening Utilization Among Women of Reproductive Age in Ethiopia Using Supervised Machine Learning: A Nationally Representative 2024/25 EDHS Study
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.02.26364565  
-**Takeaway:** BackgroundCervical cancer is a leading malignancy and mortality cause among Ethiopian women. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 11 = relevance 8 + evidence 3  
+**Link:** https://doi.org/10.64898/2026.10.05.26364147  
+**Takeaway:** BackgroundLarge language models (LLMs) are increasingly used to automate title-abstract screening in systematic reviews, but validation studies typically report sensitivity, specificity, or Cohens kappa -- metrics that are unstable under the low and unbalanced prevalence that characterises most reviews. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. Perioperative immune-based treatment for cisplatin-eligible muscle-invasive bladder cancer: a meta-analysis of randomized controlled trials.
+### 1. Pancreatic Adenocarcinoma, Version 4.2026, NCCN Clinical Practice Guidelines In Oncology.
 **Source:** PubMed  
-**Journal:** Critical reviews in oncology/hematology  
+**Journal:** Journal of the National Comprehensive Cancer Network : JNCCN  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 26 = relevance 14 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869082/  
+**Takeaway:** The NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines) for Pancreatic Adenocarcinoma provide multidisciplinary diagnostic workup, staging, and treatment recommendations for resectable, borderline resectable, unresectable, locally advanced, and metastatic disease. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. Toward Clinically Actionable Prediction of Recurrence and Metastatic Progression in Pancreatic Ductal Adenocarcinoma: A Systematic Review.
+**Source:** PubMed  
+**Journal:** JCO clinical cancer informatics  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** novel_treatment_pathology_linked, guidelines_reviews_high_level_evidence  
-**Score:** 28 = relevance 11 + evidence 17  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42863770/  
-**Takeaway:** PURPOSE: Perioperative immune-based strategies are redefining the treatment landscape of muscle-invasive bladder cancer, but their overall benefit and subgroup effects remain incompletely characterized. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 25 = relevance 16 + evidence 9  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42868319/  
+**Takeaway:** PURPOSE: Pancreatic ductal adenocarcinoma (PDAC) has high rates of early recurrence (ER), occult metastasis, and poor survival despite curative-intent therapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 2. [Metastatic or recurrent cervical cancer : current management and therapeutic perspectives].
+### 3. [Research on mechanism of Panlongqi Tablets regulating β2-adrenergic receptors to improve early fracture injury].
 **Source:** PubMed  
-**Journal:** Revue medicale de Liege  
-**Study type:** Guideline / recommendation  
-**Matched profile:** novel_treatment_pathology_linked, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 25 = relevance 13 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42861532/  
-**Takeaway:** Cervical cancer is the fourth most common cancer in women. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. [Effect of medicated-thread moxibustion of Zhuang medicine on autophagy in gastric smooth muscle cells of rats with diabetic gastroparesis via miR-10b-5p/PTEN/PI3K/AKT signaling pathway].
-**Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
+**Journal:** Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica  
 **Study type:** Randomized clinical trial  
-**Matched profile:** general_pathology_research, cytopathology_small_biopsy, legacy_project_watch_low_priority  
-**Score:** 19 = relevance 13 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864291/  
-**Takeaway:** OBJECTIVE: To investigate the underlying mechanism of medicated-thread moxibustion of Zhuang medicine in intervention of diabetic gastroparesis (DGP). Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates  
+**Score:** 15 = relevance 9 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869791/  
+**Takeaway:** This study aims to clarify the alleviating effects of Panlongqi Tablets(PLQP) on early fracture injuries and to reveal the mechanism of action through a multi-dimensional research method integrating network pharmacology,molecular docking,surface plasmon resonance(SPR),and animal experiments. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Sclerosing epithelioid fibrosarcoma with initial presentation as pulmonary masses: clinicopathological characteristics and diagnostic challenges.
-**Source:** PubMed  
-**Journal:** Pathology  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 19 = relevance 15 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42864194/  
-**Takeaway:** Sclerosing epithelioid fibrosarcoma (SEF) initially presenting as pulmonary masses is exceptionally rare, and pathological diagnosis based on lung biopsy specimens is challenging. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Cause-specific hospital admissions associated with short-term PM2·5 exposure: a multicountry time-series analysis.
-**Source:** PubMed  
-**Journal:** The Lancet. Planetary health  
-**Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 6 + evidence 11  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42863479/  
-**Takeaway:** BACKGROUND: Fine particulate matter (PM2·5) pollution constitutes a leading global health burden. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Predictors of immunological non-response despite virological suppression in people living with HIV on antiretroviral therapy: A systematic review and meta-analysis.
-**Source:** PubMed  
-**Journal:** PloS one  
-**Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 16 = relevance 6 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42862878/  
-**Takeaway:** Immunological Nonresponse (INR) in people living with HIV (PLWH) is characterized by inadequate CD4+ T-cell recovery despite effective viral suppression through antiretroviral therapy (ART). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion
+### 4. Prediction of pathological complete response after neoadjuvant therapy in breast cancer using pretreatment core biopsy pathology reports: a pathology-report-driven model with exploratory clinical-laboratory fusion
 **Source:** Europe PMC  
 **Journal:** Front Oncol  
 **Study type:** research-article; journal article  
@@ -273,21 +163,54 @@ Date: 2026-10-13
 **Limitations:** No abstract available in fetched metadata.
 **Confidence:** Low
 
-### 8. Hitting KRAS G12D without the gut punch: Can immunotherapy make it last?
+### 5. Are we being prudent or profligate? Overblocking in colorectal adenocarcinoma resections.
 **Source:** PubMed  
-**Journal:** Cancer cell  
+**Journal:** Pathology  
 **Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Matched profile:** general_pathology_research, surgical_pathology_updates  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869761/  
+**Takeaway:** There are two main margins in histopathological assessment of colorectal resections for primary adenocarcinoma: non-peritonealised and longitudinal margins (proximal and distal). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Sex-specific brain reserve and progression from mild cognitive impairment to Alzheimer's disease dementia.
+**Source:** PubMed  
+**Journal:** Alzheimer's & dementia : the journal of the Alzheimer's Association  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869847/  
+**Takeaway:** INTRODUCTION: Sex differences exist in Alzheimer's disease (AD) treatment response, but the role of sex in disease development and progression remains unclear. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 7. HPMES: an ultra-sensitive mutation enrichment strategy for FLT3-ITD MRD monitoring in acute myeloid leukemia.
+**Source:** PubMed  
+**Journal:** Biosensors & bioelectronics  
+**Study type:** Guideline / recommendation  
+**Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates  
 **Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42863460/  
-**Takeaway:** In this issue of Cancer Cell, Shi et al. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42868739/  
+**Takeaway:** FMS-like tyrosine kinase 3 internal tandem duplications (FLT3-ITD) are among the most common oncogenic drivers in acute myeloid leukemia (AML) and are strongly associated with adverse clinical outcomes. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 8. Artificial Intelligence and Machine Learning for Eye Movements in Dizziness and Vertigo: A Comprehensive Review.
+**Source:** PubMed  
+**Journal:** Neurologic clinics  
+**Study type:** Journal Article, Review  
+**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
+**Score:** 12 = relevance 10 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42869523/  
+**Takeaway:** Dizziness and vertigo, common neurologic complaints, remain challenging to diagnose accurately in both emergency and outpatient settings. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 124
-- Peer-reviewed pathology digest items: 8
-- GP-useful digest items: 4
+- Total scored candidates: 122
+- Peer-reviewed pathology digest items: 3
+- GP-useful digest items: 2
 - Preprint watch items: 18
-- Watchlist items: 44
+- Watchlist items: 41
