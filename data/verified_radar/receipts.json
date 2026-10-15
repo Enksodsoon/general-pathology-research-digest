@@ -640,6 +640,31 @@
         "registration_target": "https://unclineberger.org/unclcn/event/10-20-26/",
         "discovered_by": "UNC-Lineberger"
       }
+    },
+    "87c3d07779b3e5f4c1d80fd0": {
+      "fingerprint": "ff029c0873abbe3a21b0a781",
+      "message_id": 280,
+      "telegram_date": 1792039890,
+      "acknowledged_at": "2026-10-15T04:51:30.175597+00:00",
+      "kind": "event",
+      "event": {
+        "id": "87c3d07779b3e5f4c1d80fd0",
+        "title": "Artificial Intelligence applied to health information and knowledge: developments and perspectives",
+        "source_url": "https://www.paho.org/en/events/artificial-intelligence-applied-health-information-and-knowledge-developments-and",
+        "registration_url": "https://bit.ly/bireme-2026-webinar-08",
+        "start_at": "2026-10-29T11:00:00+00:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "October 29, 2026, at 11:00 ",
+        "verified_at": "2026-10-15T04:48:46.658564+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://bit.ly/bireme-2026-webinar-08",
+        "discovered_by": "PAHO"
+      }
     }
   },
   "heartbeats": {
@@ -1335,17 +1360,24 @@
       "telegram_date": 1791988340,
       "acknowledged_at": "2026-10-14T14:32:20.691806+00:00",
       "kind": "heartbeat"
+    },
+    "status-38683407314": {
+      "fingerprint": "39e6fbfb2d187e9dcb6cac27",
+      "message_id": 281,
+      "telegram_date": 1792039891,
+      "acknowledged_at": "2026-10-15T04:51:31.779445+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-14T14:32:20.694919+00:00",
-    "run_id": "38580967711",
-    "trigger": "schedule"
+    "completed_at": "2026-10-15T04:51:31.782738+00:00",
+    "run_id": "38683407314",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1385,6 +1417,7 @@
     "2026-10-11": 2,
     "2026-10-12": 2,
     "2026-10-13": 2,
-    "2026-10-14": 3
+    "2026-10-14": 3,
+    "2026-10-15": 1
   }
 }

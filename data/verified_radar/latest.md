@@ -1,14 +1,8 @@
-# Free Medical Events — 2026-10-14
+# Free Medical Events — 2026-10-15
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Schwartz Rounds Conferences
-20 Oct 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://unclineberger.org/unclcn/event/10-20-26/
-Organizer provides registration; not submitted
 
 ## がん疼痛への対応―日常診療での基本と工夫―
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
@@ -16,16 +10,16 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
+## Artificial Intelligence applied to health information and knowledge: developments and perspectives
+29 Oct 2026 18:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://bit.ly/bireme-2026-webinar-08
+Registration link checked; availability may require login/JavaScript
+
 ## Webinar – Is your AI software a medical device?
 29 Oct 2026 19:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/
-Registration link checked; availability may require login/JavaScript
-
-## Coping with a Cancer Diagnosis – Live Webinar
-12 Nov 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/11112026
 Registration link checked; availability may require login/JavaScript
 
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
@@ -82,12 +76,36 @@ Certificate: Not stated | Credit: Not stated
 https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/10/2027
+10 Mar 2027 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
+24 Mar 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 04/21/2027
+21 Apr 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 05/19/2027
+19 May 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
 ## Source health
 
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
