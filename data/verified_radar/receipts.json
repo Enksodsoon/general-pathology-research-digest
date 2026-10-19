@@ -665,6 +665,31 @@
         "registration_target": "https://bit.ly/bireme-2026-webinar-08",
         "discovered_by": "PAHO"
       }
+    },
+    "7688eedff76cdbb21334113e": {
+      "fingerprint": "1177e240171a290b806fd45c",
+      "message_id": 297,
+      "telegram_date": 1792385549,
+      "acknowledged_at": "2026-10-19T04:52:29.479500+00:00",
+      "kind": "event",
+      "event": {
+        "id": "7688eedff76cdbb21334113e",
+        "title": "Breastcancer.org Webinars",
+        "source_url": "https://www.breastcancer.org/events",
+        "registration_url": "https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q",
+        "start_at": "2026-10-21T17:00:00-04:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "October 21, 2026 at 5:00 PM",
+        "verified_at": "2026-10-19T04:49:54.814246+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q",
+        "discovered_by": "web-en-1"
+      }
     }
   },
   "heartbeats": {
@@ -1444,17 +1469,24 @@
       "telegram_date": 1792329453,
       "acknowledged_at": "2026-10-18T13:17:33.554009+00:00",
       "kind": "heartbeat"
+    },
+    "status-39201430834": {
+      "fingerprint": "9a727f7af40ae53a6ef108a6",
+      "message_id": 298,
+      "telegram_date": 1792385550,
+      "acknowledged_at": "2026-10-19T04:52:31.133144+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-10-18",
+    "date": "2026-10-19",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-18T13:17:33.556117+00:00",
-    "run_id": "39130703757",
-    "trigger": "schedule"
+    "completed_at": "2026-10-19T04:52:31.135432+00:00",
+    "run_id": "39201430834",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1498,6 +1530,7 @@
     "2026-10-15": 3,
     "2026-10-16": 3,
     "2026-10-17": 3,
-    "2026-10-18": 3
+    "2026-10-18": 3,
+    "2026-10-19": 1
   }
 }
