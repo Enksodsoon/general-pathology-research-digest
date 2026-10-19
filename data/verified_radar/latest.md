@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-10-19
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -10,22 +10,10 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
 Registration link checked; availability may require login/JavaScript
 
-## Breastcancer.org Webinars
-22 Oct 2026 04:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q
-Registration link checked; availability may require login/JavaScript
-
 ## Artificial Intelligence applied to health information and knowledge: developments and perspectives
 29 Oct 2026 18:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://bit.ly/bireme-2026-webinar-08
-Registration link checked; availability may require login/JavaScript
-
-## Webinar – Is your AI software a medical device?
-29 Oct 2026 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://key2compliance.com/news/webinar-is-your-ai-software-a-medical-device/
 Registration link checked; availability may require login/JavaScript
 
 ## Coping with a Cancer Diagnosis – Live Webinar
@@ -105,7 +93,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
