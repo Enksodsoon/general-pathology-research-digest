@@ -1,20 +1,8 @@
 # Free Medical Events — 2026-10-21
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## がん疼痛への対応―日常診療での基本と工夫―
-21 Oct 2026 15:30 ICT · Online · JA · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
-Registration link checked; availability may require login/JavaScript
-
-## Breastcancer.org Webinars
-22 Oct 2026 04:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q
-Registration link checked; availability may require login/JavaScript
 
 ## Artificial Intelligence applied to health information and knowledge: developments and perspectives
 29 Oct 2026 18:00 ICT · Online · EN · Free attendance
@@ -78,7 +66,7 @@ Registration link checked; availability may require login/JavaScript
 - CDC-COCA: ok
 - Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
 - Siriraj-Conference: ok
-- Ramathibodi: ok
+- Ramathibodi: error — HTTPError: HTTP Error 500: Internal Server Error
 - Thai-CME: ok
 - Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
 - CIM-Discovery: ok
