@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-10-20
+# Free Medical Events — 2026-10-21
 
 Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
@@ -8,6 +8,18 @@ Bounded scan; inaccessible, image-only, login-only or ambiguous events are not v
 21 Oct 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_IHIJbaIOSNWE4CwgNa_byQ
+Registration link checked; availability may require login/JavaScript
+
+## Breastcancer.org Webinars
+22 Oct 2026 04:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q
+Registration link checked; availability may require login/JavaScript
+
+## Artificial Intelligence applied to health information and knowledge: developments and perspectives
+29 Oct 2026 18:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://bit.ly/bireme-2026-webinar-08
 Registration link checked; availability may require login/JavaScript
 
 ## Webinar – Is your AI software a medical device?
@@ -44,36 +56,6 @@ Registration link checked; availability may require login/JavaScript
 20 Jan 2027 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 01/27/2027
-27 Jan 2027 20:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 02/10/2027
-10 Feb 2027 20:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/10/2027
-10 Mar 2027 20:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
-24 Mar 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 04/21/2027
-21 Apr 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
 ## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 05/19/2027
