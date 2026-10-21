@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-10-21
 
-Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -57,7 +57,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
@@ -66,7 +66,7 @@ Registration link checked; availability may require login/JavaScript
 - CDC-COCA: ok
 - Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
 - Siriraj-Conference: ok
-- Ramathibodi: error — HTTPError: HTTP Error 500: Internal Server Error
+- Ramathibodi: ok
 - Thai-CME: ok
 - Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
 - CIM-Discovery: ok
