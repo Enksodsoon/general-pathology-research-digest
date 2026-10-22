@@ -34,6 +34,12 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
 Registration link checked; availability may require login/JavaScript
 
+## The Role of Quality of Life in Cancer Care – Live Webinar
+10 Dec 2026 00:00 ICT · Online · EN · Free attendance
+Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
+https://learn.unclcn.org/12092026
+Registration link checked; availability may require login/JavaScript
+
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
 16 Dec 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
