@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-10-23
+# Free Medical Events — 2026-10-24
 
 Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
@@ -8,18 +8,6 @@ Bounded scan; inaccessible, image-only, login-only or ambiguous events are not v
 29 Oct 2026 18:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://bit.ly/bireme-2026-webinar-08
-Registration link checked; availability may require login/JavaScript
-
-## Webinar – Is your AI software a medical device?
-29 Oct 2026 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://www.medtechmagazine.se/announcement/view/986868/webinar_is_your_ai_software_a_medical_device
-Use source event page; direct registration could not be checked
-
-## Coping with a Cancer Diagnosis – Live Webinar
-12 Nov 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/11112026
 Registration link checked; availability may require login/JavaScript
 
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
@@ -32,12 +20,6 @@ Registration link checked; availability may require login/JavaScript
 18 Nov 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
-Registration link checked; availability may require login/JavaScript
-
-## The Role of Quality of Life in Cancer Care – Live Webinar
-10 Dec 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/12092026
 Registration link checked; availability may require login/JavaScript
 
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
