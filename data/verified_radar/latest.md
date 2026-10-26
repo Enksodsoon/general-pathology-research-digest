@@ -1,6 +1,6 @@
 # Free Medical Events — 2026-10-26
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -28,6 +28,12 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
 Registration link checked; availability may require login/JavaScript
 
+## ほっとピアセミナー開催のお知らせ (12/12)
+12 Dec 2026 11:00 ICT · Online · JA · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://forms.gle/VzE4kjb51jFSbBrq6
+Registration link checked; availability may require login/JavaScript
+
 ## 緩和ケアにおける支持療法の基本―症状を和らげつつ、薬を増やしすぎないために―
 16 Dec 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
@@ -51,7 +57,7 @@ Registration link checked; availability may require login/JavaScript
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: error — HTTPError: HTTP Error 403: Forbidden
+- ICIS: ok
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok

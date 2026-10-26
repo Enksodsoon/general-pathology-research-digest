@@ -690,6 +690,31 @@
         "registration_target": "https://breastcancer-org.zoom.us/webinar/register/2917906168888/WN_MpJiV_ZwTryafoktWgYJ7Q",
         "discovered_by": "web-en-1"
       }
+    },
+    "d6df8006a42d8e85699be6ad": {
+      "fingerprint": "05504ab2b3e3898f5f29e6cf",
+      "message_id": 327,
+      "telegram_date": 1793004744,
+      "acknowledged_at": "2026-10-26T08:52:24.301675+00:00",
+      "kind": "event",
+      "event": {
+        "id": "d6df8006a42d8e85699be6ad",
+        "title": "ほっとピアセミナー開催のお知らせ (12/12)",
+        "source_url": "https://www.asahikawa-med.ac.jp/hospital/event/single/post_277.html",
+        "registration_url": "https://forms.gle/VzE4kjb51jFSbBrq6",
+        "start_at": "2026-12-12T13:00:00+09:00",
+        "end_at": "2026-12-12T13:30:00+09:00",
+        "mode": "Online",
+        "language": "ja",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "2026年12月12日(土)13:00~13:30\n",
+        "verified_at": "2026-10-26T08:49:51.178422+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://forms.gle/VzE4kjb51jFSbBrq6",
+        "discovered_by": "Asahikawa-Medical"
+      }
     }
   },
   "heartbeats": {
@@ -1623,17 +1648,24 @@
       "telegram_date": 1792990709,
       "acknowledged_at": "2026-10-26T04:58:29.679073+00:00",
       "kind": "heartbeat"
+    },
+    "status-40294973863": {
+      "fingerprint": "939679bed660a3b9296dbe00",
+      "message_id": 328,
+      "telegram_date": 1793004745,
+      "acknowledged_at": "2026-10-26T08:52:26.091684+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-10-26",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-10-26T04:58:29.683016+00:00",
-    "run_id": "40271531856",
-    "trigger": "workflow_run"
+    "completed_at": "2026-10-26T08:52:26.136091+00:00",
+    "run_id": "40294973863",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1685,6 +1717,6 @@
     "2026-10-23": 3,
     "2026-10-24": 3,
     "2026-10-25": 3,
-    "2026-10-26": 1
+    "2026-10-26": 2
   }
 }
