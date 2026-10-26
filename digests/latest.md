@@ -1,102 +1,69 @@
 # Daily General Pathology Research Digest
-Date: 2026-10-25
+Date: 2026-10-26
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Artificial intelligence in hepatitis: Advances in diagnosis, treatment optimization, and prognostic prediction.
+### 1. [KASID Guidelines for Sexuality, Fertility, Pregnancy, and Lactation in Inflammatory Bowel Disease: 2026].
 **Source:** PubMed  
-**Journal:** The Journal of international medical research  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
-**Score:** 20 = relevance 18 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920253/  
-**Takeaway:** Hepatitis remains a major global health challenge and an important contributor to liver fibrosis, cirrhosis, hepatocellular carcinoma, and liver-related mortality worldwide. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Spectrum of pediatric central nervous system tumors in North India: a histopathological and immunohistochemical study applying the WHO CNS 2021 classification.
-**Source:** PubMed  
-**Journal:** Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 18 = relevance 14 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920018/  
-**Takeaway:** INTRODUCTION: Pediatric central nervous system (CNS) tumors are the second most common childhood malignancies after leukemia and remain the leading cause of cancer-related mortality in children. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 3. Treatment interventions for co-occurring opioid use disorder, and sleep disturbances: a scoping review.
-**Source:** PubMed  
-**Journal:** Substance abuse treatment, prevention, and policy  
+**Journal:** The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi  
 **Study type:** Guideline / recommendation  
 **Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 8 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42919383/  
-**Takeaway:** BACKGROUND: Opioid use disorder (OUD) is part of the broader spectrum of substance use disorders often complicated by psychiatric symptoms such as depression, anxiety, PTSD (Post-Traumatic Stress Disorder), and sleep disturbances, with insomnia being particularly frequent. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 22 = relevance 9 + evidence 13  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928007/  
+**Takeaway:** Inflammatory bowel disease (IBD) is commonly diagnosed during the reproductive years, making sexuality, fertility, pregnancy, and lactation central to long-term care. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Amelanotic subungual melanoma becoming clinically apparent within 24 h after minor blunt trauma: a case report.
+### 2. [KASID Guidelines for Diagnosis and Monitoring of Inflammatory Bowel Disease: 2026].
 **Source:** PubMed  
-**Journal:** Frontiers in medicine  
-**Study type:** Case report  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 15 = relevance 14 + evidence 1  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920588/  
-**Takeaway:** Amelanotic subungual melanoma (ASM) is a rare variant of nail unit melanoma (NUM) lacking melanin pigmentation, frequently misdiagnosed as a benign post-traumatic or infectious lesion. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 20 = relevance 8 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928004/  
+**Takeaway:** Inflammatory bowel disease (IBD) is characterized by heterogeneous disease presentations and clinical courses. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Study on the promoting effect of microplastic exposure on prostate cancer migration and invasion based on network toxicology and single-cell sequencing technology.
+### 3. [Endoscopic Ultrasound-Guided Tissue Acquisition of Pancreatic Solid Tumors].
 **Source:** PubMed  
-**Journal:** Frontiers in oncology  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology  
-**Score:** 9 = relevance 9 + evidence 0  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920511/  
-**Takeaway:** BACKGROUND: Prostate cancer (PCa) is a major malignant tumor threatening men's global health. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Journal:** The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi  
+**Study type:** English Abstract, Journal Article, Review  
+**Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy  
+**Score:** 18 = relevance 14 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928003/  
+**Takeaway:** Endoscopic ultrasound-guided tissue acquisition for pancreatic solid tumors has become essential in diagnostic practice. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Effects of the AI-HEALS intervention based on the Fogg behavior model on self-management in postoperative breast cancer patients: a randomized controlled trial study protocol.
+### 1. Can Emergency Physicians Identify Frozen Tissue on Ultrasound? Implications for Frostbite Management.
 **Source:** PubMed  
-**Journal:** Frontiers in public health  
+**Journal:** Wilderness & environmental medicine  
 **Study type:** Randomized clinical trial  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 11 = relevance 3 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920740/  
-**Takeaway:** BACKGROUND: Breast cancer is the most common malignancy among women, and postoperative self-management is critically associated with long-term quality of life. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Survival implications of non-organized breast cancer screening in a Brazilian tertiary women's health center: a retrospective cohort study of 1517 patients.
-**Source:** PubMed  
-**Journal:** BMC cancer  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 7 = relevance 3 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42919238/  
-**Takeaway:** Breast cancer (BC) is the most prevalent malignancy among Brazilian women. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 3. Genomic insights into multidrug and extensively drug-resistant Klebsiella pneumoniae from bloodstream infections at three Zambian tertiary hospitals.
-**Source:** PubMed  
-**Journal:** Frontiers in antibiotics  
-**Study type:** Journal Article  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920668/  
-**Takeaway:** BACKGROUND: Klebsiella pneumoniae is a leading cause of hospital-associated infections and a major contributor to antimicrobial resistance (AMR) worldwide. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 9 = relevance 3 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42927990/  
+**Takeaway:** IntroductionFrostbite injuries cause disfigurement and loss of functionality. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Preprints — not peer reviewed
-### 1. Deep learning-based electrocardiographic differentiation of Takotsubo syndrome from acute anterior myocardial infarction: explainability, human-AI interaction, and a utilization bias hypothesis
+### 1. New whole slide image analysis method for detection and quantification of hepatocellular vacuolization in European flounder (Platichthys flesus) in multipollutant exposure context
+**Source:** biorxiv  
+**Journal:** biorxiv  
+**Study type:** Preprint  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
+**Score:** 16 = relevance 17 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.10.08.757637  
+**Takeaway:** A new whole slide image analysis method was developed for hepatocellular vacuolization detection and quantification in European flounder (Platichthys flesus) liver. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 2. Deep learning-based electrocardiographic differentiation of Takotsubo syndrome from acute anterior myocardial infarction: explainability, human-AI interaction, and a utilization bias hypothesis
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -107,7 +74,7 @@ Date: 2026-10-25
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Genetic Architecture of Plasma Amyloid and Tau Biomarkers in the Amish
+### 3. Genetic Architecture of Plasma Amyloid and Tau Biomarkers in the Amish
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -118,7 +85,7 @@ Date: 2026-10-25
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 3. Label-free, low-cost AI ranking for systematic review screening
+### 4. Label-free, low-cost AI ranking for systematic review screening
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -129,122 +96,111 @@ Date: 2026-10-25
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 4. Pathological musculoskeletal characterisation of a new model of spontaneous OA in CD1 mice.
+### 5. Relational Graph Convolutional Networks for Glioblastoma Biomarker Discovery via ceRNA and Copy Number Variation Analysis
 **Source:** biorxiv  
 **Journal:** biorxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, general_medical_gp_updates  
-**Score:** 10 = relevance 13 + evidence -3  
-**Link:** https://doi.org/10.64898/2026.10.12.758449  
-**Takeaway:** Osteoarthritis (OA) is a whole joint disease involving pathological changes in cartilage, synovium, ligaments, menisci and periarticular muscle. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Preclinical evidence; clinical applicability is uncertain.
-**Confidence:** Low
-
-### 5. Vascular Proximity Coverage: A Novel CT-Based Marker of Pulmonary Vascular Distance to the Lung Parenchyma
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
 **Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates  
-**Score:** 10 = relevance 9 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.10.15.26365547  
-**Takeaway:** RationaleConventional CT-derived pulmonary vascular metrics quantify vascular pruning but do not assess spatial heterogeneity of vascular architecture. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
+**Score:** 10 = relevance 11 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.08.16.744525  
+**Takeaway:** Glioblastoma (GBM) is a highly aggressive brain tumor with a five-year survival rate of 6.9%, attributable in substantial part to the shortage of reliable biomarkers. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. Artificial intelligence applications in exercise and physical activity for public health: a scoping review.
+### 1. [Interpretation of the Oncology Society of Chinese Medical Association guideline for clinical diagnosis and treatment of lung cancer (2026 edition)].
 **Source:** PubMed  
-**Journal:** Frontiers in public health  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** digital_computational_pathology, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 23 = relevance 14 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920758/  
-**Takeaway:** BACKGROUND: Physical activity and exercise are important components of public health strategies for preventing and managing chronic conditions and promoting health and quality of life. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Zhonghua zhong liu za zhi [Chinese journal of oncology]  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 27 = relevance 15 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42927946/  
+**Takeaway:** To promote the standardization of clinical diagnosis and treatment of lung cancer in China and to apply the latest evidence-based medical evidence to clinical practice, since 2018, the Department of Respiratory and Critical Care Medicine of Shanghai Chest Hospital has taken the lead, in collaboration with more than 50 lung cancer treatment institutions and over 100 experts nationwide, to jointly draft the clinical practice guidelines for lung cancer, with annual updates. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Low-Field MRI for Knee Imaging: Current Insights and Evidence From a Systematic Review.
+### 2. [KASID Guidelines for the Medical Treatment of Crohn's Disease: 2026].
 **Source:** PubMed  
-**Journal:** Journal of magnetic resonance imaging : JMRI  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, digital_computational_pathology, guidelines_reviews_high_level_evidence  
-**Score:** 21 = relevance 16 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920104/  
-**Takeaway:** BACKGROUND: Low-field magnetic resonance imaging (MRI) has regained interest for musculoskeletal imaging due to advances in magnet design, hardware optimization, and artificial intelligence (AI)-based reconstruction, offering improved accessibility, patient comfort, and sustainability. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 22 = relevance 15 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928005/  
+**Takeaway:** Crohn's disease (CD) is a chronic inflammatory bowel disease characterized by a heterogeneous clinical course and the potential development of irreversible bowel damage. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. From MRI-defined bone marrow lesions to pain, structural progression, and subchondral remodeling in knee osteoarthritis: an integrated multi-database bibliometric and text-mining analysis.
+### 3. [Expert consensus on detection and clinical application of alterations in PIK3CA/AKT1/PTEN genes (2026 edition)].
 **Source:** PubMed  
-**Journal:** Frontiers in medicine  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 11 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920564/  
-**Takeaway:** OBJECTIVE: To characterize the publication landscape, intellectual structure, thematic evolution, and emerging clinical, mechanistic, and translational directions of magnetic resonance imaging (MRI)-defined bone marrow lesion (BML) research in knee osteoarthritis. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Zhonghua zhong liu za zhi [Chinese journal of oncology]  
+**Study type:** Journal Article, Consensus Statement, English Abstract  
+**Matched profile:** general_pathology_research, laboratory_medicine_transfusion, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 21 = relevance 19 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42927945/  
+**Takeaway:** Breast cancer is the most common malignancy among women worldwide, with a continuously increasing incidence, posing a major public health threat to women's health. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. TSC1-mTORC1 signaling in Alzheimer's disease: an integrated bioinformatic analysis linking gene expression to neuropathology.
+### 4. Artificial intelligence in myeloproliferative neoplasms: From digital bone marrow pathology to clinical decision support.
 **Source:** PubMed  
-**Journal:** Frontiers in aging neuroscience  
+**Journal:** Blood reviews  
 **Study type:** Cohort study  
-**Matched profile:** general_pathology_research, surgical_pathology_updates  
-**Score:** 16 = relevance 12 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920665/  
-**Takeaway:** BACKGROUND AND OBJECTIVE: Alzheimer's disease (AD) is characterized by the accumulation of amyloid-β (Aβ) plaques and tau pathology, with mTORC1 hyperactivation implicated in disease pathogenesis via suppression of autophagy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, digital_computational_pathology  
+**Score:** 21 = relevance 14 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928030/  
+**Takeaway:** Myeloproliferative neoplasms (MPN) are clonal hematopoietic stem cell disorders whose diagnosis, prognostication, and management depend on integrating heterogeneous clinical, morphological, and molecular data. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Characterization of the crotonylation landscape in gastric cancer: a machine learning-derived prognostic signature and the oncogenic role of TIMP1.
+### 5. Evaluating the role of metabolic surgery versus GLP1 agonists in patients living with obesity and chronic kidney disease - a systematic review.
 **Source:** PubMed  
-**Journal:** Human genomics  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, novel_treatment_pathology_linked  
-**Score:** 15 = relevance 15 + evidence 0  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920177/  
-**Takeaway:** BACKGROUND: Gastric cancer (GC) remains a lethal malignancy with high heterogeneity and poor prognosis. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Journal:** The surgeon : journal of the Royal Colleges of Surgeons of Edinburgh and Ireland  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 5 + evidence 13  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928025/  
+**Takeaway:** BACKGROUND: Metabolic surgery and glucagon-like petide-1 receptor agonists (GLP1) have renoprotective effects. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 6. Therapeutic alliance and predictive validity of reflective functioning in conjoint mentalization-based treatment for borderline personality disorder.
+### 6. [KASID Guidelines for the Medical Treatment of Ulcerative Colitis: 2026].
 **Source:** PubMed  
-**Journal:** Frontiers in psychology  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 14 = relevance 9 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920541/  
-**Takeaway:** OBJECTIVE: Few studies have investigated the therapeutic alliance in treatment of patients with borderline personality disorder (BPD), particularly regarding alliance in group psychotherapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** The Korean journal of gastroenterology = Taehan Sohwagi Hakhoe chi  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 5 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42928006/  
+**Takeaway:** Ulcerative colitis (UC) is a chronic immune-mediated inflammatory bowel disease with an expanding therapeutic landscape and increasing clinical complexity. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 7. Mutations in Chromatin Regulator Genes Associate With TMB and Immunotherapy Response in Melanoma.
+### 7. Systematic Review and Meta-Analysis of Patients with Esophageal Cancer and Intramural Metastasis.
 **Source:** PubMed  
-**Journal:** Pigment cell & melanoma research  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920394/  
-**Takeaway:** Melanoma is a high-tumor-mutational-burden (TMB) cancer, largely driven by ultraviolet-induced DNA damage. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Polygenicity shapes distinct brain patterns and clinical profiles of bipolar disorder.
-**Source:** PubMed  
-**Journal:** BMC medicine  
+**Journal:** Annals of thoracic and cardiovascular surgery : official journal of the Association of Thoracic and Cardiovascular Surgeons of Asia  
 **Study type:** Systematic review / meta-analysis  
 **Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 13 = relevance 5 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42920124/  
-**Takeaway:** BACKGROUND: Bipolar disorder (BD) manifests both genetic predispositions and brain imaging abnormalities. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 16 = relevance 6 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42927908/  
+**Takeaway:** PURPOSE: Intramural metastasis is defined as the metastatic spread from a primary tumor to the gastrointestinal tract through the intramural lymphatic system. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 8. [Application and short-term efficacy of Da Vinci Xi robot-assisted transabdominal division of the rectourethralis muscle in ultra-low anastomosis surgery for low rectal cancer].
+**Source:** PubMed  
+**Journal:** Zhonghua wei chang wai ke za zhi = Chinese journal of gastrointestinal surgery  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, novel_treatment_pathology_linked  
+**Score:** 15 = relevance 11 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42927969/  
+**Takeaway:** Objective: To investigate the safety and short-term outcomes of Da Vinci Xi robot-assisted transabdominal division of the rectourethralis muscle (TaRUMD) in ultralow sphincter-preserving surgery for low rectal cancer. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 133
-- Peer-reviewed pathology digest items: 5
-- GP-useful digest items: 3
-- Preprint watch items: 12
-- Watchlist items: 51
+- Total scored candidates: 127
+- Peer-reviewed pathology digest items: 3
+- GP-useful digest items: 1
+- Preprint watch items: 10
+- Watchlist items: 42
