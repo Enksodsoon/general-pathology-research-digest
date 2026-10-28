@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-10-27
+# Free Medical Events — 2026-10-28
 
 Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
@@ -8,12 +8,6 @@ Bounded scan; inaccessible, image-only, login-only or ambiguous events are not v
 29 Oct 2026 18:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://bit.ly/bireme-2026-webinar-08
-Registration link checked; availability may require login/JavaScript
-
-## Coping with a Cancer Diagnosis – Live Webinar
-12 Nov 2026 00:00 ICT · Online · EN · Free attendance
-Certificate: Available; attendance/evaluation conditions may apply | Credit: CME/CPD offered; eligibility must be checked
-https://learn.unclcn.org/11112026
 Registration link checked; availability may require login/JavaScript
 
 ## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
@@ -60,6 +54,30 @@ Registration link checked; availability may require login/JavaScript
 
 ## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 02/10/2027
 10 Feb 2027 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/10/2027
+10 Mar 2027 20:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
+24 Mar 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 04/21/2027
+21 Apr 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 05/19/2027
+19 May 2027 19:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
