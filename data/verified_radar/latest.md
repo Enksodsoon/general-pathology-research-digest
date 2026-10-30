@@ -1,6 +1,6 @@
-# Free Medical Events — 2026-10-29
+# Free Medical Events — 2026-10-30
 
-Scan health: **DEGRADED** · Sources 48/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -40,36 +40,12 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
 Registration link checked; availability may require login/JavaScript
 
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/10/2027
-10 Mar 2027 20:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
-24 Mar 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 04/21/2027
-21 Apr 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 05/19/2027
-19 May 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
 ## Source health
 
 - WHO: ok
 - CIRSE: ok
 - UNC-Lineberger: ok
-- ICIS: ok
+- ICIS: error — HTTPError: HTTP Error 403: Forbidden
 - ICUS: ok
 - IARS: ok
 - Global-Health-Network: ok
