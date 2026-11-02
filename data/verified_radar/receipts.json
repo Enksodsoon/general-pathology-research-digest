@@ -1753,17 +1753,24 @@
       "telegram_date": 1793528771,
       "acknowledged_at": "2026-11-01T10:26:12.076974+00:00",
       "kind": "heartbeat"
+    },
+    "status-41399113692": {
+      "fingerprint": "200196fd6c1d6d842c484ea2",
+      "message_id": 349,
+      "telegram_date": 1793600496,
+      "acknowledged_at": "2026-11-02T06:21:37.011204+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "health": "degraded",
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-11-01T10:26:12.081038+00:00",
-    "run_id": "41297288118",
-    "trigger": "schedule"
+    "completed_at": "2026-11-02T06:21:37.014488+00:00",
+    "run_id": "41399113692",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -1821,6 +1828,7 @@
     "2026-10-29": 2,
     "2026-10-30": 2,
     "2026-10-31": 2,
-    "2026-11-01": 2
+    "2026-11-01": 2,
+    "2026-11-02": 1
   }
 }
