@@ -1,238 +1,260 @@
 # Daily General Pathology Research Digest
-Date: 2026-10-31
+Date: 2026-11-02
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. CSF cytology: core principles, diagnostic pitfalls and emerging digital tools including artificial intelligence and telecytology.
+### 1. [Reappraisal of the value of CD30 testing in the diagnosis and treatment of lymphoma].
 **Source:** PubMed  
-**Journal:** Acta neuropathologica  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research, digital_computational_pathology, cytopathology_small_biopsy  
-**Score:** 20 = relevance 16 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42961673/  
-**Takeaway:** Cerebrospinal fluid cytology remains a cornerstone of diagnostic evaluation in infectious, autoimmune, haemorrhagic, and neoplastic disorders of the central nervous system despite advances in neuroimaging, molecular diagnostics, and digital technologies. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Reporting of research priorities in migraine clinical practice guidelines still need improvement-A methodological analysis.
-**Source:** PubMed  
-**Journal:** PloS one  
+**Journal:** Zhonghua bing li xue za zhi = Chinese journal of pathology  
 **Study type:** Guideline / recommendation  
-**Matched profile:** pathology_quality_education_workflow, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 13 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42961969/  
-**Takeaway:** OBJECTIVES: To systematically analyze the content and format of research priorities in clinical practice guidelines (CPGs) for migraine, providing a methodological guidance for future guideline developers and researchers. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, laboratory_medicine_transfusion, pathology_quality_education_workflow, novel_treatment_pathology_linked  
+**Score:** 29 = relevance 27 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967623/  
+**Takeaway:** CD30 is a pivotal immunohistochemical marker for the diagnosis of selected lymphoid neoplasms and an important biomarker that informs clinical consideration of CD30-targeted therapy. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. CONSORT at 30 years: history, evolution, and impact of a reporting guideline for randomized controlled trials - Part 1.
+### 2. Intraoperative artificial intelligence for brain tumor surgery: from tissue diagnosis to real-time surgical guidance.
 **Source:** PubMed  
-**Journal:** Journal of clinical epidemiology  
-**Study type:** Guideline / recommendation  
-**Matched profile:** pathology_quality_education_workflow, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 19 = relevance 11 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962904/  
-**Takeaway:** BACKGROUND: The Consolidated Standards of Reporting Trials (CONSORT) Statement was developed to improve the transparency and completeness of reporting randomized controlled trials (RCTs). Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Neurosurgical focus  
+**Study type:** Randomized clinical trial  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology, general_medical_gp_updates  
+**Score:** 29 = relevance 23 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967344/  
+**Takeaway:** The 2021 WHO CNS tumor classification marked a fundamental shift in neuro-oncology: molecular markers rather than histological appearance now define glioma diagnosis and guide treatment. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Chitosan-coated liposomes enhance the immunogenicity and protective efficacy of an oral Streptococcus agalactiae vaccine in Nile tilapia (Oreochromis niloticus).
+### 3. Clinicopathologic Spectrum and Treatment Response of Syphilis-Associated Kidney Disease: A Systematic Review.
 **Source:** PubMed  
-**Journal:** Fish & shellfish immunology  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, general_medical_gp_updates  
-**Score:** 18 = relevance 16 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962948/  
-**Takeaway:** Oral vaccination offers a practical approach for mass immunization in aquaculture, but its efficacy is frequently limited by poor antigen stability and inefficient uptake following gastrointestinal administration. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Atypical Multisegmental Involvement in Suspected Ischemic Colitis: A Case Report.
-**Source:** PubMed  
-**Journal:** Cureus  
-**Study type:** Guideline / recommendation  
+**Journal:** American journal of kidney diseases : the official journal of the National Kidney Foundation  
+**Study type:** Systematic review / meta-analysis  
 **Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 11 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42960225/  
-**Takeaway:** We report a case compatible with ischemic colitis in a 68-year-old man with hypertension, coronary artery disease treated with three stents, peripheral arterial disease, and diabetes mellitus who presented with acute abdominal pain, vomiting, and bloody diarrhea. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 18 = relevance 12 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42966598/  
+**Takeaway:** RATIONALE & OBJECTIVE: Syphilis-associated kidney disease is rare and most commonly occurs in active syphilis. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 6. 2.5-gigapixel compact stitching-free Fourier ptychographic imager.
+### 4. Interleukin-37 in cancer: Context-dependent roles in tumor immunity, prognosis, and therapeutic targeting.
 **Source:** PubMed  
-**Journal:** Optics letters  
-**Study type:** Letter  
-**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
-**Score:** 15 = relevance 15 + evidence 0  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962098/  
-**Takeaway:** To address the long-standing challenge that Fourier ptychographic microscopy (FPM) struggles to simultaneously achieve high throughput, compact footprint, and low cost due to its conventional long-focal-length 4F optical path, we propose and demonstrate a high-throughput, portable FPM system based on a tandem infinity-corrected dual-objective architecture. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** The Journal of international medical research  
+**Study type:** Journal Article, Review  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, legacy_project_watch_low_priority  
+**Score:** 16 = relevance 14 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967492/  
+**Takeaway:** Interleukin-37, a member of the interleukin-1 family, is increasingly recognized as a regulator of cancer biology and tumor immunity. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 7. Decoder-FFPE-seq enables sensitive, genome-wide spatial transcriptomics of archival tissues at single-cell resolution.
+### 5. Oat-grape probiotic beverage enriched with jambolan extract improves glycemic markers and pancreatic morphology in a rat model of type 2 diabetes.
 **Source:** PubMed  
-**Journal:** Science advances  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, novel_treatment_pathology_linked, legacy_project_watch_low_priority  
-**Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962014/  
-**Takeaway:** Formalin-fixed paraffin-embedded (FFPE) tissue-compatible spatial transcriptomics (ST) is transforming biology and histopathology, but achieving high sensitivity, genome-wide coverage, single-cell resolution, and researcher accessibility remains challenging. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Journal:** Food research international (Ottawa, Ont.)  
+**Study type:** Randomized clinical trial  
+**Matched profile:** general_pathology_research, general_medical_gp_updates  
+**Score:** 12 = relevance 8 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967715/  
+**Takeaway:** Type 2 diabetes mellitus (T2DM) is a chronic metabolic disease accounting for approximately 90% of all diabetes cases worldwide, highlighting the need for effective prevention and management strategies. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
+
+### 6. The Emerging Role of α-Synuclein Strains in Parkinson’s Disease: From Molecular Pathology to Clinical Phenotypes
+**Source:** Europe PMC  
+**Journal:** Cureus  
+**Study type:** review-article; review; journal article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 10 = relevance 12 + evidence -2  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Low
 
 
 ## General medical / GP-useful updates
-No GP-useful papers met the digest threshold today.
+### 1. Psychological profile and quality of life among chronic kidney disease patients.
+**Source:** PubMed  
+**Journal:** The Ceylon medical journal  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 7 = relevance 5 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967892/  
+**Takeaway:** BACKGROUND AND PURPOSE: Chronic kidney disease (CKD) is a growing public health concern that affects both physical health and psychosocial wellbeing. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. Adenoma detection rate as a quality indicator in diagnostic colonoscopy among symptomatic patients: a single-centre study.
+**Source:** PubMed  
+**Journal:** The Ceylon medical journal  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967893/  
+**Takeaway:** INTRODUCTION: Colorectal cancer (CRC) remains a major health concern. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 3. Aesthetic Reconstruction of the Interlabial Sulcus: from Anatomical Rediscovery to Surgical Approach.
+**Source:** PubMed  
+**Journal:** Plastic and reconstructive surgery  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967489/  
+**Takeaway:** BACKGROUND: To explore the anatomy of the interlabial sulcus and introduce a simple surgical technique for its reconstruction, and evaluate its efficacy and safety. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
 
 ## Preprints — not peer reviewed
-### 1. A digital biomarker of white-matter routing from diffusion MRI as an early biomarker of Alzheimer's disease
+### 1. GLP-1 Receptor Agonists (GLP-1RAs) for treatment of tobacco and alcohol dependence: a systematic review and meta-analysis of randomised controlled trials
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
-**Score:** 19 = relevance 17 + evidence 2  
-**Link:** https://doi.org/10.64898/2026.10.21.26366165  
-**Takeaway:** Alzheimers disease is diagnosed after a decade-long phase in which pathology accumulates; current markers show that pathology is present, but not how far it has advanced. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 23 = relevance 12 + evidence 11  
+**Link:** https://doi.org/10.64898/2026.10.21.26366084  
+**Takeaway:** BackgroundGlucagon-like peptide-1 receptor agonists (GLP-1RAs) might reduce tobacco and alcohol use. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Fine-tuned Medical Vision-Language Model (MedGemma 1.5 4B) with and without Structured Radiologist Descriptors versus EU-TIRADS for Malignancy Risk Stratification of Thyroid Nodules at Ultrasound: A Tunisian Multicenter Diagnostic Accuracy Study
+### 2. Low Dose Naltrexone for Post-COVID Fatigue Syndrome: A Randomized Controlled Trial
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** digital_computational_pathology, cytopathology_small_biopsy  
-**Score:** 14 = relevance 10 + evidence 4  
-**Link:** https://doi.org/10.64898/2026.10.21.26366156  
-**Takeaway:** PurposeTo evaluate a medical vision-language foundation model fine-tuned on thyroid ultrasound images, with or without the radiologists structured descriptors, against expert-rated EU-TIRADS for the classification of thyroid nodules as benign or malignant. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, general_medical_gp_updates  
+**Score:** 15 = relevance 9 + evidence 6  
+**Link:** https://doi.org/10.64898/2026.10.22.26363582  
+**Takeaway:** ObjectivesTo assess the efficacy and safety of low-dose naltrexone (LDN) for reducing fatigue severity at 16 weeks in persons with post-COVID fatigue syndrome (PCFS). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 3. Aspirin-Containing Antiplatelet Therapy and In-Hospital Gout Flares in Acute Ischemic Stroke Patients with Gout and Hyperuricemia: A Retrospective New-User Cohort Study
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 11 = relevance 5 + evidence 6  
+**Link:** https://doi.org/10.64898/2026.10.23.26366257  
+**Takeaway:** BackgroundAntiplatelet selection is challenging in patients with acute ischemic stroke (AIS), gout, and hyperuricemia. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
-### 3. A Yeast-Based Platform for Oral Delivery of a Dual GLP-1/GIP Receptor Agonist: Engineering and Preliminary Clinical Evaluation
+### 4. Pathomic Texture Composites from H&E, and Immunohistochemistry of Prostatectomy Specimens for Exploratory Modeling of Time to Biochemical Recurrence
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 13 = relevance 10 + evidence 3  
-**Link:** https://doi.org/10.64898/2026.10.22.26365662  
-**Takeaway:** Oral delivery of peptides and other biologics are limited by enzymatic degradation and poor intestinal permeability. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Preclinical evidence; clinical applicability is uncertain.
+**Score:** 11 = relevance 12 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.10.23.26366338  
+**Takeaway:** BackgroundPathomic analysis, the extraction of quantitative features from digitized histology, can capture tissue patterns that may complement conventional prognostic factors. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
-### 4. Plasma Proteomic Correlates of Cognitive Function in Older Adults From Central Africa
+### 5. Electronic Health Record Evaluation of the Preconception Medical Assessment for Maternal Morbidity
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 13 = relevance 12 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.10.22.26366214  
-**Takeaway:** Key PointsO_ST_ABSQuestionC_ST_ABSWhich candidate plasma proteins are associated with cognitive performance across multiple domains in older adults from the Democratic Republic of Congo? Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 5. Phylogenomic screening reveals idsA2 loss conferring nitroimidazole cross-resistance in Mycobacterium tuberculosis
-**Source:** biorxiv  
-**Journal:** biorxiv  
-**Study type:** Preprint  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.19.760085  
-**Takeaway:** Bicyclic nitroimidazoles, notably pretomanid and delamanid, represent cornerstone agents of WHO-recommended short-course BPaLM regimens for multidrug-resistant Mycobacterium tuberculosis (MDR-TB), yet clinical cross-resistance frequently emerges without canonical activating mutations. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
+**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
+**Score:** 9 = relevance 8 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.03.02.26347437  
+**Takeaway:** ImportanceSevere maternal morbidity is increasingly driven by chronic conditions present before pregnancy, but existing obstetric comorbidity indices rely on clinician documentation and are not designed for preconception use. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. A dual-mode chromogenic and fluorescent in situ hybridization approach for bacterial 16S rRNA detection in oral formalin-fixed paraffin-embedded samples.
+### 1. Salivary Metabolomic Alterations in Primary Sjögren Disease: A Systematic Review and Meta-Analysis.
 **Source:** PubMed  
-**Journal:** Journal of microbiological methods  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, legacy_project_watch_low_priority  
-**Score:** 16 = relevance 14 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962930/  
-**Takeaway:** The combined use of fluorescence in situ hybridization (FISH) and chromogenic in situ hybridization (CISH) targeting bacterial 16S rRNA might facilitate the discrimination of bacterial signals from background noise, supporting the interpretation of bacterial spatial localization in tissues. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Oral diseases  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 6 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967899/  
+**Takeaway:** OBJECTIVES: This systematic review assesses the diagnostic potential of salivary metabolomics in discriminating between primary Sjögren disease (pSjD) and healthy controls, aiming to identify potential biomarkers for clinical application. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Diagnostic Accuracy of Rapid Diagnostic Tests Versus Enzyme-Linked Immunosorbent Assay (ELISA) Across Major Infectious Diseases: A Systematic Review and Meta-Analysis
-**Source:** Europe PMC  
-**Journal:** Cureus  
+### 2. Histology-dependent coupling of TERT to the proliferation programme statistically accounts for much of the between-cohort heterogeneity in DNMT3B-TERT co-expression in oesophageal carcinoma: a 27-cohort meta-analysis and pan-cancer re-analysis.
+**Source:** PubMed  
+**Journal:** Functional & integrative genomics  
 **Study type:** Systematic review / meta-analysis  
 **Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 14 = relevance 6 + evidence 8  
-**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** No abstract available in fetched metadata.
-**Confidence:** Moderate
-
-### 3. Evidence of active whole-genome doubling (WGD) subclones in non-WGD tumors.
-**Source:** PubMed  
-**Journal:** Science advances  
-**Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962034/  
-**Takeaway:** Whole-genome doubling (WGD) occurs frequently in human cancer and influences tumor evolution, metastasis, and treatment response. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 13 = relevance 5 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42965673/  
+**Takeaway:** DNA methyltransferase 3B (DNMT3B) and telomerase reverse transcriptase (TERT) are induced in oesophageal carcinoma, and a reciprocal regulatory relationship has been proposed, but reported co-expression varies widely between studies. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Detection of potentially curable recurrence after colorectal cancer surgery in a real-world population.
+### 3. Clinical management of pyogenic liver abscess: a point-by-point synthesis of the available evidence and existing gaps.
 **Source:** PubMed  
-**Journal:** PloS one  
+**Journal:** Infectious diseases now  
 **Study type:** Guideline / recommendation  
 **Matched profile:** guidelines_reviews_high_level_evidence  
 **Score:** 12 = relevance 5 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42961958/  
-**Takeaway:** INTRODUCTION: After curative surgery for colorectal cancer (CRC), patients undergo surveillance because of the risk of recurrence; however, only a subset develops recurrence amenable to further curative-intent treatment. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967575/  
+**Takeaway:** Pyogenic liver abscess (PLA) is an infectious disease characterized by increasing incidence and non-negligible mortality. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. An extraction-free one-pot immunomagnetic-RPA-CRISPR/Cas13a platform for ultrasensitive detection of exosomal PD-L1.
+**Source:** PubMed  
+**Journal:** Analytica chimica acta  
+**Study type:** Preclinical / in vitro  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 10 = relevance 10 + evidence 0  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967779/  
+**Takeaway:** Programmed death-ligand 1 (PD-L1) expressed on the surface of exosomes (exo) is a promising liquid biopsy biomarker for monitoring response to immunotherapy in hepatocellular carcinoma (HCC). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Confidence:** Moderate
+
+### 5. [Construction and internal validation of a prognostic prediction model for R0 resection after conversion therapy in colorectal cancer liver metastases based on clinicopathological features combined with ctDNA].
+**Source:** PubMed  
+**Journal:** Zhonghua yi xue za zhi  
+**Study type:** English Abstract, Journal Article  
+**Matched profile:** molecular_ihc_biomarkers  
+**Score:** 8 = relevance 6 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967654/  
+**Takeaway:** Objective: To construct and validate an overall survival (OS) prediction model for patients with colorectal cancer liver metastases (CRLM) undergoing R0 resection after conversion therapy. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 5. Ocular surface symptoms and tear-film parameters in keratoconus: a systematic review and meta-analysis
-**Source:** Europe PMC  
-**Journal:** Front Med (Lausanne)  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 12 = relevance 6 + evidence 6  
+### 6. [Expert consensus on pathological evaluation of esophageal squamous cell carcinoma after neoadjuvant therapy (2026 version)].
+**Source:** PubMed  
+**Journal:** Zhonghua bing li xue za zhi = Chinese journal of pathology  
+**Study type:** Journal Article, Consensus Statement  
+**Matched profile:** novel_treatment_pathology_linked, guidelines_reviews_high_level_evidence  
+**Score:** 8 = relevance 10 + evidence -2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967625/  
 **Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** No abstract available in fetched metadata.
-**Confidence:** Moderate
+**Confidence:** Low
 
-### 6. Direct alcohol biomarkers in alcohol use disorder rehabilitation: Analytical challenges, longitudinal interpretation, and clinical utility.
+### 7. [Progress in the pathologic application of artificial intelligence in predicting the efficacy of gastric cancer after neoadjuvant therapy].
 **Source:** PubMed  
-**Journal:** Clinica chimica acta; international journal of clinical chemistry  
+**Journal:** Zhonghua bing li xue za zhi = Chinese journal of pathology  
 **Study type:** Journal Article, Review  
-**Matched profile:** molecular_ihc_biomarkers  
-**Score:** 11 = relevance 6 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962845/  
-**Takeaway:** Direct alcohol biomarkers can strengthen monitoring during alcohol use disorder rehabilitation, but their clinical value depends on the question being asked, specimen quality, and interpretation over time. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
+**Matched profile:** digital_computational_pathology, novel_treatment_pathology_linked  
+**Score:** 8 = relevance 10 + evidence -2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42967641/  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Low
 
-### 7. Non-infectious uveitis and scleritis in patients with systemic autoimmune diseases and spondyloarthritis: Prevalence and characteristics of a monocentric cohort.
+### 8. Diagnostic performance and reproducibility of standardized two-plane ultrasound cine clips for supraspinatus tendon pathology.
 **Source:** PubMed  
-**Journal:** Reumatologia clinica  
-**Study type:** Cohort study  
+**Journal:** Skeletal radiology  
+**Study type:** Journal Article  
 **Matched profile:** general_pathology_research  
-**Score:** 10 = relevance 6 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42963168/  
-**Takeaway:** PURPOSE: To describe the ocular inflammatory disease (non-infectious uveitis and scleritis) in patients with systemic autoimmune diseases (SADs) and compare it with patients with spondyloarthritis (SpA). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 8. Predicting for Malignancy in Congenital Lung Malformations: A Single-Center Study of the "At Risk" Pediatric and Adult Population.
-**Source:** PubMed  
-**Journal:** Thoracic cancer  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers  
-**Score:** 10 = relevance 6 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42962714/  
-**Takeaway:** INTRODUCTION: Congenital lung malformations (CLMs) are often identified on antenatal scanning and malignant transformation is cited as an indication for early resection. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Score:** 8 = relevance 6 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42966770/  
+**Takeaway:** OBJECTIVE: To determine the diagnostic performance and reader reproducibility of standardized two-plane cine clips for supraspinatus tendon pathology, using the complete radiologist-supervised shoulder ultrasound examination as the clinical reference standard. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 131
-- Peer-reviewed pathology digest items: 7
-- GP-useful digest items: 0
-- Preprint watch items: 14
-- Watchlist items: 49
+- Total scored candidates: 125
+- Peer-reviewed pathology digest items: 6
+- GP-useful digest items: 3
+- Preprint watch items: 12
+- Watchlist items: 47
