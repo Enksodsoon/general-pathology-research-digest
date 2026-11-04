@@ -1,79 +1,69 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-03
+Date: 2026-11-04
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. The Emerging Role of α-Synuclein Strains in Parkinson’s Disease: From Molecular Pathology to Clinical Phenotypes
-**Source:** Europe PMC  
-**Journal:** Cureus  
-**Study type:** review-article; review; journal article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 10 = relevance 12 + evidence -2  
-**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** No abstract available in fetched metadata.
-**Confidence:** Low
-
-### 2. Molecular profiling of renal mass biopsy tissue: A review of feasibility and clinical utility.
+### 1. Association Between Cardiovascular Disease and Cataracts: Protocol for a Systematic Review and Meta-Analysis.
 **Source:** PubMed  
-**Journal:** Urologic oncology  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research  
-**Score:** 8 = relevance 6 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971865/  
-**Takeaway:** Conventional preoperative assessment of renal masses may not fully capture biologic aggressiveness, particularly for small or indeterminate lesions where reliance on imaging, histopathology, and tumor size can limit individualized risk assessment. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** JMIR research protocols  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 9 + evidence 9  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42976319/  
+**Takeaway:** BACKGROUND: There is emerging evidence suggesting shared pathophysiological mechanisms between cataracts and cardiovascular disease (CVD), indicating a potential link between these 2 prevalent noncommunicable diseases. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. Clinical feasibility of a modified urinary cytology framework with targeted next-generation sequencing analysis.
+**Source:** PubMed  
+**Journal:** Journal of the American Society of Cytopathology  
+**Study type:** Journal Article  
+**Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy  
+**Score:** 15 = relevance 13 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977633/  
+**Takeaway:** INTRODUCTION: The Paris System (TPS) for urinary cytology focuses primarily on high-grade urothelial carcinoma (HGUC) and has limited utility for low-grade UC. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Molecular bacterial detection in nasopharyngeal swabs does not predict the clinical course of lower respiratory tract infections in primary care: an ancillary study of a randomized controlled trial.
+### 1. Prevalence of Deviations in Acoustic and Self-Assessment Voice Measures in a Sample of Brazilian Female Teachers.
 **Source:** PubMed  
-**Journal:** The British journal of general practice : the journal of the Royal College of General Practitioners  
-**Study type:** Randomized clinical trial  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 10 = relevance 4 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971712/  
-**Takeaway:** BACKGROUND: Point-of-care molecular tests on easily collected samples could support antimicrobial stewardship in primary care. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 2. Complementary Yield of Gene Panel Testing and ACMG SF v3.3 Screening for Cardiovascular Disease in a Korean Cohort.
-**Source:** PubMed  
-**Journal:** Clinical genetics  
-**Study type:** Cohort study  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 7 = relevance 3 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971754/  
-**Takeaway:** Inherited arrhythmia syndromes and cardiomyopathies are genetically heterogeneous, and clinical exome sequencing (CES) for unrelated indications increasingly yields cardiovascular secondary findings (SFs) under the ACMG SF v3.3 list. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. Microbiome testing in gastrointestinal cancers: From microbial signatures to clinical translation.
-**Source:** PubMed  
-**Journal:** Best practice & research. Clinical gastroenterology  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971661/  
-**Takeaway:** The gastrointestinal microbiome has emerged as a critical interface between environmental exposures and host biology, shaping carcinogenesis, tumor behavior, and therapeutic responsiveness across digestive tract malignancies. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Polyphenols and curcumin nanoparticles as a sustainable natural coating for transdermal devices: Photodynamic antibacterial and anti-inflammatory functions versus stability limitations.
-**Source:** PubMed  
-**Journal:** Colloids and surfaces. B, Biointerfaces  
+**Journal:** Journal of voice : official journal of the Voice Foundation  
 **Study type:** Journal Article  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42970994/  
-**Takeaway:** Transcutaneous medical devices are indispensable in clinical practice, yet their breach of the skin barrier creates a pathway for microbial ingress and infection. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977638/  
+**Takeaway:** OBJECTIVE: To analyze the prevalence of alterations in acoustic glottic source measures and vocal self-assessment scores in a sample of Brazilian female teachers, considering age group. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 2. Real-world effectiveness and safety of pembrolizumab monotherapy in non-small-cell lung carcinoma with brain metastases.
+**Source:** PubMed  
+**Journal:** Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977660/  
+**Takeaway:** OBJECTIVE: The objective of this study was to evaluate the effectiveness and safety of pembrolizumab as monotherapy in patients with Non-Small-Cell Lung cancer and brain metastases in real-world clinical practice at tertiary care. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## Preprints — not peer reviewed
-### 1. Spatial AI quantification of inflammatory and architectural features differentiates pathologist-defined active ulcerative colitis from histological remission
+### 1. Quantifying Localized Tumor-Infiltrating Lymphocytes by Deep Learning on H&E Images: Analytical Validation and Prognostic Value in Lung Adenocarcinoma
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
+**Score:** 21 = relevance 20 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.10.23.26366340  
+**Takeaway:** Tumor-infiltrating lymphocytes (TILs) are a critical determinant of response to immune checkpoint inhibitor (ICI) therapy in lung adenocarcinoma (LUAD). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 2. Spatial AI quantification of inflammatory and architectural features differentiates pathologist-defined active ulcerative colitis from histological remission
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -84,144 +74,133 @@ Date: 2026-11-03
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. A Unified Flexible Large Polysomnography Model for Sleep Staging and Downstream Clinical Screening
-**Source:** medrxiv  
-**Journal:** medrxiv  
+### 3. From group-level neurophysiological biomarkers to individual-level phenotyping to identify mechanisms of neurodegenerative disease
+**Source:** biorxiv  
+**Journal:** biorxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 10 = relevance 9 + evidence 1  
-**Link:** https://doi.org/10.1101/2024.12.11.24318815  
-**Takeaway:** Polysomnography (PSG) is central to sleep medicine, yet its analysis remains hindered by labor-intensive manual scoring and limited cross-center generalizability. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 11 = relevance 12 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.10.26.761866  
+**Takeaway:** Precision medicine approaches require physiological effects to be informative when translated to the individual. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 3. BurnCare: A deep learning framework for burn injury assessment and TBSA estimation.
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2025.12.24.25337638  
-**Takeaway:** BackgroundBurn injuries disproportionately affect resource-limited settings. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 4. Cancer incidence in first-generation migrants and host populations in seven European registries, including Ukrainian-born migrants in Poland: a population-based study
+### 4. An electronic frailty index for population-level risk stratification in a large health maintenance organization: A cohort study
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
-**Score:** 7 = relevance 9 + evidence -2  
-**Link:** https://doi.org/10.64898/2026.10.26.26366426  
-**Takeaway:** BackgroundWhere people are born shapes their cancer risk, yet European cancer surveillance rarely records migration background. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
+**Score:** 9 = relevance 8 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.10.26.26364473  
+**Takeaway:** BackgroundFrailty is a state of decreased physiological reserve and increased vulnerability to adverse outcomes. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
-### 5. GLP-1-receptor agonist use is associated with shorter survival in patients with amyotrophic lateral sclerosis and diabetes mellitus: a multicenter retrospective study
+### 5. Nonlinear Mixed Effect Modeling of Patient-Reported Outcomes to Improve Treatment Effect Estimation in an Oncology Clinical Trial
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research  
-**Score:** 7 = relevance 6 + evidence 1  
-**Link:** https://doi.org/10.1101/2025.05.05.25326993  
-**Takeaway:** BackgroundGlucagon-like peptide-1receptor agonists (GLP-1RA) are increasingly used to treat diabetes mellitus (DM) and obesity. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_medical_gp_updates  
+**Score:** 8 = relevance 3 + evidence 5  
+**Link:** https://doi.org/10.64898/2026.10.26.26366496  
+**Takeaway:** BackgroundPatient-reported outcomes (PROs) capture how treatments affect patients symptoms, functioning, and quality of life, but substantial variability can obscure treatment effects. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. The lipoprotein-immune checkpoint axis: Linking cardiovascular toxicity and antitumor immunity during immune checkpoint therapy.
+### 1. Comparison between the different suction techniques for eus-guided tissue acquisition in pancreatic diseases and other gastrointestinal lesions: a systematic review and meta-analysis of randomized controlled trials.
 **Source:** PubMed  
-**Journal:** Vascular pharmacology  
-**Study type:** Guideline / recommendation  
-**Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 26 = relevance 15 + evidence 11  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971517/  
-**Takeaway:** Immune checkpoint inhibitors(ICIs) improve cancer outcomes but may also perturb vascular immune homeostasis and increase atherosclerotic cardiovascular risk. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Germline Genetic Variants and Epilepsy Surgery Response: Individual Participant Pooled Analysis of 272 Patients.
-**Source:** PubMed  
-**Journal:** Neurology  
+**Journal:** Revista de gastroenterologia del Peru : organo oficial de la Sociedad de Gastroenterologia del Peru  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
-**Score:** 23 = relevance 17 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42970749/  
-**Takeaway:** BACKGROUND AND OBJECTIVES: Genetic testing is increasingly used in presurgical evaluation, but the yield of resection and ablation across germline genetic epilepsies remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** cytopathology_small_biopsy, guidelines_reviews_high_level_evidence  
+**Score:** 27 = relevance 11 + evidence 16  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977277/  
+**Takeaway:** OBJECTIVES: Endoscopic ultrasound-guided fine-needle aspiration/biopsy (EUS-FNA/B) is pivotal for diagnosing solid pancreatic lesions and other gastrointestinal (GI) masses. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. Tuberous Sclerosis Complex in an Australian Adult Tertiary Centre: Surveillance Adherence and Outpatient Burden in a Fragmented Model of Care.
+### 2. From Static Choices to Navigating Clinical Trajectories: Reframing Therapeutic Reasoning in Medical Education.
 **Source:** PubMed  
-**Journal:** Nephrology (Carlton, Vic.)  
+**Journal:** Journal of evaluation in clinical practice  
 **Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, pathology_quality_education_workflow, general_medical_gp_updates  
-**Score:** 22 = relevance 20 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971930/  
-**Takeaway:** AIM: The Australian National Strategic Action Plan for Rare Diseases (2020) calls for integrated care, yet the current state for many rare conditions is poorly described. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 21 = relevance 14 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42976113/  
+**Takeaway:** PROBLEM: Therapeutic reasoning is central to clinical practice and informed by established frameworks such as evidence-based medicine and shared decision-making. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. Sex difference in survival benefits of immune checkpoint inhibitors in advanced non-small cell lung cancer: A meta-analysis.
+**Source:** PubMed  
+**Journal:** PloS one  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** guidelines_reviews_high_level_evidence, legacy_project_watch_low_priority  
+**Score:** 21 = relevance 8 + evidence 13  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42976160/  
+**Takeaway:** BACKGROUND: Whether sex influences the survival benefit of immune checkpoint inhibitors (ICIs) in advanced non-small cell lung cancer (NSCLC) remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Increase in fetal haemoglobin from baseline to day 10 is a biomarker for response to decitabine in AML: Results of the AML21 randomized phase III trial of the EORTC Leukemia Group, Gruppo Italiano Malattie Ematologiche dell'Adulto (GIMEMA) and German MDS Study Group.
+**Source:** PubMed  
+**Journal:** British journal of haematology  
+**Study type:** Randomized clinical trial  
+**Matched profile:** molecular_ihc_biomarkers  
+**Score:** 18 = relevance 6 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977697/  
+**Takeaway:** Lack of response or delayed response to therapy are major challenges in the use of DNA-hypomethylating agents (HMA) in patients with acute myeloid leukaemia (AML). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 5. Mitochondria-Associated Membranes as a Convergent Hub of Brain Aging: From Neurodegeneration to Cerebral Ischemia.
+**Source:** PubMed  
+**Journal:** The European journal of neuroscience  
+**Study type:** Journal Article, Review  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, laboratory_medicine_transfusion  
+**Score:** 18 = relevance 16 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977507/  
+**Takeaway:** Brain aging is the principal risk factor for both neurodegenerative diseases (NDDs) and cerebral ischemic disorders, yet the subcellular mechanisms linking these conditions remain incompletely defined. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Real-World Experience of Using Next-Generation-Sequencing in Multiple Myeloma Diagnostics in the UK National Health Service.
+**Source:** PubMed  
+**Journal:** Clinical lymphoma, myeloma & leukemia  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 18 = relevance 14 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977632/  
+**Takeaway:** The IMS-IMWG 2025 updated definition of high-risk multiple myeloma (HRMM) introduced next-generation sequencing (NGS) based detection of TP53 single-nucleotide variants (SNV) as an independent high-risk factor. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 4. Effect of autologous platelet concentrates on healing outcomes in primary cleft repair: a systematic review and meta-analysis of randomized controlled trials.
+### 7. Evaluating the Clinical Efficacy, Utility, and Role of the 40-Gene Expression Profiling Test in Assessing Prognosis of Cutaneous Squamous Cell Carcinoma: An Expert Consensus Panel.
 **Source:** PubMed  
-**Journal:** International journal of oral and maxillofacial surgery  
+**Journal:** Journal of drugs in dermatology : JDD  
 **Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 6 + evidence 14  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971877/  
-**Takeaway:** Autologous platelet concentrates (APCs) are generally thought to decrease the postoperative burden in primary cleft care. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 15 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42976841/  
+**Takeaway:** BACKGROUND: The 40-gene expression profiling (40-GEP) test has been validated to identify patients at highest risk for nodal or distant metastasis, as well as those most likely to benefit from adjuvant radiation therapy (ART). Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Applications of Artificial Intelligence-Driven Chatbots in University Level Dental Education: A Systematic Review.
+### 8. DV-Based Kidney-Sparing Therapy for High-Risk Upper Tract Urothelial Carcinoma: An Exploratory Single-Center Real-World Study.
 **Source:** PubMed  
-**Journal:** International journal of dentistry  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** digital_computational_pathology, guidelines_reviews_high_level_evidence  
-**Score:** 18 = relevance 10 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42968879/  
-**Takeaway:** BACKGROUND: Artificial intelligence (AI), mainly AI-driven chatbots and large language models (LLMs) is reshaping dental education through adaptive, interactive, and simulation-based learning. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Diagnostic accuracy of serum procalcitonin for pneumonia in patients with acute dyspnea: a systematic review and meta-analysis.
-**Source:** PubMed  
-**Journal:** The American journal of emergency medicine  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 18 = relevance 6 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971102/  
-**Takeaway:** BACKGROUND: Several studies have investigated the diagnostic value of serum procalcitonin (PCT) for pneumonia in patients with acute dyspnea, but results have been inconsistent. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. Disentangling Reproductive History and Parenthood in Late-Life Cognitive and Vascular Brain Health.
-**Source:** PubMed  
-**Journal:** Neuroscience and biobehavioral reviews  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971340/  
-**Takeaway:** Women bear a greater burden of Alzheimer's disease (AD), prompting interest in whether reproductive history contributes to late-life brain health. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Immune Checkpoint Inhibitor Therapy in COPD-Concomitant Lung Cancer: A Review of Efficacy Outcomes and Mechanistic Insights.
-**Source:** PubMed  
-**Journal:** Cancer letters  
+**Journal:** Clinical genitourinary cancer  
 **Study type:** Cohort study  
 **Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42971500/  
-**Takeaway:** The coexistence of chronic obstructive pulmonary disease (COPD) and lung cancer (LC) presents a complex clinical scenario with distinct pathological interactions. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 15 = relevance 11 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42977653/  
+**Takeaway:** INTRODUCTION: To evaluate the feasibility, safety, and renal functional outcomes of a disitamab vedotin-based kidney-sparing therapy (DV-based KST) combining ureteroscopic holmium laser ablation with disitamab vedotin (DV, HER2-targeted antibody-drug conjugate) and immune checkpoint inhibitors (ICIs) in high-risk upper tract urothelial carcinoma (UTUC). Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 127
+- Total scored candidates: 130
 - Peer-reviewed pathology digest items: 2
-- GP-useful digest items: 4
-- Preprint watch items: 14
-- Watchlist items: 46
+- GP-useful digest items: 2
+- Preprint watch items: 13
+- Watchlist items: 50
