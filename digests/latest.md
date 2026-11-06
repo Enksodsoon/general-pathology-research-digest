@@ -1,206 +1,228 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-04
+Date: 2026-11-06
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Association Between Cardiovascular Disease and Cataracts: Protocol for a Systematic Review and Meta-Analysis.
+### 1. The Association Between Muscle Health and Quality of Life in Patients With Head and Neck Cancer: A Systematic Review.
 **Source:** PubMed  
-**Journal:** JMIR research protocols  
+**Journal:** Head & neck  
 **Study type:** Systematic review / meta-analysis  
 **Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 18 = relevance 9 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42976319/  
-**Takeaway:** BACKGROUND: There is emerging evidence suggesting shared pathophysiological mechanisms between cataracts and cardiovascular disease (CVD), indicating a potential link between these 2 prevalent noncommunicable diseases. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 19 = relevance 9 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988558/  
+**Takeaway:** BACKGROUND: Patients with head and neck cancer (HNC) are at risk of impaired muscle health due to metabolic disturbances, reduced nutritional intake, and treatment-related toxicities. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Clinical feasibility of a modified urinary cytology framework with targeted next-generation sequencing analysis.
+### 2. Chemodectoma Arising From the Abdominal Aorta in a 9-Year-Old Female Dog: Clinical, Histopathological and Immunohistochemstric Study.
 **Source:** PubMed  
-**Journal:** Journal of the American Society of Cytopathology  
-**Study type:** Journal Article  
+**Journal:** Veterinary medicine and science  
+**Study type:** Case report  
 **Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy  
-**Score:** 15 = relevance 13 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977633/  
-**Takeaway:** INTRODUCTION: The Paris System (TPS) for urinary cytology focuses primarily on high-grade urothelial carcinoma (HGUC) and has limited utility for low-grade UC. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988773/  
+**Takeaway:** BACKGROUND: Chemodectomas are uncommon, typically benign neoplasms derived from paraganglionic chemoreceptor tissues, most frequently arising in the heart base or carotid bodies of brachycephalic dogs. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. Methylation test versus dual staining in the triage of HR-HPV positive women - pilot data from cervical cancer screening.
+**Source:** PubMed  
+**Journal:** Ceska gynekologie  
+**Study type:** Journal Article, Comparative Study  
+**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
+**Score:** 11 = relevance 9 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988587/  
+**Takeaway:** INTRODUCTION: Introduction of high-risk human papillomavirus (HR-HPV) testing into cervical cancer screening increases the detection of high-grade cervical lesions, but also identifies women with transient HR-HPV infections who are at a low risk of progression. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Prevalence of Deviations in Acoustic and Self-Assessment Voice Measures in a Sample of Brazilian Female Teachers.
+### 1. Prenatal Detection of Arthrogryposis Multiplex Congenita, Present State and Future Perspectives.
+**Source:** PubMed  
+**Journal:** American journal of medical genetics. Part C, Seminars in medical genetics  
+**Study type:** Cohort study  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 7 = relevance 3 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988753/  
+**Takeaway:** Arthrogryposis multiplex congenita (AMC) is a heterogeneous group of conditions characterized by congenital contractures in at least two different body regions. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. Comparison of AI-Based GRBASZero and Clinicians' Perceptual Voice Assessment with Multiparametric Voice Measures in Dysphonic Turkish-Speaking Individuals.
 **Source:** PubMed  
 **Journal:** Journal of voice : official journal of the Voice Foundation  
 **Study type:** Journal Article  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977638/  
-**Takeaway:** OBJECTIVE: To analyze the prevalence of alterations in acoustic glottic source measures and vocal self-assessment scores in a sample of Brazilian female teachers, considering age group. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988719/  
+**Takeaway:** OBJECTIVES: This study aimed to investigate the relationship between clinician-based auditory-perceptual GRBAS ratings and the outputs generated by the AI-powered GRBASZero application in individuals with dysphonia and to examine how both methods correlate with objective acoustic, aerodynamic, and patient-reported outcome measures (PROMs). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Real-world effectiveness and safety of pembrolizumab monotherapy in non-small-cell lung carcinoma with brain metastases.
+### 3. Phosphaturic mesenchymal tumor-narrative review of the diagnostic challenges and modern treatment.
 **Source:** PubMed  
-**Journal:** Farmacia hospitalaria : organo oficial de expresion cientifica de la Sociedad Espanola de Farmacia Hospitalaria  
-**Study type:** Journal Article  
+**Journal:** Chinese clinical oncology  
+**Study type:** Guideline / recommendation  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977660/  
-**Takeaway:** OBJECTIVE: The objective of this study was to evaluate the effectiveness and safety of pembrolizumab as monotherapy in patients with Non-Small-Cell Lung cancer and brain metastases in real-world clinical practice at tertiary care. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988461/  
+**Takeaway:** BACKGROUND AND OBJECTIVE: Phosphaturic mesenchymal tumor (PMT) is a very rare form of mesenchymal neoplasm. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Preprints — not peer reviewed
-### 1. Quantifying Localized Tumor-Infiltrating Lymphocytes by Deep Learning on H&E Images: Analytical Validation and Prognostic Value in Lung Adenocarcinoma
+### 1. A regenerative stem cell phenotype marked by ANXA1 defines aggressive colorectal cancer biology
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
-**Score:** 21 = relevance 20 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.10.23.26366340  
-**Takeaway:** Tumor-infiltrating lymphocytes (TILs) are a critical determinant of response to immune checkpoint inhibitor (ICI) therapy in lung adenocarcinoma (LUAD). Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 21 = relevance 18 + evidence 3  
+**Link:** https://doi.org/10.64898/2026.10.28.26366700  
+**Takeaway:** BackgroundLGR5 and ANXA1 are markers for specific intestinal stem cell states. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Spatial AI quantification of inflammatory and architectural features differentiates pathologist-defined active ulcerative colitis from histological remission
+### 2. Diabetic retinopathy feature utilisation in 54 convolutional neural networks: a heatmap analysis
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** general_pathology_research, digital_computational_pathology  
-**Score:** 19 = relevance 12 + evidence 7  
-**Link:** https://doi.org/10.64898/2026.01.27.26344949  
-**Takeaway:** Background and AimsArtificial intelligence (AI) is applied to histological assessment in inflammatory bowel disease (IBD), but most approaches quantify features without considering anatomical location. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 10 = relevance 11 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.06.19.26356040  
+**Takeaway:** PurposeTo investigate how artificial intelligence (AI) systems detect referable diabetic retinopathy (DR) from retinal photographs by analysing heatmap patterns and determining their overlap with DR features. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 3. From group-level neurophysiological biomarkers to individual-level phenotyping to identify mechanisms of neurodegenerative disease
-**Source:** biorxiv  
-**Journal:** biorxiv  
-**Study type:** Preprint  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 11 = relevance 12 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.26.761866  
-**Takeaway:** Precision medicine approaches require physiological effects to be informative when translated to the individual. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 4. An electronic frailty index for population-level risk stratification in a large health maintenance organization: A cohort study
+### 3. Automated Versus Conventional Annular Suturing in Totally Endoscopic Aortic Valve and Ascending Aorta Replacement: A Prospective Randomized Trial
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
-**Score:** 9 = relevance 8 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.10.26.26364473  
-**Takeaway:** BackgroundFrailty is a state of decreased physiological reserve and increased vulnerability to adverse outcomes. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
+**Matched profile:** general_pathology_research  
+**Score:** 9 = relevance 6 + evidence 3  
+**Link:** https://doi.org/10.64898/2026.10.27.26366669  
+**Takeaway:** BackgroundTotally endoscopic aortic valve replacement (AVR) combined with ascending aorta replacement (AAR) remains technically demanding, with prolonged CPB and ischemic times. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 5. Nonlinear Mixed Effect Modeling of Patient-Reported Outcomes to Improve Treatment Effect Estimation in an Oncology Clinical Trial
+### 4. Microbial and chemical hazards in multi-use dryland waterpans: temporal variability, local heterogeneity and implications for drinking-water safety
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 9 = relevance 5 + evidence 4  
+**Link:** https://doi.org/10.64898/2026.10.28.26366785  
+**Takeaway:** Waterpans are widely used for domestic water supply, livestock, and other livelihood needs across drylands, yet spatial and temporal controls on their drinking-water quality remain poorly understood. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 5. Statistical analysis plan for the feasibility trial assessing external trigeminal nerve stimulation versus sham stimulation for ADHD in children and adolescents aged 7 to 17 years (the eTNS4ADHD trial)
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 8 = relevance 3 + evidence 5  
-**Link:** https://doi.org/10.64898/2026.10.26.26366496  
-**Takeaway:** BackgroundPatient-reported outcomes (PROs) capture how treatments affect patients symptoms, functioning, and quality of life, but substantial variability can obscure treatment effects. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
+**Score:** 9 = relevance 3 + evidence 6  
+**Link:** https://doi.org/10.64898/2026.10.30.26365900  
+**Takeaway:** BackgroundExternal trigeminal nerve stimulation (eTNS) is a non-invasive intervention being investigated as a potential treatment for attention-deficit/hyperactivity disorder (ADHD) in children and adolescents. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. Comparison between the different suction techniques for eus-guided tissue acquisition in pancreatic diseases and other gastrointestinal lesions: a systematic review and meta-analysis of randomized controlled trials.
+### 1. Too good to be true? AI performance in CT-based urinary stone detection and classification: EAU endourology systematic review and diagnostic accuracy meta-analysis.
 **Source:** PubMed  
-**Journal:** Revista de gastroenterologia del Peru : organo oficial de la Sociedad de Gastroenterologia del Peru  
+**Journal:** World journal of urology  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** cytopathology_small_biopsy, guidelines_reviews_high_level_evidence  
-**Score:** 27 = relevance 11 + evidence 16  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977277/  
-**Takeaway:** OBJECTIVES: Endoscopic ultrasound-guided fine-needle aspiration/biopsy (EUS-FNA/B) is pivotal for diagnosing solid pancreatic lesions and other gastrointestinal (GI) masses. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 28 = relevance 11 + evidence 17  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42986462/  
+**Takeaway:** PURPOSE: To evaluate pooled performance of artificial intelligence (AI) in computed tomography (CT)-based urinary stone detection and classification and identify methodological factors influencing results. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. From Static Choices to Navigating Clinical Trajectories: Reframing Therapeutic Reasoning in Medical Education.
+### 2. Prognostic Value of the Preoperative Systemic Immune-Inflammation Index for Overall Survival After Surgical Resection for Gallbladder Cancer: A Systematic Review and Meta-Analysis.
 **Source:** PubMed  
-**Journal:** Journal of evaluation in clinical practice  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 21 = relevance 14 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42976113/  
-**Takeaway:** PROBLEM: Therapeutic reasoning is central to clinical practice and informed by established frameworks such as evidence-based medicine and shared decision-making. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. Sex difference in survival benefits of immune checkpoint inhibitors in advanced non-small cell lung cancer: A meta-analysis.
-**Source:** PubMed  
-**Journal:** PloS one  
+**Journal:** Journal of gastrointestinal cancer  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence, legacy_project_watch_low_priority  
-**Score:** 21 = relevance 8 + evidence 13  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42976160/  
-**Takeaway:** BACKGROUND: Whether sex influences the survival benefit of immune checkpoint inhibitors (ICIs) in advanced non-small cell lung cancer (NSCLC) remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Increase in fetal haemoglobin from baseline to day 10 is a biomarker for response to decitabine in AML: Results of the AML21 randomized phase III trial of the EORTC Leukemia Group, Gruppo Italiano Malattie Ematologiche dell'Adulto (GIMEMA) and German MDS Study Group.
-**Source:** PubMed  
-**Journal:** British journal of haematology  
-**Study type:** Randomized clinical trial  
-**Matched profile:** molecular_ihc_biomarkers  
-**Score:** 18 = relevance 6 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977697/  
-**Takeaway:** Lack of response or delayed response to therapy are major challenges in the use of DNA-hypomethylating agents (HMA) in patients with acute myeloid leukaemia (AML). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Mitochondria-Associated Membranes as a Convergent Hub of Brain Aging: From Neurodegeneration to Cerebral Ischemia.
-**Source:** PubMed  
-**Journal:** The European journal of neuroscience  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, laboratory_medicine_transfusion  
-**Score:** 18 = relevance 16 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977507/  
-**Takeaway:** Brain aging is the principal risk factor for both neurodegenerative diseases (NDDs) and cerebral ischemic disorders, yet the subcellular mechanisms linking these conditions remain incompletely defined. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Real-World Experience of Using Next-Generation-Sequencing in Multiple Myeloma Diagnostics in the UK National Health Service.
-**Source:** PubMed  
-**Journal:** Clinical lymphoma, myeloma & leukemia  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 18 = relevance 14 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977632/  
-**Takeaway:** The IMS-IMWG 2025 updated definition of high-risk multiple myeloma (HRMM) introduced next-generation sequencing (NGS) based detection of TP53 single-nucleotide variants (SNV) as an independent high-risk factor. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 19 = relevance 6 + evidence 13  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42986544/  
+**Takeaway:** BACKGROUND: The systemic immune-inflammation index (SII) reflects the balance between tumor-promoting inflammation and antitumor immunity, but its prognostic role in gallbladder cancer (GBC) remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 7. Evaluating the Clinical Efficacy, Utility, and Role of the 40-Gene Expression Profiling Test in Assessing Prognosis of Cutaneous Squamous Cell Carcinoma: An Expert Consensus Panel.
+### 3. Molecular Testing Among Patients With Advanced Non-Small Cell Lung Cancer in the Rural US.
 **Source:** PubMed  
-**Journal:** Journal of drugs in dermatology : JDD  
+**Journal:** JAMA network open  
 **Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 15 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42976841/  
-**Takeaway:** BACKGROUND: The 40-gene expression profiling (40-GEP) test has been validated to identify patients at highest risk for nodal or distant metastasis, as well as those most likely to benefit from adjuvant radiation therapy (ART). Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** guidelines_reviews_high_level_evidence, legacy_project_watch_low_priority  
+**Score:** 17 = relevance 8 + evidence 9  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42986646/  
+**Takeaway:** IMPORTANCE: Molecular evaluation is standard of care for patients with advanced non-small cell lung cancer (NSCLC) in the US. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 8. DV-Based Kidney-Sparing Therapy for High-Risk Upper Tract Urothelial Carcinoma: An Exploratory Single-Center Real-World Study.
+### 4. Trastuzumab deruxtecan in HER2-expressing urothelial carcinoma: current evidence, biomarker challenges, and future therapeutic strategies.
 **Source:** PubMed  
-**Journal:** Clinical genitourinary cancer  
-**Study type:** Cohort study  
+**Journal:** Expert review of anticancer therapy  
+**Study type:** Journal Article, Review  
 **Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 15 = relevance 11 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42977653/  
-**Takeaway:** INTRODUCTION: To evaluate the feasibility, safety, and renal functional outcomes of a disitamab vedotin-based kidney-sparing therapy (DV-based KST) combining ureteroscopic holmium laser ablation with disitamab vedotin (DV, HER2-targeted antibody-drug conjugate) and immune checkpoint inhibitors (ICIs) in high-risk upper tract urothelial carcinoma (UTUC). Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 16 = relevance 14 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988609/  
+**Takeaway:** INTRODUCTION: Urothelial carcinoma (UC) has become a prototype for antibody-drug conjugate (ADC)-based therapy, but relapse after first-line enfortumab vedotin plus pembrolizumab remains common. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 5. Artificial Intelligence as a Bridge to Gaps in Delirium Prediction, Detection, and Management.
+**Source:** PubMed  
+**Journal:** Journal of the American Geriatrics Society  
+**Study type:** Journal Article  
+**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
+**Score:** 15 = relevance 10 + evidence 5  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988738/  
+**Takeaway:** BACKGROUND: Delirium affects up to one-third of hospitalized older adults and is associated with adverse outcomes. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Hepatic surgery for breast cancer liver metastases in the modern systemic therapy era: narrative review of evidence, patient selection, and a multidisciplinary decision framework.
+**Source:** PubMed  
+**Journal:** Chinese clinical oncology  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 15 = relevance 5 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988460/  
+**Takeaway:** BACKGROUND AND OBJECTIVE: Breast cancer liver metastases (BCLM) usually represent systemic disease and are treated primarily with subtype-directed systemic therapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 7. Lesion Profiles and Tissue Pathology of Clinostomum Metacercariae in Oreochromis niloticus From Lake Tana and An Adjacent Aquaculture Pond, Bahir Dar, Ethiopia.
+**Source:** PubMed  
+**Journal:** Veterinary medicine and science  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 15 = relevance 13 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42986789/  
+**Takeaway:** BACKGROUND: Oreochromis niloticus is the most commercially important and widely cultivated freshwater fish species in Ethiopia due to its rapid growth rate, adaptability to different environmental conditions, tolerance to handling stress and high nutritional value. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 8. Clinical Praat Parameters and Cepstral Representations for Speaker-Independent Voice Pathology Detection: The Influence of Age and Dysphonia Severity.
+**Source:** PubMed  
+**Journal:** Journal of voice : official journal of the Voice Foundation  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, digital_computational_pathology  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42988718/  
+**Takeaway:** OBJECTIVES: To determine whether clinically validated Praat parameters discriminate pathological from healthy voice under speaker-independent evaluation of the complete Saarbrücken Voice Database corpus of sustained vowels, how their performance compares with a high-dimensional cepstral representation and a speech foundation model trained through self-supervision, and how discrimination depends on dysphonia severity and on the age difference between groups. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 130
-- Peer-reviewed pathology digest items: 2
-- GP-useful digest items: 2
-- Preprint watch items: 13
-- Watchlist items: 50
+- Total scored candidates: 100
+- Peer-reviewed pathology digest items: 3
+- GP-useful digest items: 3
+- Preprint watch items: 15
+- Watchlist items: 39
