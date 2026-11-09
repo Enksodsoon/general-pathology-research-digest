@@ -58,6 +58,12 @@ Certificate: Not stated | Credit: Not stated
 https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
+24 Mar 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
+Registration link checked; availability may require login/JavaScript
+
 ## Source health
 
 - WHO: ok
