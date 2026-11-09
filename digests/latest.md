@@ -1,21 +1,43 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-08
+Date: 2026-11-09
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Beyond the brain: curcumin as a multi-target neuropharmacological modulator of the gut-brain axis in major depressive disorder and Parkinson's disease.
+### 1. Multimodal AI in Oral Cancer: A PRISMA-Guided Systematic Review.
 **Source:** PubMed  
-**Journal:** Naunyn-Schmiedeberg's archives of pharmacology  
+**Journal:** Healthcare technology letters  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 23 = relevance 9 + evidence 14  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998156/  
-**Takeaway:** Curcumin, the principal polyphenol of Curcuma longa, has been proposed as a multi-target neuropharmacological agent for neuropsychiatric and neurodegenerative disorders. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 32 = relevance 24 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999821/  
+**Takeaway:** Oral cancer presents significant diagnostic and prognostic challenges, often due to late-stage detection and tumour heterogeneity. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Assessment of preoperative nutritional status in patients with esophageal cancer and the impact of short-term nutritional intervention on postoperative complications: a single-center prospective pilot randomized controlled clinical trial.
+### 2. Improving the Quality of Care in Advanced Prostate Cancer Through Personalised Diagnostic Testing. Outcomes of a Sharing Progress in Cancer Care taskforce conducted under the auspices of the European Association of Urology.
+**Source:** PubMed  
+**Journal:** Critical reviews in oncology/hematology  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 28 = relevance 23 + evidence 5  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000079/  
+**Takeaway:** Timely biomarker assessment is essential to optimise outcomes in prostate cancer (PCa) by enabling the appropriate use of targeted therapies for defined molecular subtypes. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. Single-cell and spatial transcriptome analyses unveil that MYH11 links stemness to immunotherapy resistance in non-small cell lung cancer.
+**Source:** PubMed  
+**Journal:** Translational lung cancer research  
+**Study type:** Journal Article  
+**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, laboratory_medicine_transfusion, novel_treatment_pathology_linked, legacy_project_watch_low_priority  
+**Score:** 26 = relevance 24 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999620/  
+**Takeaway:** BACKGROUND: Immunotherapy is an essential treatment strategy for lung cancer, yet resistance to it is often unavoidable, resulting in treatment failure and poor prognosis. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Assessment of preoperative nutritional status in patients with esophageal cancer and the impact of short-term nutritional intervention on postoperative complications: a single-center prospective pilot randomized controlled clinical trial.
 **Source:** PubMed  
 **Journal:** Nutrition (Burbank, Los Angeles County, Calif.)  
 **Study type:** Guideline / recommendation  
@@ -26,118 +48,117 @@ Date: 2026-11-08
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. Cellular and Histopathological Hallmarks of Acute and Chronic Rejection in Vascular Composite Allografts: A Systematic Review.
+### 5. PET/CT radiomics for noninvasive histologic risk stratification in resected lung adenocarcinoma: a single-system development and internal validation study.
 **Source:** PubMed  
-**Journal:** Clinical transplantation  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 12 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998263/  
-**Takeaway:** BACKGROUND: VCA provides major reconstructive benefits but is limited by frequent rejection. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Impact of Aspirin Use on Mortality and Cardiac Allograft Vasculopathy After Heart Transplantation: A Systematic Review and Meta-analysis.
-**Source:** PubMed  
-**Journal:** Clinical transplantation  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 10 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998260/  
-**Takeaway:** BACKGROUND: Cardiac allograft vasculopathy (CAV) remains a major cause of late graft failure and morbidity among heart transplant (HTx) recipients. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Unusual Morphologic Variants of Solitary Fibrous Tumor: A Case Series of 17 Cases Featuring 10 Distinct Histomorphologies.
-**Source:** PubMed  
-**Journal:** Human pathology  
+**Journal:** Translational lung cancer research  
 **Study type:** Cohort study  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 20 = relevance 16 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998681/  
-**Takeaway:** BACKGROUND: Solitary fibrous tumors (SFTs) are mesenchymal neoplasms characterized by spindled-to-ovoid cells, fibrous stroma, prominent staghorn vasculature and harbor characteristic NAB2::STAT6 fusion. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, novel_treatment_pathology_linked  
+**Score:** 18 = relevance 11 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999626/  
+**Takeaway:** BACKGROUND: Preoperative histologic characterisation of lung adenocarcinoma is typically available only after resection. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 6. Transesophageal Endoscopic Ultrasound With Bronchoscope-Guided Fine-Needle Aspiration for Tissue Diagnosis of Pleural Malignancy in a Patient With Respiratory Compromise.
+**Source:** PubMed  
+**Journal:** Thoracic cancer  
+**Study type:** Case report  
+**Matched profile:** general_pathology_research, cytopathology_small_biopsy  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000165/  
+**Takeaway:** Histologic confirmation is essential in suspected pleural malignancy, particularly for subtype classification and molecular profiling. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 6. Fusion Partner Dependent Immunophenotype, Chromoanagenesis, and Prognosis in MEF2D-Rearranged B-Lymphoblastic Leukemia.
+### 7. Neoadjuvant FOLFOXIRI in a Locally Advanced Right Colon Cancer Patient: A Case Report From a Limited-Resource Setting.
 **Source:** PubMed  
-**Journal:** Human pathology  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 16 = relevance 12 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998687/  
-**Takeaway:** BACKGROUND: MEF2D-rearranged B-lymphoblastic leukemia/lymphoma (B-ALL) is a rare, recently recognized genetic entity with intermediate-to-poor risk. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. Esophageal squamous papillomas.
-**Source:** PubMed  
-**Journal:** Diseases of the esophagus : official journal of the International Society for Diseases of the Esophagus  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 13 = relevance 9 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998265/  
-**Takeaway:** Esophageal squamous papilloma (ESP) is an uncommon epithelial lesion encountered incidentally during upper gastrointestinal endoscopy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Case reports in oncological medicine  
+**Study type:** Case report  
+**Matched profile:** general_pathology_research  
+**Score:** 7 = relevance 6 + evidence 1  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999708/  
+**Takeaway:** BACKGROUND: Although upfront surgery followed by adjuvant chemotherapy is the standard of care for locally advanced colon cancer (LACC), high rates of recurrence and surgical morbidity remain significant challenges in bulky T4 tumors. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-No GP-useful papers met the digest threshold today.
+### 1. Individualizing Apheresis Processing Volumes Using a Predictive Algorithm: Analysis of the CAR T-Cell Collection Protocol Utilized in ACIT001/EXC002, a Phase Ib/II Trial of Decentralized Production of CAR T Cells for Treatment of Relapsed/Refractory Aggressive NHL and ALL.
+**Source:** PubMed  
+**Journal:** Journal of clinical apheresis  
+**Study type:** Journal Article, Clinical Trial, Phase I, Clinical Trial, Phase II  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 7 = relevance 3 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000203/  
+**Takeaway:** Chimeric antigen receptor (CAR) T-cell therapy has become an established treatment for relapsed or refractory B-cell malignancies. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. The effects of blunt ocular trauma in patients with inherited retinal disease: a multicenter case series.
+**Source:** PubMed  
+**Journal:** Ophthalmic genetics  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000196/  
+**Takeaway:** INTRODUCTION: The clinical consequences of ocular trauma in patients with inherited retinal diseases (IRDs) are poorly characterized. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
 
 ## Preprints — not peer reviewed
-### 1. Which Attention Helps? A Slide-Level Ablation of Attention-Augmented CNNs for Serous Ovarian Carcinoma Grading
+### 1. Comparative effectiveness of digital health interventions for low back pain: systematic review and network meta-analysis of randomised controlled trials
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, digital_computational_pathology  
-**Score:** 13 = relevance 13 + evidence 0  
-**Link:** https://doi.org/10.64898/2026.04.21.26351441  
-**Takeaway:** BackgroundDistinguishing high-grade (HGSC) from low-grade serous carcinoma (LGSC) is clinically consequential yet difficult, as the subtypes share a serous morphology but differ in prognosis and treatment. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 20 = relevance 9 + evidence 11  
+**Link:** https://doi.org/10.64898/2026.09.23.26363780  
+**Takeaway:** BackgroundDigital health interventions are increasingly used for low back pain, but their comparative effectiveness across different delivery modalities, clinical outcomes, and follow-up periods remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Evaluating the Incremental Value of AI-Derived ECG Features Beyond Automated ECG Reports and Clinical Data for 30-Day Mortality: A MIMIC-IV Cohort Study
+### 2. Surgical Revision of Deep Brain Stimulation After Suboptimal Clinical Outcomes: A Systematic Review and Exploratory Meta-analysis
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, digital_computational_pathology  
-**Score:** 12 = relevance 11 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.10.28.26366716  
-**Takeaway:** Automated electrocardiogram (ECG) reports and clinical records already carry prognostic information, so the relevant question is what artificial intelligence (AI)-derived ECG waveform features add beyond these existing sources, and whether models with similar overall discrimination would prioritize the same patients for review. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
-**Confidence:** Low
-
-### 3. Ultra-rare coding variants in schizophrenia risk genes are associated with longitudinal phenotypic differences across psychotic disorders
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** laboratory_medicine_transfusion, guidelines_reviews_high_level_evidence  
-**Score:** 12 = relevance 9 + evidence 3  
-**Link:** https://doi.org/10.64898/2026.10.30.26366332  
-**Takeaway:** BackgroundThe Schizophrenia Exome Meta-Analysis (SCHEMA) Consortium has recently identified 40 genes at a false discovery rate <0.05 in which ultra-rare damaging variants substantially increase schizophrenia (SZ) risk. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 13 = relevance 6 + evidence 7  
+**Link:** https://doi.org/10.64898/2026.10.31.26366990  
+**Takeaway:** BackgroundSome patients obtain less benefit than expected from deep brain stimulation (DBS) despite optimized programming. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 4. ClinGen Hemoglobinopathy VCEP ACMG/AMP specifications for HBB and HBA2 variant interpretation in thalassemia
+### 3. Study protocol for a randomized, double-blind, placebo-controlled clinical trial to assess chemoprotective efficacy of Aqueous standardized extract of Tinospora cordifolia (AsSET) in patients receiving Docetaxel based chemotherapy for advanced / metastatic solid tumors
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 11 = relevance 12 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.30.26366794  
-**Takeaway:** BackgroundThe ClinGen Hemoglobinopathy Variant Curation Expert Panel (VCEP) was established in 2019 to develop disease-specific adaptations of the American College of Medical Genetics and Genomics/Association for Molecular Pathology (ACMG/AMP) sequence variant interpretation framework for hemoglobinopathies. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_medical_gp_updates  
+**Score:** 9 = relevance 4 + evidence 5  
+**Link:** https://doi.org/10.64898/2026.10.29.26366795  
+**Takeaway:** IntroductionDocetaxel is widely used for advanced and metastatic solid tumours, but dose limiting toxicities, particularly haematological adverse events, often lead to treatment delays, dose reductions or discontinuation and impair quality of life. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 5. Low-pass filtering revisited: ramped phase randomization for cryo-EM map comparison and data augmentation
-**Source:** biorxiv  
-**Journal:** biorxiv  
+### 4. Integrative Multi-Omics Analysis of Molecular Associations and Biological Pathways Underlying Neurodevelopmental Conditions in a Twin Cohort
+**Source:** medrxiv  
+**Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** digital_computational_pathology, cytopathology_small_biopsy  
-**Score:** 10 = relevance 11 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.30.763149  
-**Takeaway:** Conventional low-pass filters attenuate or remove high-frequency Fourier amplitudes but leave the phases intact wherever the amplitude response stays above zero. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** molecular_ihc_biomarkers  
+**Score:** 7 = relevance 6 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.01.16.26344104  
+**Takeaway:** Neurodevelopmental conditions (NDCs) arise from complex genetic-environmental interactions, yet their molecular underpinnings remain incompletely defined. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 5. Psychological inoculation protects young women in South Africa against HIV prevention misinformation: Evidence from a randomised controlled trial
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 7 = relevance 4 + evidence 3  
+**Link:** https://doi.org/10.64898/2026.10.27.26366282  
+**Takeaway:** BackgroundMisinformation decreases public confidence in health technologies and willingness to use them. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
@@ -154,29 +175,51 @@ No GP-useful papers met the digest threshold today.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Retinal and choroidal changes on optical coherence tomography in pre-eclampsia: a systematic review and meta-analysis.
+### 2. A comparison of diagnostic accuracy between CNN and transformer AI models for periodontal bone loss detection: A systematic review and meta-analysis.
 **Source:** PubMed  
-**Journal:** International ophthalmology  
+**Journal:** Journal of advanced periodontology & implant dentistry  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 12 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998190/  
-**Takeaway:** PURPOSE: To summarize optical coherence tomography (OCT)-detected retinal and choroidal changes in pre-eclampsia (PE), to support clinicians in interpreting these changes within the clinical context. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 23 = relevance 11 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999376/  
+**Takeaway:** INTRODUCTION: Convolutional neural networks (CNNs) and transformers are artificial intelligence (AI) models used for accurate periodontal bone loss (PBL) diagnosis. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. Efficacy and Safety of Datopotamab Deruxtecan From a Single-Institution Experience in Hormone Receptor-Positive, HER2-Negative Metastatic Breast Cancer After Multiple Prior Therapies Including Antibody-Drug Conjugates.
+### 3. Management of meniscal pathology at the time of anterior cruciate ligament reconstruction in performance athletes: a systematic review.
 **Source:** PubMed  
-**Journal:** Cancer medicine  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked, general_medical_gp_updates  
-**Score:** 18 = relevance 14 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998029/  
-**Takeaway:** BACKGROUND: Datopotamab deruxtecan (Dato-DXd) is a trophoblast cell surface antigen 2 (TROP2)-directed antibody-drug conjugate (ADC) with a topoisomerase I inhibitor payload and was approved by the Japan Pharmaceuticals and Medical Devices Agency in 2025 for patients with unresectable or recurrent hormone receptor-positive (HR+)/human epidermal growth factor receptor 2-negative (HER2-) breast cancer previously treated with chemotherapy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Annals of joint  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 22 = relevance 12 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999722/  
+**Takeaway:** BACKGROUND: Meniscal pathology is a frequent and clinically important finding at the time of anterior cruciate ligament (ACL) reconstruction, particularly in performance athletes who place high demands on knee stability, load tolerance, and return-to-sport expectations. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 4. Testicular torsion management among Turkish urologists: Practice variation, case volume, and guideline adherence.
+### 4. Decoding prognosis: multigene expression assays in breast cancer.
+**Source:** PubMed  
+**Journal:** Expert review of molecular diagnostics  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 20 = relevance 11 + evidence 9  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000195/  
+**Takeaway:** INTRODUCTION: Breast cancer remains a leading cause of cancer-related death in women worldwide. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 5. CEACAM5-Targeted Therapies in Solid Tumors: Biological Barriers and Next-Generation Precision Strategies.
+**Source:** PubMed  
+**Journal:** Drug design, development and therapy  
+**Study type:** Journal Article, Review  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 19 = relevance 11 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/42999607/  
+**Takeaway:** Carcinoembryonic antigen-related cell adhesion molecule 5 (CEACAM5) is an attractive therapeutic target because of its widespread overexpression in epithelial malignancies and its polarised, largely luminal expression in normal epithelium. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Testicular torsion management among Turkish urologists: Practice variation, case volume, and guideline adherence.
 **Source:** PubMed  
 **Journal:** Journal of pediatric urology  
 **Study type:** Guideline / recommendation  
@@ -187,7 +230,18 @@ No GP-useful papers met the digest threshold today.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Real-World HER2 Testing Practices and Performance of HER2 immunohistochemistry in Non-Breast, Non-Gastroesophageal Solid Tumors: Experience at a Large U.S. Academic Institution.
+### 7. Effects of GLP-1 Receptor Agonists on Hyperuricemia, Serum Uric Acid and Gout: A Systematic Review and Meta-Analysis.
+**Source:** PubMed  
+**Journal:** Diabetes, obesity & metabolism  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 16 = relevance 6 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43000185/  
+**Takeaway:** OBJECTIVES: Hyperuricemia and gout are common but underappreciated comorbidities in Type 2 diabetes (T2D), obesity and chronic kidney disease (CKD). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 8. Real-World HER2 Testing Practices and Performance of HER2 immunohistochemistry in Non-Breast, Non-Gastroesophageal Solid Tumors: Experience at a Large U.S. Academic Institution.
 **Source:** PubMed  
 **Journal:** Human pathology  
 **Study type:** Guideline / recommendation  
@@ -198,43 +252,10 @@ No GP-useful papers met the digest threshold today.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 6. Effects of virtual reality and exergame interventions on cognitive function in Chinese older adults with cognitive impairment: A three-level meta-analysis.
-**Source:** PubMed  
-**Journal:** International psychogeriatrics  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 15 = relevance 5 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998936/  
-**Takeaway:** OBJECTIVES: Technology-based cognitive interventions, such as virtual reality (VR) and exergames, have emerged as promising tools for cognitive rehabilitation. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. Assessment of peripheral and tumor specific Tregs and Th17 cells in patients with endometrial cancer.
-**Source:** PubMed  
-**Journal:** Cancer treatment and research communications  
-**Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998607/  
-**Takeaway:** OBJECTIVE: The frontline treatment for endometrial cancer (EC) is a hysterectomy; immunotherapy is approved, but has limited efficacy in all EC genotypes (mismatch repair genotypes). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. From Radical Resection to Organ Preservation in Locally Advanced Rectal Cancer: A Narrative Review of Risk-Adapted Management.
-**Source:** PubMed  
-**Journal:** Journal of gastrointestinal cancer  
-**Study type:** Journal Article, Review  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/42998225/  
-**Takeaway:** PURPOSE: To synthesise evidence informing risk-adapted treatment and organ preservation in locally advanced rectal cancer. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
 
 ## Pipeline QA
-- Total scored candidates: 101
+- Total scored candidates: 100
 - Peer-reviewed pathology digest items: 7
-- GP-useful digest items: 0
-- Preprint watch items: 14
-- Watchlist items: 43
+- GP-useful digest items: 2
+- Preprint watch items: 11
+- Watchlist items: 41
