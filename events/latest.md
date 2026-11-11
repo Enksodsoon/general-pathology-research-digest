@@ -1,6 +1,6 @@
-# Free Medical Events — 2026-11-10
+# Free Medical Events — 2026-11-11
 
-Scan health: **DEGRADED** · Sources 47/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -53,7 +53,7 @@ Registration link checked; availability may require login/JavaScript
 - NIH-VideoCast: ok
 - CDC-COCA: ok
 - Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
-- Siriraj-Conference: ok
+- Siriraj-Conference: error — HTTPError: HTTP Error 404: Not Found
 - Ramathibodi: ok
 - Thai-CME: ok
 - Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
