@@ -1,14 +1,8 @@
-# Free Medical Events — 2026-11-12
+# Free Medical Events — 2026-11-13
 
 Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Managing chronic venous insufficiency with interventional radiology from diagnosis to treatment
-12 Nov 2026 23:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: CME/CPD offered; eligibility must be checked
-https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fcvi-26%2Fcvi-registration
-Registration link checked; availability may require login/JavaScript
 
 ## 身寄りのない方への支援―制度の面から支援を支える―
 18 Nov 2026 15:30 ICT · Online · JA · Free attendance
