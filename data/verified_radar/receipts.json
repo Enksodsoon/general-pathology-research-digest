@@ -1942,6 +1942,13 @@
       "telegram_date": 1794725208,
       "acknowledged_at": "2026-11-15T06:46:48.833635+00:00",
       "kind": "heartbeat"
+    },
+    "status-43705724119": {
+      "fingerprint": "9f30acd30be25e62317e45a7",
+      "message_id": 388,
+      "telegram_date": 1794739778,
+      "acknowledged_at": "2026-11-15T10:49:39.112222+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
@@ -1950,9 +1957,9 @@
     "new_alerts": 0,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-11-15T06:46:48.837676+00:00",
-    "run_id": "43686759082",
-    "trigger": "workflow_run"
+    "completed_at": "2026-11-15T10:49:39.114919+00:00",
+    "run_id": "43705724119",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -2024,6 +2031,6 @@
     "2026-11-12": 2,
     "2026-11-13": 2,
     "2026-11-14": 2,
-    "2026-11-15": 1
+    "2026-11-15": 2
   }
 }
