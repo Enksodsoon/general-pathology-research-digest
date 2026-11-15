@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-11-14
+# Free Medical Events — 2026-11-15
 
 Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
