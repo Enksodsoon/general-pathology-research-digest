@@ -1,107 +1,85 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-14
+Date: 2026-11-15
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. Smartphone-Delivered Cognitive Behavioral Digital Therapeutic for Children and Adolescents With Major Depressive Disorder: Protocol for a Multicenter, Randomized, Double-Blind, Placebo-Controlled Trial.
+### 1. Post-mortem CT angiography for fatal vascular lesions in forensic death investigation: a systematic review of diagnostic performance, added value, and pitfalls.
 **Source:** PubMed  
-**Journal:** JMIR research protocols  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 21 = relevance 8 + evidence 13  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024878/  
-**Takeaway:** BACKGROUND: Depression is a leading contributor to morbidity and disability in children and adolescents. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** International journal of legal medicine  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 22 = relevance 15 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033218/  
+**Takeaway:** PURPOSE: Post-mortem CT angiography (PMCTA) is increasingly used in forensic death investigation to assess vascular disease, haemorrhage, and traumatic or natural vascular causes of death. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Risk-adapted active surveillance for prostate cancer: Can mpMRI, biomarkers, and genomic classifiers reduce biopsy burden without compromising safety?: A systematic review.
+### 2. Prenatal cell-free DNA (cfDNA) screening of chromosome abnormalities: A technical standard of the American College of Medical Genetics and Genomics (ACMG) and the College of American Pathologists (CAP).
 **Source:** PubMed  
-**Journal:** Medicine  
+**Journal:** Genetics in medicine : official journal of the American College of Medical Genetics  
 **Study type:** Guideline / recommendation  
 **Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 19 = relevance 8 + evidence 11  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024296/  
-**Takeaway:** BACKGROUND: Active surveillance is the preferred management strategy for men with low-risk and selected favorable intermediate-risk prostate cancer. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Score:** 20 = relevance 8 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033073/  
+**Takeaway:** The American College of Medical Genetics and Genomics and the College of American Pathologists work group developed this technical standard to address challenges associated with laboratory validation and implementation of prenatal cell-free DNA (cfDNA) screening. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. Pathologic and Molecular Characterization of Branch Duct Intraductal Papillary Mucinous Neoplasm With Advanced Neoplasia Under-Recognized by Kyoto High-Risk Stigmata.
+### 3. Zona pellucida-based immunocontraception for canine fertility control: A scoping review.
 **Source:** PubMed  
-**Journal:** Pancreas  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 18 = relevance 13 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024803/  
-**Takeaway:** OBJECTIVES: Kyoto high-risk stigmata (HRS) guide resection of branch-duct intraductal papillary mucinous neoplasms (BD-IPMNs) but miss a substantial proportion of high-grade dysplasia or invasive carcinoma (HGD/IC). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Journal:** Theriogenology  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 19 = relevance 11 + evidence 8  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033583/  
+**Takeaway:** OBJECTIVE: To map the extent, characteristics and gaps in published evidence on zona pellucida (ZP)-related immunocontraceptive development relevant to female dogs, distinguishing canine reproductive observations from immunogenicity, surrogate-model and mechanistic evidence. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Pyramid-level training with stain normalization for breast cancer lymph-node metastasis segmentation in whole-slide images.
+### 4. Intervertebral disc versus vertebral body as the percutaneous sample site for pyogenic spondylodiscitis: Which yields a higher microbiological diagnosis? A prospective study.
 **Source:** PubMed  
-**Journal:** PloS one  
+**Journal:** The spine journal : official journal of the North American Spine Society  
 **Study type:** Cohort study  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 17 = relevance 13 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024623/  
-**Takeaway:** Whole-slide histopathology images encode metastatic tissue information simultaneously at multiple spatial scales, from fine cellular morphology at high magnification to broad tissue architecture at low magnification. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Score:** 16 = relevance 12 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033832/  
+**Takeaway:** BACKGROUND CONTEXT: Pyogenic spondylodiscitis requires microbiological confirmation, yet percutaneous sample collection yield remains modest. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 5. Summary of the National Advisory Committee on Immunization (NACI) Seasonal Influenza Vaccine Statement for 2026-2027.
+### 5. Comparison of biparametric and multiparametric MRI for detection of clinically significant prostate cancer using PI-RADS v2.1.
 **Source:** PubMed  
-**Journal:** Canada communicable disease report = Releve des maladies transmissibles au Canada  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 10 = relevance 8 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43023159/  
-**Takeaway:** BACKGROUND: The National Advisory Committee on Immunization (NACI) reviews evolving evidence on influenza immunization annually and updates vaccine recommendations. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. Diagnostic accuracy of limited gastric biopsy strategies for detecting premalignant gastric lesions: A prospective paired-design diagnostic accuracy study using the Updated Sydney protocol as a reference standard.
-**Source:** PubMed  
-**Journal:** Medicine  
-**Study type:** Journal Article  
-**Matched profile:** pathology_quality_education_workflow  
-**Score:** 7 = relevance 4 + evidence 3  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024262/  
-**Takeaway:** Although the Updated Sydney System recommends systematic biopsy mapping of the antrum, incisura angularis, and corpus, single-site sampling remains common in routine endoscopy. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Journal:** Current problems in diagnostic radiology  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, pathology_quality_education_workflow  
+**Score:** 14 = relevance 11 + evidence 3  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43034132/  
+**Takeaway:** PURPOSE: To compare the diagnostic performance of bpMRI with mpMRI using the Prostate Imaging Reporting and Data System version 2.1 (PI-RADS v2.1), in evaluation of patients with suspected clinically significant prostate cancer (csPCa) in a paired patient cohort. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. Dasatinib Dose Optimization With Weekend Drug Holiday for Improved Tolerability in Chronic Myeloid Leukemia (DasaHIT): A German Chronic Myeloid Leukemia Alliance Randomized Trial.
+### 1. Making IMPACT (Improving Methodology for Proteinuria and Albuminuria measurement in Clinics and Trials): A Report of the 2025 Proteinuria-Albuminuria Workshop Sponsored by the National Kidney Foundation.
 **Source:** PubMed  
-**Journal:** Journal of clinical oncology : official journal of the American Society of Clinical Oncology  
-**Study type:** Randomized clinical trial  
+**Journal:** American journal of kidney diseases : the official journal of the National Kidney Foundation  
+**Study type:** Journal Article  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 12 = relevance 3 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024850/  
-**Takeaway:** PURPOSE: To compare standard-dose dasatinib 100 mg once daily with reduced-dose using a weekend drug holiday to improve tolerability for patients with chronic myeloid leukemia (CML). Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033861/  
+**Takeaway:** Glomerular damage is traditionally assessed by measuring urinary protein loss. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Risk of incident macular neovascularization in eyes with focal choroidal excavation: A retrospective cohort study with time-to-event analysis.
+### 2. Risk Factors for Advanced Serrated Lesions in the Proximal Colon.
 **Source:** PubMed  
-**Journal:** PloS one  
-**Study type:** Cohort study  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 7 = relevance 3 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024597/  
-**Takeaway:** PURPOSE: To evaluate the long-term risk of incident macular neovascularization (MNV) in eyes with focal choroidal excavation (FCE) compared with non-FCE pachychoroid-spectrum controls in routine clinical practice. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 3. Rethinking Meningioma Biology: Integrating Molecular and Microenvironmental Insights for Mechanism-Guided Therapy.
-**Source:** PubMed  
-**Journal:** Annual review of medicine  
-**Study type:** Journal Article, Review  
+**Journal:** International journal of cancer  
+**Study type:** Guideline / recommendation  
 **Matched profile:** general_medical_gp_updates  
 **Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024871/  
-**Takeaway:** Meningiomas are the most common primary intracranial tumors, accounting for 42.6% of all central nervous system tumors. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43032963/  
+**Takeaway:** During the past two decades, increasing evidence has indicated that sessile serrated lesions (SSLs) contribute to "interval" colon cancers. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
@@ -118,7 +96,18 @@ Date: 2026-11-14
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Methodological Adherence, Reporting Completeness, and Risk of Bias in AI-Assisted Systematic Reviews: A Matched Meta-Research Study
+### 2. Deep learning-based electrocardiographic differentiation of Takotsubo syndrome from acute anterior myocardial infarction: explainability, human-AI interaction, and a utilization bias hypothesis
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** digital_computational_pathology  
+**Score:** 14 = relevance 6 + evidence 8  
+**Link:** https://doi.org/10.64898/2026.10.15.26365116  
+**Takeaway:** Background and AimsArtificial intelligence (AI) may help differentiate Takotsubo syndrome from acute anterior ST-segment elevation myocardial infarction (STEMI) on electrocardiograms (ECGs). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 3. Methodological Adherence, Reporting Completeness, and Risk of Bias in AI-Assisted Systematic Reviews: A Matched Meta-Research Study
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -129,7 +118,18 @@ Date: 2026-11-14
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 3. Insulin resistance reverses despite weight gain with pan-PPAR agonism, revealing its plasma molecular correlates in type 2 diabetes
+### 4. CNS-selective plasma p-tau217 accurately captures Alzheimer's disease pathology and progression
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 13 = relevance 12 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.05.18.26353208  
+**Takeaway:** Blood-based biomarkers are transforming Alzheimers disease (AD) detection, with plasma tau phosphorylated at threonine 217 (p-tau217) being a leading candidate. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 5. Insulin resistance reverses despite weight gain with pan-PPAR agonism, revealing its plasma molecular correlates in type 2 diabetes
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
@@ -140,75 +140,86 @@ Date: 2026-11-14
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 4. On conducting diary-based social contact surveys to inform transmission models of close-contact infections: a systematic review and expert-informed questionnaire
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** cytopathology_small_biopsy, guidelines_reviews_high_level_evidence  
-**Score:** 13 = relevance 10 + evidence 3  
-**Link:** https://doi.org/10.64898/2026.11.06.26367418  
-**Takeaway:** BackgroundDiary-based social contact surveys are widely used to parameterise transmission models of close-contact infections. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
-**Confidence:** Low
-
-### 5. Diagnostic Value in Discarded Reads: Re-evaluating Multi-Mapping cfDNA Fragmentomics and GC Bias in Early-Stage Cancer.
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy  
-**Score:** 10 = relevance 11 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.11.05.26367150  
-**Takeaway:** BackgroundLow-coverage plasma cell-free DNA (cfDNA) sequencing is an inexpensive substrate for cancer detection. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
 
 ## Additional watchlist
-### 1. Identifying Predictive Biomarkers of Resistance in Patients With Breast Cancer.
+### 1. Efficacy of HER2-targeted therapies in localized urothelial carcinoma: a systematic review and meta-analysis.
 **Source:** PubMed  
-**Journal:** JCO precision oncology  
-**Study type:** Randomized clinical trial  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 19 = relevance 11 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024843/  
-**Takeaway:** PURPOSE: Residual cancer burden (RCB) after neoadjuvant chemotherapy is highly prognostic of disease-free survival in patients with high-risk early-stage breast cancer, and extensive residual disease (RCBIII) indicates treatment resistance. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** World journal of urology  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked, guidelines_reviews_high_level_evidence  
+**Score:** 28 = relevance 18 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033227/  
+**Takeaway:** BACKGROUND: HER2-targeted antibody-drug conjugates were recently approved in China for treatment of advanced or metastatic urothelial carcinoma (UC). Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Posterior fossa decompression in pediatric Chiari malformation type I: a meta-analysis and meta-regression of outcomes with and without duraplasty.
+### 2. Survival benefit of adding carboplatin to standard anthracycline-taxane chemotherapy in triple-negative breast cancer: an updated systematic review and meta-analysis.
 **Source:** PubMed  
-**Journal:** Journal of neurosurgery. Pediatrics  
-**Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 18 = relevance 6 + evidence 12  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024877/  
-**Takeaway:** OBJECTIVE: The role of duraplasty in posterior fossa decompression for pediatric Chiari malformation type I (CM-I) remains controversial. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Breast cancer research and treatment  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
+**Score:** 26 = relevance 12 + evidence 14  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033282/  
+**Takeaway:** IMPORTANCE: Carboplatin improves pathological complete response (pCR) in triple-negative breast cancer (TNBC), but its effect on long-term survival remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. Precision Adjuvant Therapy in Gastrointestinal Stromal Tumor: Adjuvant-Specific Evidence Versus Metastatic Extrapolation.
+**Source:** PubMed  
+**Journal:** Current treatment options in oncology  
+**Study type:** Randomized clinical trial  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 21 = relevance 12 + evidence 9  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033335/  
+**Takeaway:** For a patient with a resected gastrointestinal stromal tumor, we base adjuvant decisions on evidence produced after surgery rather than on findings extrapolated from advanced disease. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Diagnostic test accuracy of the TriAGe+ score for detecting stroke in adults presenting with vertigo or dizziness: a protocol for systematic review and meta-analysis.
+**Source:** Europe PMC  
+**Journal:** BMJ Open  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** laboratory_medicine_transfusion, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 13 + evidence 5  
+**Link:** https://europepmc.org/article/MED/43020498  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 5. Development and validation of an ML-driven risk prediction model for stroke-heart syndrome after acute ischemic stroke.
+**Source:** PubMed  
+**Journal:** Heart & lung : the journal of critical care  
+**Study type:** Cohort study  
+**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
+**Score:** 15 = relevance 8 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033570/  
+**Takeaway:** BACKGROUND: Existing prediction models for stroke-heart syndrome (SHS) after acute ischemic stroke (AIS) have limited generalizability due to population heterogeneity. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 3. Reducing Unwarranted Variation in Emergency Department Laboratory Test Ordering With a Feedback-Based Decision Support Tool: Qualitative Formative Evaluation.
+### 6. Clinical vs. pathological staging in oral squamous cell carcinoma: frequency of misjudgment, associated risk factors, and impact on survival outcomes.
 **Source:** PubMed  
-**Journal:** JMIR formative research  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, pathology_quality_education_workflow, general_medical_gp_updates  
-**Score:** 18 = relevance 13 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024775/  
-**Takeaway:** BACKGROUND: Substantial unwarranted variations exist in laboratory test ordering practices in the emergency department (ED), despite a plethora of digital health interventions to facilitate laboratory test ordering consistent with best-practice recommendations. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Clinical oral investigations  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, novel_treatment_pathology_linked  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033207/  
+**Takeaway:** OBJECTIVES: Accurate staging of oral squamous cell carcinoma (OSCC) is crucial for prognosis and treatment planning. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 7. One clone, one mass: The rise of mass spectrometry in the diagnosis and monitoring of monoclonal gammopathies.
+**Source:** PubMed  
+**Journal:** Clinica chimica acta; international journal of clinical chemistry  
+**Study type:** Journal Article, Review  
+**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43033888/  
+**Takeaway:** The diagnosis and monitoring of plasma cell disorders have long depended on serum protein electrophoresis and immunofixation electrophoresis, techniques whose sensitivity is fundamentally incompatible with the depth of response now achievable with modern therapies. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Deep-Learning Analysis of Peripheral Blood Smear for Prediction of Acute Inflammatory States and Chronic Comorbidities: Development and Internal Validation Study.
-**Source:** PubMed  
-**Journal:** JMIR medical informatics  
-**Study type:** Journal Article, Validation Study  
-**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
-**Score:** 16 = relevance 14 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024355/  
-**Takeaway:** BACKGROUND: Peripheral blood smear (PBS) examination provides morphological information on immune cells that reflects systemic pathophysiology, yet whether it can be used to predict systemic states has not been systematically established. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Posttransfusion Management of RhD-Negative Females of Childbearing Potential Who Receive RhD-Positive Low-Titer Group O Whole Blood and RBCs During Trauma Resuscitation: A Joint Position Statement and Resource Document of the American College of Surgeons Committee on Trauma, Prehospital Blood Transfusion Coalition, National Association of Emergency Medical Services Physicians, Trauma Hemostasis and Oxygenation Research Network, and Allo Hope Foundation.
+### 8. Posttransfusion Management of RhD-Negative Females of Childbearing Potential Who Receive RhD-Positive Low-Titer Group O Whole Blood and RBCs During Trauma Resuscitation: A Joint Position Statement and Resource Document of the American College of Surgeons Committee on Trauma, Prehospital Blood Transfusion Coalition, National Association of Emergency Medical Services Physicians, Trauma Hemostasis and Oxygenation Research Network, and Allo Hope Foundation.
 **Source:** Europe PMC  
 **Journal:** J Am Coll Surg  
 **Study type:** Guideline / recommendation  
@@ -219,43 +230,10 @@ Date: 2026-11-14
 **Limitations:** No abstract available in fetched metadata.
 **Confidence:** Moderate
 
-### 6. Selectively disrupting lysine acetyltransferase p300 and ZEB1 interaction prevents tumor progression while enhancing antitumor immunity.
-**Source:** PubMed  
-**Journal:** Proceedings of the National Academy of Sciences of the United States of America  
-**Study type:** Journal Article  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
-**Score:** 13 = relevance 11 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024664/  
-**Takeaway:** Both p300 acetyltransferase inhibitors and bromodomain inhibitors show therapeutic promise in cancer, but they mostly exhibit limited efficacy and may elicit severe adverse effects due to their lack of targeting selectivity. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. Decoding cancer therapy resistance through advanced 3D organoid systems.
-**Source:** PubMed  
-**Journal:** Science advances  
-**Study type:** Journal Article, Review  
-**Matched profile:** digital_computational_pathology, novel_treatment_pathology_linked  
-**Score:** 12 = relevance 10 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024708/  
-**Takeaway:** Precision oncology still faces low clinical translation rates. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Machine learning prediction of meningioma grade using preoperative MRI: a large multicenter study.
-**Source:** PubMed  
-**Journal:** Journal of neurosurgery  
-**Study type:** Cohort study  
-**Matched profile:** digital_computational_pathology  
-**Score:** 12 = relevance 5 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43024876/  
-**Takeaway:** OBJECTIVE: Preoperative knowledge of intracranial meningioma grade could significantly enhance surgical planning, but reliable noninvasive prediction remains an unmet clinical need. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
 
 ## Pipeline QA
-- Total scored candidates: 147
-- Peer-reviewed pathology digest items: 6
-- GP-useful digest items: 3
-- Preprint watch items: 13
-- Watchlist items: 45
+- Total scored candidates: 141
+- Peer-reviewed pathology digest items: 5
+- GP-useful digest items: 2
+- Preprint watch items: 18
+- Watchlist items: 47
