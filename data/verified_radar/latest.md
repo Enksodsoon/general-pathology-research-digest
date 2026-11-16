@@ -10,6 +10,12 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
 Registration link checked; availability may require login/JavaScript
 
+## TheraSphere™ Y-90 in HCC: From evidence to precision treatment
+03 Dec 2026 23:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fy-90-in-hcc%2Fy90-registration
+Registration link checked; availability may require login/JavaScript
+
 ## ほっとピアセミナー開催のお知らせ (12/12)
 12 Dec 2026 11:00 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated

@@ -715,6 +715,31 @@
         "registration_target": "https://forms.gle/VzE4kjb51jFSbBrq6",
         "discovered_by": "Asahikawa-Medical"
       }
+    },
+    "ae2d681c368893b892d134a8": {
+      "fingerprint": "6fcb2c7ee52aef3718be6ca5",
+      "message_id": 391,
+      "telegram_date": 1794827445,
+      "acknowledged_at": "2026-11-16T11:10:45.699428+00:00",
+      "kind": "event",
+      "event": {
+        "id": "ae2d681c368893b892d134a8",
+        "title": "TheraSphere™ Y-90 in HCC: From evidence to precision treatment",
+        "source_url": "https://www.cirse.org/online/cirse-webinars/therasphere-y-90-in-hcc-from-evidence-to-precision-treatment/",
+        "registration_url": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fy-90-in-hcc%2Fy90-registration",
+        "start_at": "2026-12-03T17:00:00+01:00",
+        "end_at": "2026-12-03T18:00:00+01:00",
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "December 03, 2026, 17:00-18:00 ",
+        "verified_at": "2026-11-16T11:08:09.978838+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fy-90-in-hcc%2Fy90-registration",
+        "discovered_by": "CIRSE"
+      }
     }
   },
   "heartbeats": {
@@ -1956,17 +1981,24 @@
       "telegram_date": 1794811518,
       "acknowledged_at": "2026-11-16T06:45:19.035385+00:00",
       "kind": "heartbeat"
+    },
+    "status-43854978853": {
+      "fingerprint": "07e1a71b0c25b1bbe094c3c7",
+      "message_id": 392,
+      "telegram_date": 1794827447,
+      "acknowledged_at": "2026-11-16T11:10:47.485235+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-11-16",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-11-16T06:45:19.038102+00:00",
-    "run_id": "43818582368",
-    "trigger": "workflow_run"
+    "completed_at": "2026-11-16T11:10:47.487998+00:00",
+    "run_id": "43854978853",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -2039,6 +2071,6 @@
     "2026-11-13": 2,
     "2026-11-14": 2,
     "2026-11-15": 2,
-    "2026-11-16": 1
+    "2026-11-16": 2
   }
 }
