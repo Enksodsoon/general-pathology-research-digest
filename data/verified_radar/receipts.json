@@ -740,6 +740,31 @@
         "registration_target": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fy-90-in-hcc%2Fy90-registration",
         "discovered_by": "CIRSE"
       }
+    },
+    "f3964b1db4d9e6887d0c02b7": {
+      "fingerprint": "1885643d5694b087a1d105cf",
+      "message_id": 395,
+      "telegram_date": 1794916133,
+      "acknowledged_at": "2026-11-17T11:48:53.524181+00:00",
+      "kind": "event",
+      "event": {
+        "id": "f3964b1db4d9e6887d0c02b7",
+        "title": "Securing the future of healthcare",
+        "source_url": "https://med-techinsights.com/fortinet-webinar/",
+        "registration_url": "https://register.gotowebinar.com/register/5422889663763040090?source=website",
+        "start_at": "2026-12-02T15:00:00+00:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "2 December 2026 · 15:00 ",
+        "verified_at": "2026-11-17T11:46:20.020947+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://register.gotowebinar.com/register/5422889663763040090?source=website",
+        "discovered_by": "web-en-1"
+      }
     }
   },
   "heartbeats": {
@@ -1995,17 +2020,24 @@
       "telegram_date": 1794902738,
       "acknowledged_at": "2026-11-17T08:05:39.066733+00:00",
       "kind": "heartbeat"
+    },
+    "status-44076949732": {
+      "fingerprint": "f94463ec8c9787ecdc1d96a4",
+      "message_id": 396,
+      "telegram_date": 1794916135,
+      "acknowledged_at": "2026-11-17T11:48:55.307843+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
     "date": "2026-11-17",
     "health": "degraded",
-    "new_alerts": 0,
+    "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-11-17T08:05:39.069394+00:00",
-    "run_id": "44043265281",
-    "trigger": "workflow_run"
+    "completed_at": "2026-11-17T11:48:55.310861+00:00",
+    "run_id": "44076949732",
+    "trigger": "schedule"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -2079,6 +2111,6 @@
     "2026-11-14": 2,
     "2026-11-15": 2,
     "2026-11-16": 2,
-    "2026-11-17": 1
+    "2026-11-17": 2
   }
 }
