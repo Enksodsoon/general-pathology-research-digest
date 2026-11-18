@@ -1,239 +1,261 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-17
+Date: 2026-11-18
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. [Effect of electroacupuncture on hippocampal neuronal pyroptosis in rats with vascular dementia based on SIRT1/PINK1/Parkin pathway-mediated mitophagy].
+### 1. Long-Term Prognosis and Transition Period until Progression in Fibrotic Hypersensitivity Pneumonitis.
 **Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** English Abstract, Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, cytopathology_small_biopsy  
-**Score:** 19 = relevance 17 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039836/  
-**Takeaway:** OBJECTIVE: To observe the effect of electroacupuncture (EA) at "Sishencong" (EX-HN1) and "Fengchi" (GB20) on hippocampal neuronal pyroptosis in vascular dementia (VD) rats through the sirtuin 1(SIRT1)/PTEN-induced putative kinase 1(PINK1)/Parkin pathway-mediated mitophagy, and explore the effect mechanism of EA on cognitive dysfunction in VD rats. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Cardiovascular Structured Reporting: Enabling Precision Medicine Through Data Standardization.
-**Source:** PubMed  
-**Journal:** Heart failure clinics  
+**Journal:** Respiration; international review of thoracic diseases  
 **Study type:** Guideline / recommendation  
-**Matched profile:** pathology_quality_education_workflow, guidelines_reviews_high_level_evidence  
-**Score:** 17 = relevance 10 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039581/  
-**Takeaway:** Structured cardiovascular reporting represents a paradigm shift from narrative documentation to standardized, machine-readable formats that enhance clinical decision-making and enable precision medicine. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 21 = relevance 9 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43044048/  
+**Takeaway:** INTRODUCTION: Hypersensitivity pneumonitis (HP) is an interstitial lung disease that may present as fibrotic (fHP) or non-fibrotic (nfHP). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Retrospective design may limit causal inference.
+**Confidence:** Moderate
+
+### 2. Health-related quality of life in patients with solid cancer treated with immune checkpoint inhibitors: the ARON-MOUSEION-18 systematic review and meta-analysis.
+**Source:** PubMed  
+**Journal:** Journal of the National Cancer Institute  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 19 = relevance 9 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045674/  
+**Takeaway:** BACKGROUND: Health-related quality of life (HRQoL) contributes to the value of immune checkpoint inhibitors (ICIs), but assessment and reporting remain heterogeneous. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Confidence:** Moderate
+
+### 3. Scleredema: a systematic review of clinical features, comorbidities, histology, and treatment outcome.
+**Source:** PubMed  
+**Journal:** Italian journal of dermatology and venereology  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 11 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43043302/  
+**Takeaway:** BACKGROUND: Scleredema adultorum of Buschke is a rare fibromucinosis characterized by the deposition of mucin and collagen deposition within the dermis, leading to skin induration and impaired mobility. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 3. [A Case of Primary Pulmonary Myxoid Sarcoma in an Older Woman with Documented Longitudinal Changes].
+### 4. Serrated neoplasia of the colorectum: updates on pathology and clinical management.
 **Source:** PubMed  
-**Journal:** Gan to kagaku ryoho. Cancer & chemotherapy  
-**Study type:** Case report  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 15 = relevance 13 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039375/  
-**Takeaway:** BACKGROUND: Primary pulmonary myxoid sarcoma (PPMS) is a rare, low-grade sarcoma defined by the Ewing sarcoma breakpoint region 1 (EWSR1)-cAMP response element binding protein 1 (CREB1) fusion gene, which was introduced in the fourth edition of the WHO classification. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Gastroenterology  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, general_medical_gp_updates  
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43044915/  
+**Takeaway:** Serrated neoplasia represents an increasingly recognized pathway in colorectal carcinogenesis, accounting for up to 30% of colorectal cancers (CRC) and disproportionately implicated in post-colonoscopy CRC. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 4. Hexafluoropropylene oxide dimer acid disrupts intestinal health and gut microbial networks of the native earthworm Metaphire guillelmi in agricultural soil.
+### 5. Laboratory Capacity and Consideration for Use of Cervical Cancer Screening and Triage Tests: Cross-Sectional Survey Results of Laboratories Participating in the College of American Pathologists 2023 Gynecologic Cytopathology (PAP Education) Program.
 **Source:** PubMed  
-**Journal:** Environmental research  
+**Journal:** Archives of pathology & laboratory medicine  
+**Study type:** Guideline / recommendation  
+**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
+**Score:** 12 = relevance 10 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43042927/  
+**Takeaway:** CONTEXT.—: Cervical cancer screening and management guidelines have been changing rapidly. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Cell-block rapid multiplex molecular pathology with noncontact antibody mixing for malignant pleural mesothelioma.
+**Source:** PubMed  
+**Journal:** Journal of clinical pathology  
 **Study type:** Journal Article  
 **Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 14 = relevance 12 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039177/  
-**Takeaway:** Hexafluoropropylene oxide dimer acid (HFPO-DA), a short-chain PFAS alternative to perfluorooctanoic acid (PFOA), is increasingly detected in agricultural soils, but ecologically relevant indicators of its toxicity to native soil invertebrates remain insufficiently defined. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
+**Score:** 10 = relevance 12 + evidence -2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045489/  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Low
 
-### 5. Comparative Evaluation of Intranasal Simvastatin-Loaded Transbilosomes Versus Oral Simvastatin Suspension in Attenuating Heart Failure in Rat Models Induced by Doxorubicin and Ischemia/Reperfusion.
+### 7. Small Intestinal Adenocarcinoma With &lt;i&gt;PTPRK&lt;/i&gt;::&lt;i&gt;RSPO3&lt;/i&gt; Fusion: Clinicopathologic Characteristics, Molecular Landscape, and Disease Outcome of Five Patients.
+**Source:** Europe PMC  
+**Journal:** Int J Surg Pathol  
+**Study type:** journal article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 10 = relevance 12 + evidence -2  
+**Link:** https://europepmc.org/article/MED/43042555  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Low
+
+### 8. Thyroid metastasis from colorectal cancer: an underdiagnosed entity with therapeutic implications.
 **Source:** PubMed  
-**Journal:** Journal of drug targeting  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research  
-**Score:** 8 = relevance 6 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039854/  
-**Takeaway:** Simvastatin (SMS) has profound lipid-independent "pleiotropic" effects that benefit heart failure (HF), but its poor solubility and bioavailability limit its efficacy. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Endocrinologia, diabetes y nutricion  
+**Study type:** Journal Article, Review  
+**Matched profile:** cytopathology_small_biopsy  
+**Score:** 7 = relevance 5 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045618/  
+**Takeaway:** Thyroid metastases from colorectal cancer (CRC) are extremely rare and pose a clinical challenge because of their resemblance to primary thyroid neoplasms. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-### 1. [WANG Jihong's experience in treatment of thyroid nodules with Tongyuan acupuncture therapy and "five acupoints from tianyou"].
+### 1. [Research progress in TCM treatment of myocardial fibrosis based on PPAR signaling pathway].
 **Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** Journal Article, English Abstract, Historical Article  
+**Journal:** Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica  
+**Study type:** Journal Article, Review, English Abstract  
 **Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039841/  
-**Takeaway:** This paper introduces Professor WANG Jihong's clinical experience in treatment of thyroid nodules with Tongyuan acupuncture therapy and "five acupoints from tianyou". Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 2. Interference of lipoprotein X in laboratory assays and corresponding management strategies in patients with cholestasis and dyslipidemia.
-**Source:** PubMed  
-**Journal:** Laboratory medicine  
-**Study type:** Journal Article, Review  
-**Matched profile:** general_medical_gp_updates  
-**Score:** 5 = relevance 3 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039662/  
-**Takeaway:** INTRODUCTION: Cholestasis is a pathologic condition characterized by impaired bile excretion and the reflux of bile components into the systemic circulation, leading to their subsequent accumulation. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 7 = relevance 5 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045083/  
+**Takeaway:** Myocardial fibrosis(MF) is a common pathological feature of various cardiovascular diseases progressing to the end stage, with poor prognosis and severe impact on patient survival. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Preprints — not peer reviewed
-### 1. The effect of carotid atherosclerosis and revascularization on cognition and dementia: a systematic review and meta-analysis
+### 1. Real-World Outcomes of a Traffic-Light Approach to Lifestyle Modification in Chronic Disease: Evidence from an Integrative Health Clinic
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 26 = relevance 21 + evidence 5  
+**Link:** https://doi.org/10.64898/2026.11.10.26367386  
+**Takeaway:** BackgroundNon-communicable diseases driven by unhealthy lifestyles are a growing and largely avoidable burden among industrial workers. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
+**Confidence:** Low
+
+### 2. Decision for hysterectomy as a modifiable cardiovascular risk factor: A systematic review and meta-analysis
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
 **Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 9 + evidence 11  
-**Link:** https://doi.org/10.64898/2026.11.09.26367363  
-**Takeaway:** BackgroundCarotid artery atherosclerosis may accelerate cognitive decline and increase dementia risk, but evidence is fragmented and inconsistent, and benefit of revascularization on cognitive outcomes uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Score:** 22 = relevance 9 + evidence 13  
+**Link:** https://doi.org/10.64898/2026.11.11.26367416  
+**Takeaway:** ObjectiveTo describe the role of hysterectomy in modifying the major atherosclerotic cardiovascular disease risk factors. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
-### 2. Gabapentinoid to Loop Diuretic Prescribing Cascade: A Systematic Review and Meta-Analysis of Observational Studies
-**Source:** medrxiv  
-**Journal:** medrxiv  
+### 3. Enhanced antitumour activity of combined PD-1 blockade and HER2-targeted therapy is associated with reduced epithelial-mesenchymal transition and extracellular matrix-remodelling signatures in gastric cancer
+**Source:** biorxiv  
+**Journal:** biorxiv  
 **Study type:** Preprint  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 15 = relevance 6 + evidence 9  
-**Link:** https://doi.org/10.64898/2026.11.08.26367537  
-**Takeaway:** IntroductionGabapentinoid-induced peripheral edema may be misinterpreted as a new condition and treated with a loop diuretic, creating a prescribing cascade. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 3. Development of a deep learning model for glomerulus detection and segmentation in kidney histopathology images
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** general_pathology_research, digital_computational_pathology, legacy_project_watch_low_priority  
-**Score:** 14 = relevance 15 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.10.19.26365514  
-**Takeaway:** BackgroundEstimation of nephron number, an indicator of renal reserve, requires quantitative assessment of glomerular number and size in kidney biopsy specimens. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 4. Serum brain-derived tau distinguishes acute neurotrauma diagnoses
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** molecular_ihc_biomarkers, general_medical_gp_updates  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
 **Score:** 10 = relevance 9 + evidence 1  
-**Link:** https://doi.org/10.64898/2026.11.08.26365143  
-**Takeaway:** Traumatic brain injury (TBI) and spinal cord injury (SCI) are two common forms of neurotrauma that can present with overlapping clinical features, complicating early diagnosis and management particularly in acute and mixed-trauma settings.1-3 Accurate and rapid biological differentiation remains an unmet need.4 We hypothesized that brain-derived tau (BD-tau), an ultrasensitive blood-based biomarker preferentially selective for tau protein originating from the brain, would distinguish TBI from SCI. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
+**Link:** https://doi.org/10.64898/2026.11.08.765160  
+**Takeaway:** Background The combination of PD-1 blockade, HER2-targeted therapy and chemotherapy improves outcomes in HER2-positive advanced gastric and gastro-oesophageal junction adenocarcinoma. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed. Preclinical evidence; clinical applicability is uncertain.
 **Confidence:** Low
 
-### 5. Retinopathy is more common, but age-related macular degeneration carries more visual impairment: a cross-sectional study of US adults graded from the same fundus photographs
+### 4. Spatiotemporal mapping of ex vivo myometrial contractions in adenomyosis
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.11.08.26367574  
-**Takeaway:** BackgroundRetinopathy and age-related macular degeneration (AMD) are the most common findings on fundus photographs of older adults, yet their frequency, correlates and visual consequences have been estimated in separate samples. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, digital_computational_pathology  
+**Score:** 10 = relevance 11 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.11.10.26367720  
+**Takeaway:** ObjectiveUterine dyscontractility plays a major role in pain sensation, infertility, and adenomyosis pathogenesis. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 5. Primary Care Quality and Inappropriate Community Antibiotic Use: Evidence from Linked Provider and Household Data
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
+**Score:** 9 = relevance 10 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.08.26.26361459  
+**Takeaway:** Inappropriate antibiotic use presents a major global health challenge, particularly in resource-limited settings where access to quality care remains limited while access to antibiotics is relatively unrestricted. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. A Machine Learning Model Based on Ultrasound Radiomics and Multi-modal Clinical Features for Predicting Lymph Node Metastasis of Papillary Thyroid Carcinoma in the Setting of Hashimoto's Thyroiditis.
+### 1. CRISPR-Cas liquid biopsy for NSCLC: analytical evidence and laboratory translation.
 **Source:** PubMed  
-**Journal:** Ultrasound in medicine & biology  
-**Study type:** Cohort study  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, digital_computational_pathology  
-**Score:** 22 = relevance 18 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039819/  
-**Takeaway:** OBJECTIVE: To investigate the value of multi-modal features (ultrasound characteristics, BRAF V600E mutation, and TPO-Ab) in predicting lymph node metastasis (LNM) of papillary thyroid carcinoma (PTC) in the context of Hashimoto's thyroiditis (HT), and to construct machine learning models for individualized risk assessment. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
+**Journal:** Clinica chimica acta; international journal of clinical chemistry  
+**Study type:** Journal Article, Review  
+**Matched profile:** molecular_ihc_biomarkers, laboratory_medicine_transfusion, pathology_quality_education_workflow, legacy_project_watch_low_priority  
+**Score:** 22 = relevance 20 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43044907/  
+**Takeaway:** In non-small cell lung cancer (NSCLC), plasma circulating tumor deoxyribonucleic acid (ctDNA) testing allows the detection of actionable mutations, such as epidermal growth factor receptor (EGFR) mutations, including exon 19 deletions, L858R, T790M, and C797S. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Background Gastric Mucosal Pathology in Diffuse-Type Gastric Cancer: A Systematic Review and Meta-Analysis.
+### 2. Performance indicators bundle for cardiovascular care: a scoping review and expert opinion.
 **Source:** PubMed  
-**Journal:** Journal of gastrointestinal cancer  
+**Journal:** International journal for quality in health care : journal of the International Society for Quality in Health Care  
+**Study type:** Guideline / recommendation  
+**Matched profile:** laboratory_medicine_transfusion, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 19 = relevance 13 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045675/  
+**Takeaway:** BACKGROUND: Systematically monitoring of clinical, operational and financial indicators is crucial to evaluating healthcare performance, identifying improvement opportunities and sustaining a value-based care model. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 3. Background Gastric Mucosal Pathology in Diffuse-Type Gastric Cancer: A Systematic Review and Meta-Analysis.
+**Source:** Europe PMC  
+**Journal:** J Gastrointest Cancer  
 **Study type:** Systematic review / meta-analysis  
 **Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 12 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43037891/  
-**Takeaway:** BACKGROUND: Sporadic diffuse-type gastric cancer (DGC) lacks a validated precursor sequence analogous to the Correa cascade in intestinal-type gastric cancer, limiting precursor-based surveillance. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. An open agentic AI co-scientist for clinical and biomedical discovery.
-**Source:** PubMed  
-**Journal:** Nature medicine  
-**Study type:** Randomized clinical trial  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
-**Score:** 20 = relevance 12 + evidence 8  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039361/  
-**Takeaway:** Biomedical research is constrained by the time and domain expertise required to analyze increasingly large and complex datasets. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Multichannel Deep Learning Radiomics for Predicting Chemoimmunotherapy Response in Gastric Cancer: Multicenter Validation and Chemotherapy-alone Specificity Assessment.
-**Source:** PubMed  
-**Journal:** Academic radiology  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, novel_treatment_pathology_linked  
-**Score:** 20 = relevance 16 + evidence 4  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039808/  
-**Takeaway:** RATIONALE AND OBJECTIVES: To develop and validate a computed tomography-based model integrating multichannel deep learning and radiomics for predicting pathologic significant response (PSR) to neoadjuvant chemoimmunotherapy (NACI) in locally advanced gastric cancer (LAGC), and to assess whether the model specifically captures immunotherapy-related phenotypes by testing it on a chemotherapy-alone cohort. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 5. Processed Peripheral Nerve Allografts for Reconstruction of Trigeminal Sensory Nerve Injuries: A Systematic Review and Meta-Analysis.
-**Source:** PubMed  
-**Journal:** Journal of oral and maxillofacial surgery : official journal of the American Association of Oral and Maxillofacial Surgeons  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 20 = relevance 6 + evidence 14  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039031/  
-**Takeaway:** BACKGROUND: Processed peripheral nerve allografts (PNAs) are increasingly used for trigeminal nerve reconstruction, but formally appraised pooled estimates are limited. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 6. [Mechanism research of Tongdu Tiaoshen acupuncture on post-stroke depression from the perspective of hippocampal neuron ferroptosis].
-**Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** English Abstract, Journal Article  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, cytopathology_small_biopsy  
-**Score:** 19 = relevance 17 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039837/  
-**Takeaway:** OBJECTIVE: To observe the effect of Tongdu Tiaoshen (unblocking the governor vessel and regulating the mind) acupuncture on post-stroke depression (PSD) from the perspective of hippocampal neuron ferroptosis, so as to explore the mechanism of this therapy on PSD. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. [Clinical Challenges of Genetic Testing in Routine Practice and Proposals for Solutions-The Evolving Role of Companion Diagnostics].
-**Source:** PubMed  
-**Journal:** Gan to kagaku ryoho. Cancer & chemotherapy  
-**Study type:** English Abstract, Journal Article, Review  
-**Matched profile:** molecular_ihc_biomarkers, pathology_quality_education_workflow, general_medical_gp_updates  
-**Score:** 18 = relevance 16 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039370/  
-**Takeaway:** Companion diagnostics (CDx) and other molecular tests have been essential components of precision oncology, guiding treatment selection according to individual tumor profiles. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. [Effects of electroacupuncture on epididymal function and sperm quality in obese rats based on mitochondrial apoptosis pathway].
-**Source:** PubMed  
-**Journal:** Zhongguo zhen jiu = Chinese acupuncture & moxibustion  
-**Study type:** Randomized clinical trial  
-**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
 **Score:** 18 = relevance 12 + evidence 6  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43039839/  
-**Takeaway:** OBJECTIVE: To observe the effect of electroacupuncture (EA) on epididymal function and sperm quality in obese rats, and explore the molecular mechanisms underlying EA-mediated improvement in obesity-related reproductive dysfunction. Interpretation should remain cautious because this is abstract-level surveillance.
+**Link:** https://europepmc.org/article/MED/43037891  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 4. Clonal evolution, tumor heterogeneity and therapy resistance in microsatellite-unstable cancer.
+**Source:** PubMed  
+**Journal:** Seminars in cancer biology  
+**Study type:** Journal Article, Review  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked, general_medical_gp_updates  
+**Score:** 17 = relevance 15 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045023/  
+**Takeaway:** Deficiency of DNA mismatch repair (dMMR), whether acquired sporadically or in the context of Lynch Syndrome (LS), is a potent driver of mutagenesis in cancer. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 5. Endoscopic transoral surgery for parapharyngeal lesions: a systematic review.
+**Source:** PubMed  
+**Journal:** Acta oto-laryngologica  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 11 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43043353/  
+**Takeaway:** BACKGROUND: Endoscopic transoral surgery offers minimally invasive access to selected parapharyngeal space (PPS) lesions, although anatomical constraints and neurovascular risks remain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Patho-morphological and molecular characterization of Leucocytozoon caulleryi (Apicomplexa: Leucocytozoidae) infection in White Leghorn layer chickens from Cauvery delta region of southern India.
+**Source:** PubMed  
+**Journal:** Veterinary parasitology, regional studies and reports  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045362/  
+**Takeaway:** Leucocytozoon caulleryi is a vector-borne haemosporidian parasite of poultry associated with haemorrhagic lesions and mortality, but molecular evidence from South India is limited. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 7. Dimensional Assessment of Personality Pathology and Treatment Adaptation in Alcohol Use Disorder: From an Empty Systematic Review to a Narrative Synthesis
+**Source:** Europe PMC  
+**Journal:** PPR  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://doi.org/10.20944/preprints202611.1557.v1  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 8. From broad suppression to precision targeting: the new era of antigen-specific immunotherapy for type 1 diabetes.
+**Source:** PubMed  
+**Journal:** Autoimmunity reviews  
+**Study type:** Journal Article, Review  
+**Matched profile:** general_pathology_research, novel_treatment_pathology_linked  
+**Score:** 13 = relevance 11 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43045000/  
+**Takeaway:** Type 1 diabetes (T1D) is an autoimmune disorder characterized by the selective destruction of pancreatic β-cells driven by autoreactive immune responses. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 142
-- Peer-reviewed pathology digest items: 5
-- GP-useful digest items: 2
+- Total scored candidates: 139
+- Peer-reviewed pathology digest items: 8
+- GP-useful digest items: 1
 - Preprint watch items: 10
-- Watchlist items: 50
+- Watchlist items: 56
