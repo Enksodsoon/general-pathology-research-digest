@@ -4,12 +4,6 @@ Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
-## 身寄りのない方への支援―制度の面から支援を支える―
-18 Nov 2026 15:30 ICT · Online · JA · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
-Registration link checked; availability may require login/JavaScript
-
 ## Nursing VHL in the age of AI: a history of cooperation and new frontiers for health knowledge
 26 Nov 2026 18:00 ICT · Online · EN · Free attendance
 Certificate: Not stated | Credit: Not stated
@@ -50,6 +44,12 @@ Registration link checked; availability may require login/JavaScript
 20 Jan 2027 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
+Registration link checked; availability may require login/JavaScript
+
+## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
+24 Mar 2027 19:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
 Registration link checked; availability may require login/JavaScript
 
 ## Source health
