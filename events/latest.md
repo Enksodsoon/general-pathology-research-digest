@@ -1,4 +1,4 @@
-# Free Medical Events — 2026-11-17
+# Free Medical Events — 2026-11-18
 
 Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
@@ -8,6 +8,12 @@ Bounded scan; inaccessible, image-only, login-only or ambiguous events are not v
 18 Nov 2026 15:30 ICT · Online · JA · Free attendance
 Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_XndMpcLgQpaMqzAqgtzyzg
+Registration link checked; availability may require login/JavaScript
+
+## Nursing VHL in the age of AI: a history of cooperation and new frontiers for health knowledge
+26 Nov 2026 18:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://bit.ly/bireme-2026-webinar-09
 Registration link checked; availability may require login/JavaScript
 
 ## Securing the future of healthcare

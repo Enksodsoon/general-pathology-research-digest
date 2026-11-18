@@ -765,6 +765,31 @@
         "registration_target": "https://register.gotowebinar.com/register/5422889663763040090?source=website",
         "discovered_by": "web-en-1"
       }
+    },
+    "acbe0a837b8a2e4cfa3db393": {
+      "fingerprint": "3e5c9c6fff816a45854221b3",
+      "message_id": 398,
+      "telegram_date": 1794987696,
+      "acknowledged_at": "2026-11-18T07:41:36.364972+00:00",
+      "kind": "event",
+      "event": {
+        "id": "acbe0a837b8a2e4cfa3db393",
+        "title": "Nursing VHL in the age of AI: a history of cooperation and new frontiers for health knowledge",
+        "source_url": "https://www.paho.org/en/events/nursing-vhl-age-ai-history-cooperation-and-new-frontiers-health-knowledge",
+        "registration_url": "https://bit.ly/bireme-2026-webinar-09",
+        "start_at": "2026-11-26T11:00:00+00:00",
+        "end_at": null,
+        "mode": "Online",
+        "language": "en",
+        "certificate": "Not stated",
+        "credits": "Not stated",
+        "fee": "Free attendance",
+        "date_evidence": "November 26, 2026, at 11:00 AM",
+        "verified_at": "2026-11-18T07:38:59.555486+00:00",
+        "registration_status": "Registration link checked; availability may require login/JavaScript",
+        "registration_target": "https://bit.ly/bireme-2026-webinar-09",
+        "discovered_by": "PAHO"
+      }
     }
   },
   "heartbeats": {
@@ -2027,17 +2052,24 @@
       "telegram_date": 1794916135,
       "acknowledged_at": "2026-11-17T11:48:55.307843+00:00",
       "kind": "heartbeat"
+    },
+    "status-44260504140": {
+      "fingerprint": "208acdb7b485c48a45b75c2a",
+      "message_id": 399,
+      "telegram_date": 1794987697,
+      "acknowledged_at": "2026-11-18T07:41:38.059698+00:00",
+      "kind": "heartbeat"
     }
   },
   "last_run": {
-    "date": "2026-11-17",
+    "date": "2026-11-18",
     "health": "degraded",
     "new_alerts": 1,
     "pending_count": 0,
     "delivery_errors": 0,
-    "completed_at": "2026-11-17T11:48:55.310861+00:00",
-    "run_id": "44076949732",
-    "trigger": "schedule"
+    "completed_at": "2026-11-18T07:41:38.063544+00:00",
+    "run_id": "44260504140",
+    "trigger": "workflow_run"
   },
   "daily_attempts": {
     "2026-09-07": 3,
@@ -2111,6 +2143,7 @@
     "2026-11-14": 2,
     "2026-11-15": 2,
     "2026-11-16": 2,
-    "2026-11-17": 2
+    "2026-11-17": 2,
+    "2026-11-18": 1
   }
 }
