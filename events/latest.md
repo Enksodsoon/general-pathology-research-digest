@@ -1,20 +1,8 @@
-# Free Medical Events — 2026-11-18
+# Free Medical Events — 2026-11-19
 
 Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Nursing VHL in the age of AI: a history of cooperation and new frontiers for health knowledge
-26 Nov 2026 18:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://bit.ly/bireme-2026-webinar-09
-Registration link checked; availability may require login/JavaScript
-
-## Securing the future of healthcare
-02 Dec 2026 22:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://register.gotowebinar.com/register/5422889663763040090?source=website
-Registration link checked; availability may require login/JavaScript
 
 ## TheraSphere™ Y-90 in HCC: From evidence to precision treatment
 03 Dec 2026 23:00 ICT · Online · EN · Free attendance
@@ -46,12 +34,6 @@ Certificate: Not stated | Credit: Not stated
 https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg
 Registration link checked; availability may require login/JavaScript
 
-## CCSP/Palliative Care Grand Rounds: 8:00–9:00 AM — 03/24/2027
-24 Mar 2027 19:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://zoom.us/j/91202835018?pwd=LSDrc7Xy8t7YapOyNA7QIexG5IAXXO.1
-Registration link checked; availability may require login/JavaScript
-
 ## Source health
 
 - WHO: ok
@@ -62,10 +44,10 @@ Registration link checked; availability may require login/JavaScript
 - IARS: ok
 - Global-Health-Network: ok
 - PAHO: ok
-- NIH-VideoCast: ok
+- NIH-VideoCast: error — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate signature failure (_ssl.c:1018)>
 - CDC-COCA: ok
 - Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
-- Siriraj-Conference: error — HTTPError: HTTP Error 404: Not Found
+- Siriraj-Conference: ok
 - Ramathibodi: ok
 - Thai-CME: error — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>
 - Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
