@@ -1,229 +1,283 @@
 # Daily General Pathology Research Digest
-Date: 2026-11-20
+Date: 2026-11-21
 
 > Research surveillance and education only. Do not treat any item as medical advice or practice-changing without checking the full text and guidelines. Preprints are not peer reviewed.
 
 ## Top peer-reviewed pathology papers
-### 1. PD-L1 Combined Positive Score Concordance and Reproducibility in Head and Neck Squamous Cell Carcinoma: A Systematic Review and Meta-analysis.
+### 1. Artificial Intelligence in Thoracic Pathology and Biomarker Assessment: An IASLC Pathology Committee Review.
 **Source:** PubMed  
-**Journal:** Laboratory investigation; a journal of technical methods and pathology  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** molecular_ihc_biomarkers, cytopathology_small_biopsy, guidelines_reviews_high_level_evidence  
-**Score:** 27 = relevance 17 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057578/  
-**Takeaway:** PURPOSE: Programmed death-ligand 1 (PD-L1) combined positive score (CPS) guides pembrolizumab use in recurrent or metastatic head and neck squamous cell carcinoma, but results may vary with the assay workflow, reader, and specimen. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer  
+**Study type:** Journal Article, Review  
+**Matched profile:** general_pathology_research, surgical_pathology_updates, molecular_ihc_biomarkers, digital_computational_pathology, novel_treatment_pathology_linked  
+**Score:** 34 = relevance 30 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064238/  
+**Takeaway:** Artificial intelligence (AI) is starting to transform pathology by enhancing diagnostic accuracy, prognostication, and therapeutic prediction through advanced computational analysis of histopathological images. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 2. Multimodal multitask deep learning for predicting tertiary lymphoid structures and peritoneal recurrence in gastric cancer: a multicentre development, validation, and testing study.
+### 2. IASLC Multidisciplinary Recommendations for Assessment and Reporting of Lymph Node Treatment Response in Lung Cancer Resection Specimens After Neoadjuvant Therapy.
 **Source:** PubMed  
-**Journal:** The Lancet. Digital health  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, novel_treatment_pathology_linked  
-**Score:** 24 = relevance 17 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43058006/  
-**Takeaway:** BACKGROUND: Peritoneal recurrence remains a common and fatal complication following curative gastric cancer surgery. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Retrospective design may limit causal inference.
-**Confidence:** Moderate
-
-### 3. Laryngeal Applications of Platelet-Rich Plasma and Platelet-Rich Fibrin: A Systematic Review and Meta-Analysis.
-**Source:** PubMed  
-**Journal:** Journal of voice : official journal of the Voice Foundation  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 19 = relevance 10 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057916/  
-**Takeaway:** OBJECTIVES: To systematically review the literature and evaluate the efficacy and safety of autologous platelet concentrates, specifically Platelet-Rich Plasma (PRP) and Platelet-Rich Fibrin (PRF), in laryngeal disorders. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Cytopathologic Diagnosis of Non-Neoplastic Inflammatory Disorders of Lymphoid Organs.
-**Source:** PubMed  
-**Journal:** Acta cytologica  
+**Journal:** Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer  
 **Study type:** Guideline / recommendation  
-**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
-**Score:** 11 = relevance 9 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43056608/  
-**Takeaway:** BACKGROUND: Fine-needle aspiration biopsy (FNAB) is a minimally invasive, cost-effective, and accurate method for evaluating enlarged lymph nodes, especially useful in pediatric cases where most aspirates are benign. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers, pathology_quality_education_workflow, novel_treatment_pathology_linked  
+**Score:** 26 = relevance 24 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064237/  
+**Takeaway:** INTRODUCTION: Pathologic response (PR) after neoadjuvant therapy is an established surrogate endpoint in lung cancer clinical trials. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
-### 5. Diagnostic performance of faecal immunochemical testing (FIT) for colorectal cancer in symptomatic patients under 50 years tested in primary care: a systematic review.
-**Source:** Europe PMC  
-**Journal:** Gut  
+### 3. Performance of Ex Vivo Confocal Microscopy in Mohs Surgery: A Systematic Review and Meta-Analysis for Intraoperative Margin Assessment.
+**Source:** PubMed  
+**Journal:** Dermatology practical & conceptual  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 24 = relevance 12 + evidence 12  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063408/  
+**Takeaway:** INTRODUCTION: Ex vivo confocal microscopy (EVCM) enables rapid intraoperative margin assessment of cutaneous tumors, offering an alternative to frozen or paraffin histology in Mohs and slow-Mohs surgery. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Renal outcomes associated with NLRP3-related interventions in experimental lupus nephritis: a systematic review and meta-analysis of animal studies.
+**Source:** PubMed  
+**Journal:** Experimental and molecular pathology  
 **Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 10 = relevance 8 + evidence 2  
-**Link:** https://europepmc.org/article/MED/43051981  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence, legacy_project_watch_low_priority  
+**Score:** 24 = relevance 14 + evidence 10  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063627/  
+**Takeaway:** The NOD-like receptor family pyrin domain-containing 3 (NLRP3) inflammasome has been implicated in experimental lupus nephritis, but the effects of NLRP3-related interventions on renal outcomes across animal studies remains uncertain. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 5. Artificial Intelligence in Screening and Early Detection of Prostate Cancer.
+**Source:** PubMed  
+**Journal:** European urology focus  
+**Study type:** Journal Article, Review  
+**Matched profile:** general_pathology_research, digital_computational_pathology, general_medical_gp_updates  
+**Score:** 21 = relevance 16 + evidence 5  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064602/  
+**Takeaway:** Artificial intelligence (AI) is transforming prostate cancer screening and early detection through the integration of clinical-risk calculators, magnetic resonance imaging (MRI), digital pathology, genomics, biomarkers, and liquid biopsies. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 6. Diagnostic Reliability of Routine Histopathology in Autoimmune Bullous Diseases: A Systematic Review and Meta-Analysis.
+**Source:** PubMed  
+**Journal:** Journal of the American Academy of Dermatology  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_pathology_research, guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 12 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064159/  
 **Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** No abstract available in fetched metadata.
 **Confidence:** Moderate
 
-### 6. Spatial Profiling Reveals Gland-Resolved Epithelial and Immune Features Associated With Progression in Localized Prostate Cancer.
+### 7. Management of Non-Dental Biofilm-Induced Gingival Diseases and Conditions and Gingival Enlargement: The EFP S2k-Level Clinical Practice Guideline.
+**Source:** Europe PMC  
+**Journal:** J Clin Periodontol  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 17 = relevance 9 + evidence 8  
+**Link:** https://europepmc.org/article/MED/43059581  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 8. AGA Clinical Practice Update on the Role of Liver Biopsy: Commentary.
+**Source:** Europe PMC  
+**Journal:** Clin Gastroenterol Hepatol  
+**Study type:** Guideline / recommendation  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 16 = relevance 8 + evidence 8  
+**Link:** https://europepmc.org/article/MED/43062379  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 9. Genomic and Transcriptomic Changes in Early Gastric Cancer Inform Clinical Risk Stratification Prior to Endoscopic Resection.
 **Source:** PubMed  
-**Journal:** Laboratory investigation; a journal of technical methods and pathology  
-**Study type:** Journal Article  
-**Matched profile:** general_pathology_research  
-**Score:** 10 = relevance 8 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057577/  
-**Takeaway:** PURPOSE: Gleason grading remains central to localized prostate cancer diagnosis but incompletely captures the biological heterogeneity associated with disease progression. Interpretation should remain cautious because this is abstract-level surveillance.
+**Journal:** Cancer medicine  
+**Study type:** Cohort study  
+**Matched profile:** general_pathology_research, molecular_ihc_biomarkers  
+**Score:** 16 = relevance 12 + evidence 4  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064672/  
+**Takeaway:** PURPOSE: To characterize genomic and transcriptomic features associated with established clinicopathologic risk categories in patients with dysplasia and early gastric cancer (EGC) undergoing endoscopic submucosal dissection (ESD) and to explore molecular correlates of noncurative resection and metachronous recurrence. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 10. Prevalence of von Willebrand disease among adolescents and young women with heavy menstrual bleeding in hospital-based settings: A systematic review.
+**Source:** PubMed  
+**Journal:** Journal of pediatric and adolescent gynecology  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** general_medical_gp_updates, guidelines_reviews_high_level_evidence  
+**Score:** 15 = relevance 9 + evidence 6  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064296/  
+**Takeaway:** BACKGROUND: Heavy menstrual bleeding (HMB) affects up to 40% of adolescent and reproductive-age females and is a leading cause of complications such as severe anemia, iron deficiency and hospitalization. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## General medical / GP-useful updates
-No GP-useful papers met the digest threshold today.
+### 1. Implementing a Clinical Decision Support System for Pressure Injury Risk Management in Intensive Care Nursing: A Mixed-Methods Evaluation.
+**Source:** PubMed  
+**Journal:** Journal of advanced nursing  
+**Study type:** Journal Article  
+**Matched profile:** general_medical_gp_updates  
+**Score:** 5 = relevance 3 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064677/  
+**Takeaway:** AIM: To examine the impact of a Clinical Decision Support System for Pressure Injury Risk Management (CDSS-PIRM) on nurses' pressure injury risk management practices and pressure injury incidence in an intensive care unit, and to explore nurses' experiences of integrating the system into routine care. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
 
 ## Preprints — not peer reviewed
-### 1. Risk-Based Cardiovascular-Kidney-Metabolic Staging Identifies a Population With Mortality Comparable to Established Cardiovascular Disease: Disability-Adjusted Life Years Across AHA Stages, 2005 to 2023
+### 1. LabARIA: A Multi-Agent System for Integrative Analytics in Clinical Laboratories
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** general_pathology_research, cytopathology_small_biopsy, general_medical_gp_updates  
-**Score:** 13 = relevance 14 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.11.05.26367395  
-**Takeaway:** BackgroundCardiovascular-kidney-metabolic (CKM) syndrome was defined in 2023 as a five-stage continuum, with stage 3 assigned on predicted rather than established cardiovascular disease. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 2. Design and Validation of a Compact Sensor for Peripheral Pulse Waveform Capture
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** general_pathology_research, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.11.11.26367888  
-**Takeaway:** Peripheral pulse waveforms captured across different sites of the vascular tree provide valuable insights into cardiovascular health. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 3. DxToniaNet: A Neural Network for Estimating the Severity of Leg Dystonia in Children with Cerebral Palsy
-**Source:** medrxiv  
-**Journal:** medrxiv  
-**Study type:** Preprint  
-**Matched profile:** digital_computational_pathology  
-**Score:** 8 = relevance 6 + evidence 2  
-**Link:** https://doi.org/10.64898/2026.11.11.26367859  
-**Takeaway:** ImportanceLeg dystonia affects 50-80% of children with cerebral palsy (CP), but severity assessment remains subjective and time-consuming. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** digital_computational_pathology, laboratory_medicine_transfusion  
+**Score:** 10 = relevance 11 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.11.12.26367970  
+**Takeaway:** BackgroundLaboratory medicine underpins clinical decision-making across nearly every care setting. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed. Retrospective design may limit causal inference.
 **Confidence:** Low
 
-### 4. Rapid estimation of insect biodiversity using AI assisted image analysis:a cost-effective tool for monitoring and ecological assessmen
-**Source:** biorxiv  
-**Journal:** biorxiv  
-**Study type:** Preprint  
-**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
-**Score:** 8 = relevance 9 + evidence -1  
-**Link:** https://doi.org/10.64898/2026.11.11.765925  
-**Takeaway:** Protection of natural areas and environmentally friendly management of anthropogenic landscapes require reliable tools for monitoring and comparing biodiversity. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preprint; not peer reviewed.
-**Confidence:** Low
-
-### 5. Transdiagnostic gray matter volume reductions implicating social dysfunction in depression, schizophrenia, and alcohol use disorder: A neuroimaging meta-analysis
+### 2. After the vaccine era: sequencing platform investments as the childhood pneumonia spectrum diversifies
 **Source:** medrxiv  
 **Journal:** medrxiv  
 **Study type:** Preprint  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 8 = relevance 5 + evidence 3  
-**Link:** https://doi.org/10.64898/2026.10.18.26365862  
-**Takeaway:** Anhedonia, social withdrawal and executive deficits represent transdiagnostic symptoms in depression, schizophrenia and addiction, yet transdiagnostic brain volumetric alterations and their contribution to these symptom domains have not been systematically characterized. Interpretation should remain cautious because this is abstract-level surveillance.
+**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
+**Score:** 8 = relevance 9 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.09.01.26361934  
+**Takeaway:** BackgroundThe historic decline in childhood pneumonia mortality was driven substantially by single-pathogen vaccines against Haemophilus influenzae type b (Hib) and Streptococcus pneumoniae. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 3. Deep Learning of Fluorescence Lifetime Imaging Ophthalmoscopy for Type 2 Diabetes Classification
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** digital_computational_pathology, general_medical_gp_updates  
+**Score:** 8 = relevance 9 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.08.04.26359728  
+**Takeaway:** PurposeTo evaluate whether fluorescence lifetime imaging ophthalmoscopy (FLIO) combined with deep learning can detect metabolic signatures for classification of type 2 diabetes mellitus (T2DM). Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 4. Age at Menopause and Dementia Risk: Blood-Based Biomarker Evidence from a US National Study
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** molecular_ihc_biomarkers  
+**Score:** 7 = relevance 6 + evidence 1  
+**Link:** https://doi.org/10.64898/2026.11.12.26367954  
+**Takeaway:** ImportanceEarlier age at menopause associates with increased later life dementia risk, but the biological links that underlie this relationship remain poorly understood in population-based samples. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Preprint; not peer reviewed.
+**Confidence:** Low
+
+### 5. Diversification without convergence: national childhood respiratory pathogen spectra diverge as they diversify, 1990-2023
+**Source:** medrxiv  
+**Journal:** medrxiv  
+**Study type:** Preprint  
+**Matched profile:** cytopathology_small_biopsy, general_medical_gp_updates  
+**Score:** 7 = relevance 8 + evidence -1  
+**Link:** https://doi.org/10.64898/2026.09.01.26361890  
+**Takeaway:** BackgroundNational childhood respiratory pathogen spectra are diversifying nearly everywhere -- within-country diversity rose in 203 of 204 countries between 1990 and 2023 -- yet whether countries are diversifying toward a common spectrum or along divergent paths is unknown. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Preprint; not peer reviewed.
 **Confidence:** Low
 
 
 ## Additional watchlist
-### 1. Importance of the Quality of TME in Rectal Cancer Resection-A Systematic Review and Meta-Analysis.
+### 1. The Role of Diagnostic Tools in the Management of Ventilator Associated Lower Respiratory Tract Infections.
+**Source:** PubMed  
+**Journal:** Seminars in respiratory and critical care medicine  
+**Study type:** Guideline / recommendation  
+**Matched profile:** molecular_ihc_biomarkers, digital_computational_pathology, guidelines_reviews_high_level_evidence  
+**Score:** 23 = relevance 16 + evidence 7  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063987/  
+**Takeaway:** Ventilator-associated pneumonia (VAP) remains a leading healthcare-associated infection in intensive care units and is closely associated with prolonged mechanical ventilation, excessive antimicrobial exposure, higher costs, and poor clinical outcomes. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 2. PD-L1 Combined Positive Score Concordance and Reproducibility in Head and Neck Squamous Cell Carcinoma: A Systematic Review and Meta-analysis.
+**Source:** Europe PMC  
+**Journal:** Lab Invest  
+**Study type:** Systematic review / meta-analysis  
+**Matched profile:** molecular_ihc_biomarkers, guidelines_reviews_high_level_evidence  
+**Score:** 18 = relevance 12 + evidence 6  
+**Link:** https://europepmc.org/article/MED/43057578  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
+**Confidence:** Moderate
+
+### 3. Assessment of Immunotherapy Response by Analyzing Tumor Microenvironment Alterations in Advanced Gastric Cancer: A Study Protocol.
+**Source:** PubMed  
+**Journal:** Cancer control : journal of the Moffitt Cancer Center  
+**Study type:** Journal Article  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 14 = relevance 13 + evidence 1  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063311/  
+**Takeaway:** IntroductionAdvanced gastric cancer has a poor prognosis, and reliable biomarkers for identifying patients who may benefit from immune checkpoint inhibitors (ICIs) combined with chemotherapy remain limited. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 4. Prognostic Stratification Value of Baseline Serum Amyloid A in Advanced Gastric Cancer Patients Receiving PD-1/PD-L1 Inhibitors.
 **Source:** PubMed  
 **Journal:** Cancer medicine  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** general_pathology_research, novel_treatment_pathology_linked, guidelines_reviews_high_level_evidence  
-**Score:** 33 = relevance 17 + evidence 16  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43056492/  
-**Takeaway:** Retrospective studies and analyses of RCTs showed that surgical quality of mesorectal excision affects oncological outcomes of rectal cancer patients. Interpretation should remain cautious because this is abstract-level surveillance.
+**Study type:** Journal Article  
+**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Score:** 14 = relevance 12 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064655/  
+**Takeaway:** BACKGROUND: Serum amyloid A (SAA), an acute-phase protein reflecting systemic inflammatory status, may provide prognostic information in patients with advanced gastric cancer receiving immunotherapy. Interpretation should remain cautious because this is abstract-level surveillance.
 **Limitations:** Retrospective design may limit causal inference.
 **Confidence:** Moderate
 
-### 2. Metformin in Advanced Chronic Kidney Disease: A Systematic Review and Meta-Analysis.
-**Source:** PubMed  
-**Journal:** Diabetes, obesity & metabolism  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 22 = relevance 6 + evidence 16  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43058053/  
-**Takeaway:** AIMS: To evaluate associations of metformin exposure with all-cause mortality, major adverse cardiovascular events (MACE), end-stage kidney disease (ESKD) and lactic or metabolic acidosis in adults with Type 2 diabetes and advanced CKD (estimated glomerular filtration rate (eGFR) < 30 mL/min/1.73 m2) not receiving chronic dialysis. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 3. Expert Consensus Recommendations for Risk-Adapted Management of Myeloproliferative Neoplasms 2026.
-**Source:** PubMed  
-**Journal:** Cancer research and treatment  
-**Study type:** Guideline / recommendation  
-**Matched profile:** general_pathology_research, general_medical_gp_updates, guidelines_reviews_high_level_evidence  
-**Score:** 21 = relevance 14 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057127/  
-**Takeaway:** Myeloproliferative neoplasms (MPNs), including polycythemia vera (PV), essential thrombocythemia (ET), and myelofibrosis (MF), are clonal hematopoietic disorders, with ET representing the most common Philadelphia chromosome-negative MPN in Korea. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 4. Alcohol abstinence and liver stiffness by vibration-controlled transient elastography: A systematic review and meta-analysis.
-**Source:** PubMed  
-**Journal:** Hepatology communications  
-**Study type:** Systematic review / meta-analysis  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 16 = relevance 6 + evidence 10  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43056600/  
-**Takeaway:** BACKGROUND: Alcohol-associated liver disease (ALD) is a major cause of liver-related morbidity and mortality, and abstinence is fundamental for treatment. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
 ### 5. Orbital morphometry on computed tomography for sex estimation: A systematic review and meta-analysis.
-**Source:** PubMed  
-**Journal:** Morphologie : bulletin de l'Association des anatomistes  
-**Study type:** Guideline / recommendation  
+**Source:** Europe PMC  
+**Journal:** Morphologie  
+**Study type:** Systematic review / meta-analysis  
 **Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 15 = relevance 6 + evidence 9  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057131/  
-**Takeaway:** Computed tomography (CT)-based orbital morphometry has been investigated for sex estimation, although diagnostic performance varies across populations and measurement protocols. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Score:** 12 = relevance 6 + evidence 6  
+**Link:** https://europepmc.org/article/MED/43057131  
+**Takeaway:** No abstract available. Check the full text before interpreting. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** No abstract available in fetched metadata.
 **Confidence:** Moderate
 
-### 6. From Vein to Vaccine: Monocentric Analysis of Monocyte Apheresis and Dendritic Cell Vaccine Manufacturing Procedures in the Pediatric Setting.
+### 6. Prevalence, progression and factors associated with contralateral rotator cuff tears in patients treated for unilateral symptomatic non-traumatic rotator cuff tears: A scoping review.
 **Source:** PubMed  
-**Journal:** Journal of clinical apheresis  
-**Study type:** Cohort study  
-**Matched profile:** novel_treatment_pathology_linked, general_medical_gp_updates  
-**Score:** 13 = relevance 8 + evidence 5  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43058036/  
-**Takeaway:** Focused use of dendritic cell (DC) vaccination strategies is under investigation to address the therapeutic gap that persists for difficult-to-treat malignancies. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 7. The JRS guideline for the management of drug-induced lung disease.
-**Source:** PubMed  
-**Journal:** Respiratory investigation  
+**Journal:** Journal of shoulder and elbow surgery  
 **Study type:** Guideline / recommendation  
-**Matched profile:** guidelines_reviews_high_level_evidence  
-**Score:** 13 = relevance 6 + evidence 7  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057095/  
-**Takeaway:** This consensus statement from the Japanese Respiratory Society summarizes updated recommendations for the diagnosis and treatment of drug-induced lung injury (DLI). Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
-**Confidence:** Moderate
-
-### 8. Hypercoagulable Thrombin Generation Correlates with High-Risk Clinical Features and Venous Thrombosis Recurrence.
-**Source:** PubMed  
-**Journal:** Seminars in thrombosis and hemostasis  
-**Study type:** Cohort study  
-**Matched profile:** molecular_ihc_biomarkers, novel_treatment_pathology_linked  
+**Matched profile:** general_pathology_research, general_medical_gp_updates  
 **Score:** 12 = relevance 10 + evidence 2  
-**Link:** https://pubmed.ncbi.nlm.nih.gov/43057303/  
-**Takeaway:** Following venous thromboembolism (VTE), predictive biomarker testing for risk assessment is hampered by the presence of anticoagulation. Interpretation should remain cautious because this is abstract-level surveillance.
-**Limitations:** Preclinical evidence; clinical applicability is uncertain.
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43064012/  
+**Takeaway:** BACKGROUND: Rotator cuff tears are common in people with shoulder pain and disability. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 7. Chinese Pathologists' Adoption of Large Language Models: Cross-Sectional Survey on Influencing Factors.
+**Source:** PubMed  
+**Journal:** JMIR medical informatics  
+**Study type:** Journal Article  
+**Matched profile:** general_pathology_research, general_medical_gp_updates  
+**Score:** 11 = relevance 9 + evidence 2  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063476/  
+**Takeaway:** BACKGROUND: The growing demand for pathology services and the shortage of pathologists in China have created an urgent need for innovative tools to improve diagnostic efficiency and support professional practice. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
+**Confidence:** Moderate
+
+### 8. Eruptive Melanocytic Nevi in a 11-Year-Old Girl Following Stevens-Johnson Syndrome: Case Report and Systematic Review.
+**Source:** PubMed  
+**Journal:** Dermatology practical & conceptual  
+**Study type:** Guideline / recommendation  
+**Matched profile:** guidelines_reviews_high_level_evidence  
+**Score:** 10 = relevance 5 + evidence 5  
+**Link:** https://pubmed.ncbi.nlm.nih.gov/43063426/  
+**Takeaway:** INTRODUCTION: Eruptive melanocytic nevi (EMN) are melanocytic nevi occurring in a short time interval. Interpretation should remain cautious because this is abstract-level surveillance.
+**Limitations:** Only metadata/abstract reviewed; verify methods, effect size, and applicability in full text.
 **Confidence:** Moderate
 
 
 ## Pipeline QA
-- Total scored candidates: 148
-- Peer-reviewed pathology digest items: 6
-- GP-useful digest items: 0
-- Preprint watch items: 9
-- Watchlist items: 70
+- Total scored candidates: 137
+- Peer-reviewed pathology digest items: 13
+- GP-useful digest items: 1
+- Preprint watch items: 10
+- Watchlist items: 55
