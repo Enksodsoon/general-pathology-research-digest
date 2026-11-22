@@ -1,8 +1,14 @@
-# Free Medical Events — 2026-11-21
+# Free Medical Events — 2026-11-22
 
-Scan health: **DEGRADED** · Sources 20/50 · Pages checked 212
+Scan health: **DEGRADED** · Sources 43/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
+
+## Securing the future of healthcare
+02 Dec 2026 22:00 ICT · Online · EN · Free attendance
+Certificate: Not stated | Credit: Not stated
+https://register.gotowebinar.com/register/5422889663763040090?source=website
+Registration link checked; availability may require login/JavaScript
 
 ## TheraSphere™ Y-90 in HCC: From evidence to precision treatment
 03 Dec 2026 23:00 ICT · Online · EN · Free attendance
@@ -57,32 +63,32 @@ Registration link checked; availability may require login/JavaScript
 - AMED: ok
 - Japan-Medical-Association: ok
 - JIHS: ok
-- web-en-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-en-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-en-3: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-en-4: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-en-5: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-en-6: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-3: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-4: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-5: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-th-6: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-3: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-4: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-5: error — HTTPError: HTTP Error 503: Service Unavailable
-- web-ja-6: error — HTTPError: HTTP Error 429: Too Many Requests
+- web-en-1: ok
+- web-en-2: ok
+- web-en-3: ok
+- web-en-4: ok
+- web-en-5: ok
+- web-en-6: ok
+- web-th-1: ok
+- web-th-2: ok
+- web-th-3: ok
+- web-th-4: ok
+- web-th-5: degraded
+- web-th-6: ok
+- web-ja-1: ok
+- web-ja-2: ok
+- web-ja-3: ok
+- web-ja-4: ok
+- web-ja-5: ok
+- web-ja-6: ok
 - UNC-Event-API: ok
 - Asahikawa-Medical: ok
 - Sapporo-Medical: ok
-- news-en-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- news-en-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- news-th-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- news-th-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- news-ja-1: error — HTTPError: HTTP Error 503: Service Unavailable
-- news-ja-2: error — HTTPError: HTTP Error 503: Service Unavailable
-- Chula-Publisher-Discovery: error — HTTPError: HTTP Error 503: Service Unavailable
-- MOPH-Publisher-Discovery: error — HTTPError: HTTP Error 503: Service Unavailable
+- news-en-1: ok
+- news-en-2: ok
+- news-th-1: ok
+- news-th-2: degraded
+- news-ja-1: ok
+- news-ja-2: degraded
+- Chula-Publisher-Discovery: ok
+- MOPH-Publisher-Discovery: ok
