@@ -1,14 +1,8 @@
-# Free Medical Events — 2026-11-22
+# Free Medical Events — 2026-11-23
 
 Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Securing the future of healthcare
-02 Dec 2026 22:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://register.gotowebinar.com/register/5422889663763040090?source=website
-Registration link checked; availability may require login/JavaScript
 
 ## TheraSphere™ Y-90 in HCC: From evidence to precision treatment
 03 Dec 2026 23:00 ICT · Online · EN · Free attendance
