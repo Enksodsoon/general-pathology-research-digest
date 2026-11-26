@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "created_at": "2026-11-26T08:33:21.617457+00:00",
+  "created_at": "2026-11-26T12:23:18.353568+00:00",
   "health": "degraded",
   "sources_ok": 46,
   "sources_total": 50,
@@ -9,8 +9,8 @@
     "th": 13,
     "ja": 15
   },
-  "page_errors": 21,
-  "rejected_count": 194,
+  "page_errors": 23,
+  "rejected_count": 192,
   "verification": "matches",
   "source_warnings": [
     "ICIS",
@@ -18,7 +18,7 @@
     "Thai-CME",
     "Thai-MOPH"
   ],
-  "links_discovered": 248,
+  "links_discovered": 246,
   "pages_checked": 220,
   "events": [
     {
@@ -34,10 +34,10 @@
       "credits": "Not stated",
       "fee": "Free attendance",
       "date_evidence": "2 December 2026\nTime\n15:00 ",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://register.gotowebinar.com/register/5422889663763040090?source=website",
-      "discovered_by": "web-en-1"
+      "discovered_by": "web-en-6"
     },
     {
       "id": "ae2d681c368893b892d134a8",
@@ -52,7 +52,7 @@
       "credits": "Not stated",
       "fee": "Free attendance",
       "date_evidence": "December 03, 2026, 17:00-18:00 ",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fy-90-in-hcc%2Fy90-registration",
       "discovered_by": "CIRSE"
@@ -70,7 +70,7 @@
       "credits": "Not stated",
       "fee": "Free attendance",
       "date_evidence": "2026年12月12日(土)13:00~13:30\n",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://forms.gle/VzE4kjb51jFSbBrq6",
       "discovered_by": "Asahikawa-Medical"
@@ -88,7 +88,7 @@
       "credits": "Not stated",
       "fee": "Free attendance",
       "date_evidence": "NCC dated session plus explicit shared series clock",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://us02web.zoom.us/webinar/register/WN_MXzVnPhpSsKfksNKzD7xmg",
       "discovered_by": "NCC-Supportive-Care"
@@ -106,7 +106,7 @@
       "credits": "CME/CPD offered; eligibility must be checked",
       "fee": "Free attendance",
       "date_evidence": "December 17, 2026, 17:00 – 18:30 ",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://cirse.eventsair.com/memapi/cirse-membership/cirsememapi/Auth/Index?redirectUrl=https%3A%2F%2Fcirse.eventsair.com%2Fportv26%2Fportv26-registration",
       "discovered_by": "CIRSE"
@@ -124,7 +124,7 @@
       "credits": "Not stated",
       "fee": "Free attendance",
       "date_evidence": "NCC dated session plus explicit shared series clock",
-      "verified_at": "2026-11-26T08:33:21.617457+00:00",
+      "verified_at": "2026-11-26T12:23:18.353568+00:00",
       "registration_status": "Registration link checked; availability may require login/JavaScript",
       "registration_target": "https://us02web.zoom.us/webinar/register/WN_u_phv60TT164ReZktr6LGg",
       "discovered_by": "NCC-Supportive-Care"
@@ -142,7 +142,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.61
+      "seconds": 0.46
     },
     {
       "id": "CIRSE",
@@ -155,7 +155,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.95
+      "seconds": 2.75
     },
     {
       "id": "UNC-Lineberger",
@@ -168,7 +168,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.36
+      "seconds": 0.43
     },
     {
       "id": "ICIS",
@@ -188,7 +188,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.14
+      "seconds": 1.2
     },
     {
       "id": "IARS",
@@ -201,7 +201,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.22
+      "seconds": 1.31
     },
     {
       "id": "Global-Health-Network",
@@ -214,7 +214,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.61
+      "seconds": 1.68
     },
     {
       "id": "PAHO",
@@ -227,7 +227,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.16
+      "seconds": 0.12
     },
     {
       "id": "NIH-VideoCast",
@@ -240,7 +240,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.13
+      "seconds": 0.15
     },
     {
       "id": "CDC-COCA",
@@ -253,7 +253,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.13
+      "seconds": 0.51
     },
     {
       "id": "Chula-Hospital",
@@ -266,7 +266,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 3.34,
+      "seconds": 3.38,
       "fallback_used": true,
       "primary_url": "https://kcmh.chulalongkornhospital.go.th/",
       "fallback_note": "Partial official alternative; original publisher remains unverified",
@@ -289,7 +289,7 @@
           "raw_results": 0,
           "irrelevant_results_dropped": 0,
           "decode_errors": 0,
-          "seconds": 3.34
+          "seconds": 3.38
         }
       ]
     },
@@ -304,7 +304,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.62
+      "seconds": 1.43
     },
     {
       "id": "Ramathibodi",
@@ -317,7 +317,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.2
+      "seconds": 23.06
     },
     {
       "id": "Thai-CME",
@@ -345,7 +345,7 @@
           "language": "th",
           "url": "https://www.dmsc.moph.go.th/th/home",
           "status": "error",
-          "error": "gaierror: [Errno -3] Temporary failure in name resolution"
+          "error": "HTTPError: HTTP Error 403: Forbidden"
         }
       ]
     },
@@ -360,7 +360,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 4.44
+      "seconds": 4.58
     },
     {
       "id": "Medtec-Japan",
@@ -373,7 +373,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.61
+      "seconds": 0.78
     },
     {
       "id": "NCC-Supportive-Care",
@@ -386,20 +386,20 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.41
+      "seconds": 1.68
     },
     {
       "id": "AMED",
       "language": "ja",
       "url": "https://www.amed.go.jp/form/event.php?f=event.html",
       "status": "ok",
-      "candidates": 13,
+      "candidates": 12,
       "kind": "landing",
       "search_outcome": "not-applicable",
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.63
+      "seconds": 0.96
     },
     {
       "id": "Japan-Medical-Association",
@@ -412,7 +412,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.62
+      "seconds": 0.69
     },
     {
       "id": "JIHS",
@@ -425,7 +425,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.31
+      "seconds": 1.29
     },
     {
       "id": "web-en-1",
@@ -435,10 +435,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 11,
-      "irrelevant_results_dropped": 7,
+      "raw_results": 24,
+      "irrelevant_results_dropped": 20,
       "decode_errors": 0,
-      "seconds": 12.2
+      "seconds": 9.29
     },
     {
       "id": "web-en-2",
@@ -448,10 +448,10 @@
       "candidates": 2,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 15,
-      "irrelevant_results_dropped": 13,
+      "raw_results": 14,
+      "irrelevant_results_dropped": 12,
       "decode_errors": 0,
-      "seconds": 10.4
+      "seconds": 6.82
     },
     {
       "id": "web-en-3",
@@ -464,7 +464,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.44
+      "seconds": 0.58
     },
     {
       "id": "web-en-4",
@@ -477,7 +477,7 @@
       "raw_results": 2,
       "irrelevant_results_dropped": 2,
       "decode_errors": 0,
-      "seconds": 1.17
+      "seconds": 0.7
     },
     {
       "id": "web-en-5",
@@ -487,10 +487,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 17,
-      "irrelevant_results_dropped": 13,
+      "raw_results": 12,
+      "irrelevant_results_dropped": 8,
       "decode_errors": 0,
-      "seconds": 16.68
+      "seconds": 14.24
     },
     {
       "id": "web-en-6",
@@ -500,10 +500,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 13,
-      "irrelevant_results_dropped": 9,
+      "raw_results": 16,
+      "irrelevant_results_dropped": 12,
       "decode_errors": 0,
-      "seconds": 19.48
+      "seconds": 16.95
     },
     {
       "id": "web-th-1",
@@ -513,10 +513,10 @@
       "candidates": 1,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 7,
-      "irrelevant_results_dropped": 5,
+      "raw_results": 14,
+      "irrelevant_results_dropped": 12,
       "decode_errors": 0,
-      "seconds": 13.38
+      "seconds": 11.6
     },
     {
       "id": "web-th-2",
@@ -529,7 +529,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.28
+      "seconds": 0.25
     },
     {
       "id": "web-th-3",
@@ -542,7 +542,7 @@
       "raw_results": 1,
       "irrelevant_results_dropped": 1,
       "decode_errors": 0,
-      "seconds": 0.4
+      "seconds": 0.25
     },
     {
       "id": "web-th-4",
@@ -552,10 +552,10 @@
       "candidates": 0,
       "kind": "search",
       "search_outcome": "no-relevant-results",
-      "raw_results": 7,
-      "irrelevant_results_dropped": 7,
+      "raw_results": 9,
+      "irrelevant_results_dropped": 9,
       "decode_errors": 0,
-      "seconds": 0.49
+      "seconds": 0.3
     },
     {
       "id": "web-th-5",
@@ -565,10 +565,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 20,
-      "irrelevant_results_dropped": 16,
+      "raw_results": 10,
+      "irrelevant_results_dropped": 6,
       "decode_errors": 0,
-      "seconds": 23.55
+      "seconds": 18.03
     },
     {
       "id": "web-th-6",
@@ -578,10 +578,10 @@
       "candidates": 0,
       "kind": "search",
       "search_outcome": "no-relevant-results",
-      "raw_results": 61,
-      "irrelevant_results_dropped": 61,
+      "raw_results": 60,
+      "irrelevant_results_dropped": 60,
       "decode_errors": 0,
-      "seconds": 0.51
+      "seconds": 0.47
     },
     {
       "id": "web-ja-1",
@@ -591,10 +591,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 40,
-      "irrelevant_results_dropped": 36,
+      "raw_results": 20,
+      "irrelevant_results_dropped": 16,
       "decode_errors": 0,
-      "seconds": 24.3
+      "seconds": 19.49
     },
     {
       "id": "web-ja-2",
@@ -604,10 +604,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 7,
-      "irrelevant_results_dropped": 3,
+      "raw_results": 10,
+      "irrelevant_results_dropped": 6,
       "decode_errors": 0,
-      "seconds": 24.64
+      "seconds": 21.17
     },
     {
       "id": "web-ja-3",
@@ -620,7 +620,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.34
+      "seconds": 0.3
     },
     {
       "id": "web-ja-4",
@@ -630,10 +630,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 14,
-      "irrelevant_results_dropped": 10,
+      "raw_results": 11,
+      "irrelevant_results_dropped": 7,
       "decode_errors": 0,
-      "seconds": 24.11
+      "seconds": 21.14
     },
     {
       "id": "web-ja-5",
@@ -646,7 +646,7 @@
       "raw_results": 12,
       "irrelevant_results_dropped": 9,
       "decode_errors": 0,
-      "seconds": 24.36
+      "seconds": 20.0
     },
     {
       "id": "web-ja-6",
@@ -656,10 +656,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 13,
-      "irrelevant_results_dropped": 9,
+      "raw_results": 16,
+      "irrelevant_results_dropped": 12,
       "decode_errors": 0,
-      "seconds": 25.63
+      "seconds": 21.4
     },
     {
       "id": "UNC-Event-API",
@@ -672,7 +672,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.76
+      "seconds": 0.11
     },
     {
       "id": "Asahikawa-Medical",
@@ -685,7 +685,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.15
+      "seconds": 1.66
     },
     {
       "id": "Sapporo-Medical",
@@ -698,7 +698,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 1.33
+      "seconds": 1.19
     },
     {
       "id": "news-en-1",
@@ -708,10 +708,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 11,
-      "irrelevant_results_dropped": 7,
+      "raw_results": 24,
+      "irrelevant_results_dropped": 20,
       "decode_errors": 0,
-      "seconds": 25.44
+      "seconds": 21.32
     },
     {
       "id": "news-en-2",
@@ -724,7 +724,7 @@
       "raw_results": 4,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 26.6
+      "seconds": 22.6
     },
     {
       "id": "news-th-1",
@@ -737,7 +737,7 @@
       "raw_results": 8,
       "irrelevant_results_dropped": 6,
       "decode_errors": 0,
-      "seconds": 19.56
+      "seconds": 15.64
     },
     {
       "id": "news-th-2",
@@ -747,10 +747,10 @@
       "candidates": 1,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 5,
-      "irrelevant_results_dropped": 4,
+      "raw_results": 4,
+      "irrelevant_results_dropped": 3,
       "decode_errors": 0,
-      "seconds": 9.54
+      "seconds": 8.2
     },
     {
       "id": "news-ja-1",
@@ -763,7 +763,7 @@
       "raw_results": 5,
       "irrelevant_results_dropped": 1,
       "decode_errors": 0,
-      "seconds": 25.7
+      "seconds": 21.29
     },
     {
       "id": "news-ja-2",
@@ -773,10 +773,10 @@
       "candidates": 3,
       "kind": "search",
       "search_outcome": "matches",
-      "raw_results": 14,
-      "irrelevant_results_dropped": 10,
+      "raw_results": 15,
+      "irrelevant_results_dropped": 11,
       "decode_errors": 0,
-      "seconds": 19.5
+      "seconds": 16.97
     },
     {
       "id": "Chula-Publisher-Discovery",
@@ -789,7 +789,7 @@
       "raw_results": 0,
       "irrelevant_results_dropped": 0,
       "decode_errors": 0,
-      "seconds": 0.2
+      "seconds": 0.21
     },
     {
       "id": "MOPH-Publisher-Discovery",
@@ -802,7 +802,7 @@
       "raw_results": 23,
       "irrelevant_results_dropped": 23,
       "decode_errors": 0,
-      "seconds": 0.42
+      "seconds": 0.35
     }
   ],
   "pages": [
@@ -823,12 +823,12 @@
       "language": "th"
     },
     {
-      "url": "https://drexel.edu/dornsife/news/events/details/?eid=47184&iid=124809",
+      "url": "https://digitalpr.jp/r/146594",
       "status": "rejected",
       "reasons": [
-        "missing-event-heading"
+        "date-or-timezone-unverified"
       ],
-      "language": "en"
+      "language": "ja"
     },
     {
       "url": "http://eepurl.com/da8C1r",
@@ -839,7 +839,7 @@
       "language": "en"
     },
     {
-      "url": "https://finance.yahoo.com/healthcare/articles/wave-life-sciences-present-jefferies-133000994.html",
+      "url": "https://finance.yahoo.com/healthcare/articles/icu-medical-present-2026-jefferies-133000119.html",
       "status": "rejected",
       "reasons": [
         "past-event"
@@ -855,6 +855,12 @@
       "language": "en"
     },
     {
+      "url": "https://go2senkyo.com/seijika/155931/posts/1555586",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "ja"
+    },
+    {
       "url": "https://iars.org/iars-webinar-series/",
       "status": "rejected",
       "reasons": [
@@ -867,6 +873,14 @@
       "status": "rejected",
       "reasons": [
         "not-online-or-thailand"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://insights.citeline.com/hbw-insight/health/business/strategy/webinar-preview-could-partnering-with-pharma-be-consumer-healths-best-route-to-glp-1-growth-KJROWBZA35AMBOHGXDDLULLFCU/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
       ],
       "language": "en"
     },
@@ -949,20 +963,10 @@
       "language": "en"
     },
     {
-      "url": "https://news.dellows.jp/762720/",
-      "status": "rejected",
-      "reasons": [
-        "missing-event-heading"
-      ],
-      "language": "ja"
-    },
-    {
-      "url": "https://news.livedoor.com/topics/detail/32897462/",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
-      "language": "ja"
+      "url": "https://myrgv.com/ask-the-expert/2026/11/05/south-texas-health-system-childrens-to-host-webinar-on-recognizing-type-1-diabetes-in-children/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "language": "en"
     },
     {
       "url": "https://newscast.jp/smart/news/9829285",
@@ -971,14 +975,6 @@
         "missing-event-heading"
       ],
       "language": "ja"
-    },
-    {
-      "url": "https://nurse.cra.ac.th/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2/",
-      "status": "rejected",
-      "reasons": [
-        "missing-event-heading"
-      ],
-      "language": "th"
     },
     {
       "url": "https://prtimes.jp/main/html/rd/p/000000078.000014570.html",
@@ -995,6 +991,14 @@
         "date-or-timezone-unverified"
       ],
       "language": "th"
+    },
+    {
+      "url": "https://telecareaware.com/ageing-in-place-uktelehealthcare-webinar-wed-18th-10-00-11-30am-gmt/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
     },
     {
       "url": "https://unclineberger.org/unclcn/event/ccsp-10282026/",
@@ -1019,7 +1023,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/261126_RSsympo.html",
+      "url": "https://www.amed.go.jp/news/event/20261128.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1051,6 +1055,14 @@
       "language": "en"
     },
     {
+      "url": "https://www.city.seki.lg.jp/0000023642.html",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
+    },
+    {
       "url": "https://www.dek-d.com/activity/view/68301",
       "status": "rejected",
       "reasons": [
@@ -1067,22 +1079,6 @@
       "language": "en"
     },
     {
-      "url": "https://www.jamestownsun.com/business/ndsu-extension-to-offer-free-mental-health-support-training-webinars",
-      "status": "rejected",
-      "reasons": [
-        "missing-event-heading"
-      ],
-      "language": "en"
-    },
-    {
-      "url": "https://www.jica.go.jp/domestic/tokyo/information/event/1586395_23963.html",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
-      "language": "ja"
-    },
-    {
       "url": "https://www.kanazawa-u.ac.jp/event/190958/",
       "status": "rejected",
       "reasons": [
@@ -1091,19 +1087,9 @@
       "language": "ja"
     },
     {
-      "url": "https://www.lifelong.cmu.ac.th/career-skills/detail/000982",
-      "status": "rejected",
-      "reasons": [
-        "missing-event-heading"
-      ],
-      "language": "th"
-    },
-    {
-      "url": "https://www.managedhealthcareexecutive.com/view/8-takeaways-mhe-drug-topics-post-midterms-webinar",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
+      "url": "https://www.krqe.com/news/new-mexico/new-mexico-department-of-health-hosts-free-overdose-prevention-training/",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
       "language": "en"
     },
     {
@@ -1137,7 +1123,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.positivelyosceola.com/florida-department-of-health-in-osceola-county-to-host-free-parent-and-caregiver-workshop-on-youth-vaping-prevention-december-15/",
+      "url": "https://www.positivelyosceola.com/florida-department-of-health-in-osceola-county-to-host-free-parent-and-caregiver-workshop-on-youth-vaping-prevention-november-1/",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1145,20 +1131,20 @@
       "language": "en"
     },
     {
-      "url": "https://www.pref.saitama.lg.jp/a0703/zaitaku/r5anzensemina.html",
+      "url": "https://www.pt-ot-st.net/index.php/seminar/detail/107269",
       "status": "rejected",
       "reasons": [
-        "date-or-timezone-unverified"
+        "missing-event-heading"
       ],
       "language": "ja"
     },
     {
-      "url": "https://www.pt-ot-st.net/index.php/seminar/detail/107269",
+      "url": "https://www.quantisnow.com/insight/teleflex-to-present-at-the-38th-annual-piper-sandler-healthcare-6806647",
       "status": "rejected",
       "reasons": [
-        "date-or-timezone-unverified"
+        "past-event"
       ],
-      "language": "ja"
+      "language": "en"
     },
     {
       "url": "https://www.rama.mahidol.ac.th/",
@@ -1167,6 +1153,14 @@
         "missing-event-heading"
       ],
       "language": "th"
+    },
+    {
+      "url": "https://www.sankei.com/pressrelease/prtimes/IMJ6UC3JFZIQJKMZQCEXICX62I/",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "ja"
     },
     {
       "url": "https://www.unc.edu/events/",
@@ -1247,18 +1241,18 @@
       "language": "en"
     },
     {
+      "url": "https://medicine.illinois.edu/about/global-consortium/global-health-dialogues/october-2026",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
       "url": "https://medtecjapan.com/medtecwebinar/",
       "status": "rejected",
       "reasons": [
         "missing-event-heading"
-      ],
-      "language": "ja"
-    },
-    {
-      "url": "https://news.livedoor.com/pr_topics/detail/32905546/",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
       ],
       "language": "ja"
     },
@@ -1293,7 +1287,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261128.html",
+      "url": "https://www.amed.go.jp/news/event/sympo_20261130.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1315,14 +1309,6 @@
       "language": "en"
     },
     {
-      "url": "https://www.lifelong.cmu.ac.th/career-skills/detail/000756",
-      "status": "rejected",
-      "reasons": [
-        "missing-event-heading"
-      ],
-      "language": "th"
-    },
-    {
       "url": "https://www.paho.org/en/events/launch-roadmap-action-air-quality-and-health-latin-america-and-caribbean-2026-2031",
       "status": "rejected",
       "reasons": [
@@ -1331,15 +1317,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.pt-ot-st.net/index.php/seminar/detail/106943",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
-      "language": "ja"
-    },
-    {
-      "url": "https://www.rama.mahidol.ac.th/th/news/conference/25nov2026-1331",
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/26nov2026-1100",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1369,14 +1347,6 @@
         "date-or-timezone-unverified"
       ],
       "language": "th"
-    },
-    {
-      "url": "https://finance.yahoo.com/healthcare/articles/icu-medical-present-2026-jefferies-133000119.html",
-      "status": "rejected",
-      "reasons": [
-        "past-event"
-      ],
-      "language": "en"
     },
     {
       "url": "https://iars.org/cme-webinars/",
@@ -1419,7 +1389,7 @@
       "language": "ja"
     },
     {
-      "url": "https://prtimes.jp/main/html/rd/p/000000020.000126973.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000079.000014570.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1441,7 +1411,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/sympo_20261130.html",
+      "url": "https://www.amed.go.jp/news/event/20261201-04.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1452,7 +1422,7 @@
       "url": "https://www.asahikawa-med.ac.jp/hospital/event/single/post_278.html",
       "status": "rejected",
       "reasons": [
-        "registration-action-unverified"
+        "past-event"
       ],
       "language": "ja"
     },
@@ -1471,7 +1441,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.rama.mahidol.ac.th/th/news/conference/26nov2026-1100",
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/25nov2026-1331",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1535,7 +1505,7 @@
       "language": "ja"
     },
     {
-      "url": "https://prtimes.jp/main/html/rd/p/000000079.000014570.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000020.000126973.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1559,7 +1529,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261207_seminar.html",
+      "url": "https://www.amed.go.jp/news/event/20261216_cannds.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1591,7 +1561,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.rama.mahidol.ac.th/th/news/events/23nov2026-1600",
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/13nov2026-1437",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1669,7 +1639,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261207_shinko-kiki.html",
+      "url": "https://www.amed.go.jp/news/event/20261107_nambyo.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1693,7 +1663,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.rama.mahidol.ac.th/th/news/events/23nov2026-1544",
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/03nov2026-1412",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1741,14 +1711,6 @@
       "language": "ja"
     },
     {
-      "url": "https://prtimes.jp/main/html/rd/p/000000016.000173980.html",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
-      "language": "ja"
-    },
-    {
       "url": "https://unclineberger.org/unclcn/event/11112026/",
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
@@ -1763,7 +1725,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261211.html",
+      "url": "https://www.amed.go.jp/news/event/202605202703_mintsuku.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1787,7 +1749,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.rama.mahidol.ac.th/th/news/conference/13nov2026-1340",
+      "url": "https://www.rama.mahidol.ac.th/th/news/events/26nov2026-1632",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1828,8 +1790,10 @@
     },
     {
       "url": "https://unclineberger.org/unclcn/event/11-17-2026/",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "status": "rejected",
+      "reasons": [
+        "past-event"
+      ],
       "language": "en"
     },
     {
@@ -1841,10 +1805,10 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261211_symposium.html",
+      "url": "https://www.amed.go.jp/form/event.php?f=event.html",
       "status": "rejected",
       "reasons": [
-        "date-or-timezone-unverified"
+        "generic-index"
       ],
       "language": "ja"
     },
@@ -1917,7 +1881,7 @@
       "language": "ja"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261216_cannds.html",
+      "url": "https://www.amed.go.jp/news/event/20261204.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -1987,7 +1951,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261107_nambyo.html",
+      "url": "https://www.amed.go.jp/news/event/20261207_seminar.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -2009,6 +1973,14 @@
         "free-attendance-unverified"
       ],
       "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/events/23nov2026-1600",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
     },
     {
       "url": "https://www.who.int/news-room/events/detail/2026/11/26/default-calendar/urban-health-residential-training-session",
@@ -2049,7 +2021,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/202605202703_mintsuku.html",
+      "url": "https://www.amed.go.jp/news/event/20261207_shinko-kiki.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -2071,6 +2043,14 @@
         "free-attendance-unverified"
       ],
       "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/13nov2026-1340",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
     },
     {
       "url": "https://cimjournal.com/cvm-conferpr/two-days-4/",
@@ -2103,10 +2083,10 @@
       "language": "en"
     },
     {
-      "url": "https://www.amed.go.jp/form/event.php?f=event.html",
+      "url": "https://www.amed.go.jp/news/event/20261211.html",
       "status": "rejected",
       "reasons": [
-        "generic-index"
+        "date-or-timezone-unverified"
       ],
       "language": "ja"
     },
@@ -2125,6 +2105,14 @@
         "free-attendance-unverified"
       ],
       "language": "en"
+    },
+    {
+      "url": "https://www.rama.mahidol.ac.th/th/news/conference/23nov2026-1130",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "th"
     },
     {
       "url": "https://cimjournal.com/conference/pedgi-2/",
@@ -2157,7 +2145,7 @@
       "language": "en"
     },
     {
-      "url": "https://www.amed.go.jp/news/event/20261201-04.html",
+      "url": "https://www.amed.go.jp/news/event/20261211_symposium.html",
       "status": "rejected",
       "reasons": [
         "date-or-timezone-unverified"
@@ -2209,14 +2197,6 @@
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "language": "en"
-    },
-    {
-      "url": "https://www.amed.go.jp/news/event/20261204.html",
-      "status": "rejected",
-      "reasons": [
-        "date-or-timezone-unverified"
-      ],
-      "language": "ja"
     },
     {
       "url": "https://www.asahikawa-med.ac.jp/hospital/event/year/2022/",
@@ -2513,6 +2493,22 @@
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "language": "en"
+    },
+    {
+      "url": "https://www.paho.org/en/events/international-conference-public-university-hospitals-americas",
+      "status": "rejected",
+      "reasons": [
+        "date-or-timezone-unverified"
+      ],
+      "language": "en"
+    },
+    {
+      "url": "https://cimjournal.com/cvm-conferpr/heart-day/",
+      "status": "rejected",
+      "reasons": [
+        "past-event"
+      ],
+      "language": "th"
     }
   ],
   "coverage_note": "Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events."
