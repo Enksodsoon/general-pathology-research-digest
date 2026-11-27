@@ -1,14 +1,8 @@
-# Free Medical Events — 2026-11-26
+# Free Medical Events — 2026-11-27
 
-Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 44/50 · Pages checked 212
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
-
-## Securing the future of healthcare
-02 Dec 2026 22:00 ICT · Online · EN · Free attendance
-Certificate: Not stated | Credit: Not stated
-https://register.gotowebinar.com/register/5422889663763040090?source=website
-Registration link checked; availability may require login/JavaScript
 
 ## TheraSphere™ Y-90 in HCC: From evidence to precision treatment
 03 Dec 2026 23:00 ICT · Online · EN · Free attendance
@@ -57,7 +51,7 @@ Registration link checked; availability may require login/JavaScript
 - Ramathibodi: ok
 - Thai-CME: error — URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)>
 - Thai-MOPH: error — HTTPError: HTTP Error 403: Forbidden
-- CIM-Discovery: ok
+- CIM-Discovery: error — HTTPError: HTTP Error 403: Forbidden
 - Medtec-Japan: ok
 - NCC-Supportive-Care: ok
 - AMED: ok
@@ -78,7 +72,7 @@ Registration link checked; availability may require login/JavaScript
 - web-ja-1: ok
 - web-ja-2: ok
 - web-ja-3: ok
-- web-ja-4: ok
+- web-ja-4: degraded
 - web-ja-5: ok
 - web-ja-6: ok
 - UNC-Event-API: ok
