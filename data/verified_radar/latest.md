@@ -1,6 +1,6 @@
-# Free Medical Events — 2026-11-27
+# Free Medical Events — 2026-11-28
 
-Scan health: **DEGRADED** · Sources 46/50 · Pages checked 220
+Scan health: **DEGRADED** · Sources 45/50 · Pages checked 220
 
 Bounded scan; inaccessible, image-only, login-only or ambiguous events are not verified. Official fallback pages provide partial alternative coverage, not equivalence. Zero matches does not establish absence of events.
 
@@ -51,7 +51,7 @@ Registration link checked; availability may require login/JavaScript
 - Global-Health-Network: ok
 - PAHO: ok
 - NIH-VideoCast: ok
-- CDC-COCA: ok
+- CDC-COCA: error — TimeoutError: The read operation timed out
 - Chula-Hospital: degraded — Partial official alternative; original publisher remains unverified
 - Siriraj-Conference: ok
 - Ramathibodi: ok
